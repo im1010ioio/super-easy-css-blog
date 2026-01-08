@@ -1,11 +1,13 @@
 {
   "site": {
-    "title": "DocKit",
+    "title": "超級簡單寫 CSS (Super Easy CSS)",
+    "description": "超級簡單寫 CSS (Super Easy CSS)",
     "logo": "/src/assets/logo-light.svg",
     "logo_darkmode": "/src/assets/logo-dark.svg",
     "logo_width": "127",
     "logo_height": "32",
-    "logo_text": "DocKit"
+    "logo_text": "超級簡單寫 CSS (Super Easy CSS)",
+    "author": "YI-LIN CHEN @im1010ioio"
   },
   "settings": {
     "search": true,
