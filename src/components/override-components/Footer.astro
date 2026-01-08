@@ -112,7 +112,7 @@ const currentLocal = Astro.currentLocale || "en";
     <div class="bottom-footer">
       <p set:html={`
         © ${new Date().getFullYear()} Super Easy CSS 
-        <a href="https://im1010ioio.dev">@im1010ioio</a>
+        <a class="text-primary hover:underline no-underline" href="https://im1010ioio.dev">@im1010ioio</a>
         .<br>
         <small>${markdownify(config?.params?.copyright)}</small>`} />
       <a href={currentLocal + "/privacy-policy"}
