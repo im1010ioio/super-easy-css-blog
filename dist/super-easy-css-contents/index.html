@@ -1,0 +1,539 @@
+<!DOCTYPE html><html lang="en" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-bguv2lll"> <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>#00 文章目錄 | 超級簡單寫 CSS (Super Easy CSS) | 超級簡單寫 CSS (Super Easy CSS)</title><link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v5.16.7"/><meta name="generator" content="Starlight v0.37.2"/><meta property="og:title" content="#00 文章目錄 | 超級簡單寫 CSS (Super Easy CSS)"/><meta property="og:type" content="article"/><meta property="og:locale" content="en"/><meta property="og:site_name" content="超級簡單寫 CSS (Super Easy CSS)"/><meta name="twitter:card" content="summary_large_image"/><!-- google font css --><style>@font-face {unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;font-weight: 400;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;font-weight: 400;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+1F00-1FFF;font-weight: 400;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;font-weight: 400;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;font-weight: 400;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;font-weight: 400;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;font-weight: 400;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2)} @font-face {unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;font-weight: 500;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;font-weight: 500;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+1F00-1FFF;font-weight: 500;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;font-weight: 500;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;font-weight: 500;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;font-weight: 500;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;font-weight: 500;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2)} @font-face {unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;font-weight: 600;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;font-weight: 600;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+1F00-1FFF;font-weight: 600;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;font-weight: 600;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;font-weight: 600;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;font-weight: 600;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2)} @font-face {unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;font-weight: 600;font-style: normal;font-family: 'Inter';font-display: swap;src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2)} :root{ --font-primary: 'Inter', '_font_fallback_240847712281', sans-serif; } @font-face { font-family: '_font_fallback_240847712281'; size-adjust: 100.00%; src: local('Arial'); ascent-override: 96.88%; descent-override: 24.12%; line-gap-override: 0.00%; } :root{ --font-secondary: 'undefined', '_font_fallback_683405592171', sans-serif; }</style><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/_astro/print.DNXP8c50.css" media="print"><link rel="stylesheet" href="/_astro/index.CP_ZtmDc.css">
+<style>@layer starlight.components{:root{--sl-badge-default-border: var(--sl-color-accent);--sl-badge-default-bg: var(--sl-color-accent-low);--sl-badge-default-text: #fff;--sl-badge-note-border: var(--sl-color-blue);--sl-badge-note-bg: var(--sl-color-blue-low);--sl-badge-note-text: #fff;--sl-badge-danger-border: var(--sl-color-red);--sl-badge-danger-bg: var(--sl-color-red-low);--sl-badge-danger-text: #fff;--sl-badge-success-border: var(--sl-color-green);--sl-badge-success-bg: var(--sl-color-green-low);--sl-badge-success-text: #fff;--sl-badge-caution-border: var(--sl-color-orange);--sl-badge-caution-bg: var(--sl-color-orange-low);--sl-badge-caution-text: #fff;--sl-badge-tip-border: var(--sl-color-purple);--sl-badge-tip-bg: var(--sl-color-purple-low);--sl-badge-tip-text: #fff}[data-theme=light]:root{--sl-badge-default-bg: var(--sl-color-accent-high);--sl-badge-note-bg: var(--sl-color-blue-high);--sl-badge-danger-bg: var(--sl-color-red-high);--sl-badge-success-bg: var(--sl-color-green-high);--sl-badge-caution-bg: var(--sl-color-orange-high);--sl-badge-tip-bg: var(--sl-color-purple-high)}.sl-badge:where(.astro-avdet4wd){display:inline-block;border:1px solid var(--sl-color-border-badge);border-radius:.25rem;font-family:var(--sl-font-system-mono);line-height:normal;color:var(--sl-color-text-badge);background-color:var(--sl-color-bg-badge);overflow-wrap:anywhere}.sidebar-content .sl-badge:where(.astro-avdet4wd){line-height:1;font-size:var(--sl-text-xs);padding:.125rem .375rem}.sidebar-content a[aria-current=page]>.sl-badge:where(.astro-avdet4wd){--sl-color-bg-badge: transparent;--sl-color-border-badge: currentColor;color:inherit}.default:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-default-bg);--sl-color-border-badge: var(--sl-badge-default-border);--sl-color-text-badge: var(--sl-badge-default-text)}.note:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-note-bg);--sl-color-border-badge: var(--sl-badge-note-border);--sl-color-text-badge: var(--sl-badge-note-text)}.danger:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-danger-bg);--sl-color-border-badge: var(--sl-badge-danger-border);--sl-color-text-badge: var(--sl-badge-danger-text)}.success:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-success-bg);--sl-color-border-badge: var(--sl-badge-success-border);--sl-color-text-badge: var(--sl-badge-success-text)}.tip:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-tip-bg);--sl-color-border-badge: var(--sl-badge-tip-border);--sl-color-text-badge: var(--sl-badge-tip-text)}.caution:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-caution-bg);--sl-color-border-badge: var(--sl-badge-caution-border);--sl-color-text-badge: var(--sl-badge-caution-text)}.small:where(.astro-avdet4wd){font-size:var(--sl-text-xs);padding:.125rem .25rem}.medium:where(.astro-avdet4wd){font-size:var(--sl-text-sm);padding:.175rem .35rem}.large:where(.astro-avdet4wd){font-size:var(--sl-text-base);padding:.225rem .45rem}.sl-markdown-content :is(h1,h2,h3,h4,h5,h6) .sl-badge:where(.astro-avdet4wd){vertical-align:middle}}
+@layer starlight.components{svg:where(.astro-c6vsoqas){color:var(--sl-icon-color);font-size:var(--sl-icon-size, 1em);width:1em;height:1em}}
+@layer starlight.components{starlight-tabs:where(.astro-esqgolmp){display:block}.tablist-wrapper:where(.astro-esqgolmp){overflow-x:auto}:where(.astro-esqgolmp)[role=tablist]{display:flex;list-style:none;border-bottom:2px solid var(--sl-color-gray-5);padding:0}.tab:where(.astro-esqgolmp){display:flex}.tab:where(.astro-esqgolmp)>:where(.astro-esqgolmp)[role=tab]{--sl-tab-color-border: var(--sl-color-gray-5);display:flex;align-items:center;gap:.5rem;line-height:var(--sl-line-height-headings);padding:.275rem 1.25rem;text-decoration:none;box-shadow:0 2px 0 var(--sl-tab-color-border);color:var(--sl-color-gray-3);outline-offset:var(--sl-outline-offset-inside);overflow-wrap:initial}.tab:where(.astro-esqgolmp) :where(.astro-esqgolmp)[role=tab][aria-selected=true]{--sl-tab-color-border: var(--sl-color-text-accent);color:var(--sl-color-white);font-weight:600}.tablist-wrapper:where(.astro-esqgolmp)~[role=tabpanel]{margin-top:1rem}}
+@layer starlight.components{.sl-steps{--bullet-size: calc(var(--sl-line-height) * 1rem);--bullet-margin: .375rem;list-style:none;counter-reset:steps-counter var(--sl-steps-start, 0);padding-inline-start:0}.sl-steps>li{counter-increment:steps-counter;position:relative;padding-inline-start:calc(var(--bullet-size) + 1rem);padding-bottom:1px;min-height:calc(var(--bullet-size) + var(--bullet-margin))}.sl-steps>li+li{margin-top:0}.sl-steps>li:before{content:counter(steps-counter);position:absolute;top:0;inset-inline-start:0;width:var(--bullet-size);height:var(--bullet-size);line-height:var(--bullet-size);font-size:var(--sl-text-xs);font-weight:600;text-align:center;color:var(--sl-color-white);background-color:var(--sl-color-gray-6);border-radius:99rem;box-shadow:inset 0 0 0 1px var(--sl-color-gray-5)}.sl-steps>li:after{--guide-width: 1px;content:"";position:absolute;top:calc(var(--bullet-size) + var(--bullet-margin));bottom:var(--bullet-margin);inset-inline-start:calc((var(--bullet-size) - var(--guide-width)) / 2);width:var(--guide-width);background-color:var(--sl-color-hairline-light)}}@layer starlight.content{.sl-steps>li>:first-child{--lh: calc(1em * var(--sl-line-height));--shift-y: calc(.5 * (var(--bullet-size) - var(--lh)));transform:translateY(var(--shift-y));margin-bottom:var(--shift-y)}.sl-steps>li>:first-child:where(h1,h2,h3,h4,h5,h6){--lh: calc(1em * var(--sl-line-height-headings))}@supports (--prop: 1lh){.sl-steps>li>:first-child{--lh: 1lh}}}
+</style><script type="module" src="/_astro/page.B1D-nYk3.js"></script></head> <body class="astro-bguv2lll"> <a href="#_top" class="astro-7q3lir66">Skip to content</a>  <div class="page sl-flex astro-cqnilpoy"> <div class="doc-bg astro-cqnilpoy"> <img src="/_astro/doc-bg.CXKAUfrL_Z1roy81.png" alt="Documentation Background" loading="eager" decoding="async" fetchpriority="high" width="2000" height="1000" class="hidden dark:block w-full h-full fixed top-0 left-0 astro-cqnilpoy"> </div> <header class="header has-sidebar astro-cqnilpoy"> <nav class="navbar container"> <!-- logo --> <div class="order-0"> <a href="/" class="navbar-brand inline-block">  <img src="/_astro/logo-light.B-OAwsTH_19DKCs.svg" alt="超級簡單寫 CSS (Super Easy CSS)" loading="lazy" decoding="async" fetchpriority="auto" style="height:32px;width:127px" width="254" height="64" class="inline-block  dark:hidden"> <img src="/_astro/logo-dark.B7suPJoV_19DKCs.svg" alt="超級簡單寫 CSS (Super Easy CSS)" loading="lazy" decoding="async" fetchpriority="auto" style="height:32px;width:127px" width="254" height="64" class="hidden dark:inline-block"></a> </div> <!-- navbar toggler --> <input id="nav-toggle" type="checkbox" class="hidden"> <label for="nav-toggle" class="order-3 cursor-pointer flex items-center lg:hidden dark:text-white lg:order-1 hamburger-menu"> <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20"> <title>Menu Open</title> <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path> </svg> <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20"> <title>Menu Close</title> <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2" transform="rotate(45 10 10)"></polygon> </svg> </label> <!-- /navbar toggler --> <ul id="nav-menu" class="navbar-nav order-3 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8"> <li class="nav-item"> <a href="/" class="nav-link block false"> Home </a> </li><li class="nav-item"> <a href="/getting-started/introduction/overview/" class="nav-link block false"> Documentation </a> </li><li class="nav-item nav-dropdown group relative"> <span class="nav-link flex! gap-1! items-center justify-center "> Reference <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"> <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path> </svg> </span> <ul class="nav-dropdown-list hidden group-hover:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100"> <li class="nav-dropdown-item"> <a href="/reference/configuration/" aria-label="Configuration" class="nav-dropdown-link block false"> Configuration </a> </li><li class="nav-dropdown-item"> <a href="/reference/plugin/" aria-label="Plugins Reference" class="nav-dropdown-link block false"> Plugins Reference </a> </li> </ul> </li> <li class="mt-4 inline-block lg:hidden"> <a class="btn btn-outline-primary btn-sm" href="/getting-started/introduction/overview/"> Get Started </a> </li> </ul> <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0 navbar-actions"> <div class="search-bar"> <site-search class=" astro-jpvz53k3" data-translations="{&#34;placeholder&#34;:&#34;Search&#34;}"> <button data-open-modal disabled aria-label="Search" aria-keyshortcuts="Control+K" class="astro-jpvz53k3"> <svg aria-hidden="true" class="astro-jpvz53k3 astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.3rem;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg> <span class="sl-block astro-jpvz53k3" aria-hidden="true">Search</span> <kbd class="sl-flex astro-jpvz53k3"> <kbd class="astro-jpvz53k3">Ctrl</kbd><kbd class="astro-jpvz53k3">K</kbd> </kbd> </button> <dialog style="padding:0" aria-label="Search" class="astro-jpvz53k3"> <div class="dialog-frame sl-flex astro-jpvz53k3">  <button data-close-modal class="sl-flex md:sl-hidden astro-jpvz53k3"> Cancel </button> <div class="search-container astro-jpvz53k3"> <div id="starlight__search" class="astro-jpvz53k3"></div> </div> </div> </dialog> </site-search>  <script>
+  (() => {
+    const openBtn = document.querySelector("button[data-open-modal]");
+    const shortcut = openBtn?.querySelector("kbd");
+    if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+    const platformKey = shortcut.querySelector("kbd");
+    if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+      platformKey.textContent = "⌘";
+      openBtn.setAttribute("aria-keyshortcuts", "Meta+K");
+    }
+
+    shortcut.style.display = "";
+  })();
+</script> <script type="module" src="/_astro/Search.astro_astro_type_script_index_0_lang.cjYDvRdi.js"></script>   </div>  <div class="theme-switcher lg:mx-6 mr-10 astro-vke6obp2"><input id="theme-switcher" data-theme-switcher type="checkbox" class="astro-vke6obp2"><label for="theme-switcher" class="astro-vke6obp2"><span class="sr-only astro-vke6obp2">theme switcher</span><svg class="dark:opacity-40 opacity-0 size-4 ml-1 astro-vke6obp2" viewBox="0 0 56 56" fill="#fff" height="16" width="16"><path d="M30 4.6c0-1-.9-2-2-2a2 2 0 0 0-2 2v5c0 1 .9 2 2 2s2-1 2-2Zm9.6 9a2 2 0 0 0 0 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 0 0 0-2.9 2 2 0 0 0-3 0Zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3ZM28 16a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12Zm23.3 14c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 0 0-2 2c0 1.1 1 2 2 2ZM4.7 26a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2Zm37.8 13.6a2 2 0 0 0-3 0 2 2 0 0 0 0 2.9l3.6 3.5a2 2 0 0 0 2.9 0c.8-.8.8-2.1 0-3ZM10 43.1a2 2 0 0 0 0 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0Zm20 3.4c0-1.1-.9-2-2-2a2 2 0 0 0-2 2v4.9c0 1 .9 2 2 2s2-1 2-2Z" class="astro-vke6obp2"></path></svg><span class="astro-vke6obp2"><svg class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 dark:opacity-0 astro-vke6obp2" viewBox="0 0 56 56" fill="#fff" height="16" width="16"><path d="M30 4.6c0-1-.9-2-2-2a2 2 0 0 0-2 2v5c0 1 .9 2 2 2s2-1 2-2Zm9.6 9a2 2 0 0 0 0 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 0 0 0-2.9 2 2 0 0 0-3 0Zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3ZM28 16a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12Zm23.3 14c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 0 0-2 2c0 1.1 1 2 2 2ZM4.7 26a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2Zm37.8 13.6a2 2 0 0 0-3 0 2 2 0 0 0 0 2.9l3.6 3.5a2 2 0 0 0 2.9 0c.8-.8.8-2.1 0-3ZM10 43.1a2 2 0 0 0 0 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0Zm20 3.4c0-1.1-.9-2-2-2a2 2 0 0 0-2 2v4.9c0 1 .9 2 2 2s2-1 2-2Z" class="astro-vke6obp2"></path></svg><svg class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 dark:opacity-100 astro-vke6obp2" viewBox="0 0 24 24" fill="none" height="16" width="16"><path fill="#000" fill-rule="evenodd" clip-rule="evenodd" d="M8.2 2.2c1-.4 2 .6 1.6 1.5-1 3-.4 6.4 1.8 8.7a8.4 8.4 0 0 0 8.7 1.8c1-.3 2 .5 1.5 1.5v.1a10.3 10.3 0 0 1-9.4 6.2A10.3 10.3 0 0 1 3.2 6.7c1-2 2.9-3.5 4.9-4.4Z" class="astro-vke6obp2"></path></svg></span><svg class="opacity-40 size-4 dark:opacity-0 mr-1 astro-vke6obp2" viewBox="0 0 24 24" fill="none" height="16" width="16"><path fill="#000" fill-rule="evenodd" clip-rule="evenodd" d="M8.2 2.2c1-.4 2 .6 1.6 1.5-1 3-.4 6.4 1.8 8.7a8.4 8.4 0 0 0 8.7 1.8c1-.3 2 .5 1.5 1.5v.1a10.3 10.3 0 0 1-9.4 6.2A10.3 10.3 0 0 1 3.2 6.7c1-2 2.9-3.5 4.9-4.4Z" class="astro-vke6obp2"></path></svg></label></div><script type="module">const e=document.querySelector("input[data-theme-switcher]");e?.addEventListener("change",t=>{t.currentTarget.checked?(document.documentElement.dataset.theme="dark",localStorage.setItem("starlight-theme","dark")):(document.documentElement.dataset.theme="light",localStorage.setItem("starlight-theme","light"))});document.addEventListener("DOMContentLoaded",()=>{localStorage.getItem("starlight-theme")==="light"?(e.checked=!1,document.documentElement.dataset.theme="light"):(e.checked=!0,document.documentElement.dataset.theme="dark")});</script> <a class="btn btn-outline-primary hidden! lg:inline-block!" href="/getting-started/introduction/overview/"> Get Started </a> </div> </nav> <script type="module">const e=document.querySelector(".navbar"),o=document.querySelector(".sidebar-nav");window.onscroll=function(){document.body.scrollTop>10||document.documentElement.scrollTop>10?(e?.parentElement?.classList.add("navbar-scrolled"),o?.classList.add("navbar-scrolled")):(e?.parentElement?.classList.remove("navbar-scrolled"),o?.classList.remove("navbar-scrolled"))};const s=document.querySelectorAll(".nav-dropdown > .nav-link");s.forEach(n=>{n?.addEventListener("click",l=>{l?.target?.closest(".nav-item")?.classList.toggle("active")})});</script> </header> <div class="sidebar-nav astro-gvqsdny3"> <div class="container h-full astro-gvqsdny3"> <div class="sidebar-content-top astro-gvqsdny3"> <ul class="astro-gvqsdny3"> <li class="astro-gvqsdny3"> <a aria-label="Getting Started" href="/css-calc-max-min-clamp/" class="active astro-gvqsdny3"> Getting Started </a> </li><li class="astro-gvqsdny3"> <a aria-label="Content" href="/contents/components/using-components/" class=" astro-gvqsdny3"> Content </a> </li><li class="astro-gvqsdny3"> <a aria-label="Reference" href="/reference/configuration/" class=" astro-gvqsdny3"> Reference </a> </li><li class="astro-gvqsdny3"> <a aria-label="Configurations" href="/configurations/custom-css-js/" class=" astro-gvqsdny3"> Configurations </a> </li> </ul> <div class="astro-gvqsdny3"> <starlight-lang-select><label style="--sl-select-width: 7em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">Select language</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path fill-rule="evenodd" d="M8.516 3a.94.94 0 0 0-.941.94v1.15H2.94a.94.94 0 1 0 0 1.882h7.362a7.422 7.422 0 0 1-1.787 3.958 7.42 7.42 0 0 1-1.422-2.425.94.94 0 1 0-1.774.627 9.303 9.303 0 0 0 1.785 3.043 7.422 7.422 0 0 1-4.164 1.278.94.94 0 1 0 0 1.881 9.303 9.303 0 0 0 5.575-1.855 9.303 9.303 0 0 0 4.11 1.74l-.763 1.525a.968.968 0 0 0-.016.034l-1.385 2.77a.94.94 0 1 0 1.683.841l1.133-2.267h5.806l1.134 2.267a.94.94 0 0 0 1.683-.841l-1.385-2.769a.95.95 0 0 0-.018-.036l-3.476-6.951a.94.94 0 0 0-1.682 0l-1.82 3.639a7.423 7.423 0 0 1-3.593-1.256 9.303 9.303 0 0 0 2.27-5.203h1.894a.94.94 0 0 0 0-1.881H9.456V3.94A.94.94 0 0 0 8.516 3Zm6.426 11.794a1.068 1.068 0 0 1-.02.039l-.703 1.407h3.924l-1.962-3.924-1.24 2.478Z" clip-rule="evenodd"/></svg> <select autocomplete="off" class="astro-4yphtoen"> <option value="/super-easy-css-contents/" class="astro-4yphtoen">English</option><option value="/fr/super-easy-css-contents/" class="astro-4yphtoen">Français</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg> </label> </starlight-lang-select><script type="module">class s extends HTMLElement{constructor(){super();const e=this.querySelector("select");e&&(e.addEventListener("change",t=>{t.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=t.currentTarget.value)}),window.addEventListener("pageshow",t=>{if(!t.persisted)return;const n=e.querySelector("option[selected]")?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}}customElements.define("starlight-lang-select",s);</script> </div> </div> </div> </div>  <div class="main-frame astro-cqnilpoy"> <div class="container flex relative astro-cqnilpoy"> <nav class="sidebar print:hidden astro-cqnilpoy" aria-label="Main"> <starlight-menu-button class="print:hidden astro-36e7ehj6"> <button aria-expanded="false" aria-label="Menu" aria-controls="starlight__sidebar" class="sl-flex md:sl-hidden astro-36e7ehj6"> <svg aria-hidden="true" class="open-menu astro-36e7ehj6 astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg> <svg aria-hidden="true" class="close-menu astro-36e7ehj6 astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg> </button> </starlight-menu-button> <script type="module">class s extends HTMLElement{btn=this.querySelector("button");constructor(){super(),this.btn.addEventListener("click",()=>this.toggleExpanded());const t=this.closest("nav");t&&t.addEventListener("keyup",e=>this.closeOnEscape(e))}setExpanded(t){this.setAttribute("aria-expanded",String(t)),document.body.toggleAttribute("data-mobile-menu-expanded",t)}toggleExpanded(){this.setExpanded(this.getAttribute("aria-expanded")!=="true")}closeOnEscape(t){t.code==="Escape"&&(this.setExpanded(!1),this.btn.focus())}}customElements.define("starlight-menu-button",s);</script>   <div id="starlight__sidebar" class="sidebar-pane astro-cqnilpoy"> <div class="sidebar-content sl-flex astro-cqnilpoy"> <sl-sidebar-state-persist data-hash="0s5sndu" class="astro-kku4brbg"> <script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script>  <ul class="top-level astro-bw5pq3tv"> <li class="astro-bw5pq3tv"> <details open class="astro-bw5pq3tv"> <sl-sidebar-restore data-index="0"></sl-sidebar-restore> <summary class="astro-bw5pq3tv"> <span class="group-label astro-bw5pq3tv">  <span class="large astro-bw5pq3tv">Getting Started</span>  </span> <svg aria-hidden="true" class="caret astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-bw5pq3tv"> <li class="astro-bw5pq3tv"> <details open class="astro-bw5pq3tv"> <sl-sidebar-restore data-index="1"></sl-sidebar-restore> <summary class="astro-bw5pq3tv"> <span class="group-label astro-bw5pq3tv"> <svg aria-hidden="true" class="mr-2.5 astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-color: var(--color-primary);--sl-icon-size: 1.3rem;"><path d="M16.232 0.179L16.232 0.179L6.392 2.139Q6.152 2.179 6.112 2.459L6.112 2.459L5.512 12.659Q5.512 12.859 5.652 12.979Q5.792 13.099 5.952 13.059L5.952 13.059L8.672 12.419Q8.872 12.379 9.012 12.519Q9.152 12.659 9.112 12.819L9.112 12.819L8.312 16.819Q8.272 17.019 8.432 17.159Q8.592 17.299 8.752 17.219L8.752 17.219L10.472 16.699Q10.672 16.659 10.812 16.799Q10.952 16.939 10.912 17.139L10.912 17.139L9.632 23.379Q9.552 23.699 9.832 23.799Q10.112 23.899 10.272 23.659L10.272 23.659L10.432 23.419L18.432 7.459Q18.552 7.259 18.412 7.079Q18.272 6.899 18.032 6.939L18.032 6.939L15.232 7.459Q15.032 7.499 14.892 7.359Q14.752 7.219 14.832 7.019L14.832 7.019L16.672 0.659Q16.712 0.459 16.572 0.299Q16.432 0.139 16.232 0.179Z"/></svg> <span class="large astro-bw5pq3tv">Introduction</span>  </span> <svg aria-hidden="true" class="caret astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-bw5pq3tv"> <li class="astro-bw5pq3tv"> <a href="/css-calc-max-min-clamp/" aria-current="false" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">#16 CSS 數學函式 calc()、max()、min()、clamp()</span>  </a> </li><li class="astro-bw5pq3tv"> <a href="/getting-started/introduction/overview/" aria-current="false" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">Overview</span>  </a> </li><li class="astro-bw5pq3tv"> <a href="/getting-started/introduction/quickstart/" aria-current="false" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">Quickstart</span>  </a> </li><li class="astro-bw5pq3tv"> <a href="/super-easy-css-contents/" aria-current="page" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">#00 文章目錄 | 超級簡單寫 CSS (Super Easy CSS)</span>  </a> </li> </ul>   </details> </li><li class="astro-bw5pq3tv"> <details open class="astro-bw5pq3tv"> <sl-sidebar-restore data-index="2"></sl-sidebar-restore> <summary class="astro-bw5pq3tv"> <span class="group-label astro-bw5pq3tv"> <svg aria-hidden="true" class="mr-2.5 astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.3rem;"><path d="m21.32 9.55-1.89-.63.89-1.78A1 1 0 0 0 20.13 6L18 3.87a1 1 0 0 0-1.15-.19l-1.78.89-.63-1.89A1 1 0 0 0 13.5 2h-3a1 1 0 0 0-.95.68l-.63 1.89-1.78-.89A1 1 0 0 0 6 3.87L3.87 6a1 1 0 0 0-.19 1.15l.89 1.78-1.89.63a1 1 0 0 0-.68.94v3a1 1 0 0 0 .68.95l1.89.63-.89 1.78A1 1 0 0 0 3.87 18L6 20.13a1 1 0 0 0 1.15.19l1.78-.89.63 1.89a1 1 0 0 0 .95.68h3a1 1 0 0 0 .95-.68l.63-1.89 1.78.89a1 1 0 0 0 1.13-.19L20.13 18a1 1 0 0 0 .19-1.15l-.89-1.78 1.89-.63a1 1 0 0 0 .68-.94v-3a1 1 0 0 0-.68-.95ZM20 12.78l-1.2.4A2 2 0 0 0 17.64 16l.57 1.14-1.1 1.1-1.11-.6a2 2 0 0 0-2.79 1.16l-.4 1.2h-1.59l-.4-1.2A2 2 0 0 0 8 17.64l-1.14.57-1.1-1.1.6-1.11a2 2 0 0 0-1.16-2.82l-1.2-.4v-1.56l1.2-.4A2 2 0 0 0 6.36 8l-.57-1.11 1.1-1.1L8 6.36a2 2 0 0 0 2.82-1.16l.4-1.2h1.56l.4 1.2A2 2 0 0 0 16 6.36l1.14-.57 1.1 1.1-.6 1.11a2 2 0 0 0 1.16 2.79l1.2.4v1.59ZM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"/></svg> <span class="large astro-bw5pq3tv">Global Settings</span>  </span> <svg aria-hidden="true" class="caret astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-bw5pq3tv"> <li class="astro-bw5pq3tv"> <a href="/getting-started/global-settings/configuration/" aria-current="false" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">Global Configuration</span>  </a> </li> </ul>   </details> </li><li class="astro-bw5pq3tv"> <a href="/getting-started/navigation/" aria-current="false" class="astro-bw5pq3tv"> <svg aria-hidden="true" class="mr-2.5 astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.3rem;"><path d="M0.127 6.839L0.127 0.608L16.929 0.608L16.929 6.839L0.127 6.839ZM7.040 15.116L7.040 8.885L23.873 8.885L23.873 15.116L7.040 15.116ZM17.053 23.393L17.053 17.162L23.873 17.162L23.873 23.393L17.053 23.393Z"/></svg> <span class="astro-bw5pq3tv">Navigation</span>  </a> </li> </ul>   </details> </li><li class="astro-bw5pq3tv"> <details open class="astro-bw5pq3tv"> <sl-sidebar-restore data-index="3"></sl-sidebar-restore> <summary class="astro-bw5pq3tv"> <span class="group-label astro-bw5pq3tv">  <span class="large astro-bw5pq3tv">Content</span>  </span> <svg aria-hidden="true" class="caret astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-bw5pq3tv"> <li class="astro-bw5pq3tv"> <details open class="astro-bw5pq3tv"> <sl-sidebar-restore data-index="4"></sl-sidebar-restore> <summary class="astro-bw5pq3tv"> <span class="group-label astro-bw5pq3tv"> <svg aria-hidden="true" class="mr-2.5 astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.3rem;"><path d="M9 10h1a1 1 0 1 0 0-2H9a1 1 0 0 0 0 2Zm0 2a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2H9Zm11-3.06a1.3 1.3 0 0 0-.06-.27v-.09c-.05-.1-.11-.2-.19-.28l-6-6a1.07 1.07 0 0 0-.28-.19h-.09a.88.88 0 0 0-.33-.11H7a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V8.94Zm-6-3.53L16.59 8H15a1 1 0 0 1-1-1V5.41ZM18 19a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5v3a3 3 0 0 0 3 3h3v9Zm-3-3H9a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Z"/></svg> <span class="large astro-bw5pq3tv">Components and Block</span>  </span> <svg aria-hidden="true" class="caret astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-bw5pq3tv"> <li class="astro-bw5pq3tv"> <a href="/contents/components/using-components/" aria-current="false" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">Using Components</span>  </a> </li><li class="astro-bw5pq3tv"> <details open class="astro-bw5pq3tv"> <sl-sidebar-restore data-index="5"></sl-sidebar-restore> <summary class="astro-bw5pq3tv"> <span class="group-label astro-bw5pq3tv">  <span class="large astro-bw5pq3tv">Child Components</span>  </span> <svg aria-hidden="true" class="caret astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-bw5pq3tv"> <li class="astro-bw5pq3tv"> <a href="/contents/components/child-components/new-card/" aria-current="false" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">NewCard Component</span>  </a> </li><li class="astro-bw5pq3tv"> <details open class="astro-bw5pq3tv"> <sl-sidebar-restore data-index="6"></sl-sidebar-restore> <summary class="astro-bw5pq3tv"> <span class="group-label astro-bw5pq3tv">  <span class="large astro-bw5pq3tv">More Child</span>  </span> <svg aria-hidden="true" class="caret astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-bw5pq3tv"> <li class="astro-bw5pq3tv"> <a href="/contents/components/child-components/more-child/button/" aria-current="false" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">Button Component</span>  </a> </li> </ul>   </details> </li> </ul>   </details> </li><li class="astro-bw5pq3tv"> <a href="/contents/components/list-card/" aria-current="false" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">ListCard Component</span>  </a> </li><li class="astro-bw5pq3tv"> <a href="/contents/components/grid/" aria-current="false" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">Grid Component</span>  </a> </li><li class="astro-bw5pq3tv"> <a href="/contents/components/accordion/" aria-current="false" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">Accordion Component</span>  </a> </li> </ul>   </details> </li><li class="astro-bw5pq3tv"> <details open class="astro-bw5pq3tv"> <sl-sidebar-restore data-index="7"></sl-sidebar-restore> <summary class="astro-bw5pq3tv"> <span class="group-label astro-bw5pq3tv"> <svg aria-hidden="true" class="mr-2.5 astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.3rem;"><path d="M22 7.24a1 1 0 0 0-.29-.71l-4.24-4.24a1 1 0 0 0-1.1-.22 1 1 0 0 0-.32.22l-2.83 2.83L2.29 16.05a1 1 0 0 0-.29.71V21a1 1 0 0 0 1 1h4.24a1 1 0 0 0 .76-.29l10.87-10.93L21.71 8c.1-.1.17-.2.22-.33a1 1 0 0 0 0-.24v-.14l.07-.05ZM6.83 20H4v-2.83l9.93-9.93 2.83 2.83L6.83 20ZM18.17 8.66l-2.83-2.83 1.42-1.41 2.82 2.82-1.41 1.42Z"/></svg> <span class="large astro-bw5pq3tv">Editing Content</span>  </span> <svg aria-hidden="true" class="caret astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-bw5pq3tv"> <li class="astro-bw5pq3tv"> <a href="/contents/editing/add-new-doc/" aria-current="false" class="astro-bw5pq3tv">  <span class="astro-bw5pq3tv">Adding Document</span>  </a> </li> </ul>   </details> </li> </ul>   </details> </li><li class="astro-bw5pq3tv"> <details open class="astro-bw5pq3tv"> <sl-sidebar-restore data-index="8"></sl-sidebar-restore> <summary class="astro-bw5pq3tv"> <span class="group-label astro-bw5pq3tv">  <span class="large astro-bw5pq3tv">Reference</span>  </span> <svg aria-hidden="true" class="caret astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-bw5pq3tv"> <li class="astro-bw5pq3tv"> <a href="/reference/configuration/" aria-current="false" class="astro-bw5pq3tv"> <svg aria-hidden="true" class="mr-2.5 astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.3rem;"><path d="M18.838 10.302L22.270 10.302L22.270 23.979L1.730 23.979L1.730 10.302L5.162 10.302L5.162 6.918Q5.162 6.354 5.255 5.884L5.255 5.884Q5.490 4.051 6.642 2.618Q7.793 1.184 9.509 0.503Q11.224-0.179 13.104 0.103L13.104 0.103Q15.548 0.526 17.194 2.453Q18.838 4.380 18.838 6.871L18.838 6.871L18.838 10.302ZM8.545 10.302L15.407 10.302Q15.407 10.255 15.407 10.208L15.407 10.208L15.407 6.777Q15.407 6.542 15.360 6.213L15.360 6.213Q15.078 4.850 14.021 4.098Q12.963 3.346 11.553 3.487L11.553 3.487Q10.284 3.581 9.415 4.592Q8.545 5.602 8.545 6.918L8.545 6.918L8.545 10.302Z"/></svg> <span class="astro-bw5pq3tv">Configuration</span>  </a> </li><li class="astro-bw5pq3tv"> <a href="/reference/plugin/" aria-current="false" class="astro-bw5pq3tv"> <svg aria-hidden="true" class="mr-2.5 astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.3rem;"><path d="M0 13.488L0 10.512L9.024 2.112L9.024 6L2.256 12L9.024 18L9.024 21.888L0 13.488ZM24 10.368L24 13.632L15.024 22.032L15.024 18L21.888 12L15.024 6L15.024 1.968L24 10.368Z"/></svg> <span class="astro-bw5pq3tv">Plugins Reference</span>  </a> </li> </ul>   </details> </li><li class="astro-bw5pq3tv"> <details open class="astro-bw5pq3tv"> <sl-sidebar-restore data-index="9"></sl-sidebar-restore> <summary class="astro-bw5pq3tv"> <span class="group-label astro-bw5pq3tv">  <span class="large astro-bw5pq3tv">Configurations</span>  </span> <svg aria-hidden="true" class="caret astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-bw5pq3tv"> <li class="astro-bw5pq3tv"> <a href="/configurations/custom-css-js/" aria-current="false" class="astro-bw5pq3tv"> <svg aria-hidden="true" class="mr-2.5 astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.3rem;"><path d="M12 23.96c-.34 0-.66-.1-.96-.25l-3.03-1.73c-.45-.25-.22-.33-.09-.38.62-.2.73-.24 1.37-.6.07-.04.16-.02.23.03l2.32 1.34c.1.05.2.05.27 0l9.1-5.08a.27.27 0 0 0 .13-.24V6.9c0-.11-.05-.2-.14-.24L12.11 1.6c-.09-.05-.2-.05-.27 0L2.75 6.66c-.09.04-.13.15-.13.24v10.14c0 .1.04.2.13.25l2.49 1.38c1.34.66 2.18-.1 2.18-.88V7.78c0-.13.12-.26.28-.26h1.16c.13 0 .27.1.27.26v10.01c0 1.74-.98 2.75-2.69 2.75-.52 0-.93 0-2.1-.55l-2.38-1.32a1.85 1.85 0 0 1-.96-1.6V6.92c0-.66.36-1.28.96-1.6l9.08-5.1a2.1 2.1 0 0 1 1.92 0l9.08 5.08c.6.33.96.95.96 1.61v10.15c0 .66-.36 1.27-.96 1.6l-9.08 5.09a2.4 2.4 0 0 1-.96.2m2.8-6.98c-3.98 0-4.8-1.76-4.8-3.26 0-.13.11-.26.27-.26h1.18c.14 0 .25.08.25.22.19 1.16.71 1.73 3.12 1.73 1.92 0 2.74-.41 2.74-1.4 0-.58-.23-1-3.21-1.28-2.49-.24-4.04-.77-4.04-2.68 0-1.79 1.55-2.84 4.15-2.84 2.91 0 4.35.96 4.53 3.08a.35.35 0 0 1-.07.2.27.27 0 0 1-.18.08h-1.18a.27.27 0 0 1-.25-.2c-.28-1.2-.98-1.6-2.85-1.6-2.1 0-2.35.7-2.35 1.23 0 .64.3.84 3.12 1.19 2.8.35 4.13.86 4.13 2.75-.03 1.94-1.67 3.04-4.56 3.04"/></svg> <span class="astro-bw5pq3tv">Custom CSS &amp; JavaScript</span>  </a> </li><li class="astro-bw5pq3tv"> <a href="/configurations/github/" aria-current="false" class="astro-bw5pq3tv"> <svg aria-hidden="true" class="mr-2.5 astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.3rem;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg> <span class="astro-bw5pq3tv">GitHub Integration</span>  </a> </li><li class="astro-bw5pq3tv"> <a href="/configurations/custom-domain/" aria-current="false" class="astro-bw5pq3tv"> <svg aria-hidden="true" class="mr-2.5 astro-bw5pq3tv astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.3rem;"><path d="M12 11a1 1 0 0 0-1 1v4a1 1 0 0 0 2 0v-4a1 1 0 0 0-1-1Zm.38-3.92a1 1 0 0 0-.76 0 1 1 0 0 0-.33.21 1.15 1.15 0 0 0-.21.33 1 1 0 0 0 .21 1.09c.097.088.209.16.33.21A1 1 0 0 0 13 8a1.05 1.05 0 0 0-.29-.71 1 1 0 0 0-.33-.21ZM12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16.001A8 8 0 0 1 12 20Z"/></svg> <span class="astro-bw5pq3tv">Custom Domain Setup</span>  </a> </li> </ul>   </details> </li> </ul>  <script type="module">function n(){document.querySelectorAll(".sidebar-content .top-level > li").forEach(o=>{const e=o.querySelector("details");if(e){e.open=!0;const t=e.querySelector("summary");t&&t.addEventListener("click",l=>{l.preventDefault()}),e.addEventListener("toggle",()=>{e.open||(e.open=!0)})}})}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",n):n();</script>  <script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script> </sl-sidebar-state-persist>  <div class="md:sl-hidden"> <div class="mobile-preferences sl-flex astro-wu23bvmt"> <div class="social-icons astro-wu23bvmt"> <a href="https://im1010ioio.dev" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">About Me</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M8.295 8.200L11.981 0.714L15.667 8.200L23.875 9.378L17.909 15.078L19.353 23.286L11.981 19.486L4.609 23.286L6.053 15.078L0.125 9.378L8.295 8.200Z"/></svg></a><a href="https://codepen.io/collection/mrMvMk" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">CodePen</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M23.5 7.5 12.5.2a1 1 0 0 0-1 0L.4 7.5a1 1 0 0 0-.5.8v7.4c0 .3.2.6.5.8l11 7.3c.3.3.7.3 1 0l11-7.3c.3-.2.5-.5.5-.8V8.3a1 1 0 0 0-.5-.8zM13 3l8.1 5.3-3.6 2.5-4.5-3V3zm-2 0v4.8l-4.5 3-3.6-2.5 8-5.3zm-9 7.3L4.7 12l-2.5 1.7v-3.4zM11 21l-8.1-5.3 3.6-2.5 4.5 3V21zm1-6.6L8.4 12 12 9.6l3.6 2.4-3.6 2.4zm1 6.6v-4.8l4.5-3 3.6 2.5-8 5.3zm9-7.3L19.3 12l2.5-1.7v3.4z"/></svg></a><a href="https://www.linkedin.com/in/im1010ioio" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">LinkedIn</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2ZM8.09 18.74h-3v-9h3v9ZM6.59 8.48a1.56 1.56 0 0 1 0-3.12 1.57 1.57 0 1 1 0 3.12Zm12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06v5.18Z"/></svg></a><a href="https://www.instagram.com/im1010ioio" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">Instagram</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17.3 5.5a1.2 1.2 0 1 0 1.2 1.2 1.2 1.2 0 0 0-1.2-1.2ZM22 7.9a7.6 7.6 0 0 0-.4-2.5 5 5 0 0 0-1.2-1.7 4.7 4.7 0 0 0-1.8-1.2 7.3 7.3 0 0 0-2.4-.4L12 2H7.9a7.3 7.3 0 0 0-2.5.5 4.8 4.8 0 0 0-1.7 1.2 4.7 4.7 0 0 0-1.2 1.8 7.3 7.3 0 0 0-.4 2.4L2 12v4.1a7.3 7.3 0 0 0 .5 2.4 4.7 4.7 0 0 0 1.2 1.8 4.8 4.8 0 0 0 1.8 1.2 7.3 7.3 0 0 0 2.4.4l4.1.1h4.1a7.3 7.3 0 0 0 2.4-.5 4.7 4.7 0 0 0 1.8-1.2 4.8 4.8 0 0 0 1.2-1.7 7.6 7.6 0 0 0 .4-2.5L22 12V7.9ZM20.1 16a5.6 5.6 0 0 1-.3 1.9A3 3 0 0 1 19 19a3.2 3.2 0 0 1-1.1.8 5.6 5.6 0 0 1-1.9.3H8a5.7 5.7 0 0 1-1.9-.3A3.3 3.3 0 0 1 5 19a3 3 0 0 1-.7-1.1 5.5 5.5 0 0 1-.4-1.9l-.1-4V8a5.5 5.5 0 0 1 .4-1.9A3 3 0 0 1 5 5a3.1 3.1 0 0 1 1.1-.8A5.7 5.7 0 0 1 8 3.9l4-.1h4a5.6 5.6 0 0 1 1.9.4A3 3 0 0 1 19 5a3 3 0 0 1 .7 1.1A5.6 5.6 0 0 1 20 8l.1 4v4ZM12 6.9a5.1 5.1 0 1 0 5.1 5.1A5.1 5.1 0 0 0 12 6.9Zm0 8.4a3.3 3.3 0 1 1 3.3-3.3 3.3 3.3 0 0 1-3.3 3.3Z"/></svg></a><a href="mailto:dev@im1010ioio.dev" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">Email</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M19 4H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-.41 2-5.88 5.88a1 1 0 0 1-1.42 0L5.41 6ZM20 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7.41l5.88 5.88a3 3 0 0 0 4.24 0L20 7.41Z"/></svg></a> </div> <starlight-theme-select>  <label style="--sl-select-width: 6.25em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">Select theme</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg> <select autocomplete="off" class="astro-4yphtoen"> <option value="dark" class="astro-4yphtoen">Dark</option><option value="light" class="astro-4yphtoen">Light</option><option value="auto" selected class="astro-4yphtoen">Auto</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg> </label>  </starlight-theme-select>  <script>
+	StarlightThemeProvider.updatePickers();
+</script> <script type="module">const r="starlight-theme",o=e=>e==="auto"||e==="dark"||e==="light"?e:"auto",c=()=>o(typeof localStorage<"u"&&localStorage.getItem(r));function n(e){typeof localStorage<"u"&&localStorage.setItem(r,e==="light"||e==="dark"?e:"")}const l=()=>matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";function t(e){StarlightThemeProvider.updatePickers(e),document.documentElement.dataset.theme=e==="auto"?l():e,n(e)}matchMedia("(prefers-color-scheme: light)").addEventListener("change",()=>{c()==="auto"&&t("auto")});class s extends HTMLElement{constructor(){super(),t(c()),this.querySelector("select")?.addEventListener("change",a=>{a.currentTarget instanceof HTMLSelectElement&&t(o(a.currentTarget.value))})}}customElements.define("starlight-theme-select",s);</script> <starlight-lang-select><label style="--sl-select-width: 7em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">Select language</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path fill-rule="evenodd" d="M8.516 3a.94.94 0 0 0-.941.94v1.15H2.94a.94.94 0 1 0 0 1.882h7.362a7.422 7.422 0 0 1-1.787 3.958 7.42 7.42 0 0 1-1.422-2.425.94.94 0 1 0-1.774.627 9.303 9.303 0 0 0 1.785 3.043 7.422 7.422 0 0 1-4.164 1.278.94.94 0 1 0 0 1.881 9.303 9.303 0 0 0 5.575-1.855 9.303 9.303 0 0 0 4.11 1.74l-.763 1.525a.968.968 0 0 0-.016.034l-1.385 2.77a.94.94 0 1 0 1.683.841l1.133-2.267h5.806l1.134 2.267a.94.94 0 0 0 1.683-.841l-1.385-2.769a.95.95 0 0 0-.018-.036l-3.476-6.951a.94.94 0 0 0-1.682 0l-1.82 3.639a7.423 7.423 0 0 1-3.593-1.256 9.303 9.303 0 0 0 2.27-5.203h1.894a.94.94 0 0 0 0-1.881H9.456V3.94A.94.94 0 0 0 8.516 3Zm6.426 11.794a1.068 1.068 0 0 1-.02.039l-.703 1.407h3.924l-1.962-3.924-1.24 2.478Z" clip-rule="evenodd"/></svg> <select autocomplete="off" class="astro-4yphtoen"> <option value="/super-easy-css-contents/" class="astro-4yphtoen">English</option><option value="/fr/super-easy-css-contents/" class="astro-4yphtoen">Français</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg> </label> </starlight-lang-select> </div>  </div> </div> </div> </nav>   <script type="module">const a=document.getElementById("starlight__sidebar"),n=a?.querySelector("sl-sidebar-state-persist"),o="sl-sidebar-state",i=()=>{let t=[];const e=n?.dataset.hash||"";try{const s=sessionStorage.getItem(o),r=JSON.parse(s||"{}");Array.isArray(r.open)&&r.hash===e&&(t=r.open)}catch{}return{hash:e,open:t,scroll:a?.scrollTop||0}},c=t=>{try{sessionStorage.setItem(o,JSON.stringify(t))}catch{}},d=()=>c(i()),l=(t,e)=>{const s=i();s.open[e]=t,c(s)};n?.addEventListener("click",t=>{if(!(t.target instanceof Element))return;const e=t.target.closest("summary")?.closest("details");if(!e)return;const s=e.querySelector("sl-sidebar-restore"),r=parseInt(s?.dataset.index||"");isNaN(r)||l(!e.open,r)});addEventListener("visibilitychange",()=>{document.visibilityState==="hidden"&&d()});addEventListener("pageHide",d);</script> <div class="content-container astro-ik4k6pip"> <div class="main-pane astro-ik4k6pip"> <div class="breadcrumb-container astro-ik4k6pip"> <div class="breadcrumb astro-qaanghzh"> <ul class="astro-qaanghzh"> <li class="astro-qaanghzh">super easy css contents</li> </ul> </div>  </div>   <main data-pagefind-body class="astro-bguv2lll" lang="en" dir="ltr">    <div class="content-panel astro-p5qdsdza"> <div class="sl-container astro-p5qdsdza"> <h1 id="_top" class="astro-j6tvhyss">#00 文章目錄 | 超級簡單寫 CSS (Super Easy CSS)</h1>  </div> </div>  <div class="content-panel astro-p5qdsdza"> <div class="sl-container astro-p5qdsdza"> <div class="sl-markdown-content"> <p><strong>超級簡單寫 CSS（Super Easy CSS）</strong> 是一系列 CSS 與網頁前端相關知識的教學文章，主要寫於 2023 - 2025 年的 iThome 鐵人賽。</p>
+<p>本系列文章目標是：</p>
+<ul>
+<li>
+<p>學習 CSS 基本知識</p>
+</li>
+<li>
+<p>並且研究 CSS 中酷炫又令人期待新屬性</p>
+</li>
+</ul>
+<p>讓想要學習 CSS 的人也能一起學到新知識，不用再零零散散地去爬文搜尋。此外，還有提及一些前端基本知識、版本控制、開發經驗、CSS 預處理器 SASS/SCSS 與了解各大 CSS 框架，甚至進一步到 SEO 基本觀念，讓新手對於網頁前端開發有初步且全面的認識。</p>
+<p>與其他教學文章不同之處是：這系列文章大部分著重於<strong>圖解說明</strong>、<strong>實務經驗</strong>與 <strong>DEMO 實作</strong>，因為我知道資訊領域許多概念非常抽象，如果能用比喻或圖解，可以讓這些知識更容易理解；而實務經驗與 DEMO 實作才能讓技術落地，讓學習的人清楚自己學習與使用語法的方向。</p>
+<p>有幾篇因為寫作的當時生病了，所以內容不夠完整，這個之後會慢慢補齊。<br>
+另外，剩下幾篇就要完結了，正在持續更新中。</p>
+<p>如果這系列文章對你很有幫助，歡迎你 <a href="https://im1010ioio.bobaboba.me/">🧋贊助我杯珍奶</a> ，對我將會是很大的鼓勵！<br>
+還有過去曾經有贊助過我的人，我也統一在這裡，再次跟你們說聲謝謝！🥹</p>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="鐵人賽連結">鐵人賽連結</h3><a class="sl-anchor-link" href="#鐵人賽連結"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “鐵人賽連結”</span></a></div>
+<ul>
+<li>
+<p><a href="https://ithelp.ithome.com.tw/users/20103650/ironman/6126">2023 鐵人賽</a>： 基礎 CSS &#x26; 前端開發知識</p>
+</li>
+<li>
+<p><a href="https://ithelp.ithome.com.tw/users/20103650/ironman/7384">2024 鐵人賽</a>： CSS 顏色、特效等</p>
+</li>
+<li>
+<p><a href="https://ithelp.ithome.com.tw/users/20103650/ironman/8327">2025 鐵人賽</a>： CSS 滾動相關、新語法補充、SASS/SCSS 預處理器、CSS 框架探討、SEO</p>
+</li>
+</ul>
+<hr>
+<p>![](<a href="https://cdn.hashnode.com/res/hashnode/image/upload/v1683705560504/15822e35-b6be-4cbc-b2e7-b7b5f55a8555.png">https://cdn.hashnode.com/res/hashnode/image/upload/v1683705560504/15822e35-b6be-4cbc-b2e7-b7b5f55a8555.png</a> align=“left”)</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="文章目錄">文章目錄</h2><a class="sl-anchor-link" href="#文章目錄"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “文章目錄”</span></a></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="基礎知識--共用觀念">基礎知識 / 共用觀念</h3><a class="sl-anchor-link" href="#基礎知識--共用觀念"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “基礎知識 / 共用觀念”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#01</code> <a href="https://im1010ioio.hashnode.dev/glossary-of-web-development">網頁的基本名詞：UI/UX？切版&#x26;切圖？前端&#x26;後端？靜態&#x26;動態？RWD or Mobile First？</a></p>
+</li>
+<li>
+<p><code dir="auto">#02</code> <a href="https://im1010ioio.hashnode.dev/about-browsers">關於各家瀏覽器，前端必備的小知識：支援度、市佔率、CSS 實驗語法 -webkit-, -moz-… PostCSS Autoprefixer</a></p>
+</li>
+<li>
+<p><code dir="auto">#03</code> <a href="https://im1010ioio.hashnode.dev/git-github-gitlab-git-flow">人在江湖，版控要有：了解 GIT / GitHub / GitLab / Git Flow</a></p>
+</li>
+<li>
+<p><code dir="auto">#04</code> <a href="https://im1010ioio.hashnode.dev/git-github-gitpage-practice">GIT 實戰練習：GitHub Desktop、GitHub Page 基礎教學</a></p>
+</li>
+<li>
+<p><code dir="auto">#05</code> <a href="https://im1010ioio.hashnode.dev/html-basics">HTML 基礎語法</a></p>
+</li>
+<li>
+<p><code dir="auto">#06</code> <a href="https://im1010ioio.hashnode.dev/html-strugtrue">寫一份簡單的 HTML，常用 HTML Tag 總整理</a></p>
+</li>
+<li>
+<p><code dir="auto">#06補充</code> <a href="https://im1010ioio.hashnode.dev/html-file-paths">網頁的根、絕對路徑、相對路徑，那些關於路徑的小知識</a></p>
+</li>
+<li>
+<p><code dir="auto">#07</code> <a href="https://im1010ioio.hashnode.dev/css-basics">CSS 基本語法 &#x26; 權重介紹</a></p>
+</li>
+<li>
+<p><code dir="auto">#08</code> <a href="https://im1010ioio.hashnode.dev/css-selectors">CSS 選擇器總整理！id、class、:nth-child(n)、:not、:where、:is、:has 都難不倒我</a></p>
+</li>
+<li>
+<p><code dir="auto">#09</code> <a href="https://im1010ioio.hashnode.dev/css-variables">原生的 CSS 變數，基本與進階應用</a></p>
+</li>
+<li>
+<p><code dir="auto">#10</code> <a href="https://im1010ioio.hashnode.dev/pure-css-nesting">原生的 CSS 巢狀 (CSS Nesting) 終於支援啦！</a></p>
+</li>
+<li>
+<p><code dir="auto">#11</code> <a href="https://im1010ioio.hashnode.dev/css-dry-kiss-yagni">開始寫 CSS 或程式必須知道的 3 個原則：DRY &#x26; KISS &#x26; YAGNI</a></p>
+</li>
+<li>
+<p><code dir="auto">#12</code> <a href="https://im1010ioio.hashnode.dev/oocss-smacss-bem-rscss">4 個常見的 CSS 設計方法與命名建議：OOCSS、SMACSS、BEM、RSCSS</a></p>
+</li>
+<li>
+<p><code dir="auto">#71</code> <a href="https://im1010ioio.hashnode.dev/css-pseudo-before-after">CSS 偽元素的妙用：「::before」 與「::after」的常見用法</a></p>
+</li>
+<li>
+<p><code dir="auto">#72</code> <a href="https://im1010ioio.hashnode.dev/css-responsive-table-custom-order-list">CSS 偽元素的進階用法：用 ::before 與 ::after 做 RWD 表格 &#x26; 客製化樣式的序號清單 (ol, oder list)</a></p>
+</li>
+<li>
+<p><code dir="auto">#73</code> <a href="https://im1010ioio.hashnode.dev/css-nth-child-of-s">CSS :nth-child 的新寫法：:nth-child of S (N of Selector)</a></p>
+</li>
+<li>
+<p><code dir="auto">#74</code> <a href="https://im1010ioio.hashnode.dev/css-at-scope">CSS 也能控制作用域了！@scope 語法</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="版面編排">版面編排</h3><a class="sl-anchor-link" href="#版面編排"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “版面編排”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#13</code> <a href="https://im1010ioio.hashnode.dev/css-box-model">CSS 盒子模型 (Box Model)：border-box &#x26; content-box</a></p>
+</li>
+<li>
+<p><code dir="auto">#14</code> <a href="https://im1010ioio.hashnode.dev/reset-css">Reset CSS！用 Reset.css 或 Normalize.css 變回你該有的樣子</a></p>
+</li>
+<li>
+<p><code dir="auto">#15</code> <a href="https://im1010ioio.hashnode.dev/css-units">網頁使用的單位大解析：px、rem、em、%、vw、vh (dvh, lvh, svh)、vmin、vmax</a></p>
+</li>
+<li>
+<p><code dir="auto">#16</code> <a href="https://im1010ioio.hashnode.dev/css-calc-max-min-clamp">CSS 數學函式 calc()、max()、min()、clamp()</a></p>
+</li>
+<li>
+<p><code dir="auto">#17</code> <a href="https://im1010ioio.hashnode.dev/css-block-inline-inline-block">CSS block、inline、inline-block：網頁排版的御三家</a></p>
+</li>
+<li>
+<p><code dir="auto">#18</code> <a href="https://im1010ioio.hashnode.dev/css-flex">CSS Flex：網頁排版的超級寵兒</a></p>
+</li>
+<li>
+<p><code dir="auto">#19</code> <a href="https://im1010ioio.hashnode.dev/css-grid">CSS Grid：網頁排版的神奇格子，來排個照片牆與雞腿便當吧！</a></p>
+</li>
+<li>
+<p><code dir="auto">#20</code> <a href="https://im1010ioio.hashnode.dev/css-intrinsic-sizing">CSS 內部尺寸 (Intrinsic Sizing)：min-content、max-content、fit-content</a></p>
+</li>
+<li>
+<p><code dir="auto">#21</code> <a href="https://im1010ioio.hashnode.dev/css-position">CSS Position：relative、absolute、fixed、sticky 找到適合的定位</a></p>
+</li>
+<li>
+<p><code dir="auto">#22</code> <a href="https://im1010ioio.hashnode.dev/css-display-contents">CSS display: contents：製作 JS Components 時的好東西！</a></p>
+</li>
+<li>
+<p><code dir="auto">#23</code> <a href="https://im1010ioio.hashnode.dev/css-logical-properties">CSS 邏輯屬性 Logical properties 與 Writing modes</a></p>
+</li>
+<li>
+<p><code dir="auto">#79</code> <a href="https://im1010ioio.hashnode.dev/css-anchor-positioning">告別 JS 計算位置！CSS Anchor Positioning 定位的新寫法</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="響應式-rwd">響應式 RWD</h3><a class="sl-anchor-link" href="#響應式-rwd"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “響應式 RWD”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#24</code> <a href="https://im1010ioio.hashnode.dev/css-media-queries">RWD &#x26; CSS Media Queries &#x26; iOS Safari 上的經驗談</a></p>
+</li>
+<li>
+<p><code dir="auto">#25</code> <a href="https://im1010ioio.hashnode.dev/css-media-print">CSS 列印的小技巧：@media print、break-before/after/inside、@page</a></p>
+</li>
+<li>
+<p><code dir="auto">#26</code> <a href="https://im1010ioio.hashnode.dev/css-container-queries">CSS Container Queries 容器查詢：讓 CSS 的計算以容器自身為依據</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="文字">文字</h3><a class="sl-anchor-link" href="#文字"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “文字”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#27</code> <a href="https://im1010ioio.hashnode.dev/css-font-family-font-weight">網頁載入字體、Icon Font 與 CSS font-family、font-weight</a></p>
+</li>
+<li>
+<p><code dir="auto">#28</code> <a href="https://im1010ioio.hashnode.dev/css-white-space-word-breakline-clamp">CSS 文字過長、行數過多顯示點點點、文字自動折行、強制換行：white-space、word-break、-webkit-line-clamp 的妙用</a></p>
+</li>
+<li>
+<p><code dir="auto">#29</code> <a href="https://im1010ioio.hashnode.dev/css-text-effect">CSS 立體字、霓虹字、外框字、漸層字：text-shadow、-webkit-text-stroke、-webkit-background-clip</a></p>
+</li>
+<li>
+<p><code dir="auto">#75</code> <a href="https://im1010ioio.hashnode.dev/css-text-wrap-balance-pretty">用 CSS 解決網頁的「標題不平衡」與「孤字不成行」： text-wrap: balance / pretty</a></p>
+</li>
+<li>
+<p><code dir="auto">#76</code> <a href="https://im1010ioio.hashnode.dev/css-text-box-trim-edge">用 CSS 解決文字上下多出來的神秘空間：text-box-trim / text-box-edge</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="顏色">顏色</h3><a class="sl-anchor-link" href="#顏色"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “顏色”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#31</code> <a href="https://im1010ioio.hashnode.dev/css-colors-hex-rgb-hsl-lch-oklch">CSS 顏色設定：基本的 hex、rgb()、cmyk()、hsl()、hsb() 、hwb() 與明日之星的 lch()、oklch()</a></p>
+</li>
+<li>
+<p><code dir="auto">#32</code> <a href="https://im1010ioio.hashnode.dev/css-currentcolor-accent-color-color-mix">CSS currentcolor、accent-color 與混色的 color-mix() 讓規劃色彩系統好方便！</a></p>
+</li>
+<li>
+<p><code dir="auto">#33</code> <a href="https://im1010ioio.hashnode.dev/css-prefers-color-scheme">CSS 切換淺色/深色模式：Media Queries 的 prefers-color-scheme 搭配 CSS 變數</a></p>
+</li>
+<li>
+<p><code dir="auto">#77</code> <a href="https://im1010ioio.hashnode.dev/css-color-scheme-light-dark">實作網頁深色模式及淺色模式必備的 CSS 語法：color-scheme 與 light-dark()</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="多媒體圖片影片音訊處理">多媒體：圖片/影片/音訊處理</h3><a class="sl-anchor-link" href="#多媒體圖片影片音訊處理"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “多媒體：圖片/影片/音訊處理”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#34</code> <a href="https://im1010ioio.hashnode.dev/css-object-fit-background-size-aspect-ratio">CSS 讓圖片填滿容器的各種方法，以圓形大頭貼為例：object-fit 與 background-size，搭配 aspect-ratio</a></p>
+</li>
+<li>
+<p><code dir="auto">#35</code> <a href="https://im1010ioio.hashnode.dev/image-1x-2x-3x-srcset-resolution">圖片的 1x, 2x, 3x 是什麼？關於網頁上圖片解析度的處理：HTML srcset、CSS image-set() 與 @media resolution</a></p>
+</li>
+<li>
+<p><code dir="auto">#36</code> <a href="https://im1010ioio.hashnode.dev/36-html-video-youtube-iframe">HTML 用影片當背景，使用 iframe 嵌入 Youtube/ IG/ TikTok/ X (Twitter) 影片</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="繪製漸層與圖形">繪製漸層與圖形</h3><a class="sl-anchor-link" href="#繪製漸層與圖形"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “繪製漸層與圖形”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#37</code> <a href="https://im1010ioio.hashnode.dev/css-gradient">CSS 基本漸層：線性/放射/圓錐漸層 (CSS linear-gradient, radial-gradient, conic-gradient)</a></p>
+</li>
+<li>
+<p><code dir="auto">#38</code> <a href="https://im1010ioio.hashnode.dev/multiple-backgrounds">CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)</a></p>
+</li>
+<li>
+<p><code dir="auto">#39</code> <a href="https://im1010ioio.hashnode.dev/css-stripes-plaid-polka-checkerboard-background">CSS 幾何背景：條紋、格子、點點、棋盤格子背景 (CSS background)</a></p>
+</li>
+<li>
+<p><code dir="auto">#40</code> <a href="https://im1010ioio.hashnode.dev/css-fluid-gradient">使用 CSS filter blur 製作簡易的任意形狀漸層 (流動/暈染背景)</a></p>
+</li>
+<li>
+<p><code dir="auto">#41</code> <a href="https://im1010ioio.hashnode.dev/css-border-radius">用 CSS border-radius 畫圓角與圓圓的形狀：圓、圓柱、橢圓、蛋型、鐘型、葉子 (眼睛)、花瓣 (水滴/心形)、牛角 (彎月)</a></p>
+</li>
+<li>
+<p><code dir="auto">#42</code> <a href="https://im1010ioio.hashnode.dev/css-border-triangle">用 CSS border 繪製三角形箭頭 (等腰/直角三角形)</a></p>
+</li>
+<li>
+<p><code dir="auto">#43</code> <a href="https://im1010ioio.hashnode.dev/css-clip-path">用 CSS clip-path 剪裁各種形狀的色塊/圖片/影片</a></p>
+</li>
+<li>
+<p><code dir="auto">#44</code> <a href="https://im1010ioio.hashnode.dev/css-border-style">CSS 邊框 border 與各種花式邊框的小技巧：borde-image、outline、box-shadow</a></p>
+</li>
+<li>
+<p><code dir="auto">#81</code> <a href="https://im1010ioio.hashnode.dev/css-trigonometric-functions">CSS 可以寫三角函數？sin()、cos()、tan() 專門處理圓弧、波浪或是特殊角度</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="特效">特效</h3><a class="sl-anchor-link" href="#特效"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “特效”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#45</code> <a href="https://im1010ioio.hashnode.dev/css-mask">CSS 中的半透明遮罩 mask，實現各種模糊邊緣特效</a></p>
+</li>
+<li>
+<p><code dir="auto">#46</code> <a href="https://im1010ioio.hashnode.dev/css-filter-backdrop-filter">CSS 濾鏡 filter/ backdrop-filter：模糊、透明圖片加陰影、調色、毛玻璃、漸進式模糊效果</a></p>
+</li>
+<li>
+<p><code dir="auto">#47</code> <a href="https://im1010ioio.hashnode.dev/css-mix-blend-mode">一次搞懂 CSS 各種混合模式：mix-blend-mode/ background-blend-mode</a></p>
+</li>
+<li>
+<p><code dir="auto">#48</code> <a href="https://im1010ioio.hashnode.dev/css-grainy-gradients">CSS 噪點漸層 (Grainy Gradients) 的製作方法</a> (todo)</p>
+</li>
+<li>
+<p><code dir="auto">#49</code> <a href="https://im1010ioio.hashnode.dev/css-2d-transform">CSS 2D Transform：變大、變小、旋轉、傾斜，CSS 絕對定位置中方法、平行四邊形</a></p>
+</li>
+<li>
+<p><code dir="auto">#50</code> <a href="https://im1010ioio.hashnode.dev/css-3d-transform">CSS 3D Transform</a></p>
+</li>
+<li>
+<p><code dir="auto">#78</code> <a href="https://im1010ioio.hashnode.dev/css-svg-ios26-liquid-glass">CSS + SVG 仿 Apple iOS26 液態玻璃（Liquid Glass）效果 (Safari 不支援)</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="互動---transition">互動 - Transition</h3><a class="sl-anchor-link" href="#互動---transition"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “互動 - Transition”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#51</code> <a href="https://im1010ioio.hashnode.dev/css-transition">CSS Transition 與一些小技巧：倒帶、影響相鄰的兄弟</a> (todo hover 巢狀冒泡效果)</p>
+</li>
+<li>
+<p><code dir="auto">#52</code> <a href="https://im1010ioio.hashnode.dev/css-pseudo-classes">詳細了解 CSS 各種偽類：hover、focus、active、focus-within、focus-visible、target</a></p>
+</li>
+<li>
+<p><code dir="auto">#80</code> <a href="https://im1010ioio.hashnode.dev/css-starting-style-transition-behavior-allow-discrete">Display: none 也可以做 CSS Transition 動畫了？@starting-style 與 transition-behavior: allow-discrete</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="互動---animation">互動 - Animation</h3><a class="sl-anchor-link" href="#互動---animation"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “互動 - Animation”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#53</code> <a href="https://im1010ioio.hashnode.dev/css-animation">CSS Animation</a> (todo 逐格動畫 打字動畫 動畫暫停)</p>
+</li>
+<li>
+<p><code dir="auto">#54</code> <a href="https://im1010ioio.hashnode.dev/css-web-rendering-will-change">網頁渲染動畫的建議 &#x26; will-change 的使用時機</a></p>
+</li>
+<li>
+<p><code dir="auto">#55</code> <a href="https://im1010ioio.hashnode.dev/css-images-slider-fade-effects">純 CSS 照片淡入淡出輪播動畫</a></p>
+</li>
+<li>
+<p><code dir="auto">#56</code> <a href="https://im1010ioio.hashnode.dev/css-marquee">純 CSS 跑馬燈動畫，單趟跑、無限跑、要暫停都可以</a></p>
+</li>
+<li>
+<p><code dir="auto">#57</code> <a href="https://im1010ioio.hashnode.dev/css-houdini-property">CSS @property：變數的再進化！輕易製作純 CSS 漸層動畫、圓餅圖動畫</a></p>
+</li>
+<li>
+<p><code dir="auto">#58</code> <a href="https://im1010ioio.hashnode.dev/css-offset-path">CSS offset-path：沿著軌跡行進動畫</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="互動---click-toggle-行為">互動 - click toggle 行為</h3><a class="sl-anchor-link" href="#互動---click-toggle-行為"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “互動 - click toggle 行為”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#59</code> <a href="https://im1010ioio.hashnode.dev/css-switch-button">客製化 radio、checkbox 樣式，製作開關按鈕 (Switch Button)</a></p>
+</li>
+<li>
+<p><code dir="auto">#60</code> <a href="https://im1010ioio.hashnode.dev/css-sidebar">利用 checkbox，做到純 CSS 開關網頁選單、收合側邊欄</a></p>
+</li>
+<li>
+<p><code dir="auto">#61</code> <a href="https://im1010ioio.hashnode.dev/css-collapse-accordion-animation">利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="互動---scroll-行為">互動 - scroll 行為</h3><a class="sl-anchor-link" href="#互動---scroll-行為"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “互動 - scroll 行為”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#62</code> <a href="https://im1010ioio.hashnode.dev/css-overflow">使用 CSS overflow 自訂捲動範圍</a></p>
+</li>
+<li>
+<p><code dir="auto">#63</code> <a href="https://im1010ioio.hashnode.dev/css-custom-scrollbar">CSS 自訂捲軸顏色與樣式：scrollbar-color、scrollbar-width、scrollbar-gutter、::-webkit-scrollbar-*</a></p>
+</li>
+<li>
+<p><code dir="auto">#64</code> <a href="https://im1010ioio.hashnode.dev/css-scrolling-shadows">CSS 捲動提示陰影：使用 CSS 漸層 radial-gradient 與 isolation 製作</a></p>
+</li>
+<li>
+<p><code dir="auto">#65</code> <a href="https://im1010ioio.hashnode.dev/css-scroll-behavior">CSS 簡易的滑順捲軸滾動動畫 scroll-behavior</a></p>
+</li>
+<li>
+<p><code dir="auto">#66</code> <a href="https://im1010ioio.hashnode.dev/css-pseudo-target-and-target-text">CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標</a></p>
+</li>
+<li>
+<p><code dir="auto">#67</code> <a href="https://im1010ioio.hashnode.dev/css-pseudo-target-lightbox-tab">CSS :target 應用：純 CSS 光箱、純 CSS Tab 頁籤</a></p>
+</li>
+<li>
+<p><code dir="auto">#68</code> <a href="https://im1010ioio.hashnode.dev/css-overscroll-behavior">CSS overscroll-behavior：解決滾動穿透問題 &#x26; 阻止手機瀏覽器下拉重整</a></p>
+</li>
+<li>
+<p><code dir="auto">#69</code> <a href="https://im1010ioio.hashnode.dev/css-scroll-snap">CSS scroll snap 做簡單的純 CSS 輪播</a></p>
+</li>
+<li>
+<p><code dir="auto">#70</code> <a href="https://im1010ioio.hashnode.dev/css-animation-timeline">純 CSS 也能做滾動動畫了！animation-timeline 讓東西邊滾邊動</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="sassscss-css-預處理器">Sass/SCSS (CSS 預處理器)</h3><a class="sl-anchor-link" href="#sassscss-css-預處理器"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “Sass/SCSS (CSS 預處理器)”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#82</code> <a href="https://im1010ioio.hashnode.dev/scss-intro">SASS/SCSS (1) 介紹與簡易環境設定</a></p>
+</li>
+<li>
+<p><code dir="auto">#83</code> <a href="https://im1010ioio.hashnode.dev/scss-variables-nesting">SASS/SCSS (2) 變數 Variables / 巢狀寫法 Nesting</a></p>
+</li>
+<li>
+<p><code dir="auto">#84</code> <a href="https://im1010ioio.hashnode.dev/scss-use-import-default">SASS/SCSS (3) 使用檔案管理樣式 Partials / Modules (@use / @import / !default)</a></p>
+</li>
+<li>
+<p><code dir="auto">#85</code> <a href="https://im1010ioio.hashnode.dev/scss-mixin">SASS/SCSS (4) Mixins @mixin &#x26; @include</a></p>
+</li>
+<li>
+<p><code dir="auto">#86</code> <a href="https://im1010ioio.hashnode.dev/scss-extend">SASS/SCSS (5) Extend</a></p>
+</li>
+<li>
+<p><code dir="auto">#87</code> <a href="https://im1010ioio.hashnode.dev/scss-operators">SASS/SCSS (6) 運算符號（加減乘除）</a></p>
+</li>
+<li>
+<p><code dir="auto">#88</code> <a href="https://im1010ioio.hashnode.dev/scss-color-adjust-color-scale">SASS/SCSS (7) sass:color 顏色模組——color.adjust 與 color.scale 取代舊的 lighten() 和 darken()</a></p>
+</li>
+<li>
+<p><code dir="auto">#89</code> <a href="https://im1010ioio.hashnode.dev/scss-if-each-for-while">SASS/SCSS (8) 邏輯 @if, @each, @for 與 @while</a></p>
+</li>
+<li>
+<p><code dir="auto">#90</code> <a href="https://im1010ioio.hashnode.dev/scss-function">SASS/SCSS (9) 函式 (Function) - 打造你自己的工具箱</a></p>
+</li>
+<li>
+<p><code dir="auto">#91</code> <a href="https://im1010ioio.hashnode.dev/scss-list">SASS/SCSS (10) 資料結構 List (列表)</a></p>
+</li>
+<li>
+<p><code dir="auto">#92</code> <a href="https://im1010ioio.hashnode.dev/scss-map">SASS/SCSS (11) 資料結構 Map</a></p>
+</li>
+<li>
+<p><code dir="auto">#93</code> <a href="https://im1010ioio.hashnode.dev/scss-debug-warn-error">SASS/SCSS (12) 防呆與偵錯 @debug / @warn / @error</a></p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="css-框架初探">CSS 框架初探</h3><a class="sl-anchor-link" href="#css-框架初探"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “CSS 框架初探”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#94</code> 原子設計 - 大多數框架所遵循的原則</p>
+</li>
+<li>
+<p><code dir="auto">#95</code> Tailwind CSS</p>
+</li>
+<li>
+<p><code dir="auto">#96</code> Bootstrap</p>
+</li>
+<li>
+<p><code dir="auto">#97</code> 其他介紹（shadcn/Ant Design/Materialize CSS/Bulma/Open Props/UnoCSS/Foundation)</p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="seo-與其他實用工具">SEO 與其他實用工具</h3><a class="sl-anchor-link" href="#seo-與其他實用工具"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “SEO 與其他實用工具”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">#98</code> SEO 基本概念-1：語意化標籤與注意要點</p>
+</li>
+<li>
+<p><code dir="auto">#99</code> SEO 基本概念-2：Open Graph、結構化資料</p>
+</li>
+<li>
+<p><code dir="auto">#100</code> AAO：AI 的 SEO</p>
+</li>
+<li>
+<p><code dir="auto">#101</code> SEO 工具介紹</p>
+</li>
+<li>
+<p><code dir="auto">#102</code> SEO 寫作心法</p>
+</li>
+<li>
+<p><code dir="auto">#103</code> 省錢自架靜態網站的方法</p>
+</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="雜記">雜記</h3><a class="sl-anchor-link" href="#雜記"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “雜記”</span></a></div>
+<ul>
+<li>
+<p><code dir="auto">2023 鐵人賽開始：#00</code> 參賽前言 / 文章目錄（本篇）</p>
+</li>
+<li>
+<p><code dir="auto">2023 鐵人賽結束：#30</code> <a href="https://im1010ioio.hashnode.dev/thoughts-about-30-days">iT 鐵人賽心路歷程 &#x26; 我的寫作方法</a></p>
+</li>
+<li>
+<p><code dir="auto">2024 鐵人賽開始：#00</code> <a href="https://ithelp.ithome.com.tw/articles/10350686">PART 2！參賽前言 / 文章目錄</a></p>
+</li>
+<li>
+<p><code dir="auto">2025 鐵人賽開始：#00</code> <a href="https://ithelp.ithome.com.tw/articles/10380717">PART 3！參賽前言 / 文章目錄</a></p>
+</li>
+<li>
+<p><code dir="auto">#??</code> 真結局，感言</p>
+</li>
+</ul>
+<hr>
+<hr>
+<p>![](<a href="https://cdn.hashnode.com/res/hashnode/image/upload/v1683705571380/284e9ba0-04c8-43bd-a093-784c330bd862.png">https://cdn.hashnode.com/res/hashnode/image/upload/v1683705571380/284e9ba0-04c8-43bd-a093-784c330bd862.png</a> align=“left”)</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="2023-年當初寫的參賽前言">2023 年當初寫的參賽前言</h2><a class="sl-anchor-link" href="#2023-年當初寫的參賽前言"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “2023 年當初寫的參賽前言”</span></a></div>
+<p>本系列文章目標是學習 CSS 基本知識，並且研究 The State of CSS 中值得令人期待新屬性，讓想要學習 CSS 的人也能一起學到新知識，不用再零零散散地去爬文搜尋。此外，還會提及一些前端基本知識、版本控制、開發經驗等必要概念，讓新手對於前端開發有全面的認識。</p>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="這-30-天我想做什麼">這 30 天我想做什麼？</h3><a class="sl-anchor-link" href="#這-30-天我想做什麼"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “這 30 天我想做什麼？”</span></a></div>
+<p>這 30 天我的方向主要是：</p>
+<ul>
+<li>
+<p><strong>自我挑戰：研究新穎的 CSS 屬性</strong></p>
+<p>每年都有的 <a href="https://stateofcss.com/">The State of CSS</a> 統計，討論了許多新提出的 CSS 屬性（例如：<code dir="auto">color-mix()</code>、<code dir="auto">:has</code>、<code dir="auto">max()</code>、<code dir="auto">min()</code>、<code dir="auto">clamp()</code>、<code dir="auto">container query</code> 等等），我覺得很有趣，卻未曾實際深究，我想趁此機會加以了解。</p>
+</li>
+<li>
+<p><strong>作為筆記：供自己日後參考</strong><br>
+延續上一點，將這些新學到的東西統整起來。再來是，過去在學習的時候有些容易混淆的部分，我希望也能藉此機會一起釐清。</p>
+</li>
+<li>
+<div class="sl-heading-wrapper level-h4"><h4 id="作為紀念留下些什麼吧">作為紀念：留下些什麼吧！</h4><a class="sl-anchor-link" href="#作為紀念留下些什麼吧"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “作為紀念：留下些什麼吧！”</span></a></div>
+<p>工作了多年，我想留下個紀念，統整這些我所學到的知識，並且透過分享，在網路上留下一些痕跡。</p>
+</li>
+<li>
+<p><strong>幫助他人：讓人跨出學習網頁的第一步</strong><br>
+除了統整好基礎前端與 CSS 知識外，並且上述所說未來能變得實用，且目前瀏覽器支援度還不差的新屬性（支援的瀏覽器>=3），一併整理在所有基礎知識中。這樣想學的人也能一起學到新知識，不用再零零散散地去爬文搜尋。</p>
+</li>
+</ul>
+<p>本系列文章會以 CSS 為主，HTML、Git 等網頁開發概念為輔。</p>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="這個主題適合誰閱讀">這個主題適合誰閱讀？</h3><a class="sl-anchor-link" href="#這個主題適合誰閱讀"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Section titled “這個主題適合誰閱讀？”</span></a></div>
+<ul>
+<li>
+<p>主要目標族群是完全小白新手。無論你是想要學習網頁成為前端工程師，或是想要了解網頁如何運作的 PM 或設計師，都很適合。</p>
+<p>我會介紹基礎的前端知識，因為我發現有時在開發上，PM、設計師或是業主，容易因為不懂前端或網頁上的 Domain Knowledge，造成上工作上的溝通成本或重工，而這往往只是缺乏了幾個簡單的概念。</p>
+</li>
+<li>
+<p>次要則是已經會了，但是想了解 CSS 新屬性的人。</p>
+</li>
+</ul>
+<p>就讓我們開始前端基礎之旅吧！</p>
+<hr>
+<h4 id="">↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</h4>
+<p>如果你喜歡我的創作，還想看看其他有趣的分享與日常，<br>
+可以追蹤我的 IG <a href="https://www.instagram.com/im1010ioio/">@im1010ioio</a>，或者是<a href="https://im1010ioio.bobaboba.me/">🧋送杯珍奶鼓勵我</a>，謝謝你🥰。</p>
+<p>![送杯珍奶鼓勵我 (Eva Chen)](<a href="https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png">https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png</a> align=“left”)</p> </div> <footer class="sl-flex astro-3yyafb3n"> <div class="meta sl-flex astro-3yyafb3n">   </div> <div class="pagination-links print:hidden astro-3tgidlls" dir="ltr"> <a href="/getting-started/introduction/quickstart/" rel="prev" class="astro-3tgidlls"> <svg aria-hidden="true" class="astro-3tgidlls astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 2rem;"><path d="m11.29 12 3.54-3.54a1 1 0 0 0 0-1.41 1 1 0 0 0-1.42 0l-4.24 4.24a1 1 0 0 0 0 1.42L13.41 17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29 1 1 0 0 0 0-1.41Z"/></svg> <span class="astro-3tgidlls"> <span class="link-head astro-3tgidlls"> Previous page</span> <br class="astro-3tgidlls"> <span class="link-title astro-3tgidlls">Quickstart</span> </span> </a> <a href="/getting-started/global-settings/configuration/" rel="next" class="astro-3tgidlls"> <svg aria-hidden="true" class="astro-3tgidlls astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 2rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> <span class="astro-3tgidlls"> <span class="link-head astro-3tgidlls">Next page</span> <br class="astro-3tgidlls"> <span class="link-title astro-3tgidlls">Global Configuration</span> </span> </a> </div>   </footer>  </div> </div>   </main>  </div> <aside class="right-sidebar-container print:hidden astro-ik4k6pip"> <div class="right-sidebar astro-ik4k6pip"> <div class="lg:sl-hidden astro-ipkdnmgx"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-3uzlzljp"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-3uzlzljp"><details id="starlight__mobile-toc" class="astro-3uzlzljp"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-3uzlzljp"><span class="toggle sl-flex astro-3uzlzljp">On this page<svg aria-hidden="true" class="caret astro-3uzlzljp astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-3uzlzljp"></span></summary><div class="dropdown astro-3uzlzljp"><ul class="isMobile astro-dkgr3tcn" style="--depth: 0;"> <li class="astro-dkgr3tcn" style="--depth: 0;"> <a href="#_top" class="astro-dkgr3tcn" style="--depth: 0;"> <span class="astro-dkgr3tcn" style="--depth: 0;">Overview</span> </a> <ul class="isMobile astro-dkgr3tcn" style="--depth: 1;"> <li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#鐵人賽連結" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">鐵人賽連結</span> </a>  </li> </ul>  </li><li class="astro-dkgr3tcn" style="--depth: 0;"> <a href="#文章目錄" class="astro-dkgr3tcn" style="--depth: 0;"> <span class="astro-dkgr3tcn" style="--depth: 0;">文章目錄</span> </a> <ul class="isMobile astro-dkgr3tcn" style="--depth: 1;"> <li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#基礎知識--共用觀念" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">基礎知識 / 共用觀念</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#版面編排" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">版面編排</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#響應式-rwd" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">響應式 RWD</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#文字" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">文字</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#顏色" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">顏色</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#多媒體圖片影片音訊處理" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">多媒體：圖片/影片/音訊處理</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#繪製漸層與圖形" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">繪製漸層與圖形</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#特效" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">特效</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#互動---transition" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">互動 - Transition</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#互動---animation" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">互動 - Animation</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#互動---click-toggle-行為" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">互動 - click toggle 行為</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#互動---scroll-行為" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">互動 - scroll 行為</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#sassscss-css-預處理器" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">Sass/SCSS (CSS 預處理器)</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#css-框架初探" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">CSS 框架初探</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#seo-與其他實用工具" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">SEO 與其他實用工具</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#雜記" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">雜記</span> </a>  </li> </ul>  </li><li class="astro-dkgr3tcn" style="--depth: 0;"> <a href="#2023-年當初寫的參賽前言" class="astro-dkgr3tcn" style="--depth: 0;"> <span class="astro-dkgr3tcn" style="--depth: 0;">2023 年當初寫的參賽前言</span> </a> <ul class="isMobile astro-dkgr3tcn" style="--depth: 1;"> <li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#這-30-天我想做什麼" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">這 30 天我想做什麼？</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#這個主題適合誰閱讀" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">這個主題適合誰閱讀？</span> </a>  </li> </ul>  </li> </ul> </div></details></nav></mobile-starlight-toc><script type="module" src="/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.D6b82Fm_.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-ipkdnmgx"><div class="sl-container astro-ipkdnmgx"><starlight-toc data-min-h="2" data-max-h="3" class="astro-3xdywiv3"><nav aria-labelledby="starlight__on-this-page" class="astro-3xdywiv3"><h2 id="starlight__on-this-page" class="uppercase flex gap-2 pl-6 mb-6 astro-3xdywiv3"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="astro-3xdywiv3"><path d="M1.375 6H10.625M1.375 2.875H10.625M1.375 9.125H5.75" stroke="#A3A3A3" stroke-linecap="round" stroke-linejoin="round" class="astro-3xdywiv3"></path></svg>On this page</h2><ul class="astro-dkgr3tcn" style="--depth: 0;"> <li class="astro-dkgr3tcn" style="--depth: 0;"> <a href="#_top" class="astro-dkgr3tcn" style="--depth: 0;"> <span class="astro-dkgr3tcn" style="--depth: 0;">Overview</span> </a> <ul class="astro-dkgr3tcn" style="--depth: 1;"> <li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#鐵人賽連結" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">鐵人賽連結</span> </a>  </li> </ul>  </li><li class="astro-dkgr3tcn" style="--depth: 0;"> <a href="#文章目錄" class="astro-dkgr3tcn" style="--depth: 0;"> <span class="astro-dkgr3tcn" style="--depth: 0;">文章目錄</span> </a> <ul class="astro-dkgr3tcn" style="--depth: 1;"> <li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#基礎知識--共用觀念" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">基礎知識 / 共用觀念</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#版面編排" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">版面編排</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#響應式-rwd" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">響應式 RWD</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#文字" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">文字</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#顏色" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">顏色</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#多媒體圖片影片音訊處理" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">多媒體：圖片/影片/音訊處理</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#繪製漸層與圖形" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">繪製漸層與圖形</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#特效" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">特效</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#互動---transition" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">互動 - Transition</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#互動---animation" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">互動 - Animation</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#互動---click-toggle-行為" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">互動 - click toggle 行為</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#互動---scroll-行為" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">互動 - scroll 行為</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#sassscss-css-預處理器" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">Sass/SCSS (CSS 預處理器)</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#css-框架初探" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">CSS 框架初探</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#seo-與其他實用工具" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">SEO 與其他實用工具</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#雜記" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">雜記</span> </a>  </li> </ul>  </li><li class="astro-dkgr3tcn" style="--depth: 0;"> <a href="#2023-年當初寫的參賽前言" class="astro-dkgr3tcn" style="--depth: 0;"> <span class="astro-dkgr3tcn" style="--depth: 0;">2023 年當初寫的參賽前言</span> </a> <ul class="astro-dkgr3tcn" style="--depth: 1;"> <li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#這-30-天我想做什麼" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">這 30 天我想做什麼？</span> </a>  </li><li class="astro-dkgr3tcn" style="--depth: 1;"> <a href="#這個主題適合誰閱讀" class="astro-dkgr3tcn" style="--depth: 1;"> <span class="astro-dkgr3tcn" style="--depth: 1;">這個主題適合誰閱讀？</span> </a>  </li> </ul>  </li> </ul> </nav></starlight-toc><script type="module" src="/_astro/TableOfContents.astro_astro_type_script_index_0_lang.DUdptyTn.js"></script></div></div> </div> </aside> </div>  <script type="module">const t=document.querySelector(".content-container");t&&(t.style.opacity="1");</script>  </div> </div>   </div>  <script type="module">const i=document.querySelector(".sidebar");function a(){i&&(i.style.opacity="1")}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",a):a();const c=document.querySelectorAll(".accordion");c.forEach(e=>{e.addEventListener("click",()=>{c.forEach(t=>{t!==e&&t.classList.remove("active")}),e.classList.toggle("active")})});</script> </body></html>
