@@ -9,6 +9,7 @@ tags: background, css, images, 2articles1week, css-object-fit-property
 sidebar:
   order: 1
 ---
+![CSS 讓圖片填滿容器的各種方法，以圓形大頭貼為例：object-fit 與 background-size，搭配 aspect-ratio](https://cdn.hashnode.com/res/hashnode/image/upload/v1766405492622/c85f2229-8bfb-48d8-ab4f-a6c98dff50e8.png)
 
 > #### **↓ 今日學習重點 ↓**
 > 

@@ -9,6 +9,7 @@ tags: github, git
 sidebar:
   order: 4
 ---
+![GIT 實戰練習：GitHub Desktop、GitHub Page 基礎教學](https://cdn.hashnode.com/res/hashnode/image/upload/v1764751447165/0cd87c71-332b-4b6c-9add-5208e0f2e744.png)
 
 上一篇我們了解了 Git 與實際應用的概念，  
 接下來我們要實際練習使用 GIT 和 GitHub。

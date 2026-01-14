@@ -9,6 +9,7 @@ tags: css3, css, scrollbar, css-scroll, default-scrollbar-css
 sidebar:
   order: 2
 ---
+![CSS 自訂捲軸顏色與樣式：scrollbar-color、scrollbar-width、scrollbar-gutter、::-webkit-scrollbar-*](https://cdn.hashnode.com/res/hashnode/image/upload/v1766575632994/8b3dc593-14ce-42f7-be50-4383d81e0aee.png)
 
 今天我們要客製化瀏覽器捲軸的樣式，  
 捲軸通常會有「滑桿 thumb」、「軌道 track」與「按鈕」：

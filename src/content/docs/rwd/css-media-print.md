@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 2
 ---
+![CSS 列印的小技巧：@media print、break-before/after/inside、@page](https://cdn.hashnode.com/res/hashnode/image/upload/v1766033052075/447f7703-eb3e-40e9-ac24-e634abde27e6.png)
 
 網頁需要列印的情況，通常是一些表單頁面（收據、報告等）。上一篇我們講解了 CSS Media Queries，這篇我們要延伸來討論網頁列印時的情況。
 

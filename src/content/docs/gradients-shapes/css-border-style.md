@@ -9,6 +9,7 @@ tags: css3, css, 2articles1week, border
 sidebar:
   order: 8
 ---
+![CSS 邊框 border 與各種花式邊框的小技巧：borde-image、outline、box-shadow](https://cdn.hashnode.com/res/hashnode/image/upload/v1766463596574/826ce3aa-489a-4daa-8e6b-f0e1991f076d.png)
 
 前幾篇我們使用CSS 邊框 `border` 畫了很多圖形，但是好像還沒有正式來好好畫邊框。XD  
 今天，讓我們來研究邊框與各種花式邊框。

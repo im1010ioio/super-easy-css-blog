@@ -10,6 +10,7 @@ tags: css3, css, cssmediaqueries
 sidebar:
   order: 1
 ---
+![RWD & CSS Media Queries &](https://cdn.hashnode.com/res/hashnode/image/upload/v1766032181935/ba3b9649-ff14-43e8-a97c-39ce3f257f5b.png)
 
 當我們在設計網站時，我們希望網站能夠適應不同的裝置和螢幕尺寸，以提供更好的使用體驗，這就是響應式網頁設計（RWD，Responsive Web Design）。
 

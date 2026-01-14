@@ -9,6 +9,7 @@ tags: css3, css, css-grid
 sidebar:
   order: 7
 ---
+![CSS Grid、Subgrid：網頁排版的神奇格子，來排個照片牆與雞腿便當吧！](https://cdn.hashnode.com/res/hashnode/image/upload/v1765252837447/ec9067ee-9d32-4b51-8c46-87d11991b306.png)
 
 昨天我們介紹的 `flex` 是單向的排版，而今天我們要探討 `grid` ，它是雙向的排版，可以創造很多行與列。`grid` 也是十分好用的 CSS，大家一起學起來吧！
 

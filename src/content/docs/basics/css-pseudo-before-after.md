@@ -9,6 +9,7 @@ tags: pseudo-elements, css3, css, pseudo-classes, pseudo, pseudo-classes-in-css
 sidebar:
   order: 14
 ---
+![CSS 偽元素的妙用：「::before」 與「::after」的常見用法](https://cdn.hashnode.com/res/hashnode/image/upload/v1766644501505/982a62a7-db56-4093-9d0b-c72607031423.png)
 
 之前寫的文章，雖然有提到過，但是居然沒有好好地解釋過 CSS 的偽元素（Pseudo），也就是 `::before` 與 `::after`。這超級實用的，怎麼能沒有呢？所以今天就來好好地認識一下它們吧！
 

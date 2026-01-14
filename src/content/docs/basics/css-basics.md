@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 8
 ---
+![Css 基本語法 & 權重介紹](https://cdn.hashnode.com/res/hashnode/image/upload/v1764760942424/c465a72b-63b0-4698-9de0-89eb737f66de.png)
 
 我們終於進入我們的重點 CSS 啦！今天要來講解 CSS 權重與選擇器。
 

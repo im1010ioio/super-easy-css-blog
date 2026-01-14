@@ -9,6 +9,7 @@ tags: css3, css, animation, css-animation, web-animation
 sidebar:
   order: 1
 ---
+![CSS Animation](https://cdn.hashnode.com/res/hashnode/image/upload/v1766490100467/4939b838-48ff-4ac8-91fc-45288b961ab0.png)
 
 在網頁設計中，**CSS 動畫** 可以讓你的網站更具互動性和吸引力。過去，我們可能需要透過 JavaScript 才能實現動畫效果，但隨著 CSS3 的發展，現在只需要簡單的 CSS 就能輕鬆實現各種動畫效果！
 

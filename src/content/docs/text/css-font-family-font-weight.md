@@ -9,6 +9,7 @@ tags: font-awesome, fonts, css3, css
 sidebar:
   order: 1
 ---
+![網頁載入字體、Icon Font 與 CSS font-family、font-weight](https://cdn.hashnode.com/res/hashnode/image/upload/v1766038613747/cafe0f32-cfc0-4062-bcc0-313d004f22b1.png)
 
 我們關於版面編排與 RWD 的部分終於告一個段落了，現在大觀念了解後，接下來我們要深入各個樣式的細節，例如文字、圖片、圖形、互動等等。首先，我們將從文字的部分開始。
 

@@ -9,6 +9,7 @@ tags: css3, css, trigonometry, trigonometric-functions
 sidebar:
   order: 9
 ---
+![CSS 可以寫三角函數？sin()、cos()、tan() 專門處理圓弧、波浪或是特殊角度](https://cdn.hashnode.com/res/hashnode/image/upload/v1766687684276/d8b1c3ba-65be-4e46-a360-d75908bb77eb.png)
 
 今天我們要來研究一個 CSS 中相對較新、但功能強大的工具：三角函數。
 

@@ -9,6 +9,7 @@ tags: css3, css, sass, scss
 sidebar:
   order: 8
 ---
+![SASS/SCSS (8) 邏輯 @if, @each, @for 與 @while](https://cdn.hashnode.com/res/hashnode/image/upload/v1766736107046/6dbad666-4681-4c3f-a48e-2c76a2dd54e8.png)
 
 今天，我們來介紹 SCSS 中最像「程式語言」的部分——SCSS 的控制指令 (Control Directives)，它們能讓你的樣式擁有真正的「邏輯」，根據條件、迴圈來自動生成樣式，也就是所謂的：
 

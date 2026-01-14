@@ -9,6 +9,7 @@ tags: css3, css, transition, transition-properties-in-css, starting-style, allow
 sidebar:
   order: 3
 ---
+![ Display: none 也可以做 CSS Transition 動畫了？@starting-style 與 transition-behavior: allow-discrete](https://cdn.hashnode.com/res/hashnode/image/upload/v1766673363172/91d30860-c4e3-4a03-b6d3-cf0b7e8e5040.png)
 
 想要 UI 出現時，不只是生硬地「出現」嗎？今天我們要來研究兩個 CSS 的新語法：`@starting-style` 和 `transition-behavior: allow-discrete`。他們是專門解決那些從 `display: none` 這類狀態做成動畫的困境。
 

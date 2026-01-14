@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 4
 ---
+![CSS 數學函式 calc()、max()、min()、clamp()](https://cdn.hashnode.com/res/hashnode/image/upload/v1764906058341/357c0621-da92-4a22-8424-71a853e2a836.png)
 
 CSS 的數值可以做簡單的運算，今天我們要介紹 CSS 的數學函式，數學函式可以讓你在設計網頁時更靈活操控元素的尺寸和位置。
 

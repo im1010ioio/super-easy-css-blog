@@ -9,6 +9,7 @@ tags: css3, css, text-overflow
 sidebar:
   order: 2
 ---
+![CSS 文字過長、行數過多顯示點點點、文字自動折行、強制換行：white-space、word-break、-webkit-line-clamp 的妙用](https://cdn.hashnode.com/res/hashnode/image/upload/v1766058142903/d5abc605-6da9-416f-ad28-25b9c9f29212.png)
 
 在網頁中，許多資料是動態產生的，也就是說我們沒有辦法控制內容的長短，版面可能被文字擠到破版，也可能會該換行的沒有換行。
 

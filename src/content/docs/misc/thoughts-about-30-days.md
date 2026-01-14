@@ -9,6 +9,7 @@ tags: diary
 sidebar:
   order: 2
 ---
+![2023 iT 鐵人賽心路歷程 & 我的寫作方法](https://cdn.hashnode.com/res/hashnode/image/upload/v1766115097879/37d8f746-edcb-4fda-9570-63e278086282.png)
 
 這 30 天真的是很經歷了好多，這中間經歷了去日本玩、首次確診、兩個連假，同時要整理過去熟悉的知識，還要研究其他我不會的，一度還逼近棄賽，能完賽很感動。
 

@@ -9,6 +9,7 @@ tags: css3, css, sass, scss, extend
 sidebar:
   order: 5
 ---
+![SASS/SCSS (5) Extend](https://cdn.hashnode.com/res/hashnode/image/upload/v1766722774878/1d53ade5-0ec2-4c16-a722-9118be8b8878.png)
 
 今天，我們要來學一個和昨天說的 `@mixin` 很像，但運作原理和使用情境卻截然不同的 SCSS 功能：`@extend`。
 

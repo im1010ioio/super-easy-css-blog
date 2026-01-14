@@ -9,6 +9,7 @@ tags: css3, css, isolation, scroll-shadows, css-isolation
 sidebar:
   order: 3
 ---
+![CSS 捲動提示陰影：使用 CSS 漸層 radial-gradient 與 isolation 製作](https://cdn.hashnode.com/res/hashnode/image/upload/v1766593448213/b6ef4fab-47a2-4c45-a92b-8dd973d21b84.png)
 
 今天我們要來製作一個捲動提示陰影效果：在捲動框的最頂端、最尾端沒有陰影，但是在捲動時有淡淡的陰影出現，提示使用者上面、下面還有內容。
 

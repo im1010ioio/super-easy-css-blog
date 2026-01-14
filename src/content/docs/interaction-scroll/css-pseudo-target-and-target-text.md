@@ -9,6 +9,7 @@ tags: pseudo-elements, css3, css, hashing, links, target, target-text
 sidebar:
   order: 5
 ---
+![CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標](https://cdn.hashnode.com/res/hashnode/image/upload/v1766594162009/d133ddb0-ac00-4443-bdcf-9b9eaa6daf2f.png)
 
 昨天我們讓很長內容的滾動範圍可以用 hash 連結滑順地滾動，今天我們要進一步優化它。
 

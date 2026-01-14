@@ -9,6 +9,7 @@ tags: css3, css, html, images, html5, 2articles1week, resolution
 sidebar:
   order: 2
 ---
+![圖片的 1x, 2x, 3x 是什麼？關於網頁上圖片解析度的處理：HTML <img> srcset、CSS image-set() 與 @media resolution](https://cdn.hashnode.com/res/hashnode/image/upload/v1766407025782/fbe1d25e-71f5-4a36-bfc6-11e6886a056e.png)
 
 為什麼我的圖片明明大小沒錯，在較好的螢幕上（例如 apple retina 螢幕）卻顯得糊糊的？
 

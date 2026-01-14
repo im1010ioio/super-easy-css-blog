@@ -9,6 +9,7 @@ tags: css3, css, css-animation, image-slider
 sidebar:
   order: 3
 ---
+![純 Css 照片淡入淡出輪播動畫](https://cdn.hashnode.com/res/hashnode/image/upload/v1766491366234/86078bd1-ec82-494e-a318-d3f32af58e67.png)
 
 今天要來教大家如何使用 CSS Animation 製作簡單的純 CSS 照片淡入淡出輪播動畫。
 

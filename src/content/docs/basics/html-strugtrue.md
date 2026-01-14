@@ -1,5 +1,5 @@
 ---
-title: "寫一份簡單的 Html，常用 Html Tag 總整理"
+title: "寫一份簡單的 HTML，常用 HTML Tag 總整理"
 datePublished: Fri Sep 22 2023 04:57:49 GMT+0000 (Coordinated Universal Time)
 cuid: clmu4s1j5000a09l589tdb8jf
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764756220506/0d7d8b66-4b21-4061-8977-1993d6910eb3.png
@@ -9,6 +9,7 @@ tags: html, html5
 sidebar:
   order: 6
 ---
+![寫一份簡單的 HTML，常用 HTML Tag 總整理](https://cdn.hashnode.com/res/hashnode/image/upload/v1764756220506/0d7d8b66-4b21-4061-8977-1993d6910eb3.png)
 
 今天，讓我們來了解一份簡單的 HTML 會長什麼樣？  
 然後，修改一下[第 #04 篇建立的 HTML 檔案](https://im1010ioio.hashnode.dev/git-github-gitpage-practice)，練習看看吧！

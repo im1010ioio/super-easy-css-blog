@@ -9,6 +9,7 @@ tags: background, css3, css, background-image, 2articles1week
 sidebar:
   order: 2
 ---
+![CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766408304889/bda3810b-e154-4aa3-a0f4-4ea84bfd78cd.png)
 
 我們了解如何設定背景圖，了解了如何畫漸層，接下來就可以靠著多重背景、 `background size` 、 `background position` 與 `background origin` 等等屬性，打出一連串的組合技。
 

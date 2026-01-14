@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 13
 ---
+![4 個常見的 Css 設計方法與命名建議：oocss、smacss、bem、rscss](https://cdn.hashnode.com/res/hashnode/image/upload/v1764825953417/f3fdec25-906a-485b-9786-d59b9515eeec.png)
 
 上篇我們了解了寫 Code 的三大方向，主要都是為了更簡單、更好維護。
 

@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 9
 ---
+![Css 選擇器總整理！](https://cdn.hashnode.com/res/hashnode/image/upload/v1764762600944/2a5ec0e7-5f49-4322-bf68-1ae60773551b.png)
 
 本篇會用實例與註解說明各種實用的 CSS 選取器，由於很多所以可以先存起來，之後要用到時再查詢。
 

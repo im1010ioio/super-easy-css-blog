@@ -9,6 +9,7 @@ tags: github, git, gitflow
 sidebar:
   order: 3
 ---
+![人在江湖，版控要有：了解 GIT / GitHub / GitLab / Git Flow](https://cdn.hashnode.com/res/hashnode/image/upload/v1764754359100/1880f471-5ad1-4713-9e1d-c4790677519b.png)
 
 我把我所知的 Git 知識都放在這了，自己去拿吧！（航海王口吻）  
 不過也許有誤，或者是更延伸的知識，歡迎大家留言給我。XD

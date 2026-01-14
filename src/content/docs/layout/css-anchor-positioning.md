@@ -9,6 +9,7 @@ tags: css3, css, anchor-positioning
 sidebar:
   order: 12
 ---
+![告別 JS 計算位置！CSS Anchor Positioning 定位的新寫法](https://cdn.hashnode.com/res/hashnode/image/upload/v1766671310829/54c1389e-68d9-4f9c-91b8-b67898409216.png)
 
 從前要用 CSS 精準地將一個元素（例如：Tooltip、下拉式選單）對齊另一個元素，總是要大費周章，甚至需要動用 JS 來計算位置。現在，CSS 推出了一個眾所期待的新功能：**Anchor Positioning**。它讓我們能以更單純的 CSS，將元素彼此「錨定」，輕鬆解決各種的定位難題。
 

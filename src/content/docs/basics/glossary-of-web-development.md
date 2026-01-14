@@ -10,6 +10,7 @@ tags: ux, web-development, ui, responsive-web-design, mobile-first
 sidebar:
   order: 1
 ---
+![ 網頁的基本名詞：UI/UX？切版&切圖？前端&後端？靜態&動態？RWD or Mobile First？ | Super Easy CSS](https://cdn.hashnode.com/res/hashnode/image/upload/v1764751222999/e4d05c3e-8d4c-41c9-ae0f-8405f0a3e914.png)
 
 > #### ↓ 今日學習重點 ↓
 > 

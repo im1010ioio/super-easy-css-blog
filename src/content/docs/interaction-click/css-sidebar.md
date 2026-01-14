@@ -9,6 +9,7 @@ tags: css3, css, css-animations, animation, css-animation, sidebar, sidecar-cont
 sidebar:
   order: 2
 ---
+![利用 checkbox，做到純 CSS 開關網頁選單、收合側邊欄](https://cdn.hashnode.com/res/hashnode/image/upload/v1766572871211/31883184-d4b3-461a-98b2-8b659a7b5b1a.png)
 
 上篇我們教了大家如何客製化 `checkbox` 與 `radio` 樣式，其實運用同樣的原理，我們也可以做到簡單的互相切換（toggle）行為，例如：「點了就開，再點就關」這種動作。
 

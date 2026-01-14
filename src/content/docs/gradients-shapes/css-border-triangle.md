@@ -9,6 +9,7 @@ tags: css3, css, triangle, border
 sidebar:
   order: 6
 ---
+![用 CSS border 繪製三角形箭頭 (等腰/直角三角形)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766410148701/b7e131e4-5777-4d50-96de-b969f4a3fda2.png)
 
 在 CSS 中，可以使用邊框 `border` 來繪製三角形，通常會被當成箭頭使用，用在提示框的邊緣或操作步驟按鈕上。
 

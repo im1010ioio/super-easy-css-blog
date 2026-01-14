@@ -9,6 +9,7 @@ tags: html, html5, html-file-paths
 sidebar:
   order: 7
 ---
+![網頁的根、絕對路徑、相對路徑，那些關於路徑的小知識](https://cdn.hashnode.com/res/hashnode/image/upload/v1764758645263/272caa81-7842-485e-81dc-c59450a81497.png)
 
 HTML 的屬性 `href`、`src` 都需要指定檔案路徑才能載入進來，  
 所以這邊補充個關於路徑的小知識。

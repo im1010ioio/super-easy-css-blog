@@ -9,6 +9,7 @@ tags: css3, css, sass, scss
 sidebar:
   order: 11
 ---
+![SASS/SCSS (11) 資料結構 Map](https://cdn.hashnode.com/res/hashnode/image/upload/v1766737371006/dee474f7-79f4-4ebd-94ec-f660b6b117f7.png)
 
 昨天學到的 List 是個簡單的列表，今天我們要來看看 SCSS 中的 Map，它有點像 json 資料。
 

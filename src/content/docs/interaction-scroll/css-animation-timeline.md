@@ -9,6 +9,7 @@ tags: css3, css, css-animation, scroll-animation, animation-timeline
 sidebar:
   order: 9
 ---
+![純 CSS 也能做滾動動畫了！animation-timeline 讓東西邊滾邊動](https://cdn.hashnode.com/res/hashnode/image/upload/v1766596447749/79def804-427a-4cc8-8e15-6b2afffd2d1c.png)
 
 你一定看過那種很酷的網頁：當你向下滾動時，背景圖片移動得比前景文字慢，或者某個元素會隨著滾動淡入、旋轉、放大，創造出引人入勝的深度和故事感。
 

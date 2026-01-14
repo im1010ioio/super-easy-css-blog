@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 5
 ---
+![CSS block、inline、inline-block：網頁排版的御三家](https://cdn.hashnode.com/res/hashnode/image/upload/v1766403329127/ef1c311e-6c92-49c2-bf90-8074636ee579.png)
 
 在 CSS 中，`display` 屬性是一個關鍵的屬性，它可以改變 HTML 元素在網頁中的顯示方式。本篇我們將學習三種常見的 `display` 屬性值：`block`、`inline` 和 `inline-block`，並了解它們的特性和使用情境。
 

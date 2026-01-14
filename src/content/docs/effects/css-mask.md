@@ -9,6 +9,7 @@ tags: css3, css, 2articles1week, mask
 sidebar:
   order: 1
 ---
+![CSS 中的半透明遮罩 mask，實現各種模糊邊緣特效](https://cdn.hashnode.com/res/hashnode/image/upload/v1766467622070/0014c088-4898-4e1d-b145-cf4bae77a334.png)
 
 前幾篇寫到 CSS clip-path 時，可以剪裁任何 HTML 的元素，包含色塊、圖片、影片，但是他只限於精準的剪裁線條，萬一今天要有更複雜而且半透明的剪裁呢？
 

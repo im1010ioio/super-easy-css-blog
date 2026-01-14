@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 12
 ---
+![開始寫 Css 或程式必須知道的 3 個原則：Dry & Kiss & Yagni](https://cdn.hashnode.com/res/hashnode/image/upload/v1764820375489/46c2ca08-6de0-4cd6-9dc0-5a83d4343055.png)
 
 在進入寫 CSS（或其他程式碼）的世界之前，有幾個重要的原則值得我們了解和牢記。這些能夠提高 code 的品質，讓他們未來容易維護和擴增。以下將介紹三個重要的原則：
 

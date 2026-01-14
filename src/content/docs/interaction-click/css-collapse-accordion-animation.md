@@ -9,6 +9,7 @@ tags: css3, css, css-animation, collapse, accordion-menu
 sidebar:
   order: 3
 ---
+![利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）](https://cdn.hashnode.com/res/hashnode/image/upload/v1766573492991/1e107051-bb6c-4753-85d3-a740bb4229aa.png)
 
 前幾篇我們有提到 CSS `transition` 的特性：
 

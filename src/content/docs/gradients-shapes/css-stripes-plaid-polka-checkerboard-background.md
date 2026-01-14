@@ -9,6 +9,7 @@ tags: background, css3, css, 2articles1week, gradients-in-css
 sidebar:
   order: 3
 ---
+![CSS 幾何背景：條紋、格子、點點、棋盤格子背景 (CSS background)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766408589920/010d66fb-47a9-4dff-a090-5a4da65fc503.png)
 
 除了單純的漸層色外，漸層還能夠延伸畫出其他的圖案：如條紋、格子、點點、棋盤格背景等等，很神奇吧！這些特殊背景是我從一本 CSS 好書「CSS Secrets」中學到的，這本書裡面還有很多神奇 CSS 小知識，大家可以去借來看看。
 

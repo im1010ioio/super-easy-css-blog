@@ -9,6 +9,7 @@ tags: html, html5, video, youtube
 sidebar:
   order: 3
 ---
+![HTML <video> 用影片當背景，使用 iframe 嵌入 Youtube自動播放/ IG/ TikTok/ X (Twitter) 影片](https://cdn.hashnode.com/res/hashnode/image/upload/v1766407422606/29dc2791-247d-41c2-b42e-9edfe1a39adc.png)
 
 在設計行銷網頁時，放入漂亮的影片是最輕鬆達到吸睛效果的方法之一，例如：把影片放至滿版當成背景，上面再壓上標題與文字，畫面就會很豐富，這是很常見的網頁設計方式。
 

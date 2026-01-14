@@ -9,6 +9,7 @@ tags: css3, css, 2articles1week, clipping-path
 sidebar:
   order: 7
 ---
+![用 CSS clip-path 剪裁各種形狀的色塊/圖片/影片](https://cdn.hashnode.com/res/hashnode/image/upload/v1766463116355/68a6acb1-bf24-4d17-b911-e6e4c1007d03.png)
 
 在 CSS 中除了使用 border 來繪製形狀，還有一個語法 `clip-path` 也可以繪製圖形，它可以將東西指定在某個形狀內，例如圓形、多邊形，甚至是使用 SVG 路徑等特殊形狀。
 

@@ -9,6 +9,7 @@ tags: css3, css, text-box, text-box-trim, text-box-edge
 sidebar:
   order: 5
 ---
+![用 CSS 解決文字上下多出來的神秘空間：text-box-trim / text-box-edge](https://cdn.hashnode.com/res/hashnode/image/upload/v1766658079218/93b8ffa2-949d-433b-a96d-218260e4b5e4.png)
 
 你是不是也常常爲了文字上下多出來的神秘空白間距感到困擾，導致按鈕裡的文字、或是標題跟內文之間的距離怎麼調都感覺不太對勁？
 

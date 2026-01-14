@@ -9,6 +9,7 @@ tags: css3, css, svg, liquid-glass, ios26, liquid-glass-design
 sidebar:
   order: 7
 ---
+![CSS + SVG 仿 Apple iOS26 液態玻璃（Liquid Glass）效果  (Safari 不支援)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766667429387/a6ed6d77-115a-48c7-90b9-fe28c0aaa8ca.png)
 
 iOS 26 的液態玻璃（Liquid Glass）效果，今天我們來試試看網頁能不能做到。  
 這個效果的核心概念是「模糊背景」再加上「不規則扭曲」，就像透過一杯正在晃動的水看東西一樣。

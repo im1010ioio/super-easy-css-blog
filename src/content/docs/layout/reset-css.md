@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 2
 ---
+![Reset CSS！用 Reset.css 或 Normalize.css 變回你該有的樣子](https://cdn.hashnode.com/res/hashnode/image/upload/v1764831462030/690494ef-b064-4ecb-a3f1-7bd9f0654fe6.png)
 
 ## CSS 為什麼需要 Reset？
 

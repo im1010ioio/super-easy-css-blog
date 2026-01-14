@@ -9,6 +9,7 @@ tags: css3, css, css-flexbox
 sidebar:
   order: 6
 ---
+![CSS Flex 彈性盒子：網頁排版的超級寵兒](https://cdn.hashnode.com/res/hashnode/image/upload/v1765174348896/0c0448bf-3280-41f8-9a41-7a721d87abfa.png)
 
 Flex 又稱彈性盒子，是目前學習 CSS 必學的排版方式之一，有了它幾乎 80% 的版面都可以排出來。過去 `block`、`inline`、`inline-block` 都不是專為排版而生的 CSS 屬性，導致修改排版會變得不方便，於是後來有了 `flex` 與 `grid` 的出現，讓現在的大家可以很輕鬆地安排版面。
 

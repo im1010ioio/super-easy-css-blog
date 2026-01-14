@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 3
 ---
+![網頁使用的單位大解析：px、rem、em、%、vw、vh (dvh, lvh, svh)、vmin、vmax](https://cdn.hashnode.com/res/hashnode/image/upload/v1764832565569/2134fe80-3df2-4d25-9e33-076f8f3887b6.png)
 
 在網頁設計中，我們會使用到各種單位來調整尺寸和排版，而單位分成絕對單位和相對單位。
 

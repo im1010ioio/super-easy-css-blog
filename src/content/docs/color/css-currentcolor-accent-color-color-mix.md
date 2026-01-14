@@ -9,6 +9,7 @@ tags: css3, css, color
 sidebar:
   order: 2
 ---
+![多種 CSS 顏色設定：變數 currentcolor、checkbox/radio 顏色、input placeholder、閃動的光標顏色、文字反白的顏色，用混色的 color-mix() 製作色彩系統](https://cdn.hashnode.com/res/hashnode/image/upload/v1766404538299/44dc46a8-c7ec-4524-ba4a-88b70187d12c.png)
 
 上一篇我們了解了如何各種設定顏色的方式，這一篇我們要來了解關於其他顏色的小事，都很好用，像是顏色的變數 `currentcolor`、input 的顏色 `accent-color`、input 閃動的光標顏色、文字反白的顏色，甚至進階一點的混色 `color-mix()`。
 

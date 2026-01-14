@@ -9,6 +9,7 @@ tags: css3, css, overflow, overflow-property, css-scroll, scrollable
 sidebar:
   order: 1
 ---
+![使用 CSS overflow 自訂捲動範圍](https://cdn.hashnode.com/res/hashnode/image/upload/v1766575139449/6b0bda74-8cb8-4e18-b131-e942fddd3720.png)
 
 當我們在進行網頁設計時，常常要處理當內容超出容器範圍時的情況，這就是使用到 `overflow` 屬性的時候了！`overflow` 最常用在自訂捲動範圍，尤其是系統後台網頁常見的雙欄設計上。
 

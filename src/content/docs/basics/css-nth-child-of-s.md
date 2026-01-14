@@ -9,6 +9,7 @@ tags: css3, css, css-nth-child-selectors
 sidebar:
   order: 16
 ---
+![CSS :nth-child 的新寫法：:nth-child of S (N of Selector)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766645222550/d00f7162-75d4-4d4d-a9e1-9ba83e647892.png)
 
 在寫 CSS 時，你是否也曾對 `:nth-child` 又愛又恨呢？它雖然強大，但有時在較複雜的 HTML 結構中，要選到對的東西，有時就只差那麼一點點…
 

@@ -9,6 +9,7 @@ tags: css3, css, cssmediaqueries, prefers-color-scheme
 sidebar:
   order: 3
 ---
+![CSS 切換淺色/深色模式：Media Queries 的 prefers-color-scheme 搭配 CSS 變數](https://cdn.hashnode.com/res/hashnode/image/upload/v1766405008436/c15fbcc2-b2bd-49da-8f8a-33284815c891.png)
 
 關於顏色的設定方法、顏色的變數、混色的新方法，我們在前兩篇都說過了，關於顏色還有什麼需要了解的呢？那就是近幾年在軟體設計中常出現的：淺色與深色模式切換。
 

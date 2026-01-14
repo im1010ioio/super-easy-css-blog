@@ -9,6 +9,7 @@ tags: css3, css, css-animation, scroll, scroll-animation, scroll-behavior
 sidebar:
   order: 4
 ---
+![CSS 簡易的滑順捲軸滾動動畫 scroll-behavior](https://cdn.hashnode.com/res/hashnode/image/upload/v1766593768541/b798386c-3a45-4adb-bdf2-8870f7842917.png)
 
 前幾篇我們已經學會怎麼設定 CSS 的滾動範圍，現在我們要再對滾動的操作行為做一些很簡單的設定，就是：滾動時的行為 `scroll-behavior` 。
 

@@ -9,6 +9,7 @@ tags: css3, css, 2articles1week, mix-blend-mode, background-blend-mode
 sidebar:
   order: 3
 ---
+![一次搞懂 CSS 各種混合模式：mix-blend-mode/ background-blend-mode](https://cdn.hashnode.com/res/hashnode/image/upload/v1766470170270/efdfe19d-834c-4b73-91a0-3de78a42b6f6.png)
 
 `mix-blend-mode` 和 `background-blend-mode` 能讓元素或背景顏色和它們背後的元素或背景進行混合，從而產生不同的視覺效果。這些效果類似於 Photoshop 等圖像編輯軟件中的「混合模式」。
 

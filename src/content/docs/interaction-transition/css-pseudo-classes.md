@@ -9,6 +9,7 @@ tags: css3, css, focus, active, pseudo-classes, hover, pseudo-classes-in-css
 sidebar:
   order: 2
 ---
+![詳細了解 CSS 各種偽類：hover、focus、active、focus-within、focus-visible、target](https://cdn.hashnode.com/res/hashnode/image/upload/v1766489845043/60d04b68-8b82-446f-96fc-1986e6fc98fe.png)
 
 CSS 偽類提供了一種方法，讓我們可以根據元素的不同狀態來變更其樣式。例如，當使用者將滑鼠移到元素上或點擊元素時，偽類會根據這些狀態套用特定的樣式（突然覺得這應該在剛開始先交給大家 XD）。
 

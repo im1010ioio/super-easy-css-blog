@@ -9,6 +9,7 @@ tags: css3, css, css-position
 sidebar:
   order: 9
 ---
+![CSS Position：relative、absolute、fixed、sticky 找到適合的定位](https://cdn.hashnode.com/res/hashnode/image/upload/v1765897799340/41ae494f-ba78-4877-949f-4c3b5f386ff5.png)
 
 CSS Position 屬性可以用來設定元素在網頁中的位置，也是必學的屬性之一。  
 它主要有 5 個定位方式：`static`、`relative`、`absolute`、`fixed` 和 `sticky`。

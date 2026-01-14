@@ -9,6 +9,7 @@ tags: css3, css, css-animation, houdini, property, css-houdini
 sidebar:
   order: 5
 ---
+![CSS @property：變數的再進化！輕易製作純 CSS 漸層動畫、圓餅圖動畫](https://cdn.hashnode.com/res/hashnode/image/upload/v1766491860511/9a663172-9433-4965-954a-b0cfd3ddccd5.png)
 
 CSS 除了變數外，還可以額外新增自訂屬性—— `@property`，現已全面支援了！
 

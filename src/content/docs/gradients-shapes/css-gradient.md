@@ -9,6 +9,7 @@ tags: background, css3, css, stripe, 2articles1week, gradients-in-css
 sidebar:
   order: 1
 ---
+![CSS 基本漸層：線性/放射/圓錐漸層 (CSS linear-gradient, radial-gradient, conic-gradient)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766407990142/d38b08c2-b1be-4975-b27c-8036f48b31c2.png)
 
 除了背景圖片，漸層色也是屬於 CSS 的背景一種，今天我們就來練習畫各種漂亮漸層吧！
 

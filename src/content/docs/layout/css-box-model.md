@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 1
 ---
+![CSS 盒子模型 (Box Model)：border-box & content-box](https://cdn.hashnode.com/res/hashnode/image/upload/v1764830380655/74bb1cde-f0e0-4337-b79d-86ad4d7449a8.png)
 
 在網頁中，每個 HTML 元素都是一個方塊，我們又稱之為「盒子 Box」。
 

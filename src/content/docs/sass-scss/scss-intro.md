@@ -9,6 +9,7 @@ tags: css3, css, sass, scss
 sidebar:
   order: 1
 ---
+![Sass/scss (1) 介紹與簡易環境設定](https://cdn.hashnode.com/res/hashnode/image/upload/v1766720623117/14838314-9b2f-43dd-a1f9-4cb4fcb36669.png)
 
 我們基本 CSS 的教學與補充新語法差不多告一個段落了，接下來，我們來學一個也很常用的 CSS 進階用法：CSS 預處理器 SASS/SCSS！
 

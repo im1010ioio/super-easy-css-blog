@@ -9,6 +9,7 @@ tags: css3, css, css-scroll, overscroll-behavior
 sidebar:
   order: 7
 ---
+![CSS overscroll-behavior：解決滾動穿透問題 & 阻止手機瀏覽器下拉重整](https://cdn.hashnode.com/res/hashnode/image/upload/v1766595743865/4f8dc351-8f9a-474d-9d66-76c55a4430de.png)
 
 你有沒有遇過這種情況？網頁跳出一個對話框，你想滑動看看裡面的內容，結果才滑到底，整個後面的網頁竟然也跟著動了起來！
 

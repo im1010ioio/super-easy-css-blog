@@ -9,6 +9,7 @@ tags: pseudo-elements, css3, css, lightbox, tab, target
 sidebar:
   order: 6
 ---
+![CSS :target 應用：純 CSS 光箱、純 CSS Tab 頁籤](https://cdn.hashnode.com/res/hashnode/image/upload/v1766595259017/6119753c-d744-41f4-9e96-874872dc8486.png)
 
 上一篇我們提到 CSS 的 `:target` 的偽類，可以**針對 HTML 元素是否為目標狀態而去調整樣式**。所以，如果延伸想一想，有許多 UI 都是會有狀態的，其實是可以做許多應用的。
 

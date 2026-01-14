@@ -9,6 +9,7 @@ tags: css3, css, transform, css-2d-transforms
 sidebar:
   order: 5
 ---
+![CSS 2D Transform：變大、變小、旋轉、傾斜，CSS 絕對定位置中方法、平行四邊形](https://cdn.hashnode.com/res/hashnode/image/upload/v1766488925667/4cdc72f7-85f2-44f6-8e5d-167627ed3128.png)
 
 CSS 的 `transform` 屬性是一個功能強大的工具，它允許我們以簡單的方式對元素進行平移、縮放、旋轉和傾斜等 2D `transform` 效果，而不需要使用 JavaScript 或圖片編輯工具。`transform` 可以讓網站更具動態效果，提升視覺吸引力。
 

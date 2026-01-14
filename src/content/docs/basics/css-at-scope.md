@@ -9,6 +9,7 @@ tags: css3, css, scope, css-scoping, css-scope
 sidebar:
   order: 17
 ---
+![CSS 也能控制作用域了！@scope 語法](https://cdn.hashnode.com/res/hashnode/image/upload/v1766648339902/ab73f3c8-e265-45d6-b21c-97cc7b3cec28.png)
 
 當 CSS 越寫越龐大，樣式一不小心就互相打架了，怎麼辦呢？今天，我們來學一個 CSS 的新功能：`@scope`，它就像是為你的 CSS 加上了結界，讓你能更精準地控制樣式的作用範圍，告別「樣式污染」。
 

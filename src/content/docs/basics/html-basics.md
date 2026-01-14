@@ -1,5 +1,5 @@
 ---
-title: "Html 基礎語法"
+title: "HTML 基礎語法"
 datePublished: Wed Sep 20 2023 17:08:52 GMT+0000 (Coordinated Universal Time)
 cuid: clms00h9k000008jxbqed27r7
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764752083957/2209b0c1-396b-4c5b-9ad6-74f255d0313d.png
@@ -9,6 +9,7 @@ tags: html, html5
 sidebar:
   order: 5
 ---
+![HTML 基礎語法](https://cdn.hashnode.com/res/hashnode/image/upload/v1764752083957/2209b0c1-396b-4c5b-9ad6-74f255d0313d.png)
 
 上一篇文章，我們有建立了一份 HTML 檔案，  
 那麼這些語法到底是什麼意思呢？讓我們往下看。

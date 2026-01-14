@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 11
 ---
+![CSS 邏輯屬性 Logical properties 與 Writing modes](https://cdn.hashnode.com/res/hashnode/image/upload/v1766031882935/89f53e75-a52e-4959-9f07-04986da713c8.png)
 
 CSS 新推出了另外一種排版邏輯，叫作邏輯屬性（Logical properties），特別是針對需要處理多語系和不同書寫方向的內容。
 

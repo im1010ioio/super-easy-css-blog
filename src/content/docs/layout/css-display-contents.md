@@ -9,6 +9,7 @@ tags: css3, css
 sidebar:
   order: 10
 ---
+![CSS display: contents：讓你變成小透明，製作 JS Components 時的好東西！](https://cdn.hashnode.com/res/hashnode/image/upload/v1766031237600/4cee9986-4e17-470a-be5f-a58636904cd8.png)
 
 前幾篇在研究 Grid 與 Subgrid 時，發現有人說過去是使用 `display: contents;` 來代替 `subgrid` 的效果，我才知道原來還有這種 display。於是這篇就打算來研究這個屬性。
 

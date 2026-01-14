@@ -9,6 +9,7 @@ tags: css3, css, 2articles1week, border-radius
 sidebar:
   order: 5
 ---
+![用 CSS border-radius 畫圓角與圓圓的形狀：圓、圓柱、橢圓、蛋型、鐘型、葉子 (眼睛)、花瓣 (水滴/心形)、牛角 (彎月)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766409453594/0471d9d5-f46b-4993-9bdc-2f6911bf1a58.png)
 
 在上篇文章中，我們用簡單的圓形加上模糊效果繪製了不規則的漸層，這篇我們來探討如何繪製各種形狀，其實使用 CSS 邊框 (`border`) 中的「邊框圓角 (`border-radius`) 」可以繪製出許多形狀。（突然覺得應該先寫這篇）
 

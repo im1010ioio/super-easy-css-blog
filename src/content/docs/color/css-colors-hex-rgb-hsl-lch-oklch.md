@@ -9,6 +9,7 @@ tags: css3, css, color, lch, oklch
 sidebar:
   order: 1
 ---
+![CSS 顏色設定：基本的 hex、rgb()、cmyk()、hsl()、hsb() 、hwb() 與明日之星的 lch()、oklch()](https://cdn.hashnode.com/res/hashnode/image/upload/v1766403447441/341f4a88-cd7c-49c2-93e1-78a76ea5be49.png)
 
 顏色在之前的範例中雖然有用到，但是一直沒有深入講解。
 
