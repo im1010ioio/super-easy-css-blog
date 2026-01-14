@@ -18,7 +18,7 @@ sidebar:
 
 ### 流水帳，那些小事
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697471449489/ba17874b-4815-4ddb-a0fd-62430a07358c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697471449489/ba17874b-4815-4ddb-a0fd-62430a07358c.png)
 
 其實去年和同事就說好要參加，隨便寫些什麼，結果呢，我們記錯時間一起錯過開賽時間了！所以只好今年再來參加，也因為多了一年，讓我好好思索要寫什麼。
 
@@ -38,7 +38,7 @@ sidebar:
 
 ### 事前預防自己的劣根性
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697471440697/3d0165e7-e1b2-448f-bfcb-d031df999590.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697471440697/3d0165e7-e1b2-448f-bfcb-d031df999590.png)
 
 我深知我的劣根性刻在骨子的深處，容易累、三分鐘熱度、完美主義、拖延⋯⋯所以我事前做了一些預防措施：
 
@@ -55,7 +55,7 @@ sidebar:
 
 ### 為什麼要寫？
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697471432241/ea4dadbf-8bb1-48ee-9340-94e59d4e53b5.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697471432241/ea4dadbf-8bb1-48ee-9340-94e59d4e53b5.png)
 
 #### 為了表達我的世界觀
 
@@ -69,7 +69,7 @@ sidebar:
 
 ### 30 天的靈魂拷問
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697474978488/aa972b72-bd18-4922-9c79-c3eaadaec507.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697474978488/aa972b72-bd18-4922-9c79-c3eaadaec507.png)
 
 為什麼人要看教學文？寫文對我有什麼意義？有人會看嗎？有人看了又怎麼辦？大家都用 Nocode 或 AI 做網頁還需要教學文嗎？30 天內我內心的天使惡魔爭論不休。😂
 
@@ -120,4 +120,4 @@ sidebar:
 
 接下來還要繼續把剩餘的坑慢慢填起來，我會努力。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697475284074/469ba885-61b8-4dac-89d4-ef698b779033.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697475284074/469ba885-61b8-4dac-89d4-ef698b779033.jpeg)

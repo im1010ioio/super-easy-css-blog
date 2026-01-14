@@ -29,13 +29,13 @@ sidebar:
 
 Box 的主要內容物的區域。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695653204247/913fb38f-c117-4e52-9888-af40fb07a06b.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695653204247/913fb38f-c117-4e52-9888-af40fb07a06b.png)
 
 ### 2\. padding (內部間距)
 
 通常一張卡片會設定一些 padding (內部邊距)，讓畫面不要太緊迫。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695653221587/1c5cd531-6c41-4867-96d4-b836ff997c0a.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695653221587/1c5cd531-6c41-4867-96d4-b836ff997c0a.png)
 
 Padding (內部間距) 共有四個方向：上、下、左、右，可以設定：
 
@@ -70,7 +70,7 @@ Padding (內部間距) 共有四個方向：上、下、左、右，可以設定
 
 Box 也可以設定他的 border (邊框線)，只不過 FB 這邊沒有設定。Border 是屬於這個 box 內最外面的元素。另外，圓角也是在 border 上設定的。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695653231057/04b46d1e-bc4c-4726-a24e-7df5ccc4e2ae.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695653231057/04b46d1e-bc4c-4726-a24e-7df5ccc4e2ae.png)
 
 一個基本的 border (邊框線) 會有這幾個值可以設定：
 
@@ -130,7 +130,7 @@ Box 也可以設定他的 border (邊框線)，只不過 FB 這邊沒有設定�
 
 > 另外，值得注意的是：如果你的 box 的 display 是 block，margin 會互相重疊，這叫作「邊距重疊 (margin collapsing)」。詳細情況請看 [DEMO](https://codepen.io/im1010ioio/pen/jOXzyyN)。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695653243895/9e935d1d-85c5-4640-81e7-7fb3bbe5e2b8.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695653243895/9e935d1d-85c5-4640-81e7-7fb3bbe5e2b8.png)
 
 Margin (外部間距) 和 padding 一樣也有四個方向：上、下、左、右，可以設定：
 
@@ -164,7 +164,7 @@ CSS 的屬性 `box-sizing` 會決定元素的**寬度**及**高度**是用何種
 
 使用 `content-box` 時，被設定為 600px 的地方會是卡片的 content 區域，不包含左右的 border 和 padding，所以要知道卡片最後實際的寬度，要再加回來，實際寬度會是 622px（600px + 10px\*2 + 1px\*2）。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695573302506/aac42030-cfdf-4444-b8a0-2ec78475bc8c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695573302506/aac42030-cfdf-4444-b8a0-2ec78475bc8c.png)
 
 `content-box` 是瀏覽器的預設值，但是這會讓開發時變得不夠直覺，如果每次設定卡片寬度時，都需要去計算卡片、 padding 與 border 之間的數值，不是很麻煩嗎？
 
@@ -174,7 +174,7 @@ CSS 的屬性 `box-sizing` 會決定元素的**寬度**及**高度**是用何種
 
 使用 `border-box` 時，被設定為 600px 的地方會是卡片的 border 區域，border 區域剛好就是卡片最後實際的寬度。也就是說，我設定卡片寬度是多少他就是多少，不用再去計算 padding 與 border。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695573338080/5ba50472-48ba-450d-a60d-1b0960eecbcc.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695573338080/5ba50472-48ba-450d-a60d-1b0960eecbcc.png)
 
 通常情況下，會建議全部都使用 `border-box` 進行開發，可以在一開始就使用 `*` 選擇器設定，這樣排版能夠更直覺、輕鬆。
 
@@ -192,7 +192,7 @@ CSS 的屬性 `box-sizing` 會決定元素的**寬度**及**高度**是用何種
 
 另外，按右鍵&gt;檢查，可以開啟開發者工具，在左邊選取 HTML 元素，在右側可以查看這個元素的 CSS，在右邊往下滑到底，會出現這個元素所有的 margin、border、padding、content 示意圖。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695657062200/9c389100-f099-46c4-a1b1-8c2bb4079f9e.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695657062200/9c389100-f099-46c4-a1b1-8c2bb4079f9e.png)
 
 大家也可以透過這個方式觀察其他人寫的網頁，藉此熟悉 CSS 盒子模型 (Box Model)。
 
@@ -205,4 +205,4 @@ CSS 的屬性 `box-sizing` 會決定元素的**寬度**及**高度**是用何種
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

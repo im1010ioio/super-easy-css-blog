@@ -46,7 +46,7 @@ sidebar:
 
 用這些原理，我們可以來做一個簡單的選單：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728567736404/4f118809-ec34-4c5f-9c33-58c253668d9a.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728567736404/4f118809-ec34-4c5f-9c33-58c253668d9a.gif)
 
 > DEMO: Pure [CSS toggle menu](https://codepen.io/im1010ioio/pen/ExqNELe)
 
@@ -98,7 +98,7 @@ sidebar:
 
 用一樣的原理，我們也可以來做一個可以往旁邊縮起側邊欄的版面，這常見在後台系統中：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728571947136/7a7f6d15-972a-4fc9-931c-d8de518de014.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728571947136/7a7f6d15-972a-4fc9-931c-d8de518de014.gif)
 
 > DEMO: [Pure CSS toggle aside](https://codepen.io/im1010ioio/pen/mdNOKEL)
 

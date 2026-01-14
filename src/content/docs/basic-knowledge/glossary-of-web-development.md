@@ -20,7 +20,7 @@ sidebar:
 
 ### UI/UX？
 
-![UI/UX 包含範圍](https://cdn.hashnode.com/res/hashnode/image/upload/v1693231007069/7b406c42-8502-4978-b86c-828661f39746.png align="center")
+![UI/UX 包含範圍](https://cdn.hashnode.com/res/hashnode/image/upload/v1693231007069/7b406c42-8502-4978-b86c-828661f39746.png)
 
 UI/UX 分別代表使用者介面設計（User Interface Design，簡稱 UI）和使用者體驗設計（User Experience Design，簡稱 UX）。它們是設計領域中與軟體、網站、應用程式等產品的使用者互動和使用體驗相關的兩個重要概念。
 
@@ -47,7 +47,7 @@ UI 是 UX 中的一環，而且分界十分模糊，所以許多人會融合這�
 
 ### 切圖、切版是什麼意思呢？
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1684342707441/0b27ce5c-29b7-49d3-802f-e66bb69e2503.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1684342707441/0b27ce5c-29b7-49d3-802f-e66bb69e2503.png)
 
 `Image by`[`Freepik`](https://www.freepik.com/free-vector/image-upload-concept-landing-page_5754821.htm#query=resize%20photo%203d&position=33&from_view=search&track=ais)
 
@@ -71,7 +71,7 @@ UI 是 UX 中的一環，而且分界十分模糊，所以許多人會融合這�
 
 網頁的世界分為「前端」與「後端」。
 
-![網頁的前端與後端 解說圖](https://cdn.hashnode.com/res/hashnode/image/upload/v1684341334880/33e11a39-9d02-409a-ad4f-7e9873eee2af.png align="center")
+![網頁的前端與後端 解說圖](https://cdn.hashnode.com/res/hashnode/image/upload/v1684341334880/33e11a39-9d02-409a-ad4f-7e9873eee2af.png)
 
 `(Image by`[`Freepik`](https://www.freepik.com/free-psd/3d-rendering-isometric-ecologic-concept_33753082.htm#page=2&query=home%203d&position=49&from_view=search&track=ais)`and`[`chikenbugagashenka`](https://www.freepik.com/free-vector/smar-plug-set-cartoon-vector-illustration_28629112.htm#query=extension%20cord%203d&position=10&from_view=search&track=ais)`on Freepik)`
 
@@ -90,7 +90,7 @@ UI 是 UX 中的一環，而且分界十分模糊，所以許多人會融合這�
 * 而 API（Application Programming Interface）可以比喻爲插坐，是程式與應用程式連接的介面，簡單說就是兩套軟體間的溝通橋樑，常用於前端與後端間的串接。
     
 
-![HTML CSS JavaScript 程式碼](https://cdn.hashnode.com/res/hashnode/image/upload/v1684858279877/b40d3707-dae5-4e9d-8a41-77db1a1decea.png align="center")
+![HTML CSS JavaScript 程式碼](https://cdn.hashnode.com/res/hashnode/image/upload/v1684858279877/b40d3707-dae5-4e9d-8a41-77db1a1decea.png)
 
 HTML、CSS 與 JS 的語法長得像上面圖片那樣。  
 之後會再詳細教給大家。
@@ -130,7 +130,7 @@ HTML、CSS 與 JS 的語法長得像上面圖片那樣。
 
 > 延伸閱讀：[Static vs Dynamic Websites: Key Differences (](https://www.wix.com/blog/static-vs-dynamic-website)[wix.com](http://wix.com)[)](https://www.wix.com/blog/static-vs-dynamic-website)
 
-![靜態網頁與動態網頁](https://cdn.hashnode.com/res/hashnode/image/upload/v1693243846797/f2b87a6f-42c6-44da-a2a9-975b6fff00f6.png align="center")
+![靜態網頁與動態網頁](https://cdn.hashnode.com/res/hashnode/image/upload/v1693243846797/f2b87a6f-42c6-44da-a2a9-975b6fff00f6.png)
 
 [`Image by vector4stock`](https://www.freepik.com/free-vector/responsive-web-design-mockup-computer-tablet-smartphone-screens_26195961.htm#query=Responsive%20Web%20Design&position=2&from_view=search&track=ais)`on Freepik`
 
@@ -138,7 +138,7 @@ HTML、CSS 與 JS 的語法長得像上面圖片那樣。
 
 ### 響應式網頁 (RWD) ？Mobile First (行動優先) 網頁？它們是什麼呢？
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693153606203/d0f67846-a7b6-4c72-b1b5-272e93e25efc.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693153606203/d0f67846-a7b6-4c72-b1b5-272e93e25efc.png)
 
 [`Image by vector4stock`](https://www.freepik.com/free-vector/responsive-web-design-mockup-computer-tablet-smartphone-screens_26195961.htm#query=Responsive%20Web%20Design&position=2&from_view=search&track=ais)`on Freepik`
 
@@ -186,7 +186,7 @@ HTML、CSS 與 JS 的語法長得像上面圖片那樣。
 
 ## 結論
 
-![網頁開發流程](https://cdn.hashnode.com/res/hashnode/image/upload/v1693234172970/d70e328d-1a57-464c-9994-7773fc1c50a8.png align="center")
+![網頁開發流程](https://cdn.hashnode.com/res/hashnode/image/upload/v1693234172970/d70e328d-1a57-464c-9994-7773fc1c50a8.png)
 
 本篇所提到的名詞，在開發流程中的關係如上圖所示，希望這樣能夠更清楚一點。
 
@@ -203,4 +203,4 @@ HTML、CSS 與 JS 的語法長得像上面圖片那樣。
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

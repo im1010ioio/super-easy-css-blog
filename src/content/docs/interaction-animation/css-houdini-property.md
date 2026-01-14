@@ -70,7 +70,7 @@ p {
 
 過去的 CSS 無法做到的事，現在已經可以了。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728315422340/f1896ecf-d038-4edd-8bde-60e64a754217.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728315422340/f1896ecf-d038-4edd-8bde-60e64a754217.png)
 
 > [Can I Use](https://caniuse.com/?search=%40property)
 
@@ -96,7 +96,7 @@ body{
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728313690836/acf0613a-55f2-4e9c-ba6a-b0b8e1f14d60.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728313690836/acf0613a-55f2-4e9c-ba6a-b0b8e1f14d60.gif)
 
 > DEMO: [CSS Gradient Transition with @property](https://codepen.io/im1010ioio/pen/NWQRWQM)
 
@@ -160,7 +160,7 @@ div{
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728313677425/249d3ece-85df-4492-bd35-fee39792d29b.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728313677425/249d3ece-85df-4492-bd35-fee39792d29b.gif)
 
 > DEMO: [CSS Pie Charts Animation with @property](https://codepen.io/im1010ioio/pen/zYgByOO)
 

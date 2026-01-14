@@ -12,7 +12,7 @@ sidebar:
 
 昨天我們介紹的 `flex` 是單向的排版，而今天我們要探討 `grid` ，它是雙向的排版，可以創造很多行與列。`grid` 也是十分好用的 CSS，大家一起學起來吧！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696256417180/cd9e8c25-ebca-4bfb-b011-e0c6f103054e.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696256417180/cd9e8c25-ebca-4bfb-b011-e0c6f103054e.png)
 
 > #### ↓ 今日學習重點 ↓
 > 
@@ -44,7 +44,7 @@ sidebar:
 
 > [DEMO 連結：Grid Container](https://codepen.io/im1010ioio/pen/MWZqRmN)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696510498252/40a1dd2c-c348-4403-a826-c530b1bc6fea.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696510498252/40a1dd2c-c348-4403-a826-c530b1bc6fea.png)
 
 ### 2\. 排列
 
@@ -55,7 +55,7 @@ sidebar:
 * 而 `place-items` 是 `align-items` 和 `justify-items` 的合併簡寫形式。
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696475273059/5deeb2a5-66a1-4cb7-a6a3-1a7eea66da99.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696475273059/5deeb2a5-66a1-4cb7-a6a3-1a7eea66da99.png)
 
 ```css
 .container {
@@ -100,7 +100,7 @@ sidebar:
 
 ### 4\. 排序方式：`grid-auto-flow`
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696486634758/644fc5ee-ab21-4073-bb1f-ba5b2e85e51a.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696486634758/644fc5ee-ab21-4073-bb1f-ba5b2e85e51a.png)
 
 #### (1) `row` / `column`
 
@@ -180,7 +180,7 @@ sidebar:
 
 > [DEMO 連結：Grid Area (Grid Row / Grid Column)](https://codepen.io/im1010ioio/pen/rNoqpYN)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696440911140/e5f8b1d1-7754-4e4c-88f0-7af388755e7c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696440911140/e5f8b1d1-7754-4e4c-88f0-7af388755e7c.png)
 
 ### 2\. 依據「區域命名」：`grid-template-areas`
 
@@ -208,7 +208,7 @@ sidebar:
 
 > [DEMO 連結：Grid Area (Grid Template Areas)](https://codepen.io/im1010ioio/pen/QWzZQry)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696445071467/e43b1a39-64fd-408d-9624-9a7a986cb88d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696445071467/e43b1a39-64fd-408d-9624-9a7a986cb88d.png)
 
 ### 3\. 隱形格線
 
@@ -263,7 +263,7 @@ Grid 有個特性，如果指定位置，在現有格子的外面。 例如：Gr
 
 ## 四、間距：gap
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696444499800/5af802c5-0e86-4f1a-a630-257a36366ae7.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696444499800/5af802c5-0e86-4f1a-a630-257a36366ae7.png)
 
 昨天我們有提過，`gap` 是 `row-gap` 與 `column-gap` 的縮寫，可以設置間距，可用在 `grid` 與 `flex` 排版上。
 
@@ -305,7 +305,7 @@ Grid 有個特性，如果指定位置，在現有格子的外面。 例如：Gr
 
 > 連結：[Grid Garden - A game for learning CSS grid](https://cssgridgarden.com/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696330179936/b1a5eea3-8b1f-4acc-9788-c21a2aa0228c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696330179936/b1a5eea3-8b1f-4acc-9788-c21a2aa0228c.png)
 
 多年前 Amos 老師的直撥分享影有有帶著大家玩過，這部影片講解得十分詳細：
 
@@ -317,7 +317,7 @@ Grid 有個特性，如果指定位置，在現有格子的外面。 例如：Gr
 
 ### 1\. 照片牆、圖鑑
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696496338119/3185e138-bf3d-433f-b115-f56d0eb4b31b.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696496338119/3185e138-bf3d-433f-b115-f56d0eb4b31b.png)
 
 如上面有提到的，`minmax(最小值, 最大值)` 非常適合用在照片牆、圖鑑上（如：[Dribbble](https://dribbble.com/shots/popular/web-design) 或[寶可夢圖鑑](https://codepen.io/Rplus/pen/MbddMe)）。
 
@@ -329,7 +329,7 @@ Grid 有個特性，如果指定位置，在現有格子的外面。 例如：Gr
 
 此外，最近還有一種很流行的設計風格叫作 Bento Grid，也非常適合使用 Grid 排版，本篇的標題有便當就是因此而來 XD。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696445427902/b0985125-f03a-42fa-b90a-9f7e1046839b.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696445427902/b0985125-f03a-42fa-b90a-9f7e1046839b.png)
 
 > 延伸閱讀：  
 > [2023 網頁設計趨勢：Bento Grid](https://medium.com/designforu/2023-%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88%E8%B6%A8%E5%8B%A2-bento-grid-c94dacf6e45e)  
@@ -365,4 +365,4 @@ CSS Grid 要如何使用，就交給大家去自由探索囉！
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

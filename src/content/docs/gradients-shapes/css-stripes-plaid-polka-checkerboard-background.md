@@ -40,13 +40,13 @@ sidebar:
 
 要製作條紋背景很簡單，原理是使用線性漸層，當兩個顏色的位置重疊，就能製造出顏色的斷點。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726735703959/fb281af5-ece6-44a3-b358-6ef3798f9057.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726735703959/fb281af5-ece6-44a3-b358-6ef3798f9057.gif)
 
 接著，再使用 `background-size` 設定條紋的尺寸，最後利用 CSS 背景預設會重複（`background-repeat: repeat`）的條件，就能夠製造出不同重複的條紋背景了。
 
 ### 1\. 水平條紋
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726734875698/83f7f25b-e5da-433c-8b5a-1fae41098be0.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726734875698/83f7f25b-e5da-433c-8b5a-1fae41098be0.png)
 
 用這樣的想法，製作出的條紋背景的 CSS code 會是：
 
@@ -79,9 +79,9 @@ div{
 
 > 另外，漸層中同個顏色開始、結束的位置（又叫作停止點），現在已支援可以寫在一起，如下面的 `#edb71e 0 66.66%`，不用再像以前要重複寫第二次。後面的示範全都使用這樣的寫法。
 > 
-> ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726747175329/b4cbb196-d0ec-4c42-8914-32459dcaf82c.png align="center")
+> ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726747175329/b4cbb196-d0ec-4c42-8914-32459dcaf82c.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726736780265/df1a2655-cfff-4d29-84de-97a23e069046.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726736780265/df1a2655-cfff-4d29-84de-97a23e069046.png)
 
 ```css
 div {
@@ -99,7 +99,7 @@ div {
 
 如果想要製作垂直的條紋，也很簡單。只需要多設定一個漸層方向 `90deg` 或 `to right`，接著把 `background-size` 的值相反設定就可以了。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726737196348/339a9f50-5f07-4513-bf67-92fb38b45187.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726737196348/339a9f50-5f07-4513-bf67-92fb38b45187.png)
 
 ```css
 div {
@@ -118,13 +118,13 @@ div {
 
 如果想要製作斜線條紋，以我們以剛剛的方式，直接改變角度的話，會悲劇：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726800612807/1bb6bbe1-edd6-4fe0-847f-d1c1a916b563.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726800612807/1bb6bbe1-edd6-4fe0-847f-d1c1a916b563.png)
 
 因為我們需要考慮 `background-size` 與角度之間的關係等等的計算。
 
 但是，現在我們有更簡單的做法，就是運用「重複線性漸層 `repeating-linear-gradient` 」這個方法，它重複的是線性漸層的**整個週期**，形成無限的條紋或漸變效果。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726743625186/3553d2e4-b529-48c6-bd7b-fb93a212ab50.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726743625186/3553d2e4-b529-48c6-bd7b-fb93a212ab50.png)
 
 ```css
 div {
@@ -143,7 +143,7 @@ div {
 
 所以我們可以試試看運用在漸層背景上：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726746086753/47285c69-0e6f-43a4-af23-297e63c8413b.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726746086753/47285c69-0e6f-43a4-af23-297e63c8413b.png)
 
 ```css
 div {
@@ -174,9 +174,9 @@ div {
 
 下面的例子，我們將條紋顏色改成半透明，就能做出交錯且有顏色變化的格子，做出了一個格格 Blue。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726748592746/60b7b24c-0c61-4b44-83d2-2a7c8095c7b0.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726748592746/60b7b24c-0c61-4b44-83d2-2a7c8095c7b0.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726747860750/5e7e7b4b-faf7-448d-8674-90144c3ec169.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726747860750/5e7e7b4b-faf7-448d-8674-90144c3ec169.png)
 
 ```css
 div {
@@ -194,7 +194,7 @@ div {
 「我看倒有點像是稿紙。」  
 （還有人知道雅量梗嗎？😂）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726749208955/abbd7126-a9a5-4d37-8817-dadf5e6b58d7.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726749208955/abbd7126-a9a5-4d37-8817-dadf5e6b58d7.png)
 
 ```css
 div {
@@ -217,7 +217,7 @@ div {
 
 #### 點點背景
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726750296450/35ac9a3e-96aa-4993-a29f-96ab444d3b75.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726750296450/35ac9a3e-96aa-4993-a29f-96ab444d3b75.png)
 
 ```css
 div {
@@ -235,9 +235,9 @@ div {
 
 > `background-position` 的位置會是 `background-size` 的 1/2。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726762676435/da2480f2-833c-4962-bca3-f3cc28862b24.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726762676435/da2480f2-833c-4962-bca3-f3cc28862b24.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726752884756/5a865c4c-1083-48d1-abbb-379bf4947ae5.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726752884756/5a865c4c-1083-48d1-abbb-379bf4947ae5.png)
 
 ```css
 div {
@@ -260,7 +260,7 @@ div {
 
 > 假如我想要分成三種顏色，`background-position` 的位置會是 `background-size` 的 1/3。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726752580873/c9050f50-0ca6-4e6c-b925-99cdd6a3274c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726752580873/c9050f50-0ca6-4e6c-b925-99cdd6a3274c.png)
 
 ```css
 div {
@@ -282,7 +282,7 @@ div {
 
 如果想要繪製棋盤格子背景，我們可以使用「圓錐漸層 (conic-gradient) 的重複版 —— `repeating-conic-gradient`」，原理是用圓錐漸層繪製出一個四分之一的色塊後，然後不停地重複它。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726760122470/a6e0b204-de29-4a8e-b67f-26e48cc7a8bf.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726760122470/a6e0b204-de29-4a8e-b67f-26e48cc7a8bf.png)
 
 ```css
 div {
@@ -306,19 +306,19 @@ CSS 漸層可以繪製這麼多圖案，當然會有更進階的變化，而網�
 
 ### 1\. CSS Pattern
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726760623371/3cca5436-383e-480c-b8d6-a641adf7b784.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726760623371/3cca5436-383e-480c-b8d6-a641adf7b784.png)
 
 > 連結：[CSS Pattern: Fancy backgrounds with CSS gradients](https://css-pattern.com/)
 
 ### 2\. CSS Background Patterns
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726760896944/3f0b4cf5-c5fd-4aac-89ff-a2035270f721.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726760896944/3f0b4cf5-c5fd-4aac-89ff-a2035270f721.png)
 
 > 連結：[CSS Background Patterns by MagicPattern](https://www.magicpattern.design/tools/css-backgrounds)
 
 ### 3\. Bennett Feely Gradients
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726761138188/af95f4ff-584a-4413-afcf-2591ca1b90c7.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726761138188/af95f4ff-584a-4413-afcf-2591ca1b90c7.png)
 
 > 連結：[CSS Gradients with background-blend-mode](https://bennettfeely.com/gradients/)
 
@@ -333,4 +333,4 @@ CSS 漸層可以繪製這麼多圖案，當然會有更進階的變化，而網�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

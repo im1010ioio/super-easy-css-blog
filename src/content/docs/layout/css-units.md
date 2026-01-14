@@ -25,7 +25,7 @@ sidebar:
 
 前幾篇的範例我們有使用到的 pixels 像素 (px)，這是最常見的絕對單位。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695699529249/f75290e9-2639-4a15-8706-63c4ea237d44.jpeg align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695699529249/f75290e9-2639-4a15-8706-63c4ea237d44.jpeg)
 
 螢幕的顯示是由很多格子組合起來的，在早期的螢幕上，眼睛湊很近看都能看到一格一格的格子，1 pixel 就代表螢幕上的一個格子。後來，隨著科技進步，螢幕解析度變高，1 pixel 可以代表 2x2、3x3 個格子，讓畫面更加細緻，這就叫作像素密度 (Pixel Density)。
 
@@ -109,17 +109,17 @@ p {
 
 vw 是視窗寬度的百分比。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695744228003/d9f5cf4a-c2f4-4364-83c1-01f934fc797d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695744228003/d9f5cf4a-c2f4-4364-83c1-01f934fc797d.png)
 
 #### (2) vh (svh, lvh, dvh)
 
 vh 是視窗高度的百分比。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695744237337/7bb7f1c8-f23c-490e-8514-c961d3037cc8.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695744237337/7bb7f1c8-f23c-490e-8514-c961d3037cc8.png)
 
 不過，vh 並沒有計算到手機瀏覽器導覽 UI 出現與消失的情況，在手機上 100vh 常常會被瀏覽器導覽 UI 遮住，所以它又分支出三個新單位：svh、lvh、dvh。其中 dvh 會動態改變高度，更貼近實際情況，未來可能會逐漸取代 vh 這個單位。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695743242410/d056b4c8-0699-43fa-984a-ec812d3503fa.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695743242410/d056b4c8-0699-43fa-984a-ec812d3503fa.png)
 
 > 延伸閱讀：[看图说话，新 CSS 单位 “svh” “dvh” 原来如此 - 掘金 (](https://juejin.cn/post/7172332295058751496)[juejin.cn](http://juejin.cn)[)](https://juejin.cn/post/7172332295058751496)
 
@@ -144,4 +144,4 @@ vmin 和 vmax 特別是針對手機、平板橫豎時候所設計的尺寸。
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

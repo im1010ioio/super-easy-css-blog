@@ -36,7 +36,7 @@ sidebar:
 
 點了這個連結後，除了發現捲軸跳轉外，你還會發現網址上多了 `#about` 的結尾，並且這些 hash `#` 連結（錨點）會記錄在你的瀏覽器的歷史紀錄中，按上一頁時會跳轉這些 hash `#` 連結（但是不一定會跳轉畫面），像下圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758031501856/c0e74cd5-defc-4cb9-8fa4-5ff4b26d60c7.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758031501856/c0e74cd5-defc-4cb9-8fa4-5ff4b26d60c7.gif)
 
 > 注意：如果你不想要 ID 出現在網址列上，而且記錄在瀏覽器歷史紀錄的特性，那這個效果就要使用 JS 去寫囉！
 
@@ -58,7 +58,7 @@ sidebar:
 
 只不過，這個滾動的平滑動畫是依據瀏覽器而定，以 Edge 為例，滾動的時間是固定的，所以點擊越遠的 ID，滾動的速率會越快：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758032672730/951a9c71-22a2-4e4c-8f1a-35bae60aa25e.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758032672730/951a9c71-22a2-4e4c-8f1a-35bae60aa25e.gif)
 
 > 注意：如果需要自訂滾動的速率、時間或速率曲線，就需要自己寫 JS 才能設定詳細的動畫。
 
@@ -96,4 +96,4 @@ sidebar:
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

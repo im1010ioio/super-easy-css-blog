@@ -23,7 +23,7 @@ sidebar:
 * 另一種是無限的跑馬燈，內容從頭到尾反覆出現，沒有停頓的時候。
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728225248678/26e3fec1-f44f-422d-9cff-89777a6f1e80.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728225248678/26e3fec1-f44f-422d-9cff-89777a6f1e80.gif)
 
 > DEMO: [Pure CSS marquee - One Way & Infinite](https://codepen.io/im1010ioio/pen/vYoKdQq)
 

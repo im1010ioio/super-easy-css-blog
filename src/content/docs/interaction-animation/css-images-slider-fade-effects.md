@@ -12,7 +12,7 @@ sidebar:
 
 今天要來教大家如何使用 CSS Animation 製作簡單的純 CSS 照片淡入淡出輪播動畫。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728141340792/d1820a41-02e2-4a71-bd7b-b7394fd8b016.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728141340792/d1820a41-02e2-4a71-bd7b-b7394fd8b016.gif)
 
 > DEMO: [Pure CSS images slider - fade effects](https://codepen.io/im1010ioio/pen/ZEgOGxa)
 
@@ -60,12 +60,12 @@ sidebar:
 
 再來就是要決定照片出現與淡出入的時間，我們先用 1 秒作為淡入淡出的時間，3 秒為照片出現的時間，然後前一張圖片與下一張圖片的淡入淡出的時間會重疊：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728140973703/d40c711f-3f01-4157-892b-7fca5f966b27.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728140973703/d40c711f-3f01-4157-892b-7fca5f966b27.png)
 
 所以如果照片要放 6 張，加上頭尾淡入淡出，總時長就會是 25 秒。  
 只不過，因為我們希望最後的圖片淡出要與開頭圖片的淡入重疊，所以減掉最後淡出的秒數，所以其實**動畫總時長應為 24 秒**。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728140977316/7fc057bc-2183-4a44-872d-dc9b622fca3a.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728140977316/7fc057bc-2183-4a44-872d-dc9b622fca3a.png)
 
 接著，我們要找出一張圖片出現、消失在總時長內的時機百分比，有了這個就能寫出動畫的 `@keyframes` 了，以這個例子來說：
 
@@ -76,7 +76,7 @@ sidebar:
 * 4/24 - 5/24 時淡出
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728140979986/898d74ec-0510-4387-9283-b2e5eebed260.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728140979986/898d74ec-0510-4387-9283-b2e5eebed260.png)
 
 ```css
 @keyframes slide {
@@ -133,7 +133,7 @@ sidebar:
 
 最後，除了第一張照片，後面的照片都需要依序延遲出現，所以每張照片需要延遲 4 秒（總時長 / 照片總數）的倍數。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728140984072/2a8d4640-55aa-485c-92ae-bdb27cae53c0.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728140984072/2a8d4640-55aa-485c-92ae-bdb27cae53c0.png)
 
 ```css
 .img-screen > img{

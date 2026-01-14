@@ -84,13 +84,13 @@ div {
 
 其實 `border-radius` 完整的數值有八個，左上、右上、左下、右下的角度分為「水平方向 (橘色)」與「垂直方向 (藍色）」，如下圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726853425661/c6b519c3-ce24-433c-a649-779903b12f89.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726853425661/c6b519c3-ce24-433c-a649-779903b12f89.png)
 
 可以使用斜線 `/` 將「水平」和「垂直」的圓角分開，這樣可以控制每個角的不同圓滑程度。
 
 若四邊都一樣也可以簡寫，「水平」和「垂直」方向各寫一次就好：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726853367927/36e61a00-4689-48ab-9763-bbf289ff8335.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726853367927/36e61a00-4689-48ab-9763-bbf289ff8335.png)
 
 ```css
 div {
@@ -108,7 +108,7 @@ div {
 
 ## 二、實際 DEMO：各種圓圓的形狀
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726847571258/01f53ee0-32ba-4062-98e7-b93141c723f7.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726847571258/01f53ee0-32ba-4062-98e7-b93141c723f7.png)
 
 我在這裡搜集了許多用 `border-radius` 可以做出來的有趣形狀，給大家參考看看，之後再來研究關於他們的數學（有的話我會再更新在這篇文章）：
 
@@ -225,7 +225,7 @@ div {
 
 ### 牛角 (彎月)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727018172885/d7c9e18d-6269-421f-a154-61adada51af0.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727018172885/d7c9e18d-6269-421f-a154-61adada51af0.png)
 
 如果有兩個這個形狀，旋轉後可以拼成彎月。
 
@@ -246,7 +246,7 @@ div {
 
 ### BonBon — Sweet CSS3 Buttons
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726828347459/12679b49-4a5f-48d4-adf0-977ddcda9e1c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726828347459/12679b49-4a5f-48d4-adf0-977ddcda9e1c.png)
 
 > 連結：[BonBon - Sweet CSS3 Buttons](https://simurai.com/archive/buttons/)
 
@@ -254,7 +254,7 @@ div {
 
 ### 好文分享：Shapes in CSS
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726837898526/189cfc14-eab2-46b0-a16c-0d380c86a314.avif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726837898526/189cfc14-eab2-46b0-a16c-0d380c86a314.avif)
 
 > 連結：[Shapes in CSS](https://alvaromontoro.hashnode.dev/shapes-in-css)
 
@@ -271,4 +271,4 @@ div {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

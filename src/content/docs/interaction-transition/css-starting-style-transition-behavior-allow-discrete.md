@@ -66,7 +66,7 @@ sidebar:
 
 這樣的結果是：在這個 `.my-element` 載入時，會有一個淡出兼放大的動畫：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759335769210/754d7991-4198-49af-94b9-15a36ea16651.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759335769210/754d7991-4198-49af-94b9-15a36ea16651.gif)
 
 > DEMO 連結：[CSS @starting-style](https://codepen.io/im1010ioio/pen/qEbadXg)
 
@@ -93,7 +93,7 @@ sidebar:
 
 讓我們來看一個實際的例子，我們來改寫之前寫過 `:target` 光箱的例子，不過改成用 JS 控制 Class 做狀態的調整。而 `transition-behavior: allow-discrete` 應用在 `display: none` 與 `display: flex` 的切換：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759337564289/17df1435-d735-402a-8573-fae4941ccdbb.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759337564289/17df1435-d735-402a-8573-fae4941ccdbb.gif)
 
 > DEMO 連結：[Pure CSS Lightbox by transition-behavior: allow-discrete](https://codepen.io/im1010ioio/pen/ogbzXyr)
 
@@ -174,4 +174,4 @@ sidebar:
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="left")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

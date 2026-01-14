@@ -23,7 +23,7 @@ sidebar:
 
 改變元素自己是什麼意思呢？讓我們來看看網路上國外大神 [Jhey Tompkins](https://twitter.com/jh3yy) 的可愛 DEMO 就能快速了解了，他用了 CSS 的 Container Queries 加上 Resize 達到了有趣的互動效果：
 
-![CSS Container Queries demo by Jhey Tompkins](https://cdn.hashnode.com/res/hashnode/image/upload/v1697035915314/5f373203-50de-44f5-a927-ab6e21e44261.gif align="center")
+![CSS Container Queries demo by Jhey Tompkins](https://cdn.hashnode.com/res/hashnode/image/upload/v1697035915314/5f373203-50de-44f5-a927-ab6e21e44261.gif)
 
 > 詳細請看：[Can We Create a "Resize Hack" With Container Queries? | CSS-Tricks](https://css-tricks.com/can-we-create-a-resize-hack-with-container-queries/)
 
@@ -76,7 +76,7 @@ sidebar:
 * `size`：上下左右方向，我猜想是因為設定後它已被預期會改變高度，所以不會被內容撐高，會失去其高度，要再設定其高度。
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697043304830/ad1db53a-7957-48c3-978e-7bbe8f327eeb.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697043304830/ad1db53a-7957-48c3-978e-7bbe8f327eeb.png)
 
 ### 2\. `container-name`
 
@@ -141,7 +141,7 @@ Container Queries 是針對「自己」容器大小變化，讓我們想想可�
 
 比如說，用戶的資訊可能出現在很多地方，並且要適應不同尺寸，太小時隱藏詳細資訊：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697123664592/05bc18eb-4e7d-4aa2-a541-ce0cbbbd9219.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697123664592/05bc18eb-4e7d-4aa2-a541-ce0cbbbd9219.png)
 
 > [DOMO 連結：User Info Card with Container Queries](https://codepen.io/im1010ioio/pen/RwEdLXx)
 
@@ -151,7 +151,7 @@ Container Queries 是針對「自己」容器大小變化，讓我們想想可�
 
 或者是也很適合用在工具列上，也許同個網站中會有很多地方都要使用工具列樣式，而且要因應不同大小調整，太小時不顯示文字：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697125844072/5d802bde-b568-40ce-aeaa-d3193e40e1d4.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697125844072/5d802bde-b568-40ce-aeaa-d3193e40e1d4.png)
 
 > [DOMO 連結：Toolbar with Container Queries](https://codepen.io/im1010ioio/pen/PoXgwpo)
 
@@ -180,4 +180,4 @@ Container Queries 可以應用的範圍應該不只這些，大家可以一起�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

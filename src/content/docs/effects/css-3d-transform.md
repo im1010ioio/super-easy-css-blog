@@ -274,6 +274,6 @@ CSS 的 3D `transform` 讓我們可以在網頁上建立 3D 立體效果，讓�
 
 #### DEMO
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727709879749/ae19c737-94cd-4189-aa27-fa3924b24164.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727709879749/ae19c737-94cd-4189-aa27-fa3924b24164.png)
 
 > DEMO: [3D Cube Cartoon Menu](https://codepen.io/im1010ioio/pen/epaGOZ)

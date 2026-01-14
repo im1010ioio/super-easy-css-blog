@@ -18,7 +18,7 @@ sidebar:
 > 
 > 這個網站 [Scroll-driven Animations](https://scroll-driven-animations.style/) 收集了許多由滾動驅動的動畫， 甚至還有程式碼，CSS 與 JS 版本都有：
 > 
-> ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758461571838/718510e2-4808-4a32-926b-c279bace4b0a.gif align="left")
+> ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758461571838/718510e2-4808-4a32-926b-c279bace4b0a.gif)
 
 過去，要實現這種效果，幾乎是 JS 的專屬任務。我們需要監聽 `scroll` 事件，不斷計算元素的位置，然後用 JS 去更新它的 CSS 樣式。這樣做不僅麻煩，而且在效能不好的裝置上，還可能因為頻繁的計算導致畫面卡頓。
 
@@ -149,7 +149,7 @@ div {
 
 > **推薦小工具**：[View Timeline Ranges Visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/)
 > 
-> ![View Timeline Ranges Visualizer](https://cdn.hashnode.com/res/hashnode/image/upload/v1758460992807/e42f7b07-fa27-4748-a2b5-b7cdff501b7c.png align="left")
+> ![View Timeline Ranges Visualizer](https://cdn.hashnode.com/res/hashnode/image/upload/v1758460992807/e42f7b07-fa27-4748-a2b5-b7cdff501b7c.png)
 > 
 > 這些範圍名稱的對應位置可能有點抽象，推薦使用 [View Timeline Ranges Visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/) 這個工具來幫助你理解它們，它幫助你視覺化這些進度，這個和開頭的分享是同個作者做的。
 
@@ -174,7 +174,7 @@ div {
 
 讓我們來製作了一個簡單的頂部進度條，它的寬度會隨著整個頁面的滾動而變化。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758463620418/7c859152-ab9d-40d8-87f2-4072ca8a34f5.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758463620418/7c859152-ab9d-40d8-87f2-4072ca8a34f5.gif)
 
 ```css
 #progressbar{
@@ -206,7 +206,7 @@ div {
 
 #### **(2)** `view()` 的應用：文字段落由左淡入出現
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758463736715/a3fab549-9c6a-4d2a-a32e-14bea7477b14.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758463736715/a3fab549-9c6a-4d2a-a32e-14bea7477b14.gif)
 
 另外一個範例則是讓每一個 `<p>` 段落在進入畫面時，  
 才觸發自己的淡入兼移入動畫（不過這個動畫效果更常出現在照片上）。
@@ -357,4 +357,4 @@ html {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

@@ -12,7 +12,7 @@ sidebar:
 
 今天我們要來製作一個捲動提示陰影效果：在捲動框的最頂端、最尾端沒有陰影，但是在捲動時有淡淡的陰影出現，提示使用者上面、下面還有內容。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728756040763/d0502488-b46e-4e8f-9b59-f85c5fd7d773.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728756040763/d0502488-b46e-4e8f-9b59-f85c5fd7d773.gif)
 
 > DEMO: [Scrolling Shadows with CSS isolation](https://codepen.io/im1010ioio/pen/JjgEvyg)
 
@@ -20,7 +20,7 @@ sidebar:
 
 ## 一、原理
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728789736294/cd946e60-2766-4a79-8d94-95883171e153.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728789736294/cd946e60-2766-4a79-8d94-95883171e153.png)
 
 原理很簡單，其實是個障眼法：
 
@@ -30,7 +30,7 @@ sidebar:
 * 在最頭、最尾用與背景相同顏色的漸層（漸層到透明）遮蓋住陰影。我們把 DEMO 中的漸層色改成與背景不同，這個原理就會很明顯了：
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728788735796/d435b433-a016-48d1-9ba4-59f8a08ba47b.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728788735796/d435b433-a016-48d1-9ba4-59f8a08ba47b.gif)
 
 接著，讓我們繼續看下去怎麼製作吧！
 

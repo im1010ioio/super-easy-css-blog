@@ -42,7 +42,7 @@ sidebar:
 
 ---
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683705560504/15822e35-b6be-4cbc-b2e7-b7b5f55a8555.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683705560504/15822e35-b6be-4cbc-b2e7-b7b5f55a8555.png)
 
 ## 文章目錄
 
@@ -344,7 +344,7 @@ sidebar:
 
 ---
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683705571380/284e9ba0-04c8-43bd-a093-784c330bd862.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683705571380/284e9ba0-04c8-43bd-a093-784c330bd862.png)
 
 ## 2023 年當初寫的參賽前言
 
@@ -393,4 +393,4 @@ sidebar:
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![送杯珍奶鼓勵我 (Eva Chen)](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="left")
+![送杯珍奶鼓勵我 (Eva Chen)](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

@@ -18,7 +18,7 @@ sidebar:
 
 ## 一、純 CSS 光箱
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758205060608/b9603127-1c0a-4737-9969-32cde0fe639b.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758205060608/b9603127-1c0a-4737-9969-32cde0fe639b.gif)
 
 光箱（Lightbox）效果是網頁中非常常見的 UI，通常用於點擊圖片或按鈕後，跳出一個覆蓋整個畫面的視窗來顯示更多內容。以前這大多需要 JavaScript 來控制顯示與隱藏，但現在透過 `:target`，我們只要純 CSS 就能做到！
 
@@ -114,7 +114,7 @@ sidebar:
 
 ## 二、純 CSS Tab 頁籤
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758209786118/09c05040-5fb6-423d-89d9-6816e12444a2.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758209786118/09c05040-5fb6-423d-89d9-6816e12444a2.gif)
 
 Tab 頁籤也是一個很常見的 UI 元件，使用者可以點擊不同的頁籤來切換內容。這個效果跟光箱非常類似，都是利用 `:target` 來控制不同內容區塊的顯示與隱藏。
 
@@ -224,4 +224,4 @@ Tab 頁籤也是一個很常見的 UI 元件，使用者可以點擊不同的頁
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

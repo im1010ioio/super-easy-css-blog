@@ -100,7 +100,7 @@ sidebar:
 
 這樣一來，只要需要切換顏色的地方都套用我們設定的黑白灰變數，就能夠依據使用者偏好色系，呈現對應的的淺色/深色模式囉！
 
-![@media prefers-color-scheme](https://cdn.hashnode.com/res/hashnode/image/upload/v1701236639457/af1ee584-2567-493e-9b08-03f00c8e4f4e.gif align="center")
+![@media prefers-color-scheme](https://cdn.hashnode.com/res/hashnode/image/upload/v1701236639457/af1ee584-2567-493e-9b08-03f00c8e4f4e.gif)
 
 > DEMO 連結：[@media prefers-color-scheme](https://codepen.io/im1010ioio/pen/GRzXNvW)
 
@@ -189,7 +189,7 @@ html:has(#color-scheme-toggle:checked) {
 
 實際結果結果如下：
 
-![Pure CSS Color Scheme Toggle](https://cdn.hashnode.com/res/hashnode/image/upload/v1701249965929/a4800318-2c79-4998-bfe2-f752703b8d97.gif align="left")
+![Pure CSS Color Scheme Toggle](https://cdn.hashnode.com/res/hashnode/image/upload/v1701249965929/a4800318-2c79-4998-bfe2-f752703b8d97.gif)
 
 > DEMO 連結：[Pure CSS Color Scheme Toggle](https://codepen.io/im1010ioio/pen/QWYVdJw)
 
@@ -320,4 +320,4 @@ function toggleColorMode() {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

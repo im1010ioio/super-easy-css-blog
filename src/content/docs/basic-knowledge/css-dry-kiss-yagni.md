@@ -197,13 +197,13 @@ YAGNI 指的是不要過度設計，或添加不必要的功能。和 KISS 一�
 
 整個網站的 CSS，每一頁建議有一份共用的 CSS 和一份屬於這個頁面的 CSS，而不是將整個網站的 CSS 全部寫成一大包。index 頁面不需要 about 頁面的樣式，就不需要載入。
 
-![YAGNI](https://cdn.hashnode.com/res/hashnode/image/upload/v1694508598331/4e8f834c-a1f2-4780-8ece-9b7242b596c4.png align="center")
+![YAGNI](https://cdn.hashnode.com/res/hashnode/image/upload/v1694508598331/4e8f834c-a1f2-4780-8ece-9b7242b596c4.png)
 
 ### 例子 2
 
 使用 CSS 各種框架時，雖然有點不符合這個原則，但是講究的話可以研究該框架的結構，獨立引用需要的部分就好。以 Bootstrap 為例，若我的網頁不需要 table、forms 等相關樣式，就不要載入就好：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694457657154/ca2d6eb0-a46d-4c65-9cfb-a34eae7f590d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694457657154/ca2d6eb0-a46d-4c65-9cfb-a34eae7f590d.png)
 
 ---
 
@@ -220,4 +220,4 @@ YAGNI 指的是不要過度設計，或添加不必要的功能。和 KISS 一�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

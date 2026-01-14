@@ -16,12 +16,12 @@ sidebar:
 像資生堂的銀座旗艦店官網，也是使用這種方式設計開頭的：  
 [SHISEIDO GLOBAL FLAGSHIP STORE | SHISEIDO](https://www.shiseido.co.jp/ginza/ct/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723648585622/b2e9d70f-0dbe-434d-a5ec-4959d80dc7c3.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723648585622/b2e9d70f-0dbe-434d-a5ec-4959d80dc7c3.gif)
 
 或是，在遊戲宣傳網頁，也很常使用這種手法，像是最近要推出的遊戲——無限暖暖：  
 [《無限暖暖》官網——無論何時都要盛裝登場！](https://infinitynikki.infoldgames.com/zh-TW/home)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724399048585/a409c804-a6cd-456a-aa3d-2245671e684a.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724399048585/a409c804-a6cd-456a-aa3d-2245671e684a.gif)
 
 這種將大圖或影片放在開頭的區塊，通常被稱作「主頁橫幅 (*Hero Image*)」。今天我們就透過製作這樣的網頁，來練習用 HTML 的 `<video>` Tag 放入影片，並且並操作影片的各種屬性吧！
 
@@ -131,7 +131,7 @@ sidebar:
 知道如何放入影片後，我們就可以來製作把影片當成背景的網頁了！  
 （使用這種方式建議注意影片大小，一來 load 不出來會影響使用者體驗，二來是過多的流量會對自己的網站造成 loading 負荷。）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725617850785/d914a814-67bc-45b2-a8b7-955b3a411f8a.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725617850785/d914a814-67bc-45b2-a8b7-955b3a411f8a.gif)
 
 這邊我們在主要內容區塊 `.container` ：用絕對定位填滿容器，再進行其他額外的排版。
 
@@ -217,11 +217,11 @@ header .container{
 
 在 YouTube 照著以下步驟操作：分享 &gt; 嵌入。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725723772119/9ed0223c-4ebc-4bce-b3b7-1911a3051e41.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725723772119/9ed0223c-4ebc-4bce-b3b7-1911a3051e41.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725723779504/8569e87d-33ae-4e6e-8449-43669f4d0732.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725723779504/8569e87d-33ae-4e6e-8449-43669f4d0732.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725723786709/1c33c283-39d4-4e47-90ca-ee71eb05c84c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725723786709/1c33c283-39d4-4e47-90ca-ee71eb05c84c.png)
 
 在嵌入的程式碼這個畫面往下拉，你會發現目前只有幾個選項可以設定：
 
@@ -282,7 +282,7 @@ IFrame Player API](https://developers.google.com/youtube/iframe_api_reference) �
 
 在網頁偵測模式中，我們可以發現：嵌入 YouTube 影片的是一個叫做 `<iframe>` 的標籤，而 `<iframe>` 中包含著另外一份 HTML 網頁（`<html>` ）。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725726424061/e38cc1c1-4a08-4645-b49f-0cb0a660137a.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725726424061/e38cc1c1-4a08-4645-b49f-0cb0a660137a.png)
 
 沒錯，這個標籤就是讓你在網頁中放入其他網頁的標籤，通常都是用來嵌入外部內容，如影片、地圖、社群貼文分享等等。但因為可能放入「其他網站的網頁」，可能會有安全性的問題，所以 `<iframe>` 有一些限制與問題：
 
@@ -341,7 +341,7 @@ IFrame Player API](https://developers.google.com/youtube/iframe_api_reference) �
 
 ### 1\. Instagram
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725991414508/3852bd1f-bd8b-4586-a160-e9dbf327697b.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725991414508/3852bd1f-bd8b-4586-a160-e9dbf327697b.png)
 
 從 Instagram 網頁版，必須要是「公開貼文」，接著在貼文右上角的「點點點」後，就會出現「內嵌」選項，可勾選內容是否要包含貼文文字（包括解說）。
 
@@ -354,7 +354,7 @@ IFrame Player API](https://developers.google.com/youtube/iframe_api_reference) �
 
 ### 2\. TikTok
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725991424980/2f06ccb8-6ab3-4547-b6b3-2e7c123c11f9.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725991424980/2f06ccb8-6ab3-4547-b6b3-2e7c123c11f9.png)
 
 在 TikTok 網頁版中，會有一個「`</>`」圖示的按鈕，點了就會直接出現程式碼了。
 
@@ -362,11 +362,11 @@ IFrame Player API](https://developers.google.com/youtube/iframe_api_reference) �
 
 ### 3\. X (Twitter)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725992773420/dfd86753-d481-42f9-a797-e974e35e3d57.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725992773420/dfd86753-d481-42f9-a797-e974e35e3d57.png)
 
 在 X (Twitter) 網頁版中，和 IG 類似，點了貼文右上角的「點點點」後，就會出現「嵌入貼文」選項，然後會跳新視窗，讓你選想要以哪種方式呈現：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725992405819/9f5b79e9-a5c1-498f-a141-798d54b243b9.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725992405819/9f5b79e9-a5c1-498f-a141-798d54b243b9.png)
 
 選了後會預覽給你看，直接複製就行囉！
 
@@ -394,4 +394,4 @@ IFrame Player API](https://developers.google.com/youtube/iframe_api_reference) �
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

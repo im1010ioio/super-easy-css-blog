@@ -13,7 +13,7 @@ sidebar:
 iOS 26 的液態玻璃（Liquid Glass）效果，今天我們來試試看網頁能不能做到。  
 這個效果的核心概念是「模糊背景」再加上「不規則扭曲」，就像透過一杯正在晃動的水看東西一樣。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759161680233/1cfed2d6-e75c-4300-a034-895bd14ae7f2.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759161680233/1cfed2d6-e75c-4300-a034-895bd14ae7f2.gif)
 
 > DEMO 連結：[Liquid Glass Effect](https://codepen.io/im1010ioio/pen/wBMGxGX)
 
@@ -143,4 +143,4 @@ iOS 26 的液態玻璃（Liquid Glass）效果，今天我們來試試看網頁�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="left")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

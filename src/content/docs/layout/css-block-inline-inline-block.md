@@ -17,13 +17,13 @@ sidebar:
 > * 了解網頁上三種常見的 display 屬性：block、inline、inline-block
 >     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695955967084/ea5bc0e5-97d7-4b54-acc2-54b41afa817c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695955967084/ea5bc0e5-97d7-4b54-acc2-54b41afa817c.png)
 
 ---
 
 ## 1\. block
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695955980889/fe41a861-f2b9-4cc6-84cf-994e7b645d85.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695955980889/fe41a861-f2b9-4cc6-84cf-994e7b645d85.png)
 
 Block 區塊級元素通常會單獨占據一行，佔據父層的整個寬度。我們在講解 HTML 時曾經有提過好幾種預設為 block 的 HTML 元素，如：div、h1 等等。
 
@@ -35,7 +35,7 @@ Block 區塊級元素通常會單獨占據一行，佔據父層的整個寬度�
 
 ### 一、Float 排版：讓 Block 能夠浮起來
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695955991271/71ea9ffa-e6cb-40fb-9c17-8a283239cb93.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695955991271/71ea9ffa-e6cb-40fb-9c17-8a283239cb93.png)
 
 block 如果加上 float 屬性可以浮起來，可以往左飄也可以往右飄，這在過去是最主流的排版方式之一，只不過 flex 出現後就減少了。
 
@@ -71,13 +71,13 @@ block 如果加上 float 屬性可以浮起來，可以往左飄也可以往右�
 
 ### 2\. Float ：文繞圖
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695956005736/7dc5b2ed-f464-444c-a535-06ddca7a2b32.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695956005736/7dc5b2ed-f464-444c-a535-06ddca7a2b32.png)
 
 利用 float 的特性，與 inline 元素放在一起，我們可以很輕鬆就做出文繞圖的版面。
 
 ### 3\. 使用 margin: auto 可左右置中
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696303333270/d2ce6d92-54eb-441e-8b6c-8e6b40245484.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696303333270/d2ce6d92-54eb-441e-8b6c-8e6b40245484.png)
 
 當 block 元素有固定寬度時，而且 `margin` 的左右設為 `auto` 時，可以簡單達到左右置中效果。
 
@@ -85,7 +85,7 @@ block 如果加上 float 屬性可以浮起來，可以往左飄也可以往右�
 
 ## 二、inline
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695956046208/bb5c08e2-7263-4dc4-aaca-2946820ffec6.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695956046208/bb5c08e2-7263-4dc4-aaca-2946820ffec6.png)
 
 inline 元素不會獨立占據一行，而是在同一行內與其他 inline 元素共享空間，並根據自身內容的大小進行調整。我們在講解 HTML 時曾經也有提過好幾種預設為 inline 的 HTML 元素，包括 `<span>`、`<a>`、`<strong>`、`<em>`、`<img>` 等。
 
@@ -97,13 +97,13 @@ inline 元素不會獨立占據一行，而是在同一行內與其他 inline �
 
 ### 1\. 無法設置上下 margin
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695956018947/06e67521-f6fc-4f32-b78e-57d59e4a2290.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695956018947/06e67521-f6fc-4f32-b78e-57d59e4a2290.png)
 
 inline 的元素無法設置 margin 的上與下，但是 margin 的左右可以。而 padding 是都可以設置，但是垂直高度不會推開。
 
 ### 2\. 可以調整 vertical-align 與 line-height
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695956072982/9ad93a2a-8e66-4375-888b-5d4eda25a655.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695956072982/9ad93a2a-8e66-4375-888b-5d4eda25a655.png)
 
 雖然 inline 的元素無法使用 margin 調整自己的上與下，但是還有兩個屬性可以調整自己的垂直方向：
 
@@ -122,7 +122,7 @@ inline 的元素無法設置 margin 的上與下，但是 margin 的左右可以
 
 `letter-spacing` 可調整文字的間距，這個間距是加在文字的後面。不過，講究的話，要注意如果搭配置中（如：`text-align: center;`），會因為這個間距而導致不是完全置中喔，如圖所示：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696310370977/3d91c645-11e1-4464-aca0-09e2ae80334a.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696310370977/3d91c645-11e1-4464-aca0-09e2ae80334a.png)
 
 遇到這個情況，可以使用 `margin` 或 `padding` 作微調。當 `letter-spacing` 數值小時，可能會看不太出來，但是當數值越大偏移的感覺就會越明顯。
 
@@ -134,7 +134,7 @@ inline 的元素無法設置 margin 的上與下，但是 margin 的左右可以
 
 ## 三、inline-block
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695956091903/0d3440b5-130f-4ec1-a4ff-f005453eb0b8.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695956091903/0d3440b5-130f-4ec1-a4ff-f005453eb0b8.png)
 
 inline-block 結合了 block 和 inline 的特性，它讓元素既能夠在同一行內排列，又能夠設置寬度、高度、margin 和 padding，也可以像 inline 一樣用父層設定 `text-align`，全部的內容就會往右、置中、往左排列。
 
@@ -150,7 +150,7 @@ inline-block 結合了 block 和 inline 的特性，它讓元素既能夠在同�
 
 ### 1\. 使用情境：icon
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695979487037/877cb1c9-5ee8-4751-be04-c0ee4131c49d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695979487037/877cb1c9-5ee8-4751-be04-c0ee4131c49d.png)
 
 inline-block 的特性這非常好用，最常使用情況在設定文字旁邊搭配 icon 的時候。
 
@@ -168,7 +168,7 @@ inline-block 的特性這非常好用，最常使用情況在設定文字旁邊�
 
 若直接用 inline 或 inline-block 排版，就會多出這些空白，這時候可以於外層加上 font-size: 0; 消除空白。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695983275169/3f5dba7d-4976-4568-88d2-84d4f1df7b61.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695983275169/3f5dba7d-4976-4568-88d2-84d4f1df7b61.png)
 
 但是因為 CSS 字體預設會繼承爸爸的設定，如果裡面的子層要顯示文字，文字會一起不見，這時候要在子層內加回 `font-size` 設定。
 
@@ -187,4 +187,4 @@ inline-block 的特性這非常好用，最常使用情況在設定文字旁邊�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

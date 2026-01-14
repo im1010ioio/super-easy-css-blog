@@ -41,7 +41,7 @@ sidebar:
 
 還可以簡單做出一個沿著地球旋轉的月亮動畫：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728442009538/486257f0-0656-4cfa-b9e6-7dc6608e6cc6.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728442009538/486257f0-0656-4cfa-b9e6-7dc6608e6cc6.gif)
 
 > DEMO: [Earth & moon CSS offset-path animations](https://codepen.io/im1010ioio/pen/RwXGJGY)
 

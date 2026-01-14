@@ -68,7 +68,7 @@ abbr {
 
 當點擊不同的 Tab 時，底下的白色區塊會平滑地移動到對應的位置。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759246478565/2ddaf66b-9bd4-4069-9d7c-ce6e2cfded10.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759246478565/2ddaf66b-9bd4-4069-9d7c-ce6e2cfded10.gif)
 
 > DEMO 連結：[Tabs Switch by CSS Anchor Positioning](https://codepen.io/im1010ioio/pen/EaPVGRG)
 
@@ -93,7 +93,7 @@ abbr {
 
 點擊段落中帶有底線的詞彙時，下方會出現對應的解釋 Tooltip。再次點擊或點擊頁面其他地方則會關閉。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759246634623/a5982aa1-67bd-4d67-93f2-d094f6230e21.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759246634623/a5982aa1-67bd-4d67-93f2-d094f6230e21.gif)
 
 > DEMO 連結：[Tooltip by CSS Anchor Positioning](https://codepen.io/im1010ioio/pen/wBMMJjo)
 
@@ -174,4 +174,4 @@ CSS Anchor Positioning 是一個非常新的功能，目前在 iOS 26 起的 Saf
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="left")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

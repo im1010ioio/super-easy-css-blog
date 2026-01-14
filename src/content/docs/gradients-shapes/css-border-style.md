@@ -41,7 +41,7 @@ div {
     
 * **樣式**：常見的樣式有：
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727164006400/e9403843-b322-4f0b-a7a5-1b9e27283227.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727164006400/e9403843-b322-4f0b-a7a5-1b9e27283227.png)
     
     * `solid` 實線
         
@@ -115,7 +115,7 @@ border-image: url("/images/border.png") 27 23 / 50px 30px / 1rem round space;
 
 #### 九宮格縮放示意圖
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727171413934/5c750c5c-5c91-494e-98d4-9d9d94648cf3.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727171413934/5c750c5c-5c91-494e-98d4-9d9d94648cf3.png)
 
 * **四個角區域**：區域 **1、3、7、9** 是圖像的四個角，通常保持原樣。
     
@@ -128,11 +128,11 @@ border-image: url("/images/border.png") 27 23 / 50px 30px / 1rem round space;
 
 例如，這樣就能做出像餅乾般的邊框，我準備了一張這樣的圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727255456319/7fdecc32-639d-4485-bc48-34fb52b40746.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727255456319/7fdecc32-639d-4485-bc48-34fb52b40746.png)
 
 結果如以下 DEMO（順便給大家看看不同種 `repeat` 的效果）：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727190867929/14b94d75-13f2-4dc1-aff1-44ce526b2e80.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727190867929/14b94d75-13f2-4dc1-aff1-44ce526b2e80.png)
 
 ```css
 div{
@@ -146,7 +146,7 @@ div{
 
 另外，也可以直接在 `border-image` 上設定漸層喔！只不過這種方式需要設定 border 寬度，還有 `border-image` 內的 `slice`。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727191896043/bea1ed58-63af-40ae-8d03-edb142fa6d5b.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727191896043/bea1ed58-63af-40ae-8d03-edb142fa6d5b.png)
 
 ```css
 div {
@@ -168,7 +168,7 @@ div {
 我們也可以應用到 `border-image` 上，做出一張美式信封。  
 跟剛剛一樣的漸層邊框一樣，需要設定 border 寬度，還有 `border-image` 內的 `slice` (剛好和 border 寬度一樣，條紋才會順暢)。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727254135479/a740e6de-ca18-478e-b694-fc9334e6e260.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727254135479/a740e6de-ca18-478e-b694-fc9334e6e260.png)
 
 ```css
 div {
@@ -212,7 +212,7 @@ div {
 
 例如，當 input focus 時，會有一個 0.25em 寬的藍色虛線外框。：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727235653598/40fc2c9c-ac7a-4d05-a605-71ca8cf890ad.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727235653598/40fc2c9c-ac7a-4d05-a605-71ca8cf890ad.png)
 
 ```css
 input[type="text"]:focus {
@@ -227,7 +227,7 @@ input[type="text"]:focus {
 
 `outline` 還可以使用 `outline-offset` 屬性內縮，在使用虛線，就會像縫補的補丁一樣：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727192800489/4e88b601-391a-449d-8c22-09730b7e3953.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727192800489/4e88b601-391a-449d-8c22-09730b7e3953.png)
 
 > DEMO: [Patch](https://codepen.io/im1010ioio/pen/wpweqq)
 
@@ -250,7 +250,7 @@ input[type="text"]:focus {
 
 我們可以利用這些性質繪製出位於圓形內部的彩虹邊框：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727192858815/feedc0e5-f3c8-4d1d-b040-83734188a7ee.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727192858815/feedc0e5-f3c8-4d1d-b040-83734188a7ee.png)
 
 ```css
 div {
@@ -278,4 +278,4 @@ div {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

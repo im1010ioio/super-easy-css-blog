@@ -27,7 +27,7 @@ CSS 中的尺寸分為兩種，一種叫做「外部尺寸（Extrinsic Sizing）
 
 > [DEMO 連結：CSS Intrinsic Sizing: min-content, max-content, fit-content](https://codepen.io/im1010ioio/pen/rNoQVRz)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696524879581/8a0501ec-e0c5-45b9-9cde-705fcb5786b5.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696524879581/8a0501ec-e0c5-45b9-9cde-705fcb5786b5.png)
 
 ---
 
@@ -38,7 +38,7 @@ CSS 中的尺寸分為兩種，一種叫做「外部尺寸（Extrinsic Sizing）
 
 > [DEMO 連結：Grid with min-content](https://codepen.io/im1010ioio/pen/GRPwpjR)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696526321130/3b36c67c-6cbb-4a1c-a7c2-3ae9445e2759.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696526321130/3b36c67c-6cbb-4a1c-a7c2-3ae9445e2759.png)
 
 ```css
 .grid-container{
@@ -57,7 +57,7 @@ CSS 中的尺寸分為兩種，一種叫做「外部尺寸（Extrinsic Sizing）
 
 不過有了這個單位，還能用在文字以外的地方，也和 flex nowrap 很像，不過有了它就可以只設定寬度就輕鬆實現。比如說：文章是動態產生時，當數量超過螢幕寬度時不要折行，可以左右滾動，如下圖紅框處：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696561160148/ab768325-f256-4104-8fa8-cf0987416f88.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696561160148/ab768325-f256-4104-8fa8-cf0987416f88.png)
 
 > [參考設計：Article App Exploration](https://dribbble.com/shots/6290143-Article-App-Exploration?utm_source=Clipboard_Shot&utm_campaign=dindrad&utm_content=Article%20App%20Exploration&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=dindrad&utm_content=Article%20App%20Exploration&utm_medium=Social_Share)
 
@@ -68,7 +68,7 @@ CSS 中的尺寸分為兩種，一種叫做「外部尺寸（Extrinsic Sizing）
 `fit-content` 在容器寬度夠的情況下是元素內容最長的尺寸，不過當容器太小時會折行。  
 這個用在文字標題、文字段落等等的裝飾設計時，會非常實用，如開頭的 DEMO，或下圖紅框處的漸層線條裝飾：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696561142010/d31c3a65-8cc6-489c-99c4-00fa71ed2321.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696561142010/d31c3a65-8cc6-489c-99c4-00fa71ed2321.png)
 
 > [參考設計：The-Sunday-Drip](https://dribbble.com/shots/18611934-The-Sunday-Drip?utm_source=Clipboard_Shot&utm_campaign=joshwarren&utm_content=The%20Sunday%20Drip&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=joshwarren&utm_content=The%20Sunday%20Drip&utm_medium=Social_Share)
 
@@ -98,4 +98,4 @@ CSS 中的尺寸分為兩種，一種叫做「外部尺寸（Extrinsic Sizing）
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

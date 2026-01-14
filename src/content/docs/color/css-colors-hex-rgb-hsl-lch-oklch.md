@@ -27,7 +27,7 @@ sidebar:
 
 ## 一、CSS Color Names（⭐️常用）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698138008645/c2c6e214-a908-453b-85a4-dba47a278e63.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698138008645/c2c6e214-a908-453b-85a4-dba47a278e63.png)
 
 CSS 中有 160 幾種顏色名稱，可以直接在 CSS 中指定 `white`、`black`、`red`、`blue`、`green` 等等，讓人可以很直覺設定基本的顏色。
 
@@ -55,7 +55,7 @@ p {
 
 ### 1\. HEX（⭐️常用）
 
-![CSS HEX Color](https://cdn.hashnode.com/res/hashnode/image/upload/v1698126670312/169aaf81-1af1-413d-8ca5-5630f22e5cc0.png align="center")
+![CSS HEX Color](https://cdn.hashnode.com/res/hashnode/image/upload/v1698126670312/169aaf81-1af1-413d-8ca5-5630f22e5cc0.png)
 
 CSS HEX 寫法是使用升記號 `#` 寫在最開頭，接續用 6 個英數代表 RGB 三種顏色，每個數字由 0 到 f（共 16 個），代表了該色光的濃淡，0 是最淡，最淡時是沒有光，就是黑色；而 f 是最亮。
 
@@ -67,7 +67,7 @@ CSS HEX 寫法是使用升記號 `#` 寫在最開頭，接續用 6 個英數代�
 
 ### 2\. RGB（⭐️常用）
 
-![CSS RGB](https://cdn.hashnode.com/res/hashnode/image/upload/v1698163638635/aae4ddb7-4390-4875-a998-cf3c1f2c2ea3.png align="center")
+![CSS RGB](https://cdn.hashnode.com/res/hashnode/image/upload/v1698163638635/aae4ddb7-4390-4875-a998-cf3c1f2c2ea3.png)
 
 CSS 中的 `rgb()` 或 `rgba()` 寫法，與 HEX 寫法概念相似，不過它將 RGB 分別變為單一數字，一樣也是使用 16 進位，一個值的濃淡是由 0 到 255（因為 16x16=256 個數值）。
 
@@ -82,7 +82,7 @@ CSS 中的 `rgb()` 或 `rgba()` 寫法，與 HEX 寫法概念相似，不過它�
 
 ## 三、CMYK
 
-![CSS CMYK](https://cdn.hashnode.com/res/hashnode/image/upload/v1698168923825/84b2ef12-b416-4b53-81df-0c6109157121.png align="center")
+![CSS CMYK](https://cdn.hashnode.com/res/hashnode/image/upload/v1698168923825/84b2ef12-b416-4b53-81df-0c6109157121.png)
 
 前面說到色光是由三原色組成，而在與之相對的印刷中，常見的是四色印刷，由四種顏色組成各種顏色：C 青色、M 洋紅、Y 黃色、K 黑色。理論上，前三種顏色 CMY 合在一起就會變成黑色。
 
@@ -92,7 +92,7 @@ CSS 中的 `rgb()` 或 `rgba()` 寫法，與 HEX 寫法概念相似，不過它�
 
 再來，因為 CMYK 與 RGB 所能表現的顏色範圍不同，所以有些顏色四色印刷是印不出來的，尤其是螢光色，這時候可能會需要使用特殊色印刷。詳細的色域比較請參考下圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698073541444/b8fd0104-f77b-4c73-a0bb-1b96630841d0.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698073541444/b8fd0104-f77b-4c73-a0bb-1b96630841d0.png)
 
 ---
 
@@ -106,7 +106,7 @@ CSS 中的 `rgb()` 或 `rgba()` 寫法，與 HEX 寫法概念相似，不過它�
 
 ### 1\. HSL 與 HSB (又稱HSV)
 
-![HSL 與 HSB (又稱HSV)](https://cdn.hashnode.com/res/hashnode/image/upload/v1698169004281/919626f3-97df-4dbe-b6c8-db2098547235.png align="center")
+![HSL 與 HSB (又稱HSV)](https://cdn.hashnode.com/res/hashnode/image/upload/v1698169004281/919626f3-97df-4dbe-b6c8-db2098547235.png)
 
 HSL 與 HSB 將顏色分為三種數值：
 
@@ -131,7 +131,7 @@ CSS 中 HSL 和 HSB 的寫法，其實與 RGB 的設定方式大同小異，也�
 
 ### 2\. HWB
 
-![HWB](https://cdn.hashnode.com/res/hashnode/image/upload/v1698169867104/3e8029f5-025d-41b2-90b8-a42f25e2019a.png align="center")
+![HWB](https://cdn.hashnode.com/res/hashnode/image/upload/v1698169867104/3e8029f5-025d-41b2-90b8-a42f25e2019a.png)
 
 HWB 雖然也是由色相出發，但是它沒有飽和度的概念，它僅用添加黑白來調整色彩，所以它有三種數值：
 
@@ -152,7 +152,7 @@ HWB 雖然也是由色相出發，但是它沒有飽和度的概念，它僅用�
 
 ## 五、由色相選擇 + 廣色域的 LCH/OKLCH
 
-![CSS LCH/OKLCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1698179694864/66e4148b-313f-464a-bcac-b82b87f51042.png align="center")
+![CSS LCH/OKLCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1698179694864/66e4148b-313f-464a-bcac-b82b87f51042.png)
 
 LCH/OKLCH 是一種更符合人類感知的顏色表示方式。此外，LCH/OKLCH 還可以設定更寬廣的顏色範圍。
 
@@ -164,7 +164,7 @@ LCH/OKLCH 目前支援度已 100%，但是而在繪圖軟體中，還無法直�
 
 ### 1\. 色相變化時，明度的修正
 
-![CSS HLS vs. LCH vs. OKLCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1701275453954/d5a851c7-88dc-4b1f-81f1-0bc8ae7766ae.png align="center")
+![CSS HLS vs. LCH vs. OKLCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1701275453954/d5a851c7-88dc-4b1f-81f1-0bc8ae7766ae.png)
 
 舊有 RGB 中的 `hex`、`rgb()`、`hsl()`、`hsb()` 、`hwb()` 是為了系統運算而生，所以存在著不符合人眼視覺的問題：相同明度但是感覺起來不一樣亮。在 LCH/OKLCH 中修正了這個問題，如上圖所示。
 
@@ -172,7 +172,7 @@ LCH/OKLCH 目前支援度已 100%，但是而在繪圖軟體中，還無法直�
 
 #### 可修正漸層的灰色死亡地帶
 
-![CSS HLS, LCH, OKLCH 漸層比較 Color Space in Linear Gradient: sRGB vs. LCH vs. OKLCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1718816705522/d94cc231-5c83-404f-8b85-7d1d2d8bd66b.png align="center")
+![CSS HLS, LCH, OKLCH 漸層比較 Color Space in Linear Gradient: sRGB vs. LCH vs. OKLCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1718816705522/d94cc231-5c83-404f-8b85-7d1d2d8bd66b.png)
 
 延伸上一點，當我們在傳統 sRGB 描繪漸層時，由於不同色相間的視覺上的明度不一致，容易造成漸層顏色混濁。現在，使用 LCH/OKLCH 的色彩空間就可避免這個狀況，因為當色相切換時，明度的感知一致，飽和度也保留著，讓漸層能夠順順地過去。
 
@@ -185,9 +185,9 @@ LCH/OKLCH 目前支援度已 100%，但是而在繪圖軟體中，還無法直�
 
 如果要製作網頁設計稿，但是目前 Figma 不支援 LCH/OKLCH 的顏色設定方式，這時候我們可以透過這個套件—— [Chromatic Figma](https://www.figma.com/community/plugin/759433498184507623) ，修正漸層顏色，它可以模擬 LCH 色彩空間運算，並且調整漸層的顏色。
 
-![Chromatic Figma Fix Gradient](https://cdn.hashnode.com/res/hashnode/image/upload/v1719281286573/5eb7d57c-4bc9-43b0-857b-ff43c221f4b2.png align="center")
+![Chromatic Figma Fix Gradient](https://cdn.hashnode.com/res/hashnode/image/upload/v1719281286573/5eb7d57c-4bc9-43b0-857b-ff43c221f4b2.png)
 
-![Chromatic Figma Fix Gradient](https://cdn.hashnode.com/res/hashnode/image/upload/v1719281282143/7163c92d-4b91-47df-94c5-3d20018484c2.png align="center")
+![Chromatic Figma Fix Gradient](https://cdn.hashnode.com/res/hashnode/image/upload/v1719281282143/7163c92d-4b91-47df-94c5-3d20018484c2.png)
 
 #### 使用 CSS 設定漸層色彩空間（Interpolation color space）
 
@@ -212,13 +212,13 @@ div {
 
 隨著液晶螢幕技術的進步，螢幕可顯示的顏色已大於 sRGB 的範圍，目前常見的背光源技術是「藍光 LED 搭配 RG 螢光粉」，它能凸顯分別代表長、中、短波長的RGB光譜分布，讓各頻帶能量更加集中，提高顏色的純度讓色域往外擴張，而這樣的技術稱為廣色域（wide color gamut，WCG），詳細請參考下圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698075985955/5cb5c82c-a18f-4510-98da-537a0d2539c6.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698075985955/5cb5c82c-a18f-4510-98da-537a0d2539c6.png)
 
 > 延伸閱讀：[什麼是廣色域｜BenQ 台灣](https://www.benq.com/zh-tw/knowledge-center/technology/what-is-wide-color-gamut-tv.html)
 
 例如，由 Apple 推出的 Display P3 色域，比起傳統 sRGB 的表現效果就鮮明許多：
 
-![sRGB vs. Display P3](https://cdn.hashnode.com/res/hashnode/image/upload/v1698114882108/576ea323-8723-4471-9aca-63ca546ca945.jpeg align="center")
+![sRGB vs. Display P3](https://cdn.hashnode.com/res/hashnode/image/upload/v1698114882108/576ea323-8723-4471-9aca-63ca546ca945.jpeg)
 
 > 圖片來源 & 延伸閱讀：[Get Started with Display P3 - WWDC17 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2017/821/)
 
@@ -242,13 +242,13 @@ LCH/OKLCH 使用的色彩空間是 CIELAB，是目前最大的色彩空間之一
 
 大家可以試看看一下的 DEMO，兩者皆是同色相的水藍色，飽和度與明度皆最高的顏色：
 
-![oklch vs. hex color ](https://cdn.hashnode.com/res/hashnode/image/upload/v1704949523401/2f1d90c7-18fc-4ed0-ac18-691d1a4c2976.png align="center")
+![oklch vs. hex color ](https://cdn.hashnode.com/res/hashnode/image/upload/v1704949523401/2f1d90c7-18fc-4ed0-ac18-691d1a4c2976.png)
 
 > DEMO：[oklch vs. hex color](https://codepen.io/im1010ioio/pen/Exrjygv)
 
 ### 3\. LCH
 
-![CSS LCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1698206031984/51790654-90d6-478f-bf6a-cda57543de70.png align="center")
+![CSS LCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1698206031984/51790654-90d6-478f-bf6a-cda57543de70.png)
 
 LCH 使用以下三種數值，基本上與 HSL 很相似：
 
@@ -270,7 +270,7 @@ LCH 使用以下三種數值，基本上與 HSL 很相似：
 
 ### 4\. OKLCH（⭐️ 會是明日之星嗎？）
 
-![CSS OKLCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1698212636689/5ef86451-4814-4828-988b-8f3c7b60aa7b.png align="center")
+![CSS OKLCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1698212636689/5ef86451-4814-4828-988b-8f3c7b60aa7b.png)
 
 OKLCH 和 LCH 基本上一樣，只有**明度 Lightness**與**色度 Chroma 的地方不一樣**：
 
@@ -288,7 +288,7 @@ OKLCH 和 LCH 基本上一樣，只有**明度 Lightness**與**色度 Chroma 的
 
 LCH 雖已改善了 RGB 色相變化時的感知明度，但是他仍有致命缺點：就是當色相 Hue 介於 270 至 330（大約是藍色與紫色區間），當明度 Lightness 有所改變時，他的色相會有所偏移。以下面的例子來說，LCH 在加亮時，從藍色調偏移到了紫色調：
 
-![CSS HLS vs. LCH vs. OKLCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1698126842682/eb41f1c3-5966-4f03-b711-ba5c5a5c4462.png align="center")
+![CSS HLS vs. LCH vs. OKLCH](https://cdn.hashnode.com/res/hashnode/image/upload/v1698126842682/eb41f1c3-5966-4f03-b711-ba5c5a5c4462.png)
 
 色相偏移在為品牌建立色彩系統時，會造成問題，所以與 LCH 相比，建議大家使用 OKLCH。
 
@@ -296,7 +296,7 @@ LCH 雖已改善了 RGB 色相變化時的感知明度，但是他仍有致命�
 
 > 這邊所謂的色彩系統，就是設計師為品牌定義好的一整套色彩計畫，通常被包含在 VIS 視覺識別系統設計中，例如：
 > 
-> ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698215470829/c3b5f065-3463-4e0f-9a2e-8844e61bdf9c.png align="center")
+> ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698215470829/c3b5f065-3463-4e0f-9a2e-8844e61bdf9c.png)
 > 
 > 範例：[❖ Ultimate color palette system – Untitled UI](https://www.figma.com/community/file/1029506782158027808/ultimate-color-palette-system-untitled-ui)
 
@@ -324,4 +324,4 @@ LCH 雖已改善了 RGB 色相變化時的感知明度，但是他仍有致命�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

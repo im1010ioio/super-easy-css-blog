@@ -25,7 +25,7 @@ sidebar:
 
 ## `display: contents;` 是什麼？
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696737150242/be368cf9-5a45-4ca6-a6ba-cf1d9239f24a.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696737150242/be368cf9-5a45-4ca6-a6ba-cf1d9239f24a.png)
 
 `display: contents;` 的主要作用是讓被設定元素不會產生任何盒子模型 (Box Model)，設定了後它的樣式和佈局將被視為透明的，也就是說不會有任何 margin、padding、background 等效果，但是它的子層會正常顯示，並且受到它的爺爺層的影響。
 
@@ -49,7 +49,7 @@ sidebar:
 
 ## `display: contents` vs. `subgrid`
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696691286431/cd10a9df-9a92-4976-bf18-b97da97e2e66.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696691286431/cd10a9df-9a92-4976-bf18-b97da97e2e66.png)
 
 > * [display: contents DEMO 連結](https://codepen.io/im1010ioio/pen/LYMMGRY)
 >     
@@ -65,7 +65,7 @@ sidebar:
 
 ## 注意：目前無法使用在 button 上
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696735247354/362f5955-c24f-4dbc-b343-5c9fed1f92ef.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696735247354/362f5955-c24f-4dbc-b343-5c9fed1f92ef.png)
 
 > 支援度：["display: contents" | Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/?search=display%3A%20contents)
 
@@ -86,4 +86,4 @@ sidebar:
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

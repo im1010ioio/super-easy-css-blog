@@ -58,7 +58,7 @@ CSS 中的三角函數家族，共有：`sin()`、`cos()`、`tan()` 以及他們
 
 這是三角函數最經典的應用之一，像是時鐘的刻度或環狀菜單，都可以輕鬆實現。 概念是利用 `sin()` 和 `cos()` 來計算出在圓周上每個元素的 x 和 y 座標。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759414202399/ffcffea9-7996-4352-9be2-0fcb16cb3201.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759414202399/ffcffea9-7996-4352-9be2-0fcb16cb3201.gif)
 
 > DEMO 連結：[Rrond Animation by CSS trigonometric functions](https://codepen.io/im1010ioio/pen/EaPgwNL)
 
@@ -133,7 +133,7 @@ CSS 中的三角函數家族，共有：`sin()`、`cos()`、`tan()` 以及他們
 
 `sin()` 函數的波形特性，非常適合用來製作自然的波浪動態。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759414247999/582ee726-ad4e-46b0-88c3-180790465eff.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759414247999/582ee726-ad4e-46b0-88c3-180790465eff.gif)
 
 > DEMO 連結：[Wave Animation by CSS trigonometric functions](https://codepen.io/im1010ioio/pen/ogbzapV)
 
@@ -255,7 +255,7 @@ CSS 中的三角函數家族，共有：`sin()`、`cos()`、`tan()` 以及他們
 
 > 「只有 9.1% 的受訪者真正討厭三角學，但這足以讓**三角函數**在受到喜愛方面墊底:(」
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759416032761/86f5bea0-cc5f-44f0-907f-38c8bbb370ed.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759416032761/86f5bea0-cc5f-44f0-907f-38c8bbb370ed.png)
 
 看到的時候噗嗤笑了一下，心想：原來大家跟我一樣不喜歡數學呀…
 
@@ -273,4 +273,4 @@ CSS 中的三角函數家族，共有：`sin()`、`cos()`、`tan()` 以及他們
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="left")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

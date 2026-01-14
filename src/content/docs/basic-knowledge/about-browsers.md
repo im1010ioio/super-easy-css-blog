@@ -29,7 +29,7 @@ sidebar:
 
 如果要查詢各個屬性瀏覽器能不能支援，我們一般會到「[Can I use](https://caniuse.com/)」這個網站查詢，HTML、CSS、JS 都可以查詢。
 
-![Can I use :is() CSS pseudo-class](https://cdn.hashnode.com/res/hashnode/image/upload/v1692088195952/e00e3856-cda6-4c0d-a913-8d45e048c164.png align="center")
+![Can I use :is() CSS pseudo-class](https://cdn.hashnode.com/res/hashnode/image/upload/v1692088195952/e00e3856-cda6-4c0d-a913-8d45e048c164.png)
 
 以上圖為例，它會清楚告訴你各瀏覽器各種版本的支援情況，和該版本的基本資訊、全球市占率等。如果查詢的屬性對於那個版本是實驗中的語法，它會告訴你如何才能運作，例如：使用者要打開該瀏覽器的某個設定，或是我們要加上對應的 CSS 實驗性前綴字等。（在本篇最後會介紹什麼是「CSS 實驗性語法」。）
 
@@ -39,7 +39,7 @@ sidebar:
 
 什麼情況會需要知道瀏覽器的市佔率呢？當網頁只在某種瀏覽器上怪怪的時，我們可以參考市佔率，在團隊內部討論，並判斷出需要花多少成本去調整它。
 
-![台灣 2022/08 至 2023/08 StatCounter 瀏覽器市佔比統計圖](https://cdn.hashnode.com/res/hashnode/image/upload/v1694721611695/2bf81ca4-5816-4bbe-9e5c-bc9fafe44923.png align="center")
+![台灣 2022/08 至 2023/08 StatCounter 瀏覽器市佔比統計圖](https://cdn.hashnode.com/res/hashnode/image/upload/v1694721611695/2bf81ca4-5816-4bbe-9e5c-bc9fafe44923.png)
 
 以目前最新統計（2023/08）來說，  
 瀏覽器在全球市佔率的排名是：  
@@ -65,7 +65,7 @@ Chrome &gt; Safari &gt; Edge &gt; Samsung Internet &gt; Firefox &gt; Opera。
 
 ## 關於各瀏覽器在開發上的經驗談
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693246586357/70b1ee8c-3219-4082-b4f2-eefe2702f860.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693246586357/70b1ee8c-3219-4082-b4f2-eefe2702f860.png)
 
 ### WebKit
 
@@ -142,7 +142,7 @@ PostCss 是一個使用 JavaScript 轉換 CSS 的工具，通常使用在寫完 
 
 PostCss 一般不會單獨使用，會搭配「前端打包工具」使用。下圖是其中一種「前端打包工具」—— [Webpack](https://webpack.js.org/) 官網的示意圖：
 
-![Webpack](https://cdn.hashnode.com/res/hashnode/image/upload/v1692031509400/dc49201f-4d2b-49a9-85a5-6647e46ce0ed.png align="center")
+![Webpack](https://cdn.hashnode.com/res/hashnode/image/upload/v1692031509400/dc49201f-4d2b-49a9-85a5-6647e46ce0ed.png)
 
 `（來源：`[`Webpack`](https://webpack.js.org/)`）`
 
@@ -165,4 +165,4 @@ PostCss 一般不會單獨使用，會搭配「前端打包工具」使用。下
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

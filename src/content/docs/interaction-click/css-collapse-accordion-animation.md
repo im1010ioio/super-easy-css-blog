@@ -34,7 +34,7 @@ sidebar:
 * 而 `checkbox` 是多選，所以可以一直開開關關都沒問題，是常見的「Collapse 折疊效果」。
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728633813531/3160b158-f245-45eb-aa7b-b638e6af3d68.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728633813531/3160b158-f245-45eb-aa7b-b638e6af3d68.gif)
 
 > DEMO: [Pure CSS Collapse/ Accordion FAQ](https://codepen.io/im1010ioio/pen/Jjgbmdb)
 

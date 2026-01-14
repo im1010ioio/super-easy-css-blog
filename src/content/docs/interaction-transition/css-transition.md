@@ -42,7 +42,7 @@ CSS 的 `transition` 是是兩個狀態之間的動畫過渡效果。但在實�
 
 大家可使用下面的小工具模擬過渡動畫行進間的速率：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727796650281/211f5b68-9576-46d1-ac0e-dbf6d1acccdb.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727796650281/211f5b68-9576-46d1-ac0e-dbf6d1acccdb.gif)
 
 > 連結：[cubic-bezier()](https://cubic-bezier.com/)
 
@@ -135,7 +135,7 @@ css transition 加疊會加疊嗎？
 
 hover 在手機上不支援
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720588688399/3010ff1f-2e3e-4749-ba18-7c996b3b4123.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720588688399/3010ff1f-2e3e-4749-ba18-7c996b3b4123.png)
 
 ### 進階
 

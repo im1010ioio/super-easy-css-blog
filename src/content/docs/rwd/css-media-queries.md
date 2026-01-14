@@ -71,7 +71,7 @@ sidebar:
 
 不過模擬終究只是模擬，實際運作會如何還是需要在該裝置測試一遍才會知道喔！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696869317766/f8bf9889-6cb2-4ca1-ab53-d6de837f96bf.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696869317766/f8bf9889-6cb2-4ca1-ab53-d6de837f96bf.png)
 
 ---
 
@@ -264,11 +264,11 @@ iOS Safari 號稱 Apple 中的 IE，我這邊整理一下在開發上的經驗�
 
 > [DEMO 連結：input font-size test for ios safari](https://codepen.io/im1010ioio/pen/qBLLgEZ)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696847167288/fea322d4-78cf-4faf-acd4-42c0c3993306.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696847167288/fea322d4-78cf-4faf-acd4-42c0c3993306.gif)
 
 這個小細節很容易沒有注意到，就連 Google 表單也沒有注意到 QQ：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696847649273/efa5ca9c-8c22-41a1-914d-a6c82032ccea.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696847649273/efa5ca9c-8c22-41a1-914d-a6c82032ccea.gif)
 
 ### 2\. 滾動範圍盡量滾動 body，而不是 `overflow: scroll/auto;`
 
@@ -296,7 +296,7 @@ iOS Safari 號稱 Apple 中的 IE，我這邊整理一下在開發上的經驗�
 
 要使用 Mac Safari debug iOS Safari，首先 iPhone 的 Safari 必須要開啟「網頁檢閱器」的權限，開啟的位置是：「設定 APP &gt; Safari &gt; 進階」。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696872045703/cd74df6b-9f26-4458-9497-c6f629741362.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696872045703/cd74df6b-9f26-4458-9497-c6f629741362.png)
 
 接著使用一條線連結 Mac 與 iPhone，這時候 iPhone 可能會跳出通知詢問是否要信任這台電腦，請選信任；Mac 也可能會詢問要允許配件連接嗎，請選允許。
 
@@ -304,7 +304,7 @@ iOS Safari 號稱 Apple 中的 IE，我這邊整理一下在開發上的經驗�
 
 > 若你在選單列中沒有看到「開發」選單，請選擇 Safari &gt;「設定」，按一下「進階」，然後選取「在選單列中顯示『開發』選單」。（來源：[Apple Safari 使用手冊](https://support.apple.com/zh-tw/guide/safari/sfri20948/16.1/mac/13.6.2)）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696871759251/c2c1f9f2-97da-47f2-b6de-1a3b1dd14d14.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696871759251/c2c1f9f2-97da-47f2-b6de-1a3b1dd14d14.png)
 
 ---
 
@@ -315,4 +315,4 @@ iOS Safari 號稱 Apple 中的 IE，我這邊整理一下在開發上的經驗�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

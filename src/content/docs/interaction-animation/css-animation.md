@@ -138,7 +138,7 @@ CSS Animation 是讓你的網頁更具吸引力的重要工具。透過 `@keyfra
 
 0% 和 100% 可以用逗號寫在一起
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720589119637/3a0f7bfb-50ac-494c-883f-d53e086d5a90.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720589119637/3a0f7bfb-50ac-494c-883f-d53e086d5a90.png)
 
 * 除了 infinity 也可以寫次數(數字)
     

@@ -12,7 +12,7 @@ sidebar:
 
 所謂的噪點漸層 (Grainy Gradients)，在顏色漸變時不是使用平滑過渡色彩，而是使用顆粒由多至少漸變，這樣的方式能夠製造出磨砂的質感，例如 Arc 瀏覽器的背景特效：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727538225332/044e1b1e-9638-41b7-be75-6282f51a5503.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727538225332/044e1b1e-9638-41b7-be75-6282f51a5503.png)
 
 ---
 
@@ -31,7 +31,7 @@ sidebar:
 
 後來作者還製作了小工具，大家可以先去玩玩看：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727538233881/9f3c5f52-2c0b-41e6-9262-5d505144425d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727538233881/9f3c5f52-2c0b-41e6-9262-5d505144425d.png)
 
 > [Grainy Gradients playground](https://grainy-gradients.vercel.app/)
 

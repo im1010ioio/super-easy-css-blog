@@ -31,7 +31,7 @@ sidebar:
 
 讓我們用前幾天 Container Queries 的 DEMO，然後把它弄爆：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697288181262/0ac19953-7d45-4739-b6a6-fd8c5dc6e239.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697288181262/0ac19953-7d45-4739-b6a6-fd8c5dc6e239.png)
 
 > DEMO 連結：[Broken webpage layout because of long text](https://codepen.io/im1010ioio/pen/VwqNNyq)
 
@@ -46,7 +46,7 @@ sidebar:
 
 ### 1\. 文字過長顯示點點點：`text-overflow`
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697254883948/3abd8960-2deb-47dd-b4a8-6061de07569c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697254883948/3abd8960-2deb-47dd-b4a8-6061de07569c.png)
 
 > DEMO 連結：[text-overflow: ellipsis](https://codepen.io/im1010ioio/pen/xxmeewP)
 
@@ -54,7 +54,7 @@ sidebar:
 
 這種方式建議**只使用在單行的時候**：如果使用在多行的情況，它會在每一行的尾巴都添加「…」，但這並不是我們期望的效果，如果多行，我們只需要最後一行有添加「…」就好了 。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697292455766/17323000-837e-48b5-87cf-998b4d6c02d1.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697292455766/17323000-837e-48b5-87cf-998b4d6c02d1.png)
 
 而 `text-overflow` 有一些使用條件：
 
@@ -86,7 +86,7 @@ h1, small{
 
 ### 2\. 行數過多顯示點點點：`-webkit-line-clamp`
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697255745177/b63944f8-e152-4662-a8b7-167a276ea176.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697255745177/b63944f8-e152-4662-a8b7-167a276ea176.png)
 
 > DEMO 連結：[line-clamp](https://codepen.io/im1010ioio/pen/xxmeezJ)
 
@@ -118,7 +118,7 @@ p{
 
 ### 3\. 單字過長強制換行：`word-break`
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697255191484/6697b502-6ee5-4b7f-8f80-1e5f50cd3d41.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697255191484/6697b502-6ee5-4b7f-8f80-1e5f50cd3d41.png)
 
 > DEMO 連結：[word-break: beak-all](https://codepen.io/im1010ioio/pen/RwEOOym)
 
@@ -187,7 +187,7 @@ p{
 
 #### 實際使用 `white-space: pre-line;` 的效果
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697289168173/a843bf88-71a2-4e93-bb8a-cf7fab8dfa82.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697289168173/a843bf88-71a2-4e93-bb8a-cf7fab8dfa82.png)
 
 > DEMO 連結：[white-space: pre-line](https://codepen.io/im1010ioio/pen/wvRZZYM)
 
@@ -213,4 +213,4 @@ p{
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

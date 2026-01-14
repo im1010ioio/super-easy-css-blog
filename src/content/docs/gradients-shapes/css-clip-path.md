@@ -39,7 +39,7 @@ sidebar:
 
 `circle()` 的用法是：指定半徑和中心點來控制圓的位置和大小。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727106561350/7b61dad2-7f53-4537-b278-f12b2e23a953.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727106561350/7b61dad2-7f53-4537-b278-f12b2e23a953.png)
 
 ```css
 .element {
@@ -51,7 +51,7 @@ sidebar:
 
 另外，也可以通過傳入具體的長度值來控制圓的大小和位置：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727106566595/7a4fad73-abd2-4617-9096-08d46f74dacf.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727106566595/7a4fad73-abd2-4617-9096-08d46f74dacf.png)
 
 ```css
 .element {
@@ -67,7 +67,7 @@ sidebar:
 
 `ellipse()` 的用法是：指定橢圓的 x 軸和 y 軸半徑來控制形狀：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727106766998/4f62a33e-c80e-4c77-bd0f-778c4b25a3b8.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727106766998/4f62a33e-c80e-4c77-bd0f-778c4b25a3b8.png)
 
 ```css
 .element {
@@ -84,7 +84,7 @@ sidebar:
 如果需要剪裁出任意形狀，那麼多邊形 `polygon()` 最適合了。  
 使用方式是：透過多個坐標來描繪出所需的形狀。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727107233140/1f9f3af5-9d0f-4cd3-9e84-95b5eaacaa97.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727107233140/1f9f3af5-9d0f-4cd3-9e84-95b5eaacaa97.png)
 
 ```css
 .element {
@@ -110,7 +110,7 @@ sidebar:
 
 比方說，我們可以剪裁一部影片的外緣，符合背景圖的中電視的框框，就會像以下 DEMO：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727110276403/9e7bcd82-8663-4567-b6ab-883eca33f923.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727110276403/9e7bcd82-8663-4567-b6ab-883eca33f923.png)
 
 > DEMO: [CSS clip-path SVG path](https://codepen.io/im1010ioio/pen/JjgjJZa)
 
@@ -150,7 +150,7 @@ sidebar:
 
 如果想要像使用繪圖軟體一樣，直覺地操作 CSS clip-path，有人做了個小工具 —— Clippy，讓你可以直接在網頁上拉動每一個點，然後產出 Code，大家可以去玩玩看喔！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726474314675/43bdeae8-3ac2-4c0f-9298-4ef7c06f3419.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726474314675/43bdeae8-3ac2-4c0f-9298-4ef7c06f3419.png)
 
 > 連結：[Clippy — CSS clip-path maker](https://bennettfeely.com/clippy/)
 
@@ -163,4 +163,4 @@ sidebar:
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

@@ -134,7 +134,7 @@ div {
 
 我們直接拿 #33 篇（[`prefers-color-scheme` 那一篇](https://ithelp.ithome.com.tw/articles/10340843)）寫的例子來改，你會發現這個綠色對話框的背景在深色模式中感覺飽和度很好，可是在淺色模式卻有點暗沉，少了原本使用綠色想要的清爽感：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758996156068/63488bc0-0e70-4b45-8e9b-17b8f2c18cfe.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758996156068/63488bc0-0e70-4b45-8e9b-17b8f2c18cfe.gif)
 
 現在，我們來使用學到的 `light-dark()`，並且綜合前面說的 `color-scheme` 與 CSS 變數管理，重新寫一下，就會變成這樣：
 
@@ -150,7 +150,7 @@ div {
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758996677200/afeece40-9c4f-496b-8db0-fcfd1154a71d.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758996677200/afeece40-9c4f-496b-8db0-fcfd1154a71d.gif)
 
 > DEMO 連結：[CSS color-scheme / light-dark()](https://codepen.io/im1010ioio/pen/jEWWdyx)
 
@@ -194,4 +194,4 @@ div {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="left")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

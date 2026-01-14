@@ -38,7 +38,7 @@ sidebar:
 
 如果我們希望模擬列印時的樣式，可以使用開發者工具，以 Chrome 為例，按「點點點 &gt; More tools &gt; Emulate CSS media」，如下圖所示：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696848376698/eee0ee1d-b3f9-4c24-9e44-48e9ebcd7f09.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696848376698/eee0ee1d-b3f9-4c24-9e44-48e9ebcd7f09.png)
 
 > 中文版是：點點點 &gt; 更多工具 &gt; 算繪 &gt; 模擬 CSS 媒體類型
 
@@ -78,7 +78,7 @@ header {
 
 如果我們不希望換頁時 HTML 元素被截兩半，可以加上 `break-inside: avoid;` ，遇到在一頁內無法完全顯示時，就會換頁避免截半。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696961079834/80f53aad-d91f-46b2-8f91-f457f79fef5f.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696961079834/80f53aad-d91f-46b2-8f91-f457f79fef5f.png)
 
 ```css
 .content {
@@ -139,4 +139,4 @@ header {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

@@ -24,7 +24,7 @@ sidebar:
 
 ## 一、HTML 的最外層
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693929695931/c8a6ac22-1713-41bd-8907-9b529c1e97a9.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693929695931/c8a6ac22-1713-41bd-8907-9b529c1e97a9.png)
 
 ### 1\. HTML 的版本
 
@@ -52,7 +52,7 @@ HTML 文件的根，會包含住整個網頁的內容，其中的屬性 `lang="e
 
 ## 二、 `head` 內的常見元素
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693929707116/8ed5e38f-82f9-4d60-8f25-2d72b6c038e5.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693929707116/8ed5e38f-82f9-4d60-8f25-2d72b6c038e5.png)
 
 寫在 HTML `head` 的內容並不會呈現在網頁畫面上，主要是放一些網頁的基本資訊。
 
@@ -83,7 +83,7 @@ Viewport 是設定網頁的顯示方式，可以設定網頁的預設寬度、�
 
 ### 3\. 網頁標題
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693925298652/0339250a-0ef3-4bb8-b7f8-d2ad68c9da3d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693925298652/0339250a-0ef3-4bb8-b7f8-d2ad68c9da3d.png)
 
 > 範例：`<title>Documant</title>`
 
@@ -124,7 +124,7 @@ CSS 要套用在 HTML 上，第一種方式是可以在 `head` 內寫在 `<style
 
 ## 三、 `body` 內的常見元素
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693929725298/a923c595-1428-4f08-9596-1349a4371f0d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693929725298/a923c595-1428-4f08-9596-1349a4371f0d.png)
 
 `body` 內會放網頁要被他人看見的內容。就是我們在上篇所說的 `main`、`p` ⋯⋯ 大部分的標籤都會放在這裡。
 
@@ -132,7 +132,7 @@ CSS 要套用在 HTML 上，第一種方式是可以在 `head` 內寫在 `<style
 
 這些標籤有預設的版面特質（`display`）：`inline（行內元素）`、`block（區塊元素）`、`list-item`、`table` 等等。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693933670667/33db581e-e60d-4f3f-a408-386de08dc783.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693933670667/33db581e-e60d-4f3f-a408-386de08dc783.png)
 
 如果放在文字間：
 
@@ -342,9 +342,9 @@ JS 建議放在 `<body>` 中的最末端，也就是 `</body>` 結束標籤前�
 
 推薦大家安裝 VS Code 的 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 套件，安裝後按下右下角的「Go live」，就能跑起你的網頁囉！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693934636778/115d6220-cfaa-4ff6-bab5-f263643f2e71.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693934636778/115d6220-cfaa-4ff6-bab5-f263643f2e71.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693934646186/ebea3e7b-818c-4ef9-bc91-9b5ff8b352a4.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693934646186/ebea3e7b-818c-4ef9-bc91-9b5ff8b352a4.png)
 
 此外，操作 VS Code 時，推薦使用快捷鍵，詳細說明請參考這篇文章：
 
@@ -363,4 +363,4 @@ JS 建議放在 `<body>` 中的最末端，也就是 `</body>` 結束標籤前�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

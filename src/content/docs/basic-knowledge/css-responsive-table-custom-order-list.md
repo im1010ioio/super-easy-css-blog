@@ -22,7 +22,7 @@ sidebar:
 
 另外，還要做一些樣式設定：當畫面寬度變窄時，我們先隱藏原本的 `<th>` 標題，然後讓每個 `<td>` 變成不是 table 的樣式（例如：block 或 flex），最後就能讓表格在手機版上變成一目了然的卡片格式。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758642064690/facace87-6402-418c-996a-151c2b2089ad.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758642064690/facace87-6402-418c-996a-151c2b2089ad.gif)
 
 > DEMO 連結：[Responsive Table](https://codepen.io/im1010ioio/pen/dPGoKyO)
 
@@ -123,7 +123,7 @@ sidebar:
 3. 最後透過 `::before` 偽元素與 `content: counter()` 將計數器的值呈現出來，並為它加上喜歡的樣式。
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758642594920/727e090a-3126-414a-abc0-a796bfe47b14.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758642594920/727e090a-3126-414a-abc0-a796bfe47b14.png)
 
 > DEMO 連結：[Custom order list](https://codepen.io/im1010ioio/pen/XJXbYxK)
 
@@ -264,4 +264,4 @@ CSS 偽元素 `::before` 與 `::after` 不只是用來做些裝飾效果，它�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="left")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

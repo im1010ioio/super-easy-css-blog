@@ -98,7 +98,7 @@ h1, button {
 
 以下的例子全部 `text-box-edge` 的值都試試看，主要改變上緣的部分（`cap`、`ex`、`text`），下緣統一都是依據文字的基線（`alphabetic`）為裁切：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758974900139/2fe63d00-e38a-4eb7-8f6f-53f4c862b371.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758974900139/2fe63d00-e38a-4eb7-8f6f-53f4c862b371.png)
 
 > DEMO 連結：[CSS text-box](https://codepen.io/im1010ioio/pen/azddqxd)
 
@@ -123,11 +123,11 @@ h1, button {
 
 在使用[思源黑體（Noto Sans TC）](https://fonts.google.com/noto/specimen/Noto+Sans+TC)製作按鈕時，常常會覺得預設按鈕文字的位置有點偏移（如第一顆按鈕）：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758987562306/12091251-7622-4911-89ee-4ce51247edcc.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758987562306/12091251-7622-4911-89ee-4ce51247edcc.png)
 
 如果你看不出來，試著把 `padding` 改為 0 就會明顯發現，他真的沒對齊：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758987576005/f9ca4545-0b72-4514-aa9e-37c4a5a7b443.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758987576005/f9ca4545-0b72-4514-aa9e-37c4a5a7b443.png)
 
 那麼我們在第二顆按鈕上，使用了：
 
@@ -150,7 +150,7 @@ h1, button {
 想查看`text-box-trim` 與 `text-box-edge` 實際到底指的是文字的哪個部分，  
 可以看看 Google 團隊（Chrome for Developers）做的小工具：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758943609274/82d2fece-9632-4d20-801f-edd396f55246.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758943609274/82d2fece-9632-4d20-801f-edd396f55246.gif)
 
 > 連結：[Interactive CSS text-box](https://codepen.io/web-dot-dev/pen/RNbyooE)
 
@@ -176,4 +176,4 @@ h1, button {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="left")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

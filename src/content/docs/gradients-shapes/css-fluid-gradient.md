@@ -14,11 +14,11 @@ sidebar:
 
 這個封面我是使用 Figma 的套件「[Noisy Gradients](https://www.figma.com/community/plugin/1174390287006360600)」產出的，另外這個套件還有在漸層上加上了噪點，讓平滑的顏色增添一點磨砂材質感覺。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694417958400/77ae1fab-6b90-47e7-92ea-12dd57311262.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694417958400/77ae1fab-6b90-47e7-92ea-12dd57311262.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
 
 不過先不論噪點，其實要製作這種背景很簡單，我們其實只要將東西模糊，並且把數值調到很大後，就能得到這樣的漸層，就像以下這樣：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718163917580/f0d14388-6aeb-41c2-9d05-4ef3d529be1a.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718163917580/f0d14388-6aeb-41c2-9d05-4ef3d529be1a.gif)
 
 > #### **↓ 今日學習重點 ↓**
 > 
@@ -70,7 +70,7 @@ div {
 >     現代瀏覽器高度優化了 CSS 的渲染性能，透過 CSS 製作裝飾性的元素通常比增加額外的 DOM 元素更有效率。
 >     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726816638968/1e8bec58-4d77-44cb-924a-e257bf6ca2c4.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726816638968/1e8bec58-4d77-44cb-924a-e257bf6ca2c4.png)
 
 ```css
 body{
@@ -99,7 +99,7 @@ body{
 
 接著在圓形上加上模糊效果，就完成囉！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726814296929/a4f845e5-4689-481c-8d1d-e6680f78ebea.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726814296929/a4f845e5-4689-481c-8d1d-e6680f78ebea.png)
 
 ```css
 body{
@@ -123,13 +123,13 @@ body{
 
 如果加上 CSS or JS 動畫，就會變得很炫！類似像這樣：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718162313917/1206f43c-8abc-4142-a7e4-e79ca6167850.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718162313917/1206f43c-8abc-4142-a7e4-e79ca6167850.gif)
 
 還有以下也是份很好的教學：
 
 > 延伸閱讀：[網頁的流動背景怎麼做？讓你的網站背景不再死版 | ThisWeb](https://www.thisweb.dev/post/smooth-liquid-bg)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726817435215/dc795e68-6263-4610-9103-d2d9e694cccc.webp align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726817435215/dc795e68-6263-4610-9103-d2d9e694cccc.webp)
 
 ---
 
@@ -140,4 +140,4 @@ body{
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

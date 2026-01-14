@@ -24,7 +24,7 @@ sidebar:
 
 ## 為什麼寫程式要使用版本控制呢？
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683951556849/cabd50a3-08af-4ada-8c8a-9c12b1c88c02.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683951556849/cabd50a3-08af-4ada-8c8a-9c12b1c88c02.png)
 
 你有遇過像上面這樣的情況嗎？檔案修修改改，再加上其他人的版本，最後已經不曉得在改哪一個檔案了。如果這時候，突然需要找到過程中寫過的東西，會完全不知道該從何處找起，他人接手也會不知道該從何改起。
 
@@ -32,7 +32,7 @@ sidebar:
 
 ### 版本控制是什麼？
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683952804218/f20b0dd7-d5c4-4e15-91d5-073b7910be31.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683952804218/f20b0dd7-d5c4-4e15-91d5-073b7910be31.png)
 
 以 GIT Sourcetree APP 的介面為例，使用版本控制大概會像以上這樣，每一筆更動都是一個節點紀錄，上面會紀錄當時新增或刪除了什麼部分。
 
@@ -40,7 +40,7 @@ sidebar:
 
 ### 版本控制的好處
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696993812768/320eeab1-d211-4438-ad52-2d31d7d95c63.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696993812768/320eeab1-d211-4438-ad52-2d31d7d95c63.jpeg)
 
 #### 有版本控制就能夠有以下的好處：
 
@@ -67,7 +67,7 @@ sidebar:
 
 ### Git vs. GitHub/GitLab
 
-![Git vs. GitHub/GitLab](https://cdn.hashnode.com/res/hashnode/image/upload/v1693274923695/83491d63-8cff-41e6-b3b3-9fa36d51589e.png align="center")
+![Git vs. GitHub/GitLab](https://cdn.hashnode.com/res/hashnode/image/upload/v1693274923695/83491d63-8cff-41e6-b3b3-9fa36d51589e.png)
 
 #### GIT
 
@@ -81,7 +81,7 @@ Git 是分散式版控，與之相對的就是集中式版控，如：CVS、SVN 
 
 [GitHub](https://github.com/) 和 [GitLab](https://about.gitlab.com/) 則是**基於 Git 的網絡平台**，它們提供 UI 界面讓大家方便操作原有的 Git 功能。同時，它們也算是個社群平台，你可以對別人的專案回報 Bug 或提供建議，也可以複製（`Fork`）別人的專案等等。另外，它們還提供專案管理、CI/CD 等功能。而其中 GitHub 算是目前市場上最主流的平台，幾乎每個工程師都會有一個 GitHub 帳號。
 
-![Git vs. GitHub](https://cdn.hashnode.com/res/hashnode/image/upload/v1693362963469/8cd3440b-9ffe-4420-ae63-3dadf47e1031.png align="center")
+![Git vs. GitHub](https://cdn.hashnode.com/res/hashnode/image/upload/v1693362963469/8cd3440b-9ffe-4420-ae63-3dadf47e1031.png)
 
 GIT 與這些平台的關係大致上會像上圖。
 
@@ -110,7 +110,7 @@ Git 的分支就好比多重宇宙，我們可以建立很多個平行宇宙寫�
 
 如果，正式版本發現重大 Bug，這時候我們要緊急維修，就會直接從 `main` 上新增臨時維修的分支（假設叫做 `hotfix` ），修好後就趕緊合併回 `main` 上，之後再陸陸續續合併至其他各個分支上。
 
-![版本控制分支的實際應用](https://cdn.hashnode.com/res/hashnode/image/upload/v1693324145484/faadb016-8378-4ea9-96b6-3eb6c974f04e.png align="center")
+![版本控制分支的實際應用](https://cdn.hashnode.com/res/hashnode/image/upload/v1693324145484/faadb016-8378-4ea9-96b6-3eb6c974f04e.png)
 
 #### Git Flow
 
@@ -140,7 +140,7 @@ Git 的分支就好比多重宇宙，我們可以建立很多個平行宇宙寫�
 
 希望大家不要要求工程師，還沒有經過測試就直接上正式版本，因為這樣按下的不曉得是更新按鈕，還是毀滅按鈕喔。😢
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683771539384/4417de68-a8b7-4702-81f9-134809c566c1.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683771539384/4417de68-a8b7-4702-81f9-134809c566c1.jpeg)
 
 ---
 
@@ -151,4 +151,4 @@ Git 的分支就好比多重宇宙，我們可以建立很多個平行宇宙寫�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

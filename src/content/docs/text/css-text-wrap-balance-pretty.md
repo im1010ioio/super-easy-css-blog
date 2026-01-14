@@ -33,7 +33,7 @@ sidebar:
 
 ### 實際應用 DEMO
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758901839405/8f9022b8-5fe4-4fe3-8ff2-7db3dd638d83.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758901839405/8f9022b8-5fe4-4fe3-8ff2-7db3dd638d83.png)
 
 > DEMO 連結：[CSS text-wrap: balance](https://codepen.io/im1010ioio/pen/EaPPmaJ)
 
@@ -57,7 +57,7 @@ h2 {
 
 看看下面這段內文的差異：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758901898730/67a1c860-e47a-4632-964d-ba0cffd9c6d6.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758901898730/67a1c860-e47a-4632-964d-ba0cffd9c6d6.png)
 
 > DEMO 連結：[CSS text-wrap: pretty](https://codepen.io/im1010ioio/pen/ZYQQKzM)
 
@@ -103,4 +103,4 @@ div {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="left")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

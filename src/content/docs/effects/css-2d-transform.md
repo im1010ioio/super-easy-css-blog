@@ -59,11 +59,11 @@ selector {
 
 如果你想要使用 CSS 絕對定位想要將東西置中，直接把 `top` 、 `left` 都設為 `50%` 的話，結果不是置中的，因為它對齊的東西的左上角：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728231694971/57cd4b62-3dea-4de6-b106-80e828547c33.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728231694971/57cd4b62-3dea-4de6-b106-80e828547c33.png)
 
 這時候我們可以就使用 `transform: translate()` 解決這個問題，就是將這個東西，往上、往左移自身的 50%，這樣就能實質上的置中了：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728231702214/88e95ced-f13b-4899-93e6-1441fd2700a6.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728231702214/88e95ced-f13b-4899-93e6-1441fd2700a6.png)
 
 ```css
 .box{
@@ -172,11 +172,11 @@ selector {
 
 如果我們直接將文字方塊傾斜，你會發現連文字也一起被傾斜了：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727622742304/2481d459-6be4-4d38-8df9-81eef46d7447.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727622742304/2481d459-6be4-4d38-8df9-81eef46d7447.png)
 
 這時候我們可以善用偽元素 `::before` or `::after` 製作傾斜的背景，就能達到我們想要的效果了：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727622760141/263410ad-bbe6-499e-808a-fe73f7e9c4d0.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727622760141/263410ad-bbe6-499e-808a-fe73f7e9c4d0.png)
 
 ```css
 .skew-bg::before{

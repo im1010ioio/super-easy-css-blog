@@ -47,7 +47,7 @@ sidebar:
 
 呈現結果如下圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758117939106/169015ab-b154-45a4-8014-1a2ae3b1acd9.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758117939106/169015ab-b154-45a4-8014-1a2ae3b1acd9.gif)
 
 > DEMO 連結：[CSS Text Highlight by :target](https://codepen.io/im1010ioio/pen/GgpOyrv)
 
@@ -82,7 +82,7 @@ HTML hash 連結**最基本的**指定方式如下：
 
 結果就會如下：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758119412191/e72efac2-c417-4915-8680-3506dc8838bb.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758119412191/e72efac2-c417-4915-8680-3506dc8838bb.gif)
 
 > DEMO 連結：[CSS Text Highlight by :target-text](https://codepen.io/im1010ioio/pen/MYKgbpp)
 
@@ -140,4 +140,4 @@ HTML hash 連結**最基本的**指定方式如下：
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)

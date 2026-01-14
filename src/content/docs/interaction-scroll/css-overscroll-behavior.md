@@ -28,7 +28,7 @@ sidebar:
 
 當你在內層的 `<div>` 裡滾動，滑鼠滾輪滾到底部（或頂部）後，如果繼續朝同一個方向滾動，這個「滾動事件」就會像接力棒一樣，傳遞給外層的 `<html>`，導致整個頁面也開始滾動。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758265000746/7be3da4b-acb6-4c75-bb9b-3dd013fe237e.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758265000746/7be3da4b-acb6-4c75-bb9b-3dd013fe237e.gif)
 
 *(這就是惱人的滾動穿透)*
 
@@ -71,7 +71,7 @@ sidebar:
 
 就可以了！現在當你在對話框裡的 `.scrollable` 裡面滾動時，就算滾到最頂部或最底部，背景的 `<html>` 也不會再跟著亂動了，他們兩者的滾動從此互不相關。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758265608655/4e0f2c2b-6f7f-4e3a-b567-a385005bc137.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758265608655/4e0f2c2b-6f7f-4e3a-b567-a385005bc137.gif)
 
 > DEMO 連結：[Prevent Scroll Chaining With Overscroll Behavior](https://codepen.io/im1010ioio/pen/xbZxrVQ)
 
@@ -89,13 +89,13 @@ html {
 
 把 `overscroll-behavior-y` 設定為 `none`，就可以有效地阻止手機瀏覽器預設的下拉重整手勢。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758267657831/dd76d01a-f243-4bd9-a3e9-1cd7c5ad5aa2.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758267657831/dd76d01a-f243-4bd9-a3e9-1cd7c5ad5aa2.gif)
 
 > DEMO 連結：[Prevent Pull-to-Refresh on Mobile with Overscroll Behavior](https://codepen.io/im1010ioio/pen/YPwzrwL)
 
 （請用手機打開 CodePen DEMO 的 Debug Mode 試試看）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758268445908/2484c0a4-acf3-4f89-ab8c-44eabd2fc770.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758268445908/2484c0a4-acf3-4f89-ab8c-44eabd2fc770.png)
 
 ---
 
@@ -125,4 +125,4 @@ html {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png align="center")
+![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
