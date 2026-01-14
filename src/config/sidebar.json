@@ -1,33 +1,34 @@
 {
   "main": [
     {
+      "label": "Super Easy CSS",
       "items": [
         {
-          "label": "基礎知識 / 共用觀念",
+          "label": "[document] 基礎知識 / 共用觀念",
           "autogenerate": { "directory": "basic-knowledge" }
         },
         {
-          "label": "版面編排",
+          "label": "[seti:csv] 版面編排",
           "autogenerate": { "directory": "layout" }
         },
         {
-          "label": "響應式 RWD",
+          "label": "[laptop] 響應式 RWD",
           "autogenerate": { "directory": "rwd" }
         },
         {
-          "label": "文字",
+          "label": "[translate] 文字",
           "autogenerate": { "directory": "text" }
         },
         {
-          "label": "顏色",
+          "label": "[seti:elixir] 顏色",
           "autogenerate": { "directory": "color" }
         },
         {
-          "label": "多媒體",
+          "label": "[seti:image] 多媒體",
           "autogenerate": { "directory": "multimedia" }
         },
         {
-          "label": "繪製漸層與圖形",
+          "label": "[seti:svg] 繪製漸層與圖形",
           "autogenerate": { "directory": "gradients-shapes" }
         },
         {
@@ -51,7 +52,7 @@
           "autogenerate": { "directory": "interaction-scroll" }
         },
         {
-          "label": "Sass/SCSS",
+          "label": "[seti:sass] Sass/SCSS",
           "autogenerate": { "directory": "sass-scss" }
         },
         {
@@ -59,11 +60,11 @@
           "autogenerate": { "directory": "css-frameworks" }
         },
         {
-          "label": "SEO 與其他實用工具",
+          "label": "[magnifier] SEO 與其他實用工具",
           "autogenerate": { "directory": "seo-tools" }
         },
         {
-          "label": "雜記",
+          "label": "[pencil] 雜記",
           "autogenerate": { "directory": "misc" }
         }
       ]

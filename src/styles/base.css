@@ -64,3 +64,11 @@ code {
 blockquote > p {
   @apply my-0!;
 }
+
+a{
+  font-weight: bold;
+}
+
+.expressive-code .frame pre{
+  border-radius: .5rem;
+}
