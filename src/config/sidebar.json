@@ -1,6 +1,75 @@
 {
   "main": [
     {
+      "label": "Super Easy CSS Content",
+      "items": [
+        {
+          "label": "基礎知識 / 共用觀念",
+          "autogenerate": { "directory": "basic-knowledge" }
+        },
+        {
+          "label": "版面編排",
+          "autogenerate": { "directory": "layout" }
+        },
+        {
+          "label": "響應式 RWD",
+          "autogenerate": { "directory": "rwd" }
+        },
+        {
+          "label": "文字",
+          "autogenerate": { "directory": "text" }
+        },
+        {
+          "label": "顏色",
+          "autogenerate": { "directory": "color" }
+        },
+        {
+          "label": "多媒體",
+          "autogenerate": { "directory": "multimedia" }
+        },
+        {
+          "label": "繪製漸層與圖形",
+          "autogenerate": { "directory": "gradients-shapes" }
+        },
+        {
+          "label": "特效",
+          "autogenerate": { "directory": "effects" }
+        },
+        {
+          "label": "互動 - Transition",
+          "autogenerate": { "directory": "interaction-transition" }
+        },
+        {
+          "label": "互動 - Animation",
+          "autogenerate": { "directory": "interaction-animation" }
+        },
+        {
+          "label": "互動 - click toggle 行為",
+          "autogenerate": { "directory": "interaction-click" }
+        },
+        {
+          "label": "互動 - scroll 行為",
+          "autogenerate": { "directory": "interaction-scroll" }
+        },
+        {
+          "label": "Sass/SCSS",
+          "autogenerate": { "directory": "sass-scss" }
+        },
+        {
+          "label": "CSS 框架初探",
+          "autogenerate": { "directory": "css-frameworks" }
+        },
+        {
+          "label": "SEO 與其他實用工具",
+          "autogenerate": { "directory": "seo-tools" }
+        },
+        {
+          "label": "雜記",
+          "autogenerate": { "directory": "misc" }
+        }
+      ]
+    },
+    {
       "label": "Getting Started",
       "translations": {
         "fr": "Commencer"
