@@ -3,6 +3,8 @@ import Search from "./Search.astro";
 const { data } = Astro.locals.starlightRoute.entry;
 const { title = data.title, tagline } = data.hero || {};
 const { sidebar } = Astro.locals.starlightRoute;
+import { Icon } from "@astrojs/starlight/components";
+import { getIconFromLabel, plainLabel } from "@/lib/utils/textConverter";
 
 function getFirstHref(item: any): string | null {
   if (typeof item?.href === "string" && item.href) {
@@ -40,13 +42,16 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
           <div class="flex gap-4 badges px-3 py-2.5 rounded-xl flex-wrap justify-center">
             {sidebar.map((item: any) => {
               const href = getFirstHref(item);
+              const icon = getIconFromLabel(item.label);
+              const label = plainLabel(item.label);
               return (
                 <div class="badge rounded-lg px-2 py-1.5 group transition">
                   <a
-                    class="cursor-pointer text-text no-underline group-hover:text-black dark:group-hover:text-white transition-colors"
+                    class="cursor-pointer text-text no-underline group-hover:text-black dark:group-hover:text-white transition-colors flex items-center gap-2"
                     href={href}
                   >
-                    {item.label}
+                    {icon && <Icon name={icon as any} size="1.2rem" />}
+                    {label}
                   </a>
                 </div>
               );
