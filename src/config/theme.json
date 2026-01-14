@@ -2,18 +2,18 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#47B684",
+        "primary": "#009699",
         "body": "#0d0d0d",
         "light": "#F9F9FD",
         "dark": "#1A2632"
       },
       "text_color": {
-        "text": "#F9F9FD"
+        "text": "#495562"
       }
     },
     "lightmode": {
       "theme_color": {
-        "primary": "#47B684",
+        "primary": "#009699",
         "body": "#fff",
         "light": "#1A2632",
         "dark": "#F9F9FD"

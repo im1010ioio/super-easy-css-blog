@@ -10,66 +10,13 @@ hero:
 ---
 
 import Section from "~/components/Section.astro";
-import Card from "~/components/user-components/NewCard.astro";
 import Grid from "~/components/user-components/Grid.astro";
 
-<Section title="Powerful features
-<span class='light-text'>for documentations</span>" description="Explore the tools and design choices that make documentation efficient.">
-
-<Grid columns={4}>
-  <Card title="Well organized" icon="substack" iconColor="#FF8585">
-    The transparency of our data will help you make the informed decisions you need to.
-  </Card>
-  <Card title="Lightning fast" icon="seti:vite" iconColor="#7BE1A4">
-  Our performance optimization ensures quick load times and a smooth user experience.
-  </Card>
-
-<Card title="Powerful search" icon="seti:code-search" iconColor="#FFD97B">
-  Our search functionality helps users find information quickly and easily.
-</Card>
-<Card title="Very customized" icon="seti:config" iconColor="#979BFF">
-  Tailor the documentation to fit your brand and project needs with ease.
-</Card>
-
-</Grid>
-</Section>
-
-import HeroTabs from "~/components/HeroTabs.astro";
-import HeroTabsItem from "~/components/HeroTabsItem.astro";
-
-<Section
-  title="Get started quickly <span class='light-text'>in just 3 simple steps</span>"
-  description="A fast and frustration-free way to set up and start your documentation."
->
-  <HeroTabs>
-    <HeroTabsItem
-      title="Install our template"
-      subtitle="Set up in seconds with our template ."
-      number={1}
-      image="/src/assets/step-1.png"
-      imageAlt="Step 1 image"
-    />
-    <HeroTabsItem
-      title="Import what you need"
-      subtitle="Bring components or functions into projecs."
-      number={2}
-      image="/src/assets/step-2.png"
-      imageAlt="Step 2 image"
-    />
-    <HeroTabsItem
-      title="Start documentation"
-      subtitle="Start documenting your project immediately."
-      number={3}
-      image="/src/assets/step-3.png"
-      imageAlt="Step 3 image"
-    />
-  </HeroTabs>
-</Section>
 
 import ListCard from "~/components/user-components/ListCard.astro";
 import LinkButton from "~/components/LinkButton.astro";
 
-<Section title="Feature topics for <span class='light-text'>our documentation</span>" description="Explore our featured topics and get an idea of our capabilities.">
+<Section title="所需的 CSS 前端知識 <span class='light-text'>盡可能都在這裡</span>" description="打造靜態網頁必備的小知識們">
 
 <Grid columns={3}>
 <ListCard title="UI Components" imageIcon="/src/assets/element.svg" number="15">
@@ -151,27 +98,12 @@ import LinkButton from "~/components/LinkButton.astro";
 </Section>
 
 
-
-import ThemeDemo from "~/components/ThemeDemo.astro";
-
-<Section
-  title="Switch easily from <span class='light-text'>dark/light mode</span>"
-  description="Dedicated toggle button to switch between dark and light mode."
->
-
-<ThemeDemo
-  darkImage="/src/assets/darkmode-demo.png"
-  lightImage="/src/assets/lightmode-demo.png"
-/>
-
-</Section>
-
 import AccordionContainer from "~/components/AccordionContainer.astro";
 import Accordion from "~/components/Accordion.astro";
 
 <Section
-  title="Have question? <span class='light-text'>We’re here to help</span>"
-  description="Get answers to the general questions people have asked."
+  title="常見問題 <span class='light-text'>Super Easy CSS？</span>"
+  description="這裡有許多常見問題，也許你可以找到答案。"
 >
 
 <AccordionContainer tabList={

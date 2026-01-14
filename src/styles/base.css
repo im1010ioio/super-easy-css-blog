@@ -72,3 +72,30 @@ a{
 .expressive-code .frame pre{
   border-radius: .5rem;
 }
+
+.sidebar-content-top:where(.astro-gvqsdny3) ul:where(.astro-gvqsdny3){
+  gap: 0;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+
+.sidebar-content-top:where(.astro-gvqsdny3) ul:where(.astro-gvqsdny3) li:where(.astro-gvqsdny3) a:where(.astro-gvqsdny3){
+  padding: 10px 1.25rem;
+  transition: .3s;
+  &:hover{
+    color: var(--color-primary);
+  }
+}
+.sidebar-content-top:where(.astro-gvqsdny3) ul:where(.astro-gvqsdny3) li:where(.astro-gvqsdny3) a:where(.astro-gvqsdny3).active{
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.sidebar, .right-sidebar-container{
+ opacity: .5 !important;
+ transition: .3s;
+ &:hover{
+  opacity: 1 !important;
+ }
+}

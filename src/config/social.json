@@ -23,7 +23,7 @@
     {
       "icon": "email",
       "label": "Email",
-      "href": "mailto:dev@im1010ioio.dev"
+      "href": "mailto:dev@im1010ioio.dev?body=Hello, Yi Lin,"
     }
   ]
 }

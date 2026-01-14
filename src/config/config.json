@@ -21,7 +21,7 @@
     "copyright": "Design adapted from <a class=\"text-primary hover:underline no-underline\" href=\"https://themefisher.com\" target=\"_blank\" rel=\"noopener\" aria-label=\"Themefisher\">Themefisher</a>."
   },
   "navigation_button": {
-    "enable": true,
+    "enable": false,
     "label": "Get Started",
     "translations": {
       "fr": "Erste Schritte"

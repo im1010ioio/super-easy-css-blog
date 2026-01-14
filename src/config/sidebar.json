@@ -1,73 +1,73 @@
 {
   "main": [
     {
-      "label": "Super Easy CSS",
-      "items": [
-        {
-          "label": "[document] 基礎知識 / 共用觀念",
-          "autogenerate": { "directory": "basic-knowledge" }
-        },
-        {
-          "label": "[seti:csv] 版面編排",
-          "autogenerate": { "directory": "layout" }
-        },
-        {
-          "label": "[laptop] 響應式 RWD",
-          "autogenerate": { "directory": "rwd" }
-        },
-        {
-          "label": "[translate] 文字",
-          "autogenerate": { "directory": "text" }
-        },
-        {
-          "label": "[seti:elixir] 顏色",
-          "autogenerate": { "directory": "color" }
-        },
-        {
-          "label": "[seti:image] 多媒體",
-          "autogenerate": { "directory": "multimedia" }
-        },
-        {
-          "label": "[seti:svg] 繪製漸層與圖形",
-          "autogenerate": { "directory": "gradients-shapes" }
-        },
-        {
-          "label": "特效",
-          "autogenerate": { "directory": "effects" }
-        },
-        {
-          "label": "互動 - Transition",
-          "autogenerate": { "directory": "interaction-transition" }
-        },
-        {
-          "label": "互動 - Animation",
-          "autogenerate": { "directory": "interaction-animation" }
-        },
-        {
-          "label": "互動 - click toggle 行為",
-          "autogenerate": { "directory": "interaction-click" }
-        },
-        {
-          "label": "互動 - scroll 行為",
-          "autogenerate": { "directory": "interaction-scroll" }
-        },
-        {
-          "label": "[seti:sass] Sass/SCSS",
-          "autogenerate": { "directory": "sass-scss" }
-        },
-        {
-          "label": "CSS 框架初探",
-          "autogenerate": { "directory": "css-frameworks" }
-        },
-        {
-          "label": "[magnifier] SEO 與其他實用工具",
-          "autogenerate": { "directory": "seo-tools" }
-        },
-        {
-          "label": "[pencil] 雜記",
-          "autogenerate": { "directory": "misc" }
-        }
-      ]
+      "label": "[pencil] 前言",
+      "autogenerate": { "directory": "preface" }
+    },
+    {
+      "label": "[document] 基礎知識 / 共用觀念",
+      "autogenerate": { "directory": "basic-knowledge" }
+    },
+    {
+      "label": "[seti:csv] 版面編排",
+      "autogenerate": { "directory": "layout" }
+    },
+    {
+      "label": "[laptop] 響應式 RWD",
+      "autogenerate": { "directory": "rwd" }
+    },
+    {
+      "label": "[translate] 文字",
+      "autogenerate": { "directory": "text" }
+    },
+    {
+      "label": "[seti:elixir] 顏色",
+      "autogenerate": { "directory": "color" }
+    },
+    {
+      "label": "[seti:image] 多媒體",
+      "autogenerate": { "directory": "multimedia" }
+    },
+    {
+      "label": "[seti:svg] 繪製漸層與圖形",
+      "autogenerate": { "directory": "gradients-shapes" }
+    },
+    {
+      "label": "特效",
+      "autogenerate": { "directory": "effects" }
+    },
+    {
+      "label": "互動 - Transition",
+      "autogenerate": { "directory": "interaction-transition" }
+    },
+    {
+      "label": "互動 - Animation",
+      "autogenerate": { "directory": "interaction-animation" }
+    },
+    {
+      "label": "互動 - click toggle 行為",
+      "autogenerate": { "directory": "interaction-click" }
+    },
+    {
+      "label": "互動 - scroll 行為",
+      "autogenerate": { "directory": "interaction-scroll" }
+    },
+    {
+      "label": "[seti:sass] Sass/SCSS",
+      "autogenerate": { "directory": "sass-scss" }
+    },
+    {
+      "label": "CSS 框架初探",
+      "autogenerate": { "directory": "css-frameworks" }
+    },
+    {
+      "label": "[magnifier] SEO 與其他實用工具",
+      "autogenerate": { "directory": "seo-tools" }
+    },
+    {
+      "label": "[pencil] 雜記",
+      "autogenerate": { "directory": "misc" }
     }
+
   ]
 }
