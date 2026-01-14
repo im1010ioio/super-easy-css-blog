@@ -1,3 +1,9 @@
+@import url("https://font.emtech.cc/css/LINESeed");
+
+*{
+  scroll-behavior: smooth;
+}
+
 html {
   @apply text-base-sm md:text-base;
 }

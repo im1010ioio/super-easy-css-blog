@@ -29,13 +29,12 @@ const checkIsCurrent = (entries: any[]): boolean => {
 
 <ul class:list={{ "top-level": !nested }}>
   {
-    sublist.map((entry: any) => (
+    sublist.map((entry: any, index: number) => (
       <li>
         {entry.type === "link" ? (
           <a
             href={entry.href}
             aria-current={entry.isCurrent && "page"}
-            class:list={[{ large: !nested }, entry.attrs.class]}
             {...entry.attrs}
           >
             {getIconFromLabel(entry.label) && (
@@ -45,6 +44,7 @@ const checkIsCurrent = (entries: any[]): boolean => {
                 class="mr-2.5"
               />
             )}
+             <span class="index">{index + 1}.</span>
             <span>{plainLabel(entry.label)}</span>
             {entry.badge && (
               <Badge
@@ -77,8 +77,7 @@ const checkIsCurrent = (entries: any[]): boolean => {
                     }
                   />
                 )}
-
-                <span class="large">{plainLabel(entry.label)}</span>
+                <b>{plainLabel(entry.label)}</b>
                 {entry.badge && (
                   <Badge
                     variant={entry.badge.variant}
@@ -195,26 +194,40 @@ const checkIsCurrent = (entries: any[]): boolean => {
       color: var(--sl-color-gray-2);
       /* padding: 0.3em var(--sl-sidebar-item-padding-inline); */
       padding: 8px 10px;
-      line-height: 1.4;
+      font-size: .85rem;
+      font-weight: bold;
+      line-height: 1.5;
+      .index {
+        margin-right: 0.5rem;
+        opacity: 0.6;
+        min-width: 1.4rem;
+        text-align: center;
+        font-weight: bold;
+        white-space: nowrap;
+      }
+      > span{
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* 設定顯示 3 行 */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
     }
 
     a:hover,
     a:focus {
       color: var(--sl-color-white);
-    }
-
-    [aria-current="page"],
-    [aria-current="page"]:hover,
-    [aria-current="page"]:focus {
-      color: var(--color-primary) !important;
       background-color: color-mix(
         in srgb,
         var(--sl-color-white) 6%,
         transparent
       );
     }
-    [aria-current="page"] span {
-      color: var(--sl-color-white);
+
+    [aria-current="page"],
+    [aria-current="page"]:hover,
+    [aria-current="page"]:focus {
+      color: white;
+      background-color: var(--color-primary);
     }
 
     li:has([aria-current="page"]) {

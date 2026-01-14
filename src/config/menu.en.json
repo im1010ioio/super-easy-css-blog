@@ -1,25 +1,53 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "首頁",
       "url": "/"
     },
     {
-      "name": "Documentation",
-      "url": "/getting-started/introduction/overview/"
-    },
-    {
-      "name": "Reference",
+      "name": "文章",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Configuration",
-          "url": "/reference/configuration/"
+          "name": "基礎知識 / 共用觀念",
+          "url": "/basic-knowledge/glossary-of-web-development/"
         },
         {
-          "name": "Plugins Reference",
-          "url": "/reference/plugin/"
+          "name": "版面編排",
+          "url": "/layout/css-box-model/"
+        },
+        {
+          "name": "響應式 RWD",
+          "url": "/rwd/css-media-queries/"
+        },
+        {
+          "name": "文字",
+          "url": "/text/css-font-family-font-weight/"
+        },
+        {
+          "name": "顏色",
+          "url": "/color/css-colors-hex-rgb-hsl-lch-oklch/"
+        },
+        {
+          "name": "多媒體",
+          "url": "/multimedia/css-object-fit-background-size-aspect-ratio/"
+        },
+        {
+          "name": "繪製漸層與圖形",
+          "url": "/gradients-shapes/css-gradient/"
+        },
+        {
+          "name": "特效",
+          "url": "/effects/css-mask/"
+        },
+        {
+          "name": "互動",
+          "url": "/interaction-transition/css-transition/"
+        },
+        {
+          "name": "Sass/SCSS",
+          "url": "/sass-scss/scss-intro/"
         }
       ]
     }
