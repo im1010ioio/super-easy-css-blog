@@ -61,9 +61,7 @@ const currentLocal = Astro.currentLocale || "en";
         .<br>
         <small>${markdownify(config?.params?.copyright)}</small>`}
       />
-      <a href={currentLocal + "/privacy-policy"}
-        >{Astro.locals.t("footer.privacy", "Privacy Policy")}</a
-      >
+      <a href="privacy">隱私權聲明</a>
     </div>
   </div>
 </footer>
