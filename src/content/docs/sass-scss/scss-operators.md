@@ -1,5 +1,5 @@
 ---
-title: "#87 Sass/scss (6) 運算符號（加減乘除）"
+title: "Sass/scss (6) 運算符號（加減乘除）"
 datePublished: Tue Oct 07 2025 17:27:54 GMT+0000 (Coordinated Universal Time)
 cuid: cmggu24pw000702lbfvq92mhy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766723664117/792adaac-a6b3-4847-9ca9-dc8a9aed614b.png

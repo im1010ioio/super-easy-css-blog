@@ -1,5 +1,5 @@
 ---
-title: "#17 CSS block、inline、inline-block：網頁排版的御三家"
+title: "CSS block、inline、inline-block：網頁排版的御三家"
 datePublished: Tue Oct 03 2023 03:05:43 GMT+0000 (Coordinated Universal Time)
 cuid: cln9qm90b000909l8f3zvfkdl
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766403329127/ef1c311e-6c92-49c2-bf90-8074636ee579.png

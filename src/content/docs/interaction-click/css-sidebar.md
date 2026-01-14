@@ -1,5 +1,5 @@
 ---
-title: "#60 利用 checkbox，做到純 CSS 開關網頁選單、收合側邊欄"
+title: "利用 checkbox，做到純 CSS 開關網頁選單、收合側邊欄"
 datePublished: Wed Aug 13 2025 11:32:06 GMT+0000 (Coordinated Universal Time)
 cuid: cme9w4qcm000y02l56a0e4by1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766572871211/31883184-d4b3-461a-98b2-8b659a7b5b1a.png

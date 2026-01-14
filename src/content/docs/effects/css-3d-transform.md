@@ -1,5 +1,5 @@
 ---
-title: "#50 CSS 3D Transform"
+title: "CSS 3D Transform"
 datePublished: Wed Aug 13 2025 10:02:16 GMT+0000 (Coordinated Universal Time)
 cuid: cme9sx6s7000h02l7au6wabtu
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766489078430/b97758f4-0bfe-4135-8445-d741fee3ecde.png

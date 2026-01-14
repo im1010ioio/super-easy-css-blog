@@ -1,5 +1,5 @@
 ---
-title: "#20  CSS 內部尺寸 (Intrinsic Sizing)：min-content、max-content、fit-content"
+title: " CSS 內部尺寸 (Intrinsic Sizing)：min-content、max-content、fit-content"
 datePublished: Fri Oct 06 2023 04:04:58 GMT+0000 (Coordinated Universal Time)
 cuid: clne31zys000409lh06ji3y9b
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765252900415/d950f360-27de-44d0-b688-92b602751f63.png

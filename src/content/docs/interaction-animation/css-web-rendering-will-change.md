@@ -1,5 +1,5 @@
 ---
-title: "#54 網頁渲染動畫的建議 & will-change 的使用時機"
+title: "網頁渲染動畫的建議 & will-change 的使用時機"
 datePublished: Wed Aug 13 2025 10:11:32 GMT+0000 (Coordinated Universal Time)
 cuid: cme9t94fy000902jo0way0ucx
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766490372496/80715d83-8022-485a-b447-2aee2b9d1553.png

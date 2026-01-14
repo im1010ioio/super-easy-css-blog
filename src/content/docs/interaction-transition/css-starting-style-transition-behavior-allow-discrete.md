@@ -1,5 +1,5 @@
 ---
-title: "#80  Display: none 也可以做 CSS Transition 動畫了？@starting-style 與 transition-behavior: allow-discrete"
+title: " Display: none 也可以做 CSS Transition 動畫了？@starting-style 與 transition-behavior: allow-discrete"
 datePublished: Wed Oct 01 2025 16:54:55 GMT+0000 (Coordinated Universal Time)
 cuid: cmg888m6x000002ju0c59ak8k
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766673363172/91d30860-c4e3-4a03-b6d3-cf0b7e8e5040.png

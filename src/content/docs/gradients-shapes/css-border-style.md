@@ -1,5 +1,5 @@
 ---
-title: "#44 CSS 邊框 border 與各種花式邊框的小技巧：borde-image、outline、box-shadow"
+title: "CSS 邊框 border 與各種花式邊框的小技巧：borde-image、outline、box-shadow"
 datePublished: Wed Sep 25 2024 09:17:38 GMT+0000 (Coordinated Universal Time)
 cuid: cm1hnjhxp001y09jthv696xkk
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766463596574/826ce3aa-489a-4daa-8e6b-f0e1991f076d.png

@@ -1,5 +1,5 @@
 ---
-title: "#49 CSS 2D Transform：變大、變小、旋轉、傾斜，CSS 絕對定位置中方法、平行四邊形"
+title: "CSS 2D Transform：變大、變小、旋轉、傾斜，CSS 絕對定位置中方法、平行四邊形"
 datePublished: Wed Aug 13 2025 10:00:16 GMT+0000 (Coordinated Universal Time)
 cuid: cme9sumk5000h02l287jvdzm7
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766488925667/4cdc72f7-85f2-44f6-8e5d-167627ed3128.png

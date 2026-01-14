@@ -1,5 +1,5 @@
 ---
-title: "#61 利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）"
+title: "利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）"
 datePublished: Wed Aug 13 2025 11:35:28 GMT+0000 (Coordinated Universal Time)
 cuid: cme9w91we000202ju3saa9w7v
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766573492991/1e107051-bb6c-4753-85d3-a740bb4229aa.png

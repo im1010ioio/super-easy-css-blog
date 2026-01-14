@@ -1,5 +1,5 @@
 ---
-title: "#31 CSS 顏色設定：基本的 hex、rgb()、cmyk()、hsl()、hsb() 、hwb() 與明日之星的 lch()、oklch()"
+title: "CSS 顏色設定：基本的 hex、rgb()、cmyk()、hsl()、hsb() 、hwb() 與明日之星的 lch()、oklch()"
 datePublished: Wed Oct 25 2023 06:55:26 GMT+0000 (Coordinated Universal Time)
 cuid: clo5eiewi000s09le0xhz3hjb
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766403447441/341f4a88-cd7c-49c2-93e1-78a76ea5be49.png

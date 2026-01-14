@@ -1,5 +1,5 @@
 ---
-title: "#40 使用 CSS filter blur 製作簡易的任意形狀漸層 (流動/暈染背景)"
+title: "使用 CSS filter blur 製作簡易的任意形狀漸層 (流動/暈染背景)"
 datePublished: Fri Sep 20 2024 08:10:56 GMT+0000 (Coordinated Universal Time)
 cuid: cm1afyh59003209l6h9bmfaxz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766409039242/859e1069-ea1c-4c09-b163-3cce8a83df0b.png

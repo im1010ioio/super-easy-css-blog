@@ -1,5 +1,5 @@
 ---
-title: "#27 網頁載入字體、Icon Font 與 CSS font-family、font-weight"
+title: "網頁載入字體、Icon Font 與 CSS font-family、font-weight"
 datePublished: Fri Oct 13 2023 15:55:11 GMT+0000 (Coordinated Universal Time)
 cuid: clnosib6e000009jsbggz8hb9
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766038613747/cafe0f32-cfc0-4062-bcc0-313d004f22b1.png

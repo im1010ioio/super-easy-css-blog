@@ -1,5 +1,5 @@
 ---
-title: "#86 SASS/SCSS (5) Extend"
+title: "SASS/SCSS (5) Extend"
 datePublished: Tue Oct 07 2025 15:51:59 GMT+0000 (Coordinated Universal Time)
 cuid: cmggqms42000002jvdrbt79ej
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766722774878/1d53ade5-0ec2-4c16-a722-9118be8b8878.png

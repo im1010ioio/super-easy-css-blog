@@ -1,5 +1,5 @@
 ---
-title: "#66 CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標"
+title: "CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標"
 datePublished: Wed Sep 17 2025 15:06:26 GMT+0000 (Coordinated Universal Time)
 cuid: cmfo476lc000002jrc7a2ha01
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766594162009/d133ddb0-ac00-4443-bdcf-9b9eaa6daf2f.png

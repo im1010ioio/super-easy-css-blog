@@ -1,5 +1,5 @@
 ---
-title: "#33 CSS 切換淺色/深色模式：Media Queries 的 prefers-color-scheme 搭配 CSS 變數"
+title: "CSS 切換淺色/深色模式：Media Queries 的 prefers-color-scheme 搭配 CSS 變數"
 datePublished: Fri Dec 01 2023 03:14:27 GMT+0000 (Coordinated Universal Time)
 cuid: clpm1wqdw000h09k0awxf37db
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766405008436/c15fbcc2-b2bd-49da-8f8a-33284815c891.png

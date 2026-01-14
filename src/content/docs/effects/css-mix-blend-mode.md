@@ -1,5 +1,5 @@
 ---
-title: "#47 一次搞懂 CSS 各種混合模式：mix-blend-mode/ background-blend-mode"
+title: "一次搞懂 CSS 各種混合模式：mix-blend-mode/ background-blend-mode"
 datePublished: Thu Oct 03 2024 09:45:23 GMT+0000 (Coordinated Universal Time)
 cuid: cm1t41zte000c0ajh2amfeghi
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766470170270/efdfe19d-834c-4b73-91a0-3de78a42b6f6.png

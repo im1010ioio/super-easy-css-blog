@@ -11,7 +11,7 @@
       "children": [
         {
           "name": "基礎知識 / 共用觀念",
-          "url": "/basic-knowledge/glossary-of-web-development/"
+          "url": "/basics/glossary-of-web-development/"
         },
         {
           "name": "版面編排",
@@ -58,7 +58,7 @@
       "links": [
         {
           "name": "基礎知識 / 共用觀念",
-          "url": "/basic-knowledge/glossary-of-web-development/"
+          "url": "/basics/glossary-of-web-development/"
         },
         {
           "name": "版面編排",

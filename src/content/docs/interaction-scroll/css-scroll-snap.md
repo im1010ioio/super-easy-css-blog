@@ -1,5 +1,5 @@
 ---
-title: "#69 CSS scroll snap 做簡單的純 CSS 輪播"
+title: "CSS scroll snap 做簡單的純 CSS 輪播"
 datePublished: Fri Sep 19 2025 16:10:13 GMT+0000 (Coordinated Universal Time)
 cuid: cmfr1cwks000d02kwd5kjczng
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766596153978/d99eb018-640b-4040-9197-1eeeb595df87.png

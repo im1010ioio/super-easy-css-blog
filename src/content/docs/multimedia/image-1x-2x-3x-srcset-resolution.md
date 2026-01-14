@@ -1,5 +1,5 @@
 ---
-title: "#35 圖片的 1x, 2x, 3x 是什麼？關於網頁上圖片解析度的處理：HTML <img> srcset、CSS image-set() 與 @media resolution"
+title: "圖片的 1x, 2x, 3x 是什麼？關於網頁上圖片解析度的處理：HTML <img> srcset、CSS image-set() 與 @media resolution"
 datePublished: Wed Jan 17 2024 16:47:18 GMT+0000 (Coordinated Universal Time)
 cuid: clri0n3p9001709l0hu4rbz0z
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766407025782/fbe1d25e-71f5-4a36-bfc6-11e6886a056e.png

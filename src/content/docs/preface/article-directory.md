@@ -1,5 +1,5 @@
 ---
-title: "#00 文章目錄 | 超級簡單寫 CSS (Super Easy CSS)"
+title: "文章目錄 | 超級簡單寫 CSS (Super Easy CSS)"
 datePublished: Sat Sep 16 2023 04:27:31 GMT+0000 (Coordinated Universal Time)
 cuid: clmlj1yj7000509mhg1y0hv4j
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764752687330/d9993fd8-3b1f-4f8c-9474-8e0bf44cb246.png

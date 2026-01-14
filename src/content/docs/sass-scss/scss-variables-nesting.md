@@ -1,5 +1,5 @@
 ---
-title: "#83 SASS/SCSS (2) 變數 Variables / 巢狀寫法 Nesting"
+title: "SASS/SCSS (2) 變數 Variables / 巢狀寫法 Nesting"
 datePublished: Sat Oct 04 2025 04:36:43 GMT+0000 (Coordinated Universal Time)
 cuid: cmgbs6tx7000102ld4i53eje8
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766721313330/b5b937f9-e3f6-4781-a347-6f2564422b74.png

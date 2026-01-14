@@ -1,5 +1,5 @@
 ---
-title: "#16 CSS 數學函式 calc()、max()、min()、clamp()"
+title: "CSS 數學函式 calc()、max()、min()、clamp()"
 datePublished: Mon Oct 02 2023 03:16:22 GMT+0000 (Coordinated Universal Time)
 cuid: cln8bk3pt000309l72pfidx4y
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764906058341/357c0621-da92-4a22-8424-71a853e2a836.png

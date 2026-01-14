@@ -1,5 +1,5 @@
 ---
-title: "#22 CSS display: contents：讓你變成小透明，製作 JS Components 時的好東西！"
+title: "CSS display: contents：讓你變成小透明，製作 JS Components 時的好東西！"
 datePublished: Sun Oct 08 2023 04:25:28 GMT+0000 (Coordinated Universal Time)
 cuid: clngyo2jw000009miduh2guqm
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766031237600/4cee9986-4e17-470a-be5f-a58636904cd8.png

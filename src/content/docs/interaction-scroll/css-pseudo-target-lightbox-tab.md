@@ -1,5 +1,5 @@
 ---
-title: "#67 CSS :target 應用：純 CSS 光箱、純 CSS Tab 頁籤"
+title: "CSS :target 應用：純 CSS 光箱、純 CSS Tab 頁籤"
 datePublished: Thu Sep 18 2025 15:40:56 GMT+0000 (Coordinated Universal Time)
 cuid: cmfpkve07000002l4c8rl8qwf
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766595259017/6119753c-d744-41f4-9e96-874872dc8486.png

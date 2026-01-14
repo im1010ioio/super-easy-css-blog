@@ -1,5 +1,5 @@
 ---
-title: "#39 CSS 幾何背景：條紋、格子、點點、棋盤格子背景 (CSS background)"
+title: "CSS 幾何背景：條紋、格子、點點、棋盤格子背景 (CSS background)"
 datePublished: Thu Sep 19 2024 16:08:39 GMT+0000 (Coordinated Universal Time)
 cuid: cm19hkyx0000309lb8c5jewxh
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766408589920/010d66fb-47a9-4dff-a090-5a4da65fc503.png

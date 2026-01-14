@@ -1,5 +1,5 @@
 ---
-title: "#59 客製化 radio、checkbox 樣式，製作開關按鈕 (Switch Button)"
+title: "客製化 radio、checkbox 樣式，製作開關按鈕 (Switch Button)"
 datePublished: Wed Aug 13 2025 11:14:14 GMT+0000 (Coordinated Universal Time)
 cuid: cme9vhr6q000i02ju5jahg4mq
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766567626809/813220fd-ef25-4f37-8821-8a38ad1ddeaa.png

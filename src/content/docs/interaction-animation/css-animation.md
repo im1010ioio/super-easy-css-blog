@@ -1,5 +1,5 @@
 ---
-title: "#53 CSS Animation"
+title: "CSS Animation"
 datePublished: Wed Aug 13 2025 10:08:39 GMT+0000 (Coordinated Universal Time)
 cuid: cme9t5edn001h02l7f1ds8s9b
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766490100467/4939b838-48ff-4ac8-91fc-45288b961ab0.png

@@ -1,5 +1,5 @@
 ---
-title: "#25 CSS 列印的小技巧：@media print、break-before/after/inside、@page"
+title: "CSS 列印的小技巧：@media print、break-before/after/inside、@page"
 datePublished: Tue Oct 10 2023 18:13:13 GMT+0000 (Coordinated Universal Time)
 cuid: clnkn49dw000909jickb1e272
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766033052075/447f7703-eb3e-40e9-ac24-e634abde27e6.png

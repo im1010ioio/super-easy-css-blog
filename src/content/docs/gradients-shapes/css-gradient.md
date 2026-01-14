@@ -1,5 +1,5 @@
 ---
-title: "#37 CSS 基本漸層：線性/放射/圓錐漸層 (CSS linear-gradient, radial-gradient, conic-gradient)"
+title: "CSS 基本漸層：線性/放射/圓錐漸層 (CSS linear-gradient, radial-gradient, conic-gradient)"
 datePublished: Mon Sep 16 2024 22:22:55 GMT+0000 (Coordinated Universal Time)
 cuid: cm15kmphb001t09l8avpi0le1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766407990142/d38b08c2-b1be-4975-b27c-8036f48b31c2.png

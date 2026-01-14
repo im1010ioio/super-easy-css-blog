@@ -93,7 +93,7 @@ a{
 }
 
 .sidebar, .right-sidebar-container{
- opacity: .5 !important;
+ opacity: .45 !important;
  transition: .3s;
  &:hover{
   opacity: 1 !important;

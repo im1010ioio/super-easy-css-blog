@@ -1,5 +1,5 @@
 ---
-title: "#68 CSS overscroll-behavior：解決滾動穿透問題 & 阻止手機瀏覽器下拉重整"
+title: "CSS overscroll-behavior：解決滾動穿透問題 & 阻止手機瀏覽器下拉重整"
 datePublished: Fri Sep 19 2025 08:01:44 GMT+0000 (Coordinated Universal Time)
 cuid: cmfqjwpnc000702jr2n1i768s
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766595743865/4f8dc351-8f9a-474d-9d66-76c55a4430de.png

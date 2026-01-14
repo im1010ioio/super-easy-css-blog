@@ -1,5 +1,5 @@
 ---
-title: "#79 告別 JS 計算位置！CSS Anchor Positioning 定位的新寫法"
+title: "告別 JS 計算位置！CSS Anchor Positioning 定位的新寫法"
 datePublished: Tue Sep 30 2025 15:53:51 GMT+0000 (Coordinated Universal Time)
 cuid: cmg6qm7q6000502l7gijlac70
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766671310829/54c1389e-68d9-4f9c-91b8-b67898409216.png

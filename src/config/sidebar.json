@@ -6,7 +6,7 @@
     },
     {
       "label": "[document] 基礎知識 / 共用觀念",
-      "autogenerate": { "directory": "basic-knowledge" }
+      "autogenerate": { "directory": "basics" }
     },
     {
       "label": "[seti:csv] 版面編排",

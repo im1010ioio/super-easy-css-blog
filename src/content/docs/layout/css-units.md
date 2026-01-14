@@ -1,5 +1,5 @@
 ---
-title: "#15 網頁使用的單位大解析：px、rem、em、%、vw、vh (dvh, lvh, svh)、vmin、vmax"
+title: "網頁使用的單位大解析：px、rem、em、%、vw、vh (dvh, lvh, svh)、vmin、vmax"
 datePublished: Sun Oct 01 2023 14:17:06 GMT+0000 (Coordinated Universal Time)
 cuid: cln7jpy06000d09md30da5rwo
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764832565569/2134fe80-3df2-4d25-9e33-076f8f3887b6.png

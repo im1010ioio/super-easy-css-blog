@@ -1,5 +1,5 @@
 ---
-title: "#32 多種 CSS 顏色設定：變數 currentcolor、checkbox/radio 顏色、input placeholder、閃動的光標顏色、文字反白的顏色，用混色的 color-mix() 製作色彩系統"
+title: "多種 CSS 顏色設定：變數 currentcolor、checkbox/radio 顏色、input placeholder、閃動的光標顏色、文字反白的顏色，用混色的 color-mix() 製作色彩系統"
 datePublished: Thu Nov 09 2023 16:04:07 GMT+0000 (Coordinated Universal Time)
 cuid: clordpsz2000309jo2ngc5rcv
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766404538299/44dc46a8-c7ec-4524-ba4a-88b70187d12c.png

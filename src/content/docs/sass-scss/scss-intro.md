@@ -1,5 +1,5 @@
 ---
-title: "#82 Sass/scss (1) 介紹與簡易環境設定"
+title: "Sass/scss (1) 介紹與簡易環境設定"
 datePublished: Fri Oct 03 2025 15:48:59 GMT+0000 (Coordinated Universal Time)
 cuid: cmgb0rj4q000102l5ap0c2ajm
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766720623117/14838314-9b2f-43dd-a1f9-4cb4fcb36669.png

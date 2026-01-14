@@ -1,5 +1,5 @@
 ---
-title: "#75 用 CSS 解決網頁的「標題不平衡」與「孤字不成行」： text-wrap: balance / pretty"
+title: "用 CSS 解決網頁的「標題不平衡」與「孤字不成行」： text-wrap: balance / pretty"
 datePublished: Fri Sep 26 2025 16:02:37 GMT+0000 (Coordinated Universal Time)
 cuid: cmg1163m3000402l87e31bw5e
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766653897467/c951c2b7-9d3c-45aa-a5f2-9d3910577d56.png

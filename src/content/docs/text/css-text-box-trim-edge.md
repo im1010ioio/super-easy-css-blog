@@ -1,5 +1,5 @@
 ---
-title: "#76 用 CSS 解決文字上下多出來的神秘空間：text-box-trim / text-box-edge"
+title: "用 CSS 解決文字上下多出來的神秘空間：text-box-trim / text-box-edge"
 datePublished: Sat Sep 27 2025 12:33:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmg294df4000702l2ap001h1q
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766658079218/93b8ffa2-949d-433b-a96d-218260e4b5e4.png

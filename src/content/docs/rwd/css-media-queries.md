@@ -1,5 +1,5 @@
 ---
-title: "#24 RWD & CSS Media Queries &
+title: "RWD & CSS Media Queries &
 iOS Safari 上的經驗談"
 datePublished: Mon Oct 09 2023 17:51:20 GMT+0000 (Coordinated Universal Time)
 cuid: clnj6wa5l00040al3fezj2ejj

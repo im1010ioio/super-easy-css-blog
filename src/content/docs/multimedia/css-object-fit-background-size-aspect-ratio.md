@@ -1,5 +1,5 @@
 ---
-title: "#34 CSS 讓圖片填滿容器的各種方法，以圓形大頭貼為例：object-fit 與 background-size，搭配 aspect-ratio"
+title: "CSS 讓圖片填滿容器的各種方法，以圓形大頭貼為例：object-fit 與 background-size，搭配 aspect-ratio"
 datePublished: Thu Jan 11 2024 15:49:15 GMT+0000 (Coordinated Universal Time)
 cuid: clr9dxcg500020ajt7t196cy3
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766405492622/c85f2229-8bfb-48d8-ab4f-a6c98dff50e8.png

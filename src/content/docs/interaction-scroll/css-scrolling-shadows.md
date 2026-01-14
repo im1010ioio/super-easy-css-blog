@@ -1,5 +1,5 @@
 ---
-title: "#64 CSS 捲動提示陰影：使用 CSS 漸層 radial-gradient 與 isolation 製作"
+title: "CSS 捲動提示陰影：使用 CSS 漸層 radial-gradient 與 isolation 製作"
 datePublished: Wed Aug 13 2025 11:46:20 GMT+0000 (Coordinated Universal Time)
 cuid: cme9wn0xd000302l76w8g24ec
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766593448213/b6ef4fab-47a2-4c45-a92b-8dd973d21b84.png

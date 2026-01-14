@@ -1,5 +1,5 @@
 ---
-title: "#13 CSS 盒子模型 (Box Model)：border-box & content-box"
+title: "CSS 盒子模型 (Box Model)：border-box & content-box"
 datePublished: Thu Sep 28 2023 16:38:46 GMT+0000 (Coordinated Universal Time)
 cuid: cln3egkrc000308ig0iqlf8fu
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764830380655/74bb1cde-f0e0-4337-b79d-86ad4d7449a8.png

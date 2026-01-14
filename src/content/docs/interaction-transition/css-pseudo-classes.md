@@ -1,5 +1,5 @@
 ---
-title: "#52 詳細了解 CSS 各種偽類：hover、focus、active、focus-within、focus-visible、target"
+title: "詳細了解 CSS 各種偽類：hover、focus、active、focus-within、focus-visible、target"
 datePublished: Wed Aug 13 2025 10:06:17 GMT+0000 (Coordinated Universal Time)
 cuid: cme9t2cof001a02l7181d46ms
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766489845043/60d04b68-8b82-446f-96fc-1986e6fc98fe.png

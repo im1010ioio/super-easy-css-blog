@@ -1,5 +1,5 @@
 ---
-title: "#38 CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)"
+title: "CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)"
 datePublished: Wed Sep 18 2024 16:12:15 GMT+0000 (Coordinated Universal Time)
 cuid: cm1829qzw000609js5auz3kbz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766408304889/bda3810b-e154-4aa3-a0f4-4ea84bfd78cd.png

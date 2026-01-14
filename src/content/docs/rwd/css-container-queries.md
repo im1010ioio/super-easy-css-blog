@@ -1,5 +1,5 @@
 ---
-title: "#26 CSS Container Queries 容器查詢：讓 CSS 的計算以容器自身為依據"
+title: "CSS Container Queries 容器查詢：讓 CSS 的計算以容器自身為依據"
 datePublished: Thu Oct 12 2023 16:01:58 GMT+0000 (Coordinated Universal Time)
 cuid: clnndb6hj000b09lfficwhmku
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766035916247/17b94ac6-c8e9-4a91-ab5a-7adb9d4ee1dc.png

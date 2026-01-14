@@ -1,5 +1,5 @@
 ---
-title: "#78 CSS + SVG 仿 Apple iOS26 液態玻璃（Liquid Glass）效果  (Safari 不支援)"
+title: "CSS + SVG 仿 Apple iOS26 液態玻璃（Liquid Glass）效果  (Safari 不支援)"
 datePublished: Mon Sep 29 2025 16:16:17 GMT+0000 (Coordinated Universal Time)
 cuid: cmg5bz8ef000402jp4hafayco
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766667429387/a6ed6d77-115a-48c7-90b9-fe28c0aaa8ca.png
