@@ -5,7 +5,10 @@
 <style>
   @layer starlight.core {
     .content-panel {
-      padding: 1.5rem 4rem;
+      padding: 1.5rem var(--sl-content-pad-x);
+      @media screen and (min-width: 767px) {
+        padding: 1.5rem calc(var(--sl-content-pad-x) * 3);
+      }
     }
     .content-panel + .content-panel {
       border-top: 1px solid var(--sl-color-hairline);
