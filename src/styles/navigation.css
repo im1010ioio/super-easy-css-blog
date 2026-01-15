@@ -52,7 +52,7 @@
 }
 
 .nav-dropdown {
-  @apply mr-0;
+  /* @apply mr-0; */
 }
 
 .nav-dropdown > svg {

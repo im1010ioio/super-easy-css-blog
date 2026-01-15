@@ -17,6 +17,12 @@ const { main }: { main: any[] } = menu;
 const pathname = Astro.request.url;
 
 const hasSidebar = Astro.locals.starlightRoute.hasSidebar;
+
+// Helper function to check if URL is external
+const isExternalLink = (url: string | undefined): boolean => {
+  if (!url) return false;
+  return url.startsWith("http://") || url.startsWith("https://");
+};
 ---
 
 <nav class="navbar container">
@@ -79,6 +85,9 @@ const hasSidebar = Astro.locals.starlightRoute.hasSidebar;
                           pathname === child.url) &&
                         "active"
                       }`}
+                      {...(isExternalLink(child.url)
+                        ? { target: "_blank", rel: "noopener noreferrer" }
+                        : {})}
                     >
                       {child.name}
                     </a>
@@ -94,6 +103,9 @@ const hasSidebar = Astro.locals.starlightRoute.hasSidebar;
                   (pathname === `${menu.url}/` || pathname === menu.url) &&
                   "active"
                 }`}
+                {...(isExternalLink(menu.url)
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {})}
               >
                 {menu.name}
               </a>
@@ -141,6 +153,9 @@ const hasSidebar = Astro.locals.starlightRoute.hasSidebar;
         <a
           class="btn btn-outline-primary hidden! lg:inline-block!"
           href={navigation_button.link}
+          {...(isExternalLink(navigation_button.link)
+            ? { target: "_blank", rel: "noopener noreferrer" }
+            : {})}
         >
           {navigation_button.translations
             ? // @ts-ignore

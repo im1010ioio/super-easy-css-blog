@@ -16,84 +16,90 @@ import Grid from "~/components/user-components/Grid.astro";
 import ListCard from "~/components/user-components/ListCard.astro";
 import LinkButton from "~/components/LinkButton.astro";
 
-<Section title="所需的 CSS 前端知識 <span class='light-text'>盡可能都在這裡</span>" description="打造靜態網頁必備的小知識們">
+<Section title="所需的 CSS 前端知識 <span class='light-text'>盡可能都在這裡</span>" description="打造靜態網頁必備的知識">
 
-<Grid columns={3}>
-<ListCard title="UI Components" imageIcon="/src/assets/element.svg" number="15">
-- [Buttons & Links](/contents/components/using-components/)
-- [Navigation Menus](/contents/components/using-components/)
-- [Cards & Panels](/contents/components/using-components/)
-- [Tabs & Accordions](/contents/components/using-components/)
-- [Forms & Inputs](/contents/components/using-components/)
-- [Tables & Lists](/contents/components/using-components/)
+<Grid columns={4}>
+<ListCard title="基礎知識 / 共用觀念" imageIcon="/src/assets/element.svg" number="17">
+- [網頁的基本名詞：UI/UX？切版&切圖？前端&後端？靜態&動態？RWD or Mobile First？](/basics/glossary-of-web-development/)
+- [關於各家瀏覽器，前端必備的小知識：支援度、市佔率、CSS 實驗語法 -webkit-, -moz-... PostCSS Autoprefixer](/basics/about-browsers/)
+- [人在江湖，版控要有：了解 GIT / GitHub / GitLab / Git Flow](/basics/git-github-gitlab-git-flow/)
 
-<LinkButton href="/contents/components/using-components/" variant="text" className="mt-6 mb-8 ml-4">View all components</LinkButton>
+<LinkButton href="/basics/glossary-of-web-development/" variant="text" className="mt-6 mb-8 ml-4">查看全部文章</LinkButton>
 </ListCard>
 
-<ListCard title="Content Writing" imageIcon="/src/assets/content.svg" number="18">
-- Markdown Basics
-- MDX Components
-- Code Examples
-- API Documentation
-- Tutorial Writing
-- Best Practices
+<ListCard title="版面編排" imageIcon="/src/assets/changelogs.svg" number="12">
+- [CSS 盒子模型 (Box Model)：border-box & content-box](/layout/css-box-model/)
+- [網頁使用的單位大解析：px、rem、em、%、vw、vh (dvh, lvh, svh)、vmin、vmax](/layout/css-units/)
+- [CSS block、inline、inline-block：網頁排版的御三家](/layout/css-block-inline-inline-block/)
 
-<LinkButton href="/contents/editing/add-new-doc/" variant="text" className="mt-6 mb-8 ml-4">View writing guide</LinkButton>
+<LinkButton href="/layout/css-box-model/" variant="text" className="mt-6 mb-8 ml-4">查看全部文章</LinkButton>
 </ListCard>
 
-<ListCard title="Page Layouts" imageIcon="/src/assets/layouts.svg" number="8">
-- Homepage Templates
-- Documentation Pages
-- API Reference Layout
-- Tutorial Structure
-- Landing Pages
-- Error Pages
+<ListCard title="響應式 RWD" imageIcon="/src/assets/layouts.svg" number="3">
+- [RWD & CSS Media Queries](/rwd/css-media-queries/)
+- [CSS Container Queries 容器查詢：讓CSS的計算以容器自身為依據](/rwd/css-container-queries/)
+- [CSS 列印的小技巧：@media print、break-before/after/inside、@page](/rwd/css-media-print/)
 
-<LinkButton href="/getting-started/introduction/overview/" variant="text" className="mt-6 mb-8 ml-4">View layouts</LinkButton>
+<LinkButton href="/rwd/css-media-queries/" variant="text" className="mt-6 mb-8 ml-4">查看全部文章</LinkButton>
+</ListCard>
+
+<ListCard title="文字" imageIcon="/src/assets/content.svg" number="5">
+- [網頁載入字體、Icon Font 與 CSS font-family、font-weight](/text/css-font-family-font-weight/)
+- [用 CSS 解決網頁的「標題不平衡」與「孤字不成行」： text-wrap: balance / pretty](/text/css-text-wrap-balance-pretty/)
+- [CSS 文字過長、行數過多顯示點點點、文字自動折行、強制換行：white-space、word-break、-webkit-line-clamp 的妙用](/text/css-white-space-word-breakline-clamp/)
+
+<LinkButton href="/text/css-font-family-font-weight/" variant="text" className="mt-6 mb-8 ml-4">查看全部文章</LinkButton>
+</ListCard>
+
+<ListCard title="顏色" imageIcon="/src/assets/element.svg" number="4">
+- [了解顏色的三種表示法：Hex、RGB/RGBA、HSL/HSLA 與 LAB / LCH / OKLab / OKLCH](/color/css-colors-hex-rgb-hsl-lch-oklch/)
+- [根據瀏覽器的主題配色做切換：CSS @media (prefers-color-scheme)](/color/css-prefers-color-scheme/)
+- [淺色主題與深色主題的救星：CSS color-scheme & light-dark()](/color/css-color-scheme-light-dark/)
+
+<LinkButton href="/color/css-colors-hex-rgb-hsl-lch-oklch/" variant="text" className="mt-6 mb-8 ml-4">查看全部文章</LinkButton>
+</ListCard>
+
+<ListCard title="多媒體" imageIcon="/src/assets/layouts.svg" number="3">
+- [CSS object-fit、background-size、aspect-ratio：圖片與影片尺寸、比例](/multimedia/css-object-fit-background-size-aspect-ratio/)
+- [HTML \<video\> 與 YouTube iframe：嵌入影片到網頁](/multimedia/36-html-video-youtube-iframe/)
+- [讓圖片更清晰：image 1x 2x 3x srcset resolution 解析度](/multimedia/image-1x-2x-3x-srcset-resolution/)
+
+<LinkButton href="/multimedia/css-object-fit-background-size-aspect-ratio/" variant="text" className="mt-6 mb-8 ml-4">查看全部文章</LinkButton>
+</ListCard>
+
+<ListCard title="繪製漸層與圖形" imageIcon="/src/assets/layouts.svg" number="9">
+- [CSS 漸層 Gradient：linear-gradient、radial-gradient、conic-gradient](/gradients-shapes/css-gradient/)
+- [CSS border-radius：圓角與橢圓](/gradients-shapes/css-border-radius/)
+- [CSS clip-path：裁切出各種形狀](/gradients-shapes/css-clip-path/)
+
+<LinkButton href="/gradients-shapes/css-gradient/" variant="text" className="mt-6 mb-8 ml-4">查看全部文章</LinkButton>
+</ListCard>
+
+<ListCard title="互動 - Transition" imageIcon="/src/assets/changelogs.svg" number="6">
+- [CSS Transition：平滑的過渡動畫](/interaction-transition/css-transition/)
+- [CSS Transform：2D 與 3D 變形](/interaction-transition/css-transform/)
+- [讓 display 與 height auto 也能有動畫：CSS @starting-style 與 transition-behavior: allow-discrete](/interaction-transition/css-starting-style-transition-behavior-allow-discrete/)
+
+<LinkButton href="/interaction-transition/css-transition/" variant="text" className="mt-6 mb-8 ml-4">查看全部文章</LinkButton>
+</ListCard>
+
+<ListCard title="互動 - Animation" imageIcon="/src/assets/changelogs.svg" number="8">
+- [CSS Animation：製作關鍵影格動畫](/interaction-animation/css-animation/)
+- [CSS 無限跑馬燈 Marquee：讓文字或圖片持續滾動](/interaction-animation/css-marquee/)
+- [CSS 圖片輪播淡入淡出效果：Image Slider Fade Effects](/interaction-animation/css-images-slider-fade-effects/)
+
+<LinkButton href="/interaction-animation/css-animation/" variant="text" className="mt-6 mb-8 ml-4">查看全部文章</LinkButton>
+</ListCard>
+
+<ListCard title="Sass/SCSS" imageIcon="/src/assets/code-block.svg" number="12">
+- [SASS/SCSS (1) 安裝與環境設定](/sass-scss/scss-intro/)
+- [SASS/SCSS (2) 變數 Variables / 巢狀寫法 Nesting](/sass-scss/scss-variables-nesting/)
+- [SASS/SCSS (3) 使用檔案管理樣式 Partials / Modules (@use / @import / !default)](/sass-scss/scss-use-import-default/)
+
+<LinkButton href="/sass-scss/scss-intro/" variant="text" className="mt-6 mb-8 ml-4">查看全部文章</LinkButton>
 </ListCard>
 </Grid>
 
-<Grid columns={3}>
-
-<ListCard title="Code Syntax" imageIcon="/src/assets/code-block.svg" number="10" image="/src/assets/code-image.png">
-
-- Syntax Highlighting
-- Line Numbers
-- Copy Button
-- Language Labels
-- Diff Highlighting
-- File Names
-
-<LinkButton
-  href="/getting-started/introduction/overview/"
-  variant="text"
-  className="mt-6 mb-8 ml-4"
->
-  View code guide
-</LinkButton>
-
-</ListCard>
-
-<ListCard title="Version History" imageIcon="/src/assets/changelogs.svg" number="25">
-
-- Release Notes
-- Feature Updates
-- Bug Fixes
-- Breaking Changes
-- Migration Guides
-- Deprecated Features
-
-<LinkButton
-  href="/getting-started/introduction/overview/"
-  variant="text"
-  className="mt-6 mb-8 ml-4"
->
-  View changelog
-</LinkButton>
-
-</ListCard>
-
-</Grid>
  
 </Section>
 
@@ -110,22 +116,22 @@ import Accordion from "~/components/Accordion.astro";
   [
     {
       type: 'basic',
-      title: 'Getting Started',
-      subtitle:'Some questions about how to start.',
+      title: '文章特色與適合對象',
+      subtitle:'這系列的教學文章主要在講什麼？適合誰閱讀？',
       icon: "rocket"
 
     },
     {
       type: 'setting',
-      title: 'Settings & Configurations',
-      subtitle:'How to configure our documentation.',
+      title: '學習資源與實作方式',
+      subtitle:'如何進行練習？哪裡可以看到程式碼？',
       icon: "settings"
 
     },
     {
       type: 'help',
-      title: 'Help & Support',
-      subtitle:'What type of support we provide.',
+      title: '關於作者與未來更新',
+      subtitle:'作者是誰？文章是否還會更新？',
       icon: "support"
 
     }
@@ -134,60 +140,59 @@ import Accordion from "~/components/Accordion.astro";
 }>
 
 <Accordion
-  question="How do I get started with Dockit?"
-  answer="Simply install our template, import the components you need, and start documenting your project. The setup process takes just a few minutes."
+  question="這系列文章適合完全沒有程式背景的新手嗎？"
+  answer="非常適合！《超級簡單寫 CSS》的目標就是讓新手也能輕鬆上手。除了 CSS 核心語法，我也會在前幾章介紹 HTML 基礎、網頁運作原理、版本控制（Git）等前端必備知識。無論你是想轉職前端工程師，或是想了解網頁技術的設計師、PM，甚至是業主，這系列文章都能幫助你建立全面的觀念。"
   type="basic"
 />
 <Accordion
-  question="What are the system requirements?"
-  answer="Dockit requires Node.js 18+ and works with any modern web browser. It's built on Astro and supports all major operating systems."
+  question="已經有前端經驗的開發者，能從這裡學到東西嗎？"
+  answer="當然可以！這系列文章橫跨 2023 至 2025 年的 iThome 鐵人賽內容，除了基礎知識，我特別整理了許多 CSS 新屬性與現代寫法（如 CSS Nesting、Container Queries、has()、anchor positioning 等）。如果您想更新技術棧，不再使用舊時代的寫法，這裡有許多「酷炫又令人期待」的新語法教學。"
   type="basic"
 />
 <Accordion
-  question="Is Dockit free to use?"
-  answer="Yes, Dockit is completely free and open source. You can use it for personal and commercial projects without any limitations."
-  type="basic"
-/>
-<Accordion
-  question="Can I customize the design?"
-  answer="Absolutely! Dockit is highly customizable with Tailwind CSS. You can modify colors, layouts, components, and add your own branding."
+  question="這系列教學與網路上其他的 CSS 教程有什麼不同？"
+  answer="最大的不同在於 「圖解說明」 與 「實務經驗」。我知道程式概念很抽象，所以我使用了大量的圖解與比喻來幫助理解。同時，我不只教語法，更結合了我 10 年跨領域（設計+前端）的實務經驗，告訴你在實際開發中該如何應用這些技術，以及如何避免常見的踩雷點。"
   type="basic"
 />
 
 <Accordion
-  question="How do I change the theme colors?"
-  answer="You can customize theme colors by modifying the CSS custom properties in your theme configuration file or through the Tailwind config."
+  question="如何進行練習？哪裡可以看到程式碼？"
+  answer="為了讓大家能快速看到效果並動手修改，我將所有的實作 Demo 都放在我的 <a href='https://codepen.io/im1010ioio' target='_blank'>CodePen</a> 上。您可以直接在線上檢視程式碼、調整參數，即時看到網頁畫面的變化，這也是學習 CSS 最快的方式！"
   type="setting"
 />
 <Accordion
-  question="Can I add custom components?"
-  answer="Yes, you can create and add custom Astro components. Simply place them in the components folder and import them where needed."
+  question="建議使用什麼裝置來閱讀這系列教學文章？"
+  answer="雖然手機也能瀏覽，但我強烈建議使用桌機（Desktop）或筆電來閱讀。原因有三點：首先，電腦螢幕能完整呈現寬幅的圖解與程式碼區塊，版面閱讀體驗最佳；其次，方便直接複製程式碼進行測試；最後，學習前端需要常看瀏覽器的開發者工具（DevTools），用電腦才能隨時查看原始碼，這對理解網頁運作非常有幫助。"
   type="setting"
 />
 <Accordion
-  question="How do I configure navigation?"
-  answer="Navigation is configured through the menu.json file in your config folder. You can add, remove, or reorder menu items as needed."
+  question="這系列文章會教到 CSS 框架或預處理器嗎？"
+  answer="會的。在掌握原生 CSS 後，系列文章後段會介紹業界常用的 CSS 預處理器 SASS/SCSS 的環境設定與語法（變數、巢狀、Mixins 等）。此外，我即將要撰寫關於 Tailwind CSS、Bootstrap 等熱門 CSS 框架的探討與原子設計（Atomic Design）概念，幫助你順利銜接現代化的開發流程。"
   type="setting"
 />
 <Accordion
-  question="Can I use my own domain?"
-  answer="Yes, you can deploy Dockit to any hosting service and use your custom domain. We provide deployment guides for popular platforms."
+  question="除了 CSS 樣式，我還會學到哪些網頁相關知識？"
+  answer="前端開發不僅僅是把畫面切出來。本系列還涵蓋了 RWD 響應式網頁設計、SEO（搜尋引擎優化）基本觀念、以及如何與設計師或後端工程師溝通的相關術語。目標是讓你對網頁前端開發有一個「初步且全面」的認識。"
   type="setting"
 />
-
 <Accordion
-  question="Where can I get help?"
-  answer="You can get help through our GitHub discussions, documentation, or community Discord server. We also provide email support for complex issues."
+  question="關於作者與未來更新"
+  answer="嗨！我是 <a href='https://im1010ioio.dev/' target='_blank'>陳依琳 (im1010ioio)</a>。我擁有 10 年數位設計與網頁前端開發的跨領域經驗，目前擔任前端工程師，同時也是 Notion 創作者與設計師。我擅長將抽象的技術概念轉化為具體的視覺圖解，希望能用「設計師的美感」與「工程師的邏輯」帶大家進入網頁開發的世界。"
   type="help"
 />
 <Accordion
-  question="How do I report bugs?"
-  answer="Please report bugs through our GitHub issues page with detailed information about the problem and steps to reproduce it."
+  question="我發現有些文章標記「待補」或內容較短，之後會更新嗎？"
+  answer="是的，請不用擔心！寫作期間因身體微恙，導致少部分章節未能即時完稿。目前我正在持續更新與補齊這些內容（包含新的 CSS 滾動特效、動畫等），這是一個持續成長的系列文章，致力於提供最完整的學習資源。"
   type="help"
 />
 <Accordion
-  question="Do you offer premium support?"
-  answer="While Dockit is free, we offer premium consulting services for custom implementations and enterprise deployments."
+  question="如果我覺得文章很有幫助，可以如何支持作者？"
+  answer="很高興這些內容能幫助到你！如果你喜歡我的文章，歡迎追蹤我的 Instagram (@im1010ioio) 關注最新動態。如果想給予實質的鼓勵，歡迎 <a href='https://im1010ioio.bobaboba.me/' target='_blank'>🧋贊助我一杯珍奶</a>，這對持續創作的我來說是莫大的動力！"
+  type="help"
+/>
+<Accordion
+  question="我有技術問題或想交流，該如何聯繫妳？"
+  answer="您可以透過我的 CodePen、LinkedIn 或 Instagram 與我聯繫。無論是技術討論、文章勘誤或是單純想聊聊前端與設計，都非常歡迎！"
   type="help"
 />
 
