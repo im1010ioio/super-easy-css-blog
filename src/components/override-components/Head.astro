@@ -6,7 +6,7 @@ const { head } = Astro.locals.starlightRoute;
 // font families
 const pf = theme.fonts.font_family.primary;
 // @ts-ignore
-const sf = theme.fonts.font_family.secondary ;
+const sf = theme.fonts.font_family.secondary;
 
 let fontPrimary, fontSecondary;
 if (theme.fonts.font_family.primary) {
@@ -16,37 +16,57 @@ if (theme.fonts.font_family.primary) {
 }
 // @ts-ignore
 if (theme.fonts.font_family.secondary) {
-// @ts-ignore
+  // @ts-ignore
   fontSecondary = theme.fonts.font_family.secondary
     .replace(/\+/g, " ")
     .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;.]+/gi, "");
 }
-
 ---
 
-{head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
+{
+  head.map(({ tag: Tag, attrs, content }) => (
+    <Tag {...attrs} set:html={content} />
+  ))
+}
 
 <!-- google font css -->
-    <AstroFont
-      config={[
-        {
-          src: [],
-          preload: false,
-          display: "swap",
-          name: fontPrimary!,
-          fallback: "sans-serif",
-          cssVariable: "font-primary",
-          googleFontsURL: `https://fonts.googleapis.com/css2?family=${pf}&display=swap`,
-        },
-        {
-          src: [],
-          preload: false,
-          display: "swap",
-          name: fontSecondary!,
-          fallback: "sans-serif",
-          cssVariable: "font-secondary",
-          googleFontsURL: `https://fonts.googleapis.com/css2?family=${sf}&display=swap`,
-        },
-      ]}
-    />
+<AstroFont
+  config={[
+    {
+      src: [],
+      preload: false,
+      display: "swap",
+      name: fontPrimary!,
+      fallback: "sans-serif",
+      cssVariable: "font-primary",
+      googleFontsURL: `https://fonts.googleapis.com/css2?family=${pf}&display=swap`,
+    },
+    {
+      src: [],
+      preload: false,
+      display: "swap",
+      name: fontSecondary!,
+      fallback: "sans-serif",
+      cssVariable: "font-secondary",
+      googleFontsURL: `https://fonts.googleapis.com/css2?family=${sf}&display=swap`,
+    },
+  ]}
+/>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GP8RYFXLJM"
+></script>
+<script>
+  if (
+    !location.hostname.includes("localhost") &&
+    !location.hostname.includes("github")
+  ) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-GP8RYFXLJM");
+  }
+</script>

@@ -49,251 +49,251 @@ sidebar:
 
 ### 基礎知識 / 共用觀念
 
-* `#01` [網頁的基本名詞：UI/UX？切版&切圖？前端&後端？靜態&動態？RWD or Mobile First？](https://im1010ioio.hashnode.dev/glossary-of-web-development)
+* `#01` [網頁的基本名詞：UI/UX？切版&切圖？前端&後端？靜態&動態？RWD or Mobile First？](/basics/glossary-of-web-development)
     
-* `#02` [關於各家瀏覽器，前端必備的小知識：支援度、市佔率、CSS 實驗語法 -webkit-, -moz-... PostCSS Autoprefixer](https://im1010ioio.hashnode.dev/about-browsers)
+* `#02` [關於各家瀏覽器，前端必備的小知識：支援度、市佔率、CSS 實驗語法 -webkit-, -moz-... PostCSS Autoprefixer](/basics/about-browsers)
     
-* `#03` [人在江湖，版控要有：了解 GIT / GitHub / GitLab / Git Flow](https://im1010ioio.hashnode.dev/git-github-gitlab-git-flow)
+* `#03` [人在江湖，版控要有：了解 GIT / GitHub / GitLab / Git Flow](/basics/git-github-gitlab-git-flow)
     
-* `#04` [GIT 實戰練習：GitHub Desktop、GitHub Page 基礎教學](https://im1010ioio.hashnode.dev/git-github-gitpage-practice)
+* `#04` [GIT 實戰練習：GitHub Desktop、GitHub Page 基礎教學](/basics/git-github-gitpage-practice)
     
-* `#05` [HTML 基礎語法](https://im1010ioio.hashnode.dev/html-basics)
+* `#05` [HTML 基礎語法](/basics/html-basics)
     
-* `#06` [寫一份簡單的 HTML，常用 HTML Tag 總整理](https://im1010ioio.hashnode.dev/html-strugtrue)
+* `#06` [寫一份簡單的 HTML，常用 HTML Tag 總整理](/basics/html-strugtrue)
     
-* `#06補充` [網頁的根、絕對路徑、相對路徑，那些關於路徑的小知識](https://im1010ioio.hashnode.dev/html-file-paths)
+* `#06補充` [網頁的根、絕對路徑、相對路徑，那些關於路徑的小知識](/basics/html-file-paths)
     
-* `#07` [CSS 基本語法 & 權重介紹](https://im1010ioio.hashnode.dev/css-basics)
+* `#07` [CSS 基本語法 & 權重介紹](/basics/css-basics)
     
-* `#08` [CSS 選擇器總整理！id、class、:nth-child(n)、:not、:where、:is、:has 都難不倒我](https://im1010ioio.hashnode.dev/css-selectors)
+* `#08` [CSS 選擇器總整理！id、class、:nth-child(n)、:not、:where、:is、:has 都難不倒我](/basics/css-selectors)
     
-* `#09` [原生的 CSS 變數，基本與進階應用](https://im1010ioio.hashnode.dev/css-variables)
+* `#09` [原生的 CSS 變數，基本與進階應用](/basics/css-variables)
     
-* `#10` [原生的 CSS 巢狀 (CSS Nesting) 終於支援啦！](https://im1010ioio.hashnode.dev/pure-css-nesting)
+* `#10` [原生的 CSS 巢狀 (CSS Nesting) 終於支援啦！](/basics/pure-css-nesting)
     
-* `#11` [開始寫 CSS 或程式必須知道的 3 個原則：DRY & KISS & YAGNI](https://im1010ioio.hashnode.dev/css-dry-kiss-yagni)
+* `#11` [開始寫 CSS 或程式必須知道的 3 個原則：DRY & KISS & YAGNI](/basics/css-dry-kiss-yagni)
     
-* `#12` [4 個常見的 CSS 設計方法與命名建議：OOCSS、SMACSS、BEM、RSCSS](https://im1010ioio.hashnode.dev/oocss-smacss-bem-rscss)
+* `#12` [4 個常見的 CSS 設計方法與命名建議：OOCSS、SMACSS、BEM、RSCSS](/basics/oocss-smacss-bem-rscss)
     
-* `#71` [CSS 偽元素的妙用：「::before」 與「::after」的常見用法](https://im1010ioio.hashnode.dev/css-pseudo-before-after)
+* `#71` [CSS 偽元素的妙用：「::before」 與「::after」的常見用法](/basics/css-pseudo-before-after)
     
-* `#72` [CSS 偽元素的進階用法：用 ::before 與 ::after 做 RWD 表格 & 客製化樣式的序號清單 (ol, oder list)](https://im1010ioio.hashnode.dev/css-responsive-table-custom-order-list)
+* `#72` [CSS 偽元素的進階用法：用 ::before 與 ::after 做 RWD 表格 & 客製化樣式的序號清單 (ol, oder list)](/basics/css-responsive-table-custom-order-list)
     
-* `#73` [CSS :nth-child 的新寫法：:nth-child of S (N of Selector)](https://im1010ioio.hashnode.dev/css-nth-child-of-s)
+* `#73` [CSS :nth-child 的新寫法：:nth-child of S (N of Selector)](/basics/css-nth-child-of-s)
     
-* `#74` [CSS 也能控制作用域了！@scope 語法](https://im1010ioio.hashnode.dev/css-at-scope)
+* `#74` [CSS 也能控制作用域了！@scope 語法](/basics/css-at-scope)
     
 
 ---
 
 ### 版面編排
 
-* `#13` [CSS 盒子模型 (Box Model)：border-box & content-box](https://im1010ioio.hashnode.dev/css-box-model)
+* `#13` [CSS 盒子模型 (Box Model)：border-box & content-box](/layout/css-box-model)
     
-* `#14` [Reset CSS！用 Reset.css 或 Normalize.css 變回你該有的樣子](https://im1010ioio.hashnode.dev/reset-css)
+* `#14` [Reset CSS！用 Reset.css 或 Normalize.css 變回你該有的樣子](/layout/reset-css)
     
-* `#15` [網頁使用的單位大解析：px、rem、em、%、vw、vh (dvh, lvh, svh)、vmin、vmax](https://im1010ioio.hashnode.dev/css-units)
+* `#15` [網頁使用的單位大解析：px、rem、em、%、vw、vh (dvh, lvh, svh)、vmin、vmax](/layout/css-units)
     
-* `#16` [CSS 數學函式 calc()、max()、min()、clamp()](https://im1010ioio.hashnode.dev/css-calc-max-min-clamp)
+* `#16` [CSS 數學函式 calc()、max()、min()、clamp()](/layout/css-calc-max-min-clamp)
     
-* `#17` [CSS block、inline、inline-block：網頁排版的御三家](https://im1010ioio.hashnode.dev/css-block-inline-inline-block)
+* `#17` [CSS block、inline、inline-block：網頁排版的御三家](/layout/css-block-inline-inline-block)
     
-* `#18` [CSS Flex：網頁排版的超級寵兒](https://im1010ioio.hashnode.dev/css-flex)
+* `#18` [CSS Flex：網頁排版的超級寵兒](/layout/css-flex)
     
-* `#19` [CSS Grid：網頁排版的神奇格子，來排個照片牆與雞腿便當吧！](https://im1010ioio.hashnode.dev/css-grid)
+* `#19` [CSS Grid：網頁排版的神奇格子，來排個照片牆與雞腿便當吧！](/layout/css-grid)
     
-* `#20` [CSS 內部尺寸 (Intrinsic Sizing)：min-content、max-content、fit-content](https://im1010ioio.hashnode.dev/css-intrinsic-sizing)
+* `#20` [CSS 內部尺寸 (Intrinsic Sizing)：min-content、max-content、fit-content](/layout/css-intrinsic-sizing)
     
-* `#21` [CSS Position：relative、absolute、fixed、sticky 找到適合的定位](https://im1010ioio.hashnode.dev/css-position)
+* `#21` [CSS Position：relative、absolute、fixed、sticky 找到適合的定位](/layout/css-position)
     
-* `#22` [CSS display: contents：製作 JS Components 時的好東西！](https://im1010ioio.hashnode.dev/css-display-contents)
+* `#22` [CSS display: contents：製作 JS Components 時的好東西！](/layout/css-display-contents)
     
-* `#23` [CSS 邏輯屬性 Logical properties 與 Writing modes](https://im1010ioio.hashnode.dev/css-logical-properties)
+* `#23` [CSS 邏輯屬性 Logical properties 與 Writing modes](/layout/css-logical-properties)
     
-* `#79` [告別 JS 計算位置！CSS Anchor Positioning 定位的新寫法](https://im1010ioio.hashnode.dev/css-anchor-positioning)
+* `#79` [告別 JS 計算位置！CSS Anchor Positioning 定位的新寫法](/layout/css-anchor-positioning)
     
 
 ---
 
 ### 響應式 RWD
 
-* `#24` [RWD & CSS Media Queries & iOS Safari 上的經驗談](https://im1010ioio.hashnode.dev/css-media-queries)
+* `#24` [RWD & CSS Media Queries & iOS Safari 上的經驗談](/rwd/css-media-queries)
     
-* `#25` [CSS 列印的小技巧：@media print、break-before/after/inside、@page](https://im1010ioio.hashnode.dev/css-media-print)
+* `#25` [CSS 列印的小技巧：@media print、break-before/after/inside、@page](/rwd/css-media-print)
     
-* `#26` [CSS Container Queries 容器查詢：讓 CSS 的計算以容器自身為依據](https://im1010ioio.hashnode.dev/css-container-queries)
+* `#26` [CSS Container Queries 容器查詢：讓 CSS 的計算以容器自身為依據](/rwd/css-container-queries)
     
 
 ---
 
 ### 文字
 
-* `#27` [網頁載入字體、Icon Font 與 CSS font-family、font-weight](https://im1010ioio.hashnode.dev/css-font-family-font-weight)
+* `#27` [網頁載入字體、Icon Font 與 CSS font-family、font-weight](/text/css-font-family-font-weight)
     
-* `#28` [CSS 文字過長、行數過多顯示點點點、文字自動折行、強制換行：white-space、word-break、-webkit-line-clamp 的妙用](https://im1010ioio.hashnode.dev/css-white-space-word-breakline-clamp)
+* `#28` [CSS 文字過長、行數過多顯示點點點、文字自動折行、強制換行：white-space、word-break、-webkit-line-clamp 的妙用](/text/css-white-space-word-breakline-clamp)
     
-* `#29` [CSS 立體字、霓虹字、外框字、漸層字：text-shadow、-webkit-text-stroke、-webkit-background-clip](https://im1010ioio.hashnode.dev/css-text-effect)
+* `#29` [CSS 立體字、霓虹字、外框字、漸層字：text-shadow、-webkit-text-stroke、-webkit-background-clip](/text/css-text-effect)
     
-* `#75` [用 CSS 解決網頁的「標題不平衡」與「孤字不成行」： text-wrap: balance / pretty](https://im1010ioio.hashnode.dev/css-text-wrap-balance-pretty)
+* `#75` [用 CSS 解決網頁的「標題不平衡」與「孤字不成行」： text-wrap: balance / pretty](/text/css-text-wrap-balance-pretty)
     
-* `#76` [用 CSS 解決文字上下多出來的神秘空間：text-box-trim / text-box-edge](https://im1010ioio.hashnode.dev/css-text-box-trim-edge)
+* `#76` [用 CSS 解決文字上下多出來的神秘空間：text-box-trim / text-box-edge](/text/css-text-box-trim-edge)
     
 
 ---
 
 ### 顏色
 
-* `#31` [CSS 顏色設定：基本的 hex、rgb()、cmyk()、hsl()、hsb() 、hwb() 與明日之星的 lch()、oklch()](https://im1010ioio.hashnode.dev/css-colors-hex-rgb-hsl-lch-oklch)
+* `#31` [CSS 顏色設定：基本的 hex、rgb()、cmyk()、hsl()、hsb() 、hwb() 與明日之星的 lch()、oklch()](/color/css-colors-hex-rgb-hsl-lch-oklch)
     
-* `#32` [CSS currentcolor、accent-color 與混色的 color-mix() 讓規劃色彩系統好方便！](https://im1010ioio.hashnode.dev/css-currentcolor-accent-color-color-mix)
+* `#32` [CSS currentcolor、accent-color 與混色的 color-mix() 讓規劃色彩系統好方便！](/color/css-currentcolor-accent-color-color-mix)
     
-* `#33` [CSS 切換淺色/深色模式：Media Queries 的 prefers-color-scheme 搭配 CSS 變數](https://im1010ioio.hashnode.dev/css-prefers-color-scheme)
+* `#33` [CSS 切換淺色/深色模式：Media Queries 的 prefers-color-scheme 搭配 CSS 變數](/color/css-prefers-color-scheme)
     
-* `#77` [實作網頁深色模式及淺色模式必備的 CSS 語法：color-scheme 與 light-dark()](https://im1010ioio.hashnode.dev/css-color-scheme-light-dark)
+* `#77` [實作網頁深色模式及淺色模式必備的 CSS 語法：color-scheme 與 light-dark()](/color/css-color-scheme-light-dark)
     
 
 ---
 
 ### 多媒體：圖片/影片/音訊處理
 
-* `#34` [CSS 讓圖片填滿容器的各種方法，以圓形大頭貼為例：object-fit 與 background-size，搭配 aspect-ratio](https://im1010ioio.hashnode.dev/css-object-fit-background-size-aspect-ratio)
+* `#34` [CSS 讓圖片填滿容器的各種方法，以圓形大頭貼為例：object-fit 與 background-size，搭配 aspect-ratio](/multimedia/css-object-fit-background-size-aspect-ratio)
     
-* `#35` [圖片的 1x, 2x, 3x 是什麼？關於網頁上圖片解析度的處理：HTML srcset、CSS image-set() 與 @media resolution](https://im1010ioio.hashnode.dev/image-1x-2x-3x-srcset-resolution)
+* `#35` [圖片的 1x, 2x, 3x 是什麼？關於網頁上圖片解析度的處理：HTML srcset、CSS image-set() 與 @media resolution](/multimedia/image-1x-2x-3x-srcset-resolution)
     
-* `#36` [HTML 用影片當背景，使用 iframe 嵌入 Youtube/ IG/ TikTok/ X (Twitter) 影片](https://im1010ioio.hashnode.dev/36-html-video-youtube-iframe)
+* `#36` [HTML 用影片當背景，使用 iframe 嵌入 Youtube/ IG/ TikTok/ X (Twitter) 影片](/multimedia/36-html-video-youtube-iframe)
     
 
 ---
 
 ### 繪製漸層與圖形
 
-* `#37` [CSS 基本漸層：線性/放射/圓錐漸層 (CSS linear-gradient, radial-gradient, conic-gradient)](https://im1010ioio.hashnode.dev/css-gradient)
+* `#37` [CSS 基本漸層：線性/放射/圓錐漸層 (CSS linear-gradient, radial-gradient, conic-gradient)](/gradients-shapes/css-gradient)
     
-* `#38` [CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)](https://im1010ioio.hashnode.dev/multiple-backgrounds)
+* `#38` [CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)](/gradients-shapes/multiple-backgrounds)
     
-* `#39` [CSS 幾何背景：條紋、格子、點點、棋盤格子背景 (CSS background)](https://im1010ioio.hashnode.dev/css-stripes-plaid-polka-checkerboard-background)
+* `#39` [CSS 幾何背景：條紋、格子、點點、棋盤格子背景 (CSS background)](/gradients-shapes/css-stripes-plaid-polka-checkerboard-background)
     
-* `#40` [使用 CSS filter blur 製作簡易的任意形狀漸層 (流動/暈染背景)](https://im1010ioio.hashnode.dev/css-fluid-gradient)
+* `#40` [使用 CSS filter blur 製作簡易的任意形狀漸層 (流動/暈染背景)](/gradients-shapes/css-fluid-gradient)
     
-* `#41` [用 CSS border-radius 畫圓角與圓圓的形狀：圓、圓柱、橢圓、蛋型、鐘型、葉子 (眼睛)、花瓣 (水滴/心形)、牛角 (彎月)](https://im1010ioio.hashnode.dev/css-border-radius)
+* `#41` [用 CSS border-radius 畫圓角與圓圓的形狀：圓、圓柱、橢圓、蛋型、鐘型、葉子 (眼睛)、花瓣 (水滴/心形)、牛角 (彎月)](/gradients-shapes/css-border-radius)
     
-* `#42` [用 CSS border 繪製三角形箭頭 (等腰/直角三角形)](https://im1010ioio.hashnode.dev/css-border-triangle)
+* `#42` [用 CSS border 繪製三角形箭頭 (等腰/直角三角形)](/gradients-shapes/css-border-triangle)
     
-* `#43` [用 CSS clip-path 剪裁各種形狀的色塊/圖片/影片](https://im1010ioio.hashnode.dev/css-clip-path)
+* `#43` [用 CSS clip-path 剪裁各種形狀的色塊/圖片/影片](/gradients-shapes/css-clip-path)
     
-* `#44` [CSS 邊框 border 與各種花式邊框的小技巧：borde-image、outline、box-shadow](https://im1010ioio.hashnode.dev/css-border-style)
+* `#44` [CSS 邊框 border 與各種花式邊框的小技巧：borde-image、outline、box-shadow](/gradients-shapes/css-border-style)
     
-* `#81` [CSS 可以寫三角函數？sin()、cos()、tan() 專門處理圓弧、波浪或是特殊角度](https://im1010ioio.hashnode.dev/css-trigonometric-functions)
+* `#81` [CSS 可以寫三角函數？sin()、cos()、tan() 專門處理圓弧、波浪或是特殊角度](/gradients-shapes/css-trigonometric-functions)
     
 
 ---
 
 ### 特效
 
-* `#45` [CSS 中的半透明遮罩 mask，實現各種模糊邊緣特效](https://im1010ioio.hashnode.dev/css-mask)
+* `#45` [CSS 中的半透明遮罩 mask，實現各種模糊邊緣特效](/effects/css-mask)
     
-* `#46` [CSS 濾鏡 filter/ backdrop-filter：模糊、透明圖片加陰影、調色、毛玻璃、漸進式模糊效果](https://im1010ioio.hashnode.dev/css-filter-backdrop-filter)
+* `#46` [CSS 濾鏡 filter/ backdrop-filter：模糊、透明圖片加陰影、調色、毛玻璃、漸進式模糊效果](/effects/css-filter-backdrop-filter)
     
-* `#47` [一次搞懂 CSS 各種混合模式：mix-blend-mode/ background-blend-mode](https://im1010ioio.hashnode.dev/css-mix-blend-mode)
+* `#47` [一次搞懂 CSS 各種混合模式：mix-blend-mode/ background-blend-mode](/effects/css-mix-blend-mode)
     
-* `#48` [CSS 噪點漸層 (Grainy Gradients) 的製作方法](https://im1010ioio.hashnode.dev/css-grainy-gradients) (todo)
+* `#48` [CSS 噪點漸層 (Grainy Gradients) 的製作方法](/effects/css-grainy-gradients) (todo)
     
-* `#49` [CSS 2D Transform：變大、變小、旋轉、傾斜，CSS 絕對定位置中方法、平行四邊形](https://im1010ioio.hashnode.dev/css-2d-transform)
+* `#49` [CSS 2D Transform：變大、變小、旋轉、傾斜，CSS 絕對定位置中方法、平行四邊形](/effects/css-2d-transform)
     
-* `#50` [CSS 3D Transform](https://im1010ioio.hashnode.dev/css-3d-transform)
+* `#50` [CSS 3D Transform](/effects/css-3d-transform)
     
-* `#78` [CSS + SVG 仿 Apple iOS26 液態玻璃（Liquid Glass）效果 (Safari 不支援)](https://im1010ioio.hashnode.dev/css-svg-ios26-liquid-glass)
+* `#78` [CSS + SVG 仿 Apple iOS26 液態玻璃（Liquid Glass）效果 (Safari 不支援)](/effects/css-svg-ios26-liquid-glass)
     
 
 ---
 
 ### 互動 - Transition
 
-* `#51` [CSS Transition 與一些小技巧：倒帶、影響相鄰的兄弟](https://im1010ioio.hashnode.dev/css-transition) (todo hover 巢狀冒泡效果)
+* `#51` [CSS Transition 與一些小技巧：倒帶、影響相鄰的兄弟](/interaction-transition/css-transition) (todo hover 巢狀冒泡效果)
     
-* `#52` [詳細了解 CSS 各種偽類：hover、focus、active、focus-within、focus-visible、target](https://im1010ioio.hashnode.dev/css-pseudo-classes)
+* `#52` [詳細了解 CSS 各種偽類：hover、focus、active、focus-within、focus-visible、target](/interaction-transition/css-pseudo-classes)
     
-* `#80` [Display: none 也可以做 CSS Transition 動畫了？@starting-style 與 transition-behavior: allow-discrete](https://im1010ioio.hashnode.dev/css-starting-style-transition-behavior-allow-discrete)
+* `#80` [Display: none 也可以做 CSS Transition 動畫了？@starting-style 與 transition-behavior: allow-discrete](/interaction-transition/css-starting-style-transition-behavior-allow-discrete)
     
 
 ---
 
 ### 互動 - Animation
 
-* `#53` [CSS Animation](https://im1010ioio.hashnode.dev/css-animation) (todo 逐格動畫 打字動畫 動畫暫停)
+* `#53` [CSS Animation](/interaction-animation/css-animation) (todo 逐格動畫 打字動畫 動畫暫停)
     
-* `#54` [網頁渲染動畫的建議 & will-change 的使用時機](https://im1010ioio.hashnode.dev/css-web-rendering-will-change)
+* `#54` [網頁渲染動畫的建議 & will-change 的使用時機](/interaction-animation/css-web-rendering-will-change)
     
-* `#55` [純 CSS 照片淡入淡出輪播動畫](https://im1010ioio.hashnode.dev/css-images-slider-fade-effects)
+* `#55` [純 CSS 照片淡入淡出輪播動畫](/interaction-animation/css-images-slider-fade-effects)
     
-* `#56` [純 CSS 跑馬燈動畫，單趟跑、無限跑、要暫停都可以](https://im1010ioio.hashnode.dev/css-marquee)
+* `#56` [純 CSS 跑馬燈動畫，單趟跑、無限跑、要暫停都可以](/interaction-animation/css-marquee)
     
-* `#57` [CSS @property：變數的再進化！輕易製作純 CSS 漸層動畫、圓餅圖動畫](https://im1010ioio.hashnode.dev/css-houdini-property)
+* `#57` [CSS @property：變數的再進化！輕易製作純 CSS 漸層動畫、圓餅圖動畫](/interaction-animation/css-houdini-property)
     
-* `#58` [CSS offset-path：沿著軌跡行進動畫](https://im1010ioio.hashnode.dev/css-offset-path)
+* `#58` [CSS offset-path：沿著軌跡行進動畫](/interaction-animation/css-offset-path)
     
 
 ---
 
 ### 互動 - click toggle 行為
 
-* `#59` [客製化 radio、checkbox 樣式，製作開關按鈕 (Switch Button)](https://im1010ioio.hashnode.dev/css-switch-button)
+* `#59` [客製化 radio、checkbox 樣式，製作開關按鈕 (Switch Button)](/interaction-click/css-switch-button)
     
-* `#60` [利用 checkbox，做到純 CSS 開關網頁選單、收合側邊欄](https://im1010ioio.hashnode.dev/css-sidebar)
+* `#60` [利用 checkbox，做到純 CSS 開關網頁選單、收合側邊欄](/interaction-click/css-sidebar)
     
-* `#61` [利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）](https://im1010ioio.hashnode.dev/css-collapse-accordion-animation)
+* `#61` [利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）](/interaction-click/css-collapse-accordion-animation)
     
 
 ---
 
 ### 互動 - scroll 行為
 
-* `#62` [使用 CSS overflow 自訂捲動範圍](https://im1010ioio.hashnode.dev/css-overflow)
+* `#62` [使用 CSS overflow 自訂捲動範圍](/interaction-scroll/css-overflow)
     
-* `#63` [CSS 自訂捲軸顏色與樣式：scrollbar-color、scrollbar-width、scrollbar-gutter、::-webkit-scrollbar-\*](https://im1010ioio.hashnode.dev/css-custom-scrollbar)
+* `#63` [CSS 自訂捲軸顏色與樣式：scrollbar-color、scrollbar-width、scrollbar-gutter、::-webkit-scrollbar-\*](/interaction-scroll/css-custom-scrollbar)
     
-* `#64` [CSS 捲動提示陰影：使用 CSS 漸層 radial-gradient 與 isolation 製作](https://im1010ioio.hashnode.dev/css-scrolling-shadows)
+* `#64` [CSS 捲動提示陰影：使用 CSS 漸層 radial-gradient 與 isolation 製作](/interaction-scroll/css-scrolling-shadows)
     
-* `#65` [CSS 簡易的滑順捲軸滾動動畫 scroll-behavior](https://im1010ioio.hashnode.dev/css-scroll-behavior)
+* `#65` [CSS 簡易的滑順捲軸滾動動畫 scroll-behavior](/interaction-scroll/css-scroll-behavior)
     
-* `#66` [CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標](https://im1010ioio.hashnode.dev/css-pseudo-target-and-target-text)
+* `#66` [CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標](/interaction-scroll/css-pseudo-target-and-target-text)
     
-* `#67` [CSS :target 應用：純 CSS 光箱、純 CSS Tab 頁籤](https://im1010ioio.hashnode.dev/css-pseudo-target-lightbox-tab)
+* `#67` [CSS :target 應用：純 CSS 光箱、純 CSS Tab 頁籤](/interaction-scroll/css-pseudo-target-lightbox-tab)
     
-* `#68` [CSS overscroll-behavior：解決滾動穿透問題 & 阻止手機瀏覽器下拉重整](https://im1010ioio.hashnode.dev/css-overscroll-behavior)
+* `#68` [CSS overscroll-behavior：解決滾動穿透問題 & 阻止手機瀏覽器下拉重整](/interaction-scroll/css-overscroll-behavior)
     
-* `#69` [CSS scroll snap 做簡單的純 CSS 輪播](https://im1010ioio.hashnode.dev/css-scroll-snap)
+* `#69` [CSS scroll snap 做簡單的純 CSS 輪播](/interaction-scroll/css-scroll-snap)
     
-* `#70` [純 CSS 也能做滾動動畫了！animation-timeline 讓東西邊滾邊動](https://im1010ioio.hashnode.dev/css-animation-timeline)
+* `#70` [純 CSS 也能做滾動動畫了！animation-timeline 讓東西邊滾邊動](/interaction-scroll/css-animation-timeline)
     
 
 ---
 
 ### Sass/SCSS (CSS 預處理器)
 
-* `#82` [SASS/SCSS (1) 介紹與簡易環境設定](https://im1010ioio.hashnode.dev/scss-intro)
+* `#82` [SASS/SCSS (1) 介紹與簡易環境設定](/sass-scss/scss-intro)
     
-* `#83` [SASS/SCSS (2) 變數 Variables / 巢狀寫法 Nesting](https://im1010ioio.hashnode.dev/scss-variables-nesting)
+* `#83` [SASS/SCSS (2) 變數 Variables / 巢狀寫法 Nesting](/sass-scss/scss-variables-nesting)
     
-* `#84` [SASS/SCSS (3) 使用檔案管理樣式 Partials / Modules (@use / @import / !default)](https://im1010ioio.hashnode.dev/scss-use-import-default)
+* `#84` [SASS/SCSS (3) 使用檔案管理樣式 Partials / Modules (@use / @import / !default)](/sass-scss/scss-use-import-default)
     
-* `#85` [SASS/SCSS (4) Mixins @mixin & @include](https://im1010ioio.hashnode.dev/scss-mixin)
+* `#85` [SASS/SCSS (4) Mixins @mixin & @include](/sass-scss/scss-mixin)
     
-* `#86` [SASS/SCSS (5) Extend](https://im1010ioio.hashnode.dev/scss-extend)
+* `#86` [SASS/SCSS (5) Extend](/sass-scss/scss-extend)
     
-* `#87` [SASS/SCSS (6) 運算符號（加減乘除）](https://im1010ioio.hashnode.dev/scss-operators)
+* `#87` [SASS/SCSS (6) 運算符號（加減乘除）](/sass-scss/scss-operators)
     
-* `#88` [SASS/SCSS (7) sass:color 顏色模組——color.adjust 與 color.scale 取代舊的 lighten() 和 darken()](https://im1010ioio.hashnode.dev/scss-color-adjust-color-scale)
+* `#88` [SASS/SCSS (7) sass:color 顏色模組——color.adjust 與 color.scale 取代舊的 lighten() 和 darken()](/sass-scss/scss-color-adjust-color-scale)
     
-* `#89` [SASS/SCSS (8) 邏輯 @if, @each, @for 與 @while](https://im1010ioio.hashnode.dev/scss-if-each-for-while)
+* `#89` [SASS/SCSS (8) 邏輯 @if, @each, @for 與 @while](/sass-scss/scss-if-each-for-while)
     
-* `#90` [SASS/SCSS (9) 函式 (Function) - 打造你自己的工具箱](https://im1010ioio.hashnode.dev/scss-function)
+* `#90` [SASS/SCSS (9) 函式 (Function) - 打造你自己的工具箱](/sass-scss/scss-function)
     
-* `#91` [SASS/SCSS (10) 資料結構 List (列表)](https://im1010ioio.hashnode.dev/scss-list)
+* `#91` [SASS/SCSS (10) 資料結構 List (列表)](/sass-scss/scss-list)
     
-* `#92` [SASS/SCSS (11) 資料結構 Map](https://im1010ioio.hashnode.dev/scss-map)
+* `#92` [SASS/SCSS (11) 資料結構 Map](/sass-scss/scss-map)
     
-* `#93` [SASS/SCSS (12) 防呆與偵錯 @debug / @warn / @error](https://im1010ioio.hashnode.dev/scss-debug-warn-error)
+* `#93` [SASS/SCSS (12) 防呆與偵錯 @debug / @warn / @error](/sass-scss/scss-debug-warn-error)
     
 
 ---
@@ -332,7 +332,7 @@ sidebar:
 
 * `2023 鐵人賽開始：#00` 參賽前言 / 文章目錄（本篇）
     
-* `2023 鐵人賽結束：#30` [iT 鐵人賽心路歷程 & 我的寫作方法](https://im1010ioio.hashnode.dev/thoughts-about-30-days)
+* `2023 鐵人賽結束：#30` [iT 鐵人賽心路歷程 & 我的寫作方法](/misc/thoughts-about-30-days)
     
 * `2024 鐵人賽開始：#00` [PART 2！參賽前言 / 文章目錄](https://ithelp.ithome.com.tw/articles/10350686)
     
