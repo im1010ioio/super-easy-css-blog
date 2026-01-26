@@ -11,6 +11,10 @@ sidebar:
 ---
 ![CSS Container Queries 容器查詢：讓 CSS 的計算以容器自身為依據](https://cdn.hashnode.com/res/hashnode/image/upload/v1766035916247/17b94ac6-c8e9-4a91-ab5a-7adb9d4ee1dc.png)
 
+
+前幾篇我們學習了 Media Queries，是針對裝置的屬性、大小變化；現在，CSS 新推出了 Container Queries（容器查詢）讓我們可以針對 HTML 元素大小變化，進而改變元素自己的樣式。
+
+
 > #### **↓ 今日學習重點 ↓**
 > 
 > * 了解 Container Queries 的用法
@@ -19,8 +23,6 @@ sidebar:
 >     
 > * 了解 Container Queries 的使用情境
 >     
-
-前幾篇我們學習了 Media Queries，是針對裝置的屬性、大小變化；現在，CSS 新推出了 Container Queries（容器查詢）讓我們可以針對 HTML 元素大小變化，進而改變元素自己的樣式。
 
 改變元素自己是什麼意思呢？讓我們來看看網路上國外大神 [Jhey Tompkins](https://twitter.com/jh3yy) 的可愛 DEMO 就能快速了解了，他用了 CSS 的 Container Queries 加上 Resize 達到了有趣的互動效果：
 
