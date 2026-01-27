@@ -160,7 +160,7 @@ sidebar:
     
 * `#35` [圖片的 1x, 2x, 3x 是什麼？關於網頁上圖片解析度的處理：HTML srcset、CSS image-set() 與 @media resolution](/multimedia/image-1x-2x-3x-srcset-resolution)
     
-* `#36` [HTML 用影片當背景，使用 iframe 嵌入 Youtube/ IG/ TikTok/ X (Twitter) 影片](/multimedia/36-html-video-youtube-iframe)
+* `#36` [HTML 用影片當背景，使用 iframe 嵌入 Youtube/ IG/ TikTok/ X (Twitter) 影片](/multimedia/html-video-youtube-iframe)
     
 
 ---
