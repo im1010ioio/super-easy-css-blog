@@ -116,28 +116,5 @@ CSS 的 `transition` 是是兩個狀態之間的動畫過渡效果。但在實�
 
 透過這些進階技巧，靈活地掌控 CSS `transition`，就可以打造出更加流暢和專業的過渡動畫效果。
 
----
-
-css transition 加疊會加疊嗎？
-
+延伸閱讀：
 [前端 - 你可能不知道的 transition 技巧与细节 - iCSS - SegmentFault 思否](https://segmentfault.com/a/1190000039139676)
-
-### transition 運作原理：可計算
-
-要可以計算的數值，auto & display: none 不行
-
-### transition速率
-
-貝茲曲線
-
-### transition 倒帶
-
-透過 hover 覆蓋 tansition
-
-hover 在手機上不支援
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720588688399/3010ff1f-2e3e-4749-ba18-7c996b3b4123.png)
-
-### 進階
-
-搭配+, ~
