@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "超級簡單寫 CSS (Super Easy CSS)",
-    "description": "超級簡單寫 CSS (Super Easy CSS)",
+    "title": "Super Easy CSS，極度簡單",
+    "description": "Super Easy CSS，極度簡單",
     "logo": "/src/assets/logo-light.svg",
     "logo_darkmode": "/src/assets/logo-dark.svg",
     "logo_width": "127",
     "logo_height": "32",
-    "logo_text": "超級簡單寫 CSS (Super Easy CSS)",
+    "logo_text": "Super Easy CSS，極度簡單",
     "author": "YI-LIN CHEN @im1010ioio"
   },
   "settings": {

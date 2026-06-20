@@ -1,7 +1,10 @@
 ---
 import Search from "./Search.astro";
 const { data } = Astro.locals.starlightRoute.entry;
-const { title = data.title, tagline } = data.hero || {};
+const heroData = data.hero || {};
+const { title = data.title, tagline } = heroData;
+// Use description from root level data or from hero object
+const description = data.description;
 const { sidebar } = Astro.locals.starlightRoute;
 import { Icon } from "@astrojs/starlight/components";
 import { getIconFromLabel, plainLabel } from "@/lib/utils/textConverter";
@@ -26,11 +29,12 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
   class="hero flex flex-col items-center mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-35"
 >
   <h1 class="hero-title mb-8 flex items-center justify-center gap-5">
-    <span class="logo-light" set:html={logoLightSrc} aria-label="超級簡單寫 CSS (Super Easy CSS)" />
-    <span class="logo-dark" set:html={logoDarkSrc} aria-label="超級簡單寫 CSS (Super Easy CSS)" />
+    <span class="logo-light" set:html={logoLightSrc} aria-label="Super Easy CSS，極度簡單" />
+    <span class="logo-dark" set:html={logoDarkSrc} aria-label="Super Easy CSS，極度簡單" />
     <span data-icon-path="hero-icon.svg"></span>
   </h1>
   {tagline && <p set:html={tagline} class="text-xl text-center" />}
+  {description && <div class="mt-4 max-w-xl"><p set:html={description} class="text-sm" /></div>}
 
   {
     !is404 && (
