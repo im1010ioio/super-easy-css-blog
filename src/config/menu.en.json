@@ -1,0 +1,106 @@
+{
+  "main": [
+    {
+      "name": "首頁",
+      "url": "/"
+    },
+    {
+      "name": "文章",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Basics",
+          "url": "/basics/glossary-of-web-development/"
+        },
+        {
+          "name": "Layout",
+          "url": "/layout/css-box-model/"
+        },
+        {
+          "name": "RWD",
+          "url": "/rwd/css-media-queries/"
+        },
+        {
+          "name": "Text",
+          "url": "/text/css-font-family-font-weight/"
+        },
+        {
+          "name": "Color",
+          "url": "/color/css-colors-hex-rgb-hsl-lch-oklch/"
+        },
+        {
+          "name": "Multi Media",
+          "url": "/multimedia/css-object-fit-background-size-aspect-ratio/"
+        },
+        {
+          "name": "Gradients & Shapes",
+          "url": "/gradients-shapes/css-gradient/"
+        },
+        {
+          "name": "Effects",
+          "url": "/effects/css-mask/"
+        },
+        {
+          "name": "Interaction",
+          "url": "/interaction-transition/css-transition/"
+        },
+        {
+          "name": "Sass/SCSS",
+          "url": "/sass-scss/scss-intro/"
+        }
+      ]
+    },
+    {
+      "name": "Donate",
+      "url": "https://im1010ioio.bobaboba.me/"
+    }
+  ],
+  "footer": {
+    "community": {
+      "title": "Super Easy CSS",
+      "links": [
+        {
+          "name": "Basics",
+          "url": "/basics/glossary-of-web-development/"
+        },
+        {
+          "name": "Layout",
+          "url": "/layout/css-box-model/"
+        },
+        {
+          "name": "RWD",
+          "url": "/rwd/css-media-queries/"
+        },
+        {
+          "name": "Text",
+          "url": "/text/css-font-family-font-weight/"
+        },
+        {
+          "name": "Color",
+          "url": "/color/css-colors-hex-rgb-hsl-lch-oklch/"
+        },
+        {
+          "name": "Multi Media",
+          "url": "/multimedia/css-object-fit-background-size-aspect-ratio/"
+        },
+        {
+          "name": "Gradients & Shapes",
+          "url": "/gradients-shapes/css-gradient/"
+        },
+        {
+          "name": "Effects",
+          "url": "/effects/css-mask/"
+        },
+        {
+          "name": "Interaction",
+          "url": "/interaction-transition/css-transition/"
+        },
+        {
+          "name": "Sass/SCSS",
+          "url": "/sass-scss/scss-intro/"
+        }
+      ]
+    }
+  }
+}
