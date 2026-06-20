@@ -11,9 +11,18 @@ if (variant === "primary") {
   classes += ""
 }
 
+const withBase = (path) => {
+  if (path && path.startsWith('/') && !path.startsWith(import.meta.env.BASE_URL)) {
+    const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+    return `${base}${path}`;
+  }
+  return path;
+};
+
+const finalHref = withBase(href);
 ---
 
-<a href={href} class={` ${classes} ${className}`}>
+<a href={finalHref} class={` ${classes} ${className}`}>
   <slot />
   <svg
   class="mt-0!"
