@@ -19,8 +19,8 @@ export const locales = locals
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://im1010ioio.github.io',
-  base: '/super-easy-css-blog',
+  site: 'https://css.im1010ioio.dev',
+  base: '',
   image: {
     service: { entrypoint: "astro/assets/services/noop" },
   },
