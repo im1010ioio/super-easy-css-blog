@@ -38,6 +38,8 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
+      - name: Setup Sharp
+        run: npm rebuild sharp
       - name: Build Astro site
         run: npm run build
       - name: Setup Pages
