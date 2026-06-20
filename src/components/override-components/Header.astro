@@ -23,6 +23,16 @@ const isExternalLink = (url: string | undefined): boolean => {
   if (!url) return false;
   return url.startsWith("http://") || url.startsWith("https://");
 };
+
+// Helper to prepend base URL to internal absolute paths
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const withBase = (url: string | undefined): string => {
+  if (!url) return "";
+  if (isExternalLink(url)) return url;
+  // If the URL starts with /, prepend base
+  if (url.startsWith("/")) return `${base}${url}`;
+  return url;
+};
 ---
 
 <nav class="navbar container">
@@ -78,7 +88,7 @@ const isExternalLink = (url: string | undefined): boolean => {
                 {menu.children?.map((child: { url: string; name: string }) => (
                   <li class="nav-dropdown-item">
                     <a
-                      href={child.url}
+                      href={withBase(child.url)}
                       aria-label={child.name}
                       class={`nav-dropdown-link block ${
                         (pathname === `${child.url}/` ||
@@ -98,7 +108,7 @@ const isExternalLink = (url: string | undefined): boolean => {
           ) : (
             <li class="nav-item">
               <a
-                href={menu.url}
+                href={withBase(menu.url)}
                 class={`nav-link block ${
                   (pathname === `${menu.url}/` || pathname === menu.url) &&
                   "active"

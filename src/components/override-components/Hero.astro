@@ -133,7 +133,8 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
     const iconPath = iconElements.getAttribute("data-icon-path");
 
     const img = document.createElement("img");
-    img.src = `/${iconPath}` || "";
+    const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+    img.src = `${base}/${iconPath}` || "";
     img.alt = "icon";
     img.className =
       "hidden lg:inline-block size-20 -mb-2 rounded-2xl animate-[bounce_2s_ease-in-out_infinite]";
