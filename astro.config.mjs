@@ -34,6 +34,7 @@ export default defineConfig({
       social: social.main || [],
       locales,
       sidebar: sidebar.main || [],
+      favicon: '/favicon.ico',
       customCss: ["./src/styles/global.css"],
       components: {
         Head: "./src/components/override-components/Head.astro",

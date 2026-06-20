@@ -5,6 +5,13 @@ const { title = data.title, tagline } = data.hero || {};
 const { sidebar } = Astro.locals.starlightRoute;
 import { Icon } from "@astrojs/starlight/components";
 import { getIconFromLabel, plainLabel } from "@/lib/utils/textConverter";
+import { readFileSync } from "fs";
+import { fileURLToPath } from "url";
+import path from "path";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const logoLightSrc = readFileSync(path.resolve(__dirname, "../../assets/logo-light.svg"), "utf-8");
+const logoDarkSrc = readFileSync(path.resolve(__dirname, "../../assets/logo-dark.svg"), "utf-8");
 
 function getFirstHref(item: any): string | null {
   if (typeof item?.href === "string" && item.href) {
@@ -23,7 +30,11 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
 <div
   class="hero flex flex-col items-center mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-35"
 >
-  {title && <h1 set:html={title} class="mb-8 text-center rounded-2xl" />}
+  <h1 class="hero-title mb-8 flex items-center justify-center gap-5">
+    <span class="logo-light" set:html={logoLightSrc} aria-label="超級簡單寫 CSS (Super Easy CSS)" />
+    <span class="logo-dark" set:html={logoDarkSrc} aria-label="超級簡單寫 CSS (Super Easy CSS)" />
+    <span data-icon-path="hero-icon.svg"></span>
+  </h1>
   {tagline && <p set:html={tagline} class="text-xl text-center" />}
 
   {
@@ -65,12 +76,23 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
 
 <style>
   @layer starlight.core {
-    h1 {
-      font-size: 7rem !important;
-      line-height: 6.5rem !important;
-      letter-spacing: -4px;
-      color: var(--sl-color-white);
+    .hero-title {
+      /* Light theme: show light logo, hide dark logo */
+      .logo-dark { display: none; }
+      .logo-light { display: inline-flex; }
     }
+
+    :global([data-theme="dark"]) .hero-title {
+      /* Dark theme: show dark logo, hide light logo */
+      .logo-light { display: none; }
+      .logo-dark { display: inline-flex; }
+    }
+
+    :global(.hero-title svg) {
+      width: clamp(270px, 40vw, 600px);
+      height: auto;
+    }
+
     .search-container {
       width: 90%;
       margin: auto;
@@ -94,11 +116,6 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
     }
 
     @media (max-width: 940px) {
-      h1 {
-        font-size: 3.5rem !important;
-        line-height: 3.5rem !important;
-        letter-spacing: -2px;
-      }
       .search-container {
         width: 100%;
       }

@@ -1,0 +1,8 @@
+const main = [{"name":"首頁","url":"/"},{"name":"文章","url":"","hasChildren":true,"children":[{"name":"基礎知識 / 共用觀念","url":"/basics/glossary-of-web-development/"},{"name":"版面編排","url":"/layout/css-box-model/"},{"name":"響應式 RWD","url":"/rwd/css-media-queries/"},{"name":"文字","url":"/text/css-font-family-font-weight/"},{"name":"顏色","url":"/color/css-colors-hex-rgb-hsl-lch-oklch/"},{"name":"多媒體","url":"/multimedia/css-object-fit-background-size-aspect-ratio/"},{"name":"繪製漸層與圖形","url":"/gradients-shapes/css-gradient/"},{"name":"特效","url":"/effects/css-mask/"},{"name":"互動","url":"/interaction-transition/css-transition/"},{"name":"Sass/SCSS","url":"/sass-scss/scss-intro/"}]},{"name":"小額贊助","url":"https://im1010ioio.bobaboba.me/"}];
+const footer = {"community":{"title":"超級簡單寫 CSS","links":[{"name":"基礎知識 / 共用觀念","url":"/basics/glossary-of-web-development/"},{"name":"版面編排","url":"/layout/css-box-model/"},{"name":"響應式 RWD","url":"/rwd/css-media-queries/"},{"name":"文字","url":"/text/css-font-family-font-weight/"},{"name":"顏色","url":"/color/css-colors-hex-rgb-hsl-lch-oklch/"},{"name":"多媒體","url":"/multimedia/css-object-fit-background-size-aspect-ratio/"},{"name":"繪製漸層與圖形","url":"/gradients-shapes/css-gradient/"},{"name":"特效","url":"/effects/css-mask/"},{"name":"互動","url":"/interaction-transition/css-transition/"},{"name":"Sass/SCSS","url":"/sass-scss/scss-intro/"}]}};
+const menu_zhTW = {
+  main,
+  footer,
+};
+
+export { menu_zhTW as default, footer, main };
