@@ -15,9 +15,16 @@ body {
 body {
   text-wrap: pretty;
   &:where([data-theme=light], [data-theme=light] *),
-  &:where([data-theme=dark], [data-theme=dark] *) {
-    color: var(--sl-color-gray-2);  /* 淺色文字 */
+  &:where([data-theme=dark], [data-theme=dark] *){
+    color: var(--sl-color-gray-2); 
   }
+}
+
+.text-text{
+    color: var(--sl-color-gray-3);
+    &:hover{
+      color: white;
+    }
 }
 
 h1,
