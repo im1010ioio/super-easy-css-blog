@@ -12,6 +12,14 @@ body {
   @apply bg-lightmode-body text-base dark:bg-body font-primary font-normal leading-relaxed text-lightmode-text dark:text-text;
 }
 
+body {
+  text-wrap: pretty;
+  &:where([data-theme=light], [data-theme=light] *),
+  &:where([data-theme=dark], [data-theme=dark] *) {
+    color: var(--sl-color-gray-2);  /* 淺色文字 */
+  }
+}
+
 h1,
 h2,
 h3,
