@@ -90,7 +90,7 @@ const { hasSidebar } = Astro.locals.starlightRoute;
       /* height: 4.5rem; */
       border-bottom: 1px solid
         color-mix(in srgb, var(--sl-color-white) 10%, transparent);
-      padding: var(--sl-nav-pad-y) 0px;
+      padding: var(--sl-nav-pad-y) var(--sl-nav-pad-x);
       /* padding-inline-end: var(--sl-nav-pad-x); */
     }
     .sidebar {
@@ -106,7 +106,7 @@ const { hasSidebar } = Astro.locals.starlightRoute;
     @media (max-width: 800px) {
       .header {
         background-color: var(--sl-color-black);
-        padding: 6px var(--sl-nav-pad-x);
+        padding-block: 6px;
       }
     }
 

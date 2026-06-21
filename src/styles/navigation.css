@@ -1,8 +1,5 @@
 
-.no-sidebar{
-  @apply py-3;
-}
-.has-sidebar{
+.no-sidebar, .has-sidebar{
   @apply  lg:z-100;
 }
 
@@ -116,5 +113,3 @@ input#nav-toggle:checked ~ #nav-menu {
     }
   }
 }
-
-
