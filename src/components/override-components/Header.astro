@@ -8,9 +8,9 @@ import Search from "./Search.astro";
 import LanguageSelect from "@astrojs/starlight/components/LanguageSelect.astro";
 
 // get current locale from URL
-const locale = Astro.currentLocale || "zhTW";
+const locale = Astro.currentLocale || "en";
 
-const menu = await getTranslations(locale || "zhTW");
+const menu = await getTranslations(locale || "en");
 
 const { settings, navigation_button } = config;
 const { main }: { main: any[] } = menu;
@@ -124,9 +124,6 @@ const withBase = (url: string | undefined): string => {
         </>
       ))
     }
-    <div class="mt-1">
-      <LanguageSelect />
-    </div>
     {
       navigation_button.enable && (
         <li class="mt-4 inline-block lg:hidden">
@@ -144,9 +141,21 @@ const withBase = (url: string | undefined): string => {
   <div
     class="order-1 ml-auto flex items-center md:order-2 lg:ml-0 navbar-actions"
   >
-    <div class="search-bar">
-      <Search />
-    </div>
+    {
+      hasSidebar && settings.search && (
+        <div class="search-bar">
+          <Search />
+        </div>
+      )
+    }
+
+    {
+      !hasSidebar && (
+        <div class="mr-4">
+          <LanguageSelect />
+        </div>
+      )
+    }
     {settings.theme_switcher && <ThemeSwitch className="lg:mx-6 mr-10" />}
 
     {
