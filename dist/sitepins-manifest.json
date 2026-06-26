@@ -1,10 +1,12 @@
 {
-  "name": "Sitepins CMS",
-  "description": "Git-based CMS detection file",
-  "cms": "Sitepins",
-  "generator": "nextjs",
-  "html": "<meta name=\"generator\" content=\"Sitepins",
+  "name": "Super Easy CSS",
+  "version": "0.0.2",
+  "description": "Super Easy CSS，極度簡單",
+  "author": "Themefisher",
+  "generator": "astro",
+  "site": "https://css.im1010ioio.dev",
+  "html": "<meta name=\"generator\" content=\"Astro\" />",
   "headers": {
-    "x-powered-by": "Sitepins"
+    "x-powered-by": "Astro"
   }
 }
