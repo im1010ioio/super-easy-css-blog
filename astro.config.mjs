@@ -38,6 +38,7 @@ export default defineConfig({
       sidebar: sidebar.main || [],
       favicon: '/favicon.ico',
       customCss: ["./src/styles/global.css"],
+      routeMiddleware: './src/routeData.ts',
       components: {
         Head: "./src/components/override-components/Head.astro",
         Header: "./src/components/override-components/Header.astro",
