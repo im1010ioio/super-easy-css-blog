@@ -1,489 +1,540 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:fo="http://www.w3.org/1999/XSL/Format"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-	<loc>https://css.im1010ioio.dev/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://css.im1010ioio.dev/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/glossary-of-web-development/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/glossary-of-web-development/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/css-box-model/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-box-model/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/rwd/css-media-queries/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/rwd/css-media-queries/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/text/css-font-family-font-weight/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/text/css-font-family-font-weight/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/color/css-colors-hex-rgb-hsl-lch-oklch/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/color/css-colors-hex-rgb-hsl-lch-oklch/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/multimedia/css-object-fit-background-size-aspect-ratio/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/multimedia/css-object-fit-background-size-aspect-ratio/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/gradients-shapes/css-gradient/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/gradients-shapes/css-gradient/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/effects/css-mask/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/effects/css-mask/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-transition/css-transition/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-transition/css-transition/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-intro/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-intro/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/preface/article-directory/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/preface/article-directory/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-animation/css-animation/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-animation/css-animation/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-click/css-switch-button/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-click/css-switch-button/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-scroll/css-overflow/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-scroll/css-overflow/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/misc/thoughts-about-30-days/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/misc/thoughts-about-30-days/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/about-browsers/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/about-browsers/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/git-github-gitlab-git-flow/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/git-github-gitlab-git-flow/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/css-units/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-units/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/css-block-inline-inline-block/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-block-inline-inline-block/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/rwd/css-container-queries/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/rwd/css-container-queries/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/rwd/css-media-print/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/rwd/css-media-print/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/text/css-text-wrap-balance-pretty/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/text/css-text-wrap-balance-pretty/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/text/css-white-space-word-breakline-clamp/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/text/css-white-space-word-breakline-clamp/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/color/css-prefers-color-scheme/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/color/css-prefers-color-scheme/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/color/css-color-scheme-light-dark/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/color/css-color-scheme-light-dark/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/multimedia/html-video-youtube-iframe/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/multimedia/html-video-youtube-iframe/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/multimedia/image-1x-2x-3x-srcset-resolution/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/multimedia/image-1x-2x-3x-srcset-resolution/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/gradients-shapes/css-border-radius/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/gradients-shapes/css-border-radius/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/gradients-shapes/css-clip-path/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/gradients-shapes/css-clip-path/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-transition/css-starting-style-transition-behavior-allow-discrete/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-transition/css-starting-style-transition-behavior-allow-discrete/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-animation/css-marquee/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-animation/css-marquee/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-animation/css-images-slider-fade-effects/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-animation/css-images-slider-fade-effects/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-variables-nesting/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-variables-nesting/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-use-import-default/</loc>
-	<lastmod>2026-01-15T06:40:59+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-use-import-default/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/git-github-gitpage-practice/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/privacy/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/html-basics/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/git-github-gitpage-practice/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/html-strugtrue/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/html-basics/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/html-file-paths/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/html-strugtrue/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/css-basics/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/html-body-tags/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/css-selectors/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/html-file-paths/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/css-variables/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/css-basics/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/pure-css-nesting/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/css-selectors/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/css-dry-kiss-yagni/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/css-selectors-advanced/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/oocss-smacss-bem-rscss/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/css-variables/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/css-pseudo-before-after/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/pure-css-nesting/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/css-responsive-table-custom-order-list/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/css-dry-kiss-yagni/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/css-nth-child-of-s/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/oocss-smacss-bem-rscss/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/basics/css-at-scope/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/css-pseudo-before-after/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/reset-css/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/css-responsive-table-custom-order-list/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/css-calc-max-min-clamp/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/css-nth-child-of-s/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/css-flex/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/basics/css-at-scope/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/css-grid/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/reset-css/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/css-intrinsic-sizing/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-calc-max-min-clamp/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/css-position/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-flex/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/css-display-contents/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-grid/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/css-logical-properties/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-grid-advanced/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/layout/css-anchor-positioning/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-intrinsic-sizing/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/text/css-text-effect/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-position/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/text/css-text-box-trim-edge/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-display-contents/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/color/css-currentcolor-accent-color-color-mix/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-logical-properties/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/gradients-shapes/multiple-backgrounds/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/layout/css-anchor-positioning/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/gradients-shapes/css-stripes-plaid-polka-checkerboard-background/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/rwd/css-ios-safari-tips/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/gradients-shapes/css-fluid-gradient/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/text/css-font-resources-icon/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/gradients-shapes/css-border-triangle/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/text/css-text-effect/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/gradients-shapes/css-border-style/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/text/css-text-box-trim-edge/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/gradients-shapes/css-trigonometric-functions/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/color/css-colors-oklch-lch/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/effects/css-filter-backdrop-filter/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/color/css-currentcolor-accent-color-color-mix/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/effects/css-mix-blend-mode/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/multimedia/html-iframe-youtube-social/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/effects/css-grainy-gradients/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/gradients-shapes/multiple-backgrounds/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/effects/css-2d-transform/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/gradients-shapes/css-stripes-plaid-polka-checkerboard-background/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/effects/css-3d-transform/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/gradients-shapes/css-fluid-gradient/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/effects/css-svg-ios26-liquid-glass/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/gradients-shapes/css-border-triangle/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-transition/css-pseudo-classes/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/gradients-shapes/css-border-style/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-animation/css-web-rendering-will-change/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/gradients-shapes/css-trigonometric-functions/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-animation/css-houdini-property/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/effects/css-filter-backdrop-filter/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-animation/css-offset-path/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/effects/css-mix-blend-mode/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-click/css-sidebar/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/effects/css-grainy-gradients/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-click/css-collapse-accordion-animation/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/effects/css-2d-transform/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-scroll/css-custom-scrollbar/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/effects/css-3d-transform/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-scroll/css-scrolling-shadows/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/effects/css-svg-ios26-liquid-glass/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-scroll/css-scroll-behavior/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-transition/css-pseudo-classes/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-scroll/css-pseudo-target-and-target-text/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-animation/css-web-rendering-will-change/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-scroll/css-pseudo-target-lightbox-tab/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-animation/css-houdini-property/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-scroll/css-overscroll-behavior/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-animation/css-offset-path/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-scroll/css-scroll-snap/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-click/css-sidebar/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/interaction-scroll/css-animation-timeline/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-click/css-collapse-accordion-animation/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-mixin/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-scroll/css-custom-scrollbar/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-extend/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-scroll/css-scrolling-shadows/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-operators/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-scroll/css-scroll-behavior/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-color-adjust-color-scale/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-scroll/css-pseudo-target-and-target-text/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-if-each-for-while/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-scroll/css-pseudo-target-lightbox-tab/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-function/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-scroll/css-overscroll-behavior/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-list/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-scroll/css-scroll-snap/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-map/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-scroll/css-animation-timeline/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/sass-scss/scss-debug-warn-error/</loc>
-	<lastmod>2026-01-15T06:41:00+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://css.im1010ioio.dev/interaction-scroll/css-animation-timeline-examples/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://css.im1010ioio.dev/privacy/</loc>
-	<lastmod>2026-01-15T06:41:08+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-mixin/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-extend/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-operators/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-color-adjust-color-scale/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-if-each-for-while/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-function/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-list/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-map/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css.im1010ioio.dev/sass-scss/scss-debug-warn-error/</loc>
+  <lastmod>2026-07-05T15:59:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 </urlset>
