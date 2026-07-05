@@ -9,7 +9,7 @@ tags: github, git
 sidebar:
   order: 4
 ---
-![GIT 實戰練習：GitHub Desktop、GitHub Page 基礎教學](https://cdn.hashnode.com/res/hashnode/image/upload/v1764751447165/0cd87c71-332b-4b6c-9add-5208e0f2e744.png)
+![GIT 實戰練習：GitHub Desktop、GitHub Page 基礎教學](../../../assets/images/basics/0cd87c71_332b_4b6c_9add_5208e0f2e744_1783252572781.png)
 
 上一篇我們了解了 Git 與實際應用的概念，  
 接下來我們要實際練習使用 GIT 和 GitHub。
@@ -42,13 +42,13 @@ sidebar:
 
 到 [GitHub](https://github.com/) 右上角上找到一個「＋」的新增符號，按下「New repository」，新增一個 GitHub Repository。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693407551755/072cab6c-9c91-4c92-b605-e21a1c251b1b.png)
+![](../../../assets/images/basics/072cab6c_9c91_4c92_b605_e21a1c251b1b_1783252572794.png)
 
 ### 2\. 複製（`Clone`）剛剛建立的 Repository 到你的電腦
 
 在你剛剛建立的 repository 上面按「Set up in Desktop」就能快速幫你帶到 GitHub Desktop 新增（或者你也可以自己複製 URL 新增）。接著，選擇電腦裡一個空的資料夾存放你的 Git 檔案（一定要是完全空的）。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693407581000/cbd01e39-caf2-4c38-98d1-a354faedbf1d.png)
+![](../../../assets/images/basics/cbd01e39_caf2_4c38_98d1_a354faedbf1d_1783252572807.png)
 
 完成後，你就已經建立本地的 repository 了喔！現在，在你選的資料夾裡，會發現多了一個隱藏的資料夾叫做 `.git` ，Git 會在這個資料夾內儲存變更紀錄。如果看不到，可能表示你的「檔案總管 / Finder」沒有開放顯示隱藏的檔案。如何顯示隱藏的檔案，請參考以下連結：
 
@@ -61,17 +61,17 @@ sidebar:
 
 選擇剛剛那一個資料夾，然後打開它（不用選任何檔案）。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693408281219/d3ca3b8c-673d-45e2-a7ab-1dfbdd9c9a28.png)
+![](../../../assets/images/basics/d3ca3b8c_673d_45e2_a7ab_1dfbdd9c9a28_1783252572817.png)
 
 ### 4\. 新建一個 HTML 檔案，叫做 `index.html`
 
 打開後這個資料夾內什麼都沒有，試試看新增一份 HTML 檔案，叫做 `index.html` 。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693409021539/d0dc8de3-dfba-46d9-b865-cdf7107d2fe2.png)
+![](../../../assets/images/basics/d0dc8de3_dfba_46d9_b865_cdf7107d2fe2_1783252572830.png)
 
 新建檔案後，在這份 HTML 打一個驚嘆號 `!` ，然後按下 `tab` 按鍵（這是 VS Code 內建 Emmet 快捷語法），你就建立了一份基礎格式的 HTML，接著記得要存檔。而關於 HTML 的介紹，我們下一篇會講解。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693409153116/68541ed8-a997-4bcd-9635-4716db7f7e73.png)
+![](../../../assets/images/basics/68541ed8_a997_4bcd_9635_4716db7f7e73_1783252572844.png)
 
 > PS: 這邊的截圖我打錯存成了 htm 檔案，但基本上與 html 是一樣的，關於這個我們一樣在下篇詳細說明。
 
@@ -81,17 +81,17 @@ sidebar:
 
 另外，GitHub Desktop 會自動幫你確認與雲端上的版本有無差別 (`fetch`)，介面上會在這一格位置顯示目前同步狀態，你也可以再按一次讓它再去 `fetch` 一次，如果雲上的檔案與本地有差異，就會出現提取（`pull` ）選項可以按。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693410371374/a30e89cd-a72d-4753-a79f-e303bcc65e5d.png)
+![](../../../assets/images/basics/a30e89cd_a72d_4753_a79f_e303bcc65e5d_1783252572860.png)
 
 Push 後，在 GitHub 網頁上就會看到剛剛這一個檔案了喔！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693410491286/9b7b0c6a-55e8-4f55-ad64-2d4cd996808b.png)
+![](../../../assets/images/basics/9b7b0c6a_55e8_4f55_ad64_2d4cd996808b_1783252572872.png)
 
 ### 6\. 新增分支（`branch`）
 
 試試在 GitHub 或 GitHub Desktop 上新增一個分支 `dev`，新增的位置如下圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693411370709/18d60ea3-7ead-485e-acca-8f5a393c1068.png)
+![](../../../assets/images/basics/18d60ea3_7ead_485e_acca_8f5a393c1068_1783252572917.png)
 
 因為目前在 `main` 分支上，所以新增的 `dev` 會是從 `main` 分支出來的。`dev` 有異動再 push，就會在 GitHub 上建立這個新分支（不然沒有異動的話新分支都是存在本地端，不會推上去）。
 
@@ -101,7 +101,7 @@ Push 後，在 GitHub 網頁上就會看到剛剛這一個檔案了喔！
 
 在 GitHub 上也能夠編輯檔案，按進那一個檔案，右邊有個鉛筆按鈕，就可以編輯了喔！編輯時上方會顯示目前是哪個檔案、在哪個分支上。編輯完一樣要 commit，可以選擇是 commit 在目前的分支上，或是要新開一個分支。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693412037137/17caac57-c9c2-413d-b7a9-4b4a790c924d.png)
+![](../../../assets/images/basics/17caac57_c9c2_413d_b7a9_4b4a790c924d_1783252572929.png)
 
 ### 8\. 合併衝突（`merge`）
 
@@ -114,11 +114,11 @@ Push 後，在 GitHub 網頁上就會看到剛剛這一個檔案了喔！
 
 在 VS Code 中，已經幫你做了好幾個快速選項，或者你也可以自己手動編輯合併，調整好存檔後就可以 push 解決衝突了。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693412638596/86efc631-26cd-4e7c-a2e3-646f4c243c27.png)
+![](../../../assets/images/basics/86efc631_26cd_4e7c_a2e3_646f4c243c27_1783252572944.png)
 
 附帶一提，VS Code 旁邊也有 Git 面板可以操作，功能基本上是一樣的，只是畫面操作稍有不同，大家也可以試試看。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693412864855/31dbe643-0080-4c5c-a375-171072acb748.png)
+![](../../../assets/images/basics/31dbe643_0080_4c5c_a375_171072acb748_1783252572957.png)
 
 ### 9\. 建立免費的 GitHub Page
 
@@ -129,7 +129,7 @@ Push 後，在 GitHub 網頁上就會看到剛剛這一個檔案了喔！
 
 在你的 repository 中的 Setting &gt; Pages 中，在 Branch 這一區選擇你希望部署的分支，通常是 `main` ，然後按下 Save。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693477724196/7c8348e3-73c3-4822-b48b-f843b435d783.png)
+![](../../../assets/images/basics/7c8348e3_73c3_4822_b48b_f843b435d783_1783252572967.png)
 
 過幾分鐘後，再重整頁面，它就會告訴你已經成功部署到網路上了，通常預設的連結會是：  
 `https://你的帳號名稱.github.io/repository名稱/`
@@ -139,7 +139,7 @@ Push 後，在 GitHub 網頁上就會看到剛剛這一個檔案了喔！
 
 當然，你也可以在下面 Custom domain 換上你自己購買的網址。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693477730770/27c4b66a-6293-48aa-b445-ab6f0830d47a.png)
+![](../../../assets/images/basics/27c4b66a_6293_48aa_b445_ab6f0830d47a_1783252572977.png)
 
 關於網域等相關知識可以參考下面這篇文章：
 
@@ -191,4 +191,4 @@ git mv -f OldFileNameCase newfilenamecase
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
+![Eva Chen 送杯珍奶鼓勵我](../../../assets/images/donate.png)

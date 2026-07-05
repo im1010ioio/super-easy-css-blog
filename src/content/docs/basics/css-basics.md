@@ -9,7 +9,7 @@ tags: css3, css
 sidebar:
   order: 8
 ---
-![Css 基本語法 & 權重介紹](https://cdn.hashnode.com/res/hashnode/image/upload/v1764760942424/c465a72b-63b0-4698-9de0-89eb737f66de.png)
+![Css 基本語法 & 權重介紹](../../../assets/images/basics/c465a72b_63b0_4698_9de0_89eb737f66de_1783252452954.png)
 
 我們終於進入我們的重點 CSS 啦！今天要來講解 CSS 權重與選擇器。
 
@@ -33,7 +33,7 @@ sidebar:
 在 CSS 中會區分大小寫，要注意大小寫的部分，如果寫錯了可能會選不到喔！  
 而它的標籤的基本寫法會像下圖：
 
-![CSS 的基本語法](https://cdn.hashnode.com/res/hashnode/image/upload/v1694014738265/91e1cc5d-b2ff-4417-a4a4-04246118c3de.png)
+![CSS 的基本語法](../../../assets/images/basics/91e1cc5d_b2ff_4417_a4a4_04246118c3de_1783252452967.png)
 
 以這個例子來說，這樣寫會選取到 HTML 中的 `body` 標籤，然後將他的背景色（`background-color`）設定為 `AliceBlue` 這個顏色。
 
@@ -125,7 +125,7 @@ p { color: blue;   } /* 最後 p 的顏色會是藍色  */
 
 > 連結：[https://codepen.io/](https://codepen.io/)
 
-![CodePen](https://cdn.hashnode.com/res/hashnode/image/upload/v1694268557766/c96a04ca-eef4-4bfa-9f58-063f7390d5da.png)
+![CodePen](../../../assets/images/basics/c96a04ca_eef4_4bfa_9f58_063f7390d5da_1783252452978.png)
 
 和大家分享個好用的前端工具——CodePen。
 
@@ -148,4 +148,4 @@ CodePen 是一個專為網頁開發者設計的在線平台，它可以讓你同
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
+![Eva Chen 送杯珍奶鼓勵我](../../../assets/images/donate.png)

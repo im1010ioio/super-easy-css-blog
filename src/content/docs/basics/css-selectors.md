@@ -9,7 +9,7 @@ tags: css3, css
 sidebar:
   order: 9
 ---
-![Css 選擇器總整理！](https://cdn.hashnode.com/res/hashnode/image/upload/v1764762600944/2a5ec0e7-5f49-4322-bf68-1ae60773551b.png)
+![Css 選擇器總整理！](../../../assets/images/basics/2a5ec0e7_5f49_4322_bf68_1ae60773551b_1783252517485.png)
 
 本篇會用實例與註解說明各種實用的 CSS 選取器，由於很多所以可以先存起來，之後要用到時再查詢。
 
@@ -406,7 +406,7 @@ body{
 
 > 連結：[CSS Diner - Where we feast on CSS Selectors!](https://flukeout.github.io/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696330590818/5ff0a2cc-2aaf-4256-82de-4f9b5b49e381.png)
+![](../../../assets/images/basics/5ff0a2cc_2aaf_4256_82de_4f9b5b49e381_1783252517495.png)
 
 ---
 
@@ -417,4 +417,4 @@ body{
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
+![Eva Chen 送杯珍奶鼓勵我](../../../assets/images/donate.png)

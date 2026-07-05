@@ -9,7 +9,7 @@ tags: css3, css, css-nesting
 sidebar:
   order: 11
 ---
-![原生的 CSS 巢狀 (CSS Nesting) 終於支援啦！](https://cdn.hashnode.com/res/hashnode/image/upload/v1764818513094/5803e793-1dbf-40d2-8706-35589c13a8a8.png)
+![原生的 CSS 巢狀 (CSS Nesting) 終於支援啦！](../../../assets/images/basics/5803e793_1dbf_40d2_8706_35589c13a8a8_1783252546991.png)
 
 以往 CSS 要使用巢狀管理要透過 Sass (SCSS) 或 Less 等預處理器才能實現，現在原生的 CSS 巢狀也可以使用了。前陣子在 Firefox 117 終於支援後，全部最新的瀏覽器都已支援了，可以逐漸開始使用它囉！不過如果 TA 有使用較舊的瀏覽器的話，要斟酌使用。
 
@@ -163,4 +163,4 @@ article#post-00 p {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
+![Eva Chen 送杯珍奶鼓勵我](../../../assets/images/donate.png)

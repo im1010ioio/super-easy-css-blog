@@ -9,7 +9,7 @@ tags: html, html5, html-file-paths
 sidebar:
   order: 7
 ---
-![網頁的根、絕對路徑、相對路徑，那些關於路徑的小知識](https://cdn.hashnode.com/res/hashnode/image/upload/v1764758645263/272caa81-7842-485e-81dc-c59450a81497.png)
+![網頁的根、絕對路徑、相對路徑，那些關於路徑的小知識](../../../assets/images/basics/272caa81_7842_485e_81dc_c59450a81497_1783252472896.png)
 
 HTML 的屬性 `href`、`src` 都需要指定檔案路徑才能載入進來，  
 所以這邊補充個關於路徑的小知識。
@@ -48,13 +48,13 @@ HTML 的屬性 `href`、`src` 都需要指定檔案路徑才能載入進來，
 
 在 VS Code 中，在連結處只要打了 `./` 或 `../` ，預設就有快捷選單讓你方便選取檔案，很貼心！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693929878376/74ab1155-975f-42e2-b159-26473dd24cb9.png)
+![](../../../assets/images/basics/74ab1155_975f_42e2_b159_26473dd24cb9_1783252472909.png)
 
 ---
 
 如果你的網頁 CSS、JS、連結、圖片等檔案全部都不見了，或是，按右鍵&gt;檢查，開啟開發者工具，出現許多找不到檔案的錯誤訊息，這種時候可以去查查看是否路徑有跑掉。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695359908225/ed16eb41-269b-4a27-8b1c-c91a7e7d7593.png)
+![](../../../assets/images/basics/ed16eb41_269b_4a27_8b1c_c91a7e7d7593_1783252472920.png)
 
 ---
 
@@ -65,4 +65,4 @@ HTML 的屬性 `href`、`src` 都需要指定檔案路徑才能載入進來，
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
+![Eva Chen 送杯珍奶鼓勵我](../../../assets/images/donate.png)

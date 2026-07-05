@@ -9,7 +9,7 @@ tags: css3, css, css-nth-child-selectors
 sidebar:
   order: 16
 ---
-![CSS :nth-child 的新寫法：:nth-child of S (N of Selector)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766645222550/d00f7162-75d4-4d4d-a9e1-9ba83e647892.png)
+![CSS :nth-child 的新寫法：:nth-child of S (N of Selector)](../../../assets/images/basics/d00f7162_75d4_4d4d_a9e1_9ba83e647892_1783252568973.png)
 
 在寫 CSS 時，你是否也曾對 `:nth-child` 又愛又恨呢？它雖然強大，但有時在較複雜的 HTML 結構中，要選到對的東西，有時就只差那麼一點點…
 
@@ -102,7 +102,7 @@ li:nth-child(2 of .highlight) {
 
 > DEMO 連結：[CSS :nth-child of S](https://codepen.io/im1010ioio/pen/pvgjbxR)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758728246291/dd4d9d92-4d8e-47e7-8144-511f8b31b231.png)
+![](../../../assets/images/basics/dd4d9d92_4d8e_47e7_8144_511f8b31b231_1783252568984.png)
 
 ---
 
@@ -124,4 +124,4 @@ li:nth-child(2 of .highlight) {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
+![Eva Chen 送杯珍奶鼓勵我](../../../assets/images/donate.png)

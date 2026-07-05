@@ -9,7 +9,7 @@ tags: css3, css
 sidebar:
   order: 12
 ---
-![開始寫 Css 或程式必須知道的 3 個原則：Dry & Kiss & Yagni](https://cdn.hashnode.com/res/hashnode/image/upload/v1764820375489/46c2ca08-6de0-4cd6-9dc0-5a83d4343055.png)
+![開始寫 Css 或程式必須知道的 3 個原則：Dry & Kiss & Yagni](../../../assets/images/basics/46c2ca08_6de0_4cd6_9dc0_5a83d4343055_1783252458092.png)
 
 在進入寫 CSS（或其他程式碼）的世界之前，有幾個重要的原則值得我們了解和牢記。這些能夠提高 code 的品質，讓他們未來容易維護和擴增。以下將介紹三個重要的原則：
 
@@ -198,13 +198,13 @@ YAGNI 指的是不要過度設計，或添加不必要的功能。和 KISS 一�
 
 整個網站的 CSS，每一頁建議有一份共用的 CSS 和一份屬於這個頁面的 CSS，而不是將整個網站的 CSS 全部寫成一大包。index 頁面不需要 about 頁面的樣式，就不需要載入。
 
-![YAGNI](https://cdn.hashnode.com/res/hashnode/image/upload/v1694508598331/4e8f834c-a1f2-4780-8ece-9b7242b596c4.png)
+![YAGNI](../../../assets/images/basics/4e8f834c_a1f2_4780_8ece_9b7242b596c4_1783252458103.png)
 
 ### 例子 2
 
 使用 CSS 各種框架時，雖然有點不符合這個原則，但是講究的話可以研究該框架的結構，獨立引用需要的部分就好。以 Bootstrap 為例，若我的網頁不需要 table、forms 等相關樣式，就不要載入就好：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694457657154/ca2d6eb0-a46d-4c65-9cfb-a34eae7f590d.png)
+![](../../../assets/images/basics/ca2d6eb0_a46d_4c65_9cfb_a34eae7f590d_1783252458114.png)
 
 ---
 
@@ -221,4 +221,4 @@ YAGNI 指的是不要過度設計，或添加不必要的功能。和 KISS 一�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
+![Eva Chen 送杯珍奶鼓勵我](../../../assets/images/donate.png)

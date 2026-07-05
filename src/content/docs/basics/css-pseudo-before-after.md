@@ -9,7 +9,7 @@ tags: pseudo-elements, css3, css, pseudo-classes, pseudo, pseudo-classes-in-css
 sidebar:
   order: 14
 ---
-![CSS 偽元素的妙用：「::before」 與「::after」的常見用法](https://cdn.hashnode.com/res/hashnode/image/upload/v1766644501505/982a62a7-db56-4093-9d0b-c72607031423.png)
+![CSS 偽元素的妙用：「::before」 與「::after」的常見用法](../../../assets/images/basics/982a62a7_db56_4093_9d0b_c72607031423_1783252538190.png)
 
 之前寫的文章，雖然有提到過，但是居然沒有好好地解釋過 CSS 的偽元素（Pseudo），也就是 `::before` 與 `::after`。這超級實用的，怎麼能沒有呢？所以今天就來好好地認識一下它們吧！
 
@@ -56,7 +56,7 @@ div::before{
 
 一段引用名言，通常會在前後加上引號。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758524466282/782c08f3-b038-4e3b-bac7-6b474dec2734.png)
+![](../../../assets/images/basics/782c08f3_b038_4e3b_bac7_6b474dec2734_1783252538202.png)
 
 > DEMO 連結：[Quotation Marks with CSS Pseudo ::before & ::after](https://codepen.io/im1010ioio/pen/gbPbZyo)
 
@@ -84,7 +84,7 @@ blockquote{
 
 可以利用偽元素添加各種裝飾，像是標題底下的裝飾線、區塊的邊角圖案等等，讓頁面視覺更豐富，同時也不必每次都要在 HTML 放入裝飾用的元素。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758554108709/0b8d6e1c-601b-46cb-ae50-6374620307fe.png)
+![](../../../assets/images/basics/0b8d6e1c_601b_46cb_ae50_6374620307fe_1783252538213.png)
 
 > DEMO 連結：[Divider with CSS Pseudo ::after](https://codepen.io/im1010ioio/pen/pvgvGYg)
 
@@ -114,7 +114,7 @@ blockquote{
 
 再來一個常見的裝飾性元素 —— 對話框或 Tooltip 會有的那種三角形，通常這樣的小裝飾都會使用偽元素去做。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758555167717/74f5f3f7-98cc-4636-b1f3-ebd0235940ad.png)
+![](../../../assets/images/basics/74f5f3f7_98cc_4636_b1f3_ebd0235940ad_1783252538227.png)
 
 > DEMO 連結：[Dialog arrow with CSS Pseudo ::after](https://codepen.io/im1010ioio/pen/jEWPOdw)
 
@@ -175,7 +175,7 @@ blockquote{
 
 幫大家複習一下，那時候我們用了 `::before`，在不增加額外 HTML 標籤的情況下，在 `<ul>` 清單的前方加上了 icon 圖示（不過當時是使用舊版的 Font Awesome 作 DEMO）。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697217410528/2c5178bd-361f-49aa-b3da-ee2a28c2c87d.png)
+![](../../../assets/images/basics/2c5178bd_361f_49aa_b3da_ee2a28c2c87d_1783252538238.png)
 
 > DEMO 連結：[List with font awesome icon](https://codepen.io/im1010ioio/pen/PKpObM)
 
@@ -215,4 +215,4 @@ ul {
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
+![Eva Chen 送杯珍奶鼓勵我](../../../assets/images/donate.png)

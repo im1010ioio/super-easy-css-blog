@@ -9,7 +9,7 @@ tags: css3, css, css-variables
 sidebar:
   order: 10
 ---
-![原生的 Css 變數，基本與進階應用](https://cdn.hashnode.com/res/hashnode/image/upload/v1764817640719/79049953-3c6d-4a3c-936b-91401d83b118.png)
+![原生的 Css 變數，基本與進階應用](../../../assets/images/basics/79049953_3c6d_4a3c_936b_91401d83b118_1783252549308.png)
 
 CSS 變數（CSS Variables）可以讓人在整個網站的樣式中輕鬆重複使用相同的值，更輕鬆地調整網站的外觀，同時保持一致性。以往 CSS 要使用變數必須透過 Sass (SCSS) 或 Less 等預處理器才能實現，但現在有了原生的 CSS 變數，已開始廣泛運用在網頁上了。
 
@@ -198,4 +198,4 @@ CSS 變數搭配 CSS 新推出的屬性 `@property` ，可以做更進階、過�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
+![Eva Chen 送杯珍奶鼓勵我](../../../assets/images/donate.png)

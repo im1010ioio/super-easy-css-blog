@@ -9,7 +9,7 @@ tags: css3, css
 sidebar:
   order: 13
 ---
-![4 個常見的 Css 設計方法與命名建議：oocss、smacss、bem、rscss](https://cdn.hashnode.com/res/hashnode/image/upload/v1764825953417/f3fdec25-906a-485b-9786-d59b9515eeec.png)
+![4 個常見的 Css 設計方法與命名建議：oocss、smacss、bem、rscss](../../../assets/images/basics/f3fdec25_906a_485b_9786_d59b9515eeec_1783252529691.png)
 
 上篇我們了解了寫 Code 的三大方向，主要都是為了更簡單、更好維護。
 
@@ -202,7 +202,7 @@ RSCSS 的全名是「Reasonable System for CSS Stylesheet Structure」，它是�
 
 名稱**至少為兩個字**，並以破折號 `-` 相連，例如：`.search-form`、`.article-card`。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695550327695/deba1283-5b39-407b-a885-171a632e9a55.png)
+![](../../../assets/images/basics/deba1283_5b39_407b_a885_171a632e9a55_1783252529706.png)
 
 如果想不到兩個詞的組合，有些元件只需要一個詞就可以表達它們的意思了，像是：`.alert`，它建議後面加上一些簡單的後綴詞，例如：`.alert-box` 、`.alert-card` 。
 
@@ -212,7 +212,7 @@ RSCSS 的全名是「Reasonable System for CSS Stylesheet Structure」，它是�
 
 元素的名稱只能是**一個字**，多個元素就會構成一個元件(Component)。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695550366406/b7e28d10-3766-4430-bb48-59b079c865e7.png)
+![](../../../assets/images/basics/b7e28d10_3766_4430_bb48_59b079c865e7_1783252529722.png)
 
 這邊建議使用 `>` 撰寫元件裡面的元素的樣式，避免巢狀時候的污染到子層元件。
 
@@ -224,19 +224,19 @@ RSCSS 的全名是「Reasonable System for CSS Stylesheet Structure」，它是�
 
 作為元件的變化型時，他建議使用破折號 `-` 作為前綴詞。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695550398419/17ef6c38-a22d-400c-9f20-b435305d4198.png)
+![](../../../assets/images/basics/17ef6c38_a22d_400c_9f20_b435305d4198_1783252529736.png)
 
 ### 4\. **巢狀元件 (Nested components)**
 
 元件可以包元件，成為巢狀元件。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695550438094/55bee102-e9c8-4302-9663-e294f1ac14db.png)
+![](../../../assets/images/basics/55bee102_e9c8_4302_9663_e294f1ac14db_1783252529747.png)
 
 ### 5\. 元件的**佈局 (Layouts)**
 
 元件應該要夠彈性，能重複利用於很多地方，要避免使用到影響版面佈局（Layouts）的 CSS，例如：`position`、`float`、固定外距（`margin`）、固定寬高（`width`, `height`）。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695550475425/125faac4-0788-41db-897e-0647d003edc6.png)
+![](../../../assets/images/basics/125faac4_0788_41db_897e_0647d003edc6_1783252529757.png)
 
 ### 6\. 輔助類別 (Helpers)
 
@@ -279,4 +279,4 @@ RSCSS 在區分元件的概念很值得參考，不過在命名上有時候可�
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
+![Eva Chen 送杯珍奶鼓勵我](../../../assets/images/donate.png)

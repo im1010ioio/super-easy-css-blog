@@ -9,7 +9,7 @@ tags: html, html5
 sidebar:
   order: 5
 ---
-![HTML 基礎語法](https://cdn.hashnode.com/res/hashnode/image/upload/v1764752083957/2209b0c1-396b-4c5b-9ad6-74f255d0313d.png)
+![HTML 基礎語法](../../../assets/images/basics/2209b0c1_396b_4c5b_9ad6_74f255d0313d_1783252521252.png)
 
 上一篇文章，我們有建立了一份 HTML 檔案，  
 那麼這些語法到底是什麼意思呢？讓我們往下看。
@@ -19,7 +19,7 @@ sidebar:
 > * 了解 HTML 的語法
 >     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693500614650/4d3642a8-c27f-4ac2-bf89-288bb696482e.png)
+![](../../../assets/images/basics/4d3642a8_c27f_4ac2_bf89_288bb696482e_1783252521263.png)
 
 ## HTML、HTML5、HTM 是什麼？
 
@@ -72,7 +72,7 @@ HTML 文件不區分大小寫，不過 W3C 協會建議都寫小寫。
 
 根據不同標籤的特質，會有不同的屬性可以運用，可以添加許多設定。例如：`<textarea rows="5"></textarea>` 就是指一個有 5 行高度的文字輸入框。
 
-![HTML 標籤的基本語法架構](https://cdn.hashnode.com/res/hashnode/image/upload/v1693761494077/e1941e58-02a3-4db6-b560-e632e9012edd.png)
+![HTML 標籤的基本語法架構](../../../assets/images/basics/e1941e58_02a3_4db6_b560_e632e9012edd_1783252521275.png)
 
 如果網頁沒有套用 CSS 的話，HTML 會依據瀏覽器預設的樣式呈現。
 
@@ -89,7 +89,7 @@ HTML 是種寬容的語法，如果寫錯了（像是結束標籤忘了寫），
 * 而旁邊的主要內容 `main`，放了文章 `article`，而文章內放了許多文字段落 `p`。
     
 
-![HTML的巢狀結構](https://cdn.hashnode.com/res/hashnode/image/upload/v1693761534771/6299ab25-fe83-48d3-9854-704eb55713e7.png)
+![HTML的巢狀結構](../../../assets/images/basics/6299ab25_fe83_48d3_9854_704eb55713e7_1783252521287.png)
 
 不過巢狀結構不宜包太多層，因為太多層時會變得很肥大、很難管理，沒有辦法一目瞭然。在爸爸的爸爸們與他們的子子孫孫間徘徊周旋，絕對會頭暈腦脹，改起來會十分痛苦。這個建議也適用於其他語言，如 JS 和 CSS 等。
 
@@ -101,7 +101,7 @@ HTML 有提供註解語法，讓人在開發時可以寫一些筆記在 HTML 中
 
 有些開發人員會在 HTML 註解中面放一些彩蛋，寫一些隱藏訊息，或用文字符號畫畫，雖然很少數，但發現的時候總覺得很有趣。像寫這篇時，我發現 [Firefox 的網站](https://www.mozilla.org/zh-TW/firefox/new/) 裡面原來藏了一隻恐龍 XD（這種用文字來表達圖形的方式叫作「ASCII Art」，有興趣的話大家可以去查查看一些 ASCII Art 的線上產生器）。
 
-![Firefox HTML Comments](https://cdn.hashnode.com/res/hashnode/image/upload/v1693841627276/18b6e8bc-e562-4941-9bd0-4b770d83e1a5.png)
+![Firefox HTML Comments](../../../assets/images/basics/18b6e8bc_e562_4941_9bd0_4b770d83e1a5_1783252521299.png)
 
 大家無聊的話，也可以去看看各大網頁原始碼有沒有藏有彩蛋。XD
 
@@ -116,4 +116,4 @@ HTML 有提供註解語法，讓人在開發時可以寫一些筆記在 HTML 中
 如果你喜歡我的創作，還想看看其他有趣的分享與日常，  
 可以追蹤我的 IG [@im1010ioio](https://www.instagram.com/im1010ioio/)，或者是[🧋送杯珍奶鼓勵我](https://im1010ioio.bobaboba.me/)，謝謝你🥰。
 
-![Eva Chen 送杯珍奶鼓勵我](https://cdn.hashnode.com/res/hashnode/image/upload/v1682564435616/c15640fc-6cee-4c33-a898-9cd6820f165a.png)
+![Eva Chen 送杯珍奶鼓勵我](../../../assets/images/donate.png)
