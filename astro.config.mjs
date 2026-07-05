@@ -2,6 +2,7 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import { viewTransitions } from "astro-vtbot/starlight-view-transitions";
+import rehypeExternalLinks from "rehype-external-links";
 
 import tailwindcss from "@tailwindcss/vite";
 import config from "./src/config/config.json" assert { type: "json" };
@@ -21,6 +22,17 @@ export const locales = locals
 export default defineConfig({
   site: 'https://css.im1010ioio.dev',
   base: '',
+  markdown: {
+    rehypePlugins: [
+      [
+        rehypeExternalLinks,
+        {
+          target: "_blank",
+          rel: ["noopener", "noreferrer"],
+        },
+      ],
+    ],
+  },
   image: {
     service: { entrypoint: "astro/assets/services/noop" },
   },
