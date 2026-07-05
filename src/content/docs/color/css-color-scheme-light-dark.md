@@ -9,7 +9,7 @@ tags: css3, css, colorscheme, light-dark-mode, color-scheme, light-dark
 sidebar:
   order: 4
 ---
-![實作網頁深色模式及淺色模式必備的 CSS 語法：color-scheme 與 light-dark()](https://cdn.hashnode.com/res/hashnode/image/upload/v1766666804254/3b6148f1-d3f4-46bc-a713-b28c369387c5.png)
+![實作網頁深色模式及淺色模式必備的 CSS 語法：color-scheme 與 light-dark()](../../../assets/images/color/3b6148f1_d3f4_46bc_a713_b28c369387c5_1783260939393.png)
 
 以前我們介紹過用 [CSS Media Queries 的 `prefers-color-scheme`](https://ithelp.ithome.com.tw/articles/10340843) 讓網頁打開時預設切換淺色/深色模式，但是居然沒有講到最基礎的設定，就是「告訴瀏覽器我的網頁有支援哪種顏色主題：`color-scheme`」。
 
@@ -135,7 +135,7 @@ div {
 
 我們直接拿 #33 篇（[`prefers-color-scheme` 那一篇](https://ithelp.ithome.com.tw/articles/10340843)）寫的例子來改，你會發現這個綠色對話框的背景在深色模式中感覺飽和度很好，可是在淺色模式卻有點暗沉，少了原本使用綠色想要的清爽感：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758996156068/63488bc0-0e70-4b45-8e9b-17b8f2c18cfe.gif)
+![](../../../assets/images/color/63488bc0_0e70_4b45_8e9b_17b8f2c18cfe_1783260939403.gif)
 
 現在，我們來使用學到的 `light-dark()`，並且綜合前面說的 `color-scheme` 與 CSS 變數管理，重新寫一下，就會變成這樣：
 
@@ -151,7 +151,7 @@ div {
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758996677200/afeece40-9c4f-496b-8db0-fcfd1154a71d.gif)
+![](../../../assets/images/color/afeece40_9c4f_496b_8db0_fcfd1154a71d_1783260939424.gif)
 
 > DEMO 連結：[CSS color-scheme / light-dark()](https://codepen.io/im1010ioio/pen/jEWWdyx)
 

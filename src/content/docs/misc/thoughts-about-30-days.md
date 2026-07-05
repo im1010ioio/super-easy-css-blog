@@ -9,7 +9,7 @@ tags: diary
 sidebar:
   order: 2
 ---
-![2023 iT 鐵人賽心路歷程 & 我的寫作方法](https://cdn.hashnode.com/res/hashnode/image/upload/v1766115097879/37d8f746-edcb-4fda-9570-63e278086282.png)
+![2023 iT 鐵人賽心路歷程 & 我的寫作方法](../../../assets/images/misc/37d8f746_edcb_4fda_9570_63e278086282_1783261386700.png)
 
 這 30 天真的是很經歷了好多，這中間經歷了去日本玩、首次確診、兩個連假，同時要整理過去熟悉的知識，還要研究其他我不會的，一度還逼近棄賽，能完賽很感動。
 
@@ -19,7 +19,7 @@ sidebar:
 
 ### 流水帳，那些小事
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697471449489/ba17874b-4815-4ddb-a0fd-62430a07358c.png)
+![](../../../assets/images/misc/ba17874b_4815_4ddb_a0fd_62430a07358c_1783261386711.png)
 
 其實去年和同事就說好要參加，隨便寫些什麼，結果呢，我們記錯時間一起錯過開賽時間了！所以只好今年再來參加，也因為多了一年，讓我好好思索要寫什麼。
 
@@ -39,7 +39,7 @@ sidebar:
 
 ### 事前預防自己的劣根性
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697471440697/3d0165e7-e1b2-448f-bfcb-d031df999590.png)
+![](../../../assets/images/misc/3d0165e7_e1b2_448f_bfcb_d031df999590_1783261386723.png)
 
 我深知我的劣根性刻在骨子的深處，容易累、三分鐘熱度、完美主義、拖延⋯⋯所以我事前做了一些預防措施：
 
@@ -56,7 +56,7 @@ sidebar:
 
 ### 為什麼要寫？
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697471432241/ea4dadbf-8bb1-48ee-9340-94e59d4e53b5.png)
+![](../../../assets/images/misc/ea4dadbf_8bb1_48ee_9340_94e59d4e53b5_1783261386736.png)
 
 #### 為了表達我的世界觀
 
@@ -70,7 +70,7 @@ sidebar:
 
 ### 30 天的靈魂拷問
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697474978488/aa972b72-bd18-4922-9c79-c3eaadaec507.png)
+![](../../../assets/images/misc/aa972b72_bd18_4922_9c79_c3eaadaec507_1783261386747.png)
 
 為什麼人要看教學文？寫文對我有什麼意義？有人會看嗎？有人看了又怎麼辦？大家都用 Nocode 或 AI 做網頁還需要教學文嗎？30 天內我內心的天使惡魔爭論不休。😂
 
@@ -121,4 +121,4 @@ sidebar:
 
 接下來還要繼續把剩餘的坑慢慢填起來，我會努力。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697475284074/469ba885-61b8-4dac-89d4-ef698b779033.jpeg)
+![](../../../assets/images/misc/469ba885_61b8_4dac_89d4_ef698b779033_1783261386760.jpeg)

@@ -9,7 +9,7 @@ tags: css3, css
 sidebar:
   order: 2
 ---
-![Reset CSS！用 Reset.css 或 Normalize.css 變回你該有的樣子](https://cdn.hashnode.com/res/hashnode/image/upload/v1764831462030/690494ef-b064-4ecb-a3f1-7bd9f0654fe6.png)
+![Reset CSS！用 Reset.css 或 Normalize.css 變回你該有的樣子](../../../assets/images/layout/690494ef_b064_4ecb_a3f1_7bd9f0654fe6_1783261350397.png)
 
 ## CSS 為什麼需要 Reset？
 
@@ -52,7 +52,7 @@ CSS Reset 要引用在最開頭，而自己寫的 CSS 則是放在後面，因�
 
 > 連結：[CSS Tools: Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695724446520/2c50a4c1-99f9-4a42-ab93-bac813bf6463.png)
+![](../../../assets/images/layout/2c50a4c1_99f9_4a42_ab93_bac813bf6463_1783261350410.png)
 
 這是最早的 CSS Reset 方法之一，是由網頁設計師 Eric Meyer 所寫的。它的目標是將所有 HTML 元素的樣式歸零，把所有 HTML 的樣式都清空了，包含所有外邊距、內邊距、列表樣式等都強制歸零。
 
@@ -62,7 +62,7 @@ CSS Reset 要引用在最開頭，而自己寫的 CSS 則是放在後面，因�
 
 > 連結：[Normalize.css: Make browsers render all elements more consistently.](http://necolas.github.io/normalize.css/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695724434661/e5b5aeca-aa8b-48b2-b6d1-fab9aa9e2699.png)
+![](../../../assets/images/layout/e5b5aeca_aa8b_48b2_b6d1_fab9aa9e2699_1783261350426.png)
 
 Normalize.css 較上一個完全歸零的概念不太一樣，它的目標是保留有用的預設值，讓開發者不需要針對每一個標籤重新寫樣式，並且統一瀏覽器之間不一致的地方、修正瀏覽器的 Bug。
 

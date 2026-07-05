@@ -9,7 +9,7 @@ tags: css3, css, css-animation, scroll, scroll-animation, scroll-behavior
 sidebar:
   order: 4
 ---
-![CSS 簡易的滑順捲軸滾動動畫 scroll-behavior](https://cdn.hashnode.com/res/hashnode/image/upload/v1766593768541/b798386c-3a45-4adb-bdf2-8870f7842917.png)
+![CSS 簡易的滑順捲軸滾動動畫 scroll-behavior](../../../assets/images/interaction-scroll/b798386c_3a45_4adb_bdf2_8870f7842917_1783261216182.png)
 
 前幾篇我們已經學會怎麼設定 CSS 的滾動範圍，現在我們要再對滾動的操作行為做一些很簡單的設定，就是：滾動時的行為 `scroll-behavior` 。
 
@@ -37,7 +37,7 @@ sidebar:
 
 點了這個連結後，除了發現捲軸跳轉外，你還會發現網址上多了 `#about` 的結尾，並且這些 hash `#` 連結（錨點）會記錄在你的瀏覽器的歷史紀錄中，按上一頁時會跳轉這些 hash `#` 連結（但是不一定會跳轉畫面），像下圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758031501856/c0e74cd5-defc-4cb9-8fa4-5ff4b26d60c7.gif)
+![](../../../assets/images/interaction-scroll/c0e74cd5_defc_4cb9_8fa4_5ff4b26d60c7_1783261216194.gif)
 
 > 注意：如果你不想要 ID 出現在網址列上，而且記錄在瀏覽器歷史紀錄的特性，那這個效果就要使用 JS 去寫囉！
 
@@ -59,7 +59,7 @@ sidebar:
 
 只不過，這個滾動的平滑動畫是依據瀏覽器而定，以 Edge 為例，滾動的時間是固定的，所以點擊越遠的 ID，滾動的速率會越快：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758032672730/951a9c71-22a2-4e4c-8f1a-35bae60aa25e.gif)
+![](../../../assets/images/interaction-scroll/951a9c71_22a2_4e4c_8f1a_35bae60aa25e_1783261216207.gif)
 
 > 注意：如果需要自訂滾動的速率、時間或速率曲線，就需要自己寫 JS 才能設定詳細的動畫。
 

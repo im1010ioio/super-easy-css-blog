@@ -9,7 +9,7 @@ tags: css3, css, anchor-positioning
 sidebar:
   order: 12
 ---
-![告別 JS 計算位置！CSS Anchor Positioning 定位的新寫法](https://cdn.hashnode.com/res/hashnode/image/upload/v1766671310829/54c1389e-68d9-4f9c-91b8-b67898409216.png)
+![告別 JS 計算位置！CSS Anchor Positioning 定位的新寫法](../../../assets/images/layout/54c1389e_68d9_4f9c_91b8_b67898409216_1783261333037.png)
 
 從前要用 CSS 精準地將一個元素（例如：Tooltip、下拉式選單）對齊另一個元素，總是要大費周章，甚至需要動用 JS 來計算位置。現在，CSS 推出了一個眾所期待的新功能：**Anchor Positioning**。它讓我們能以更單純的 CSS，將元素彼此「錨定」，輕鬆解決各種的定位難題。
 
@@ -69,7 +69,7 @@ abbr {
 
 當點擊不同的 Tab 時，底下的白色區塊會平滑地移動到對應的位置。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759246478565/2ddaf66b-9bd4-4069-9d7c-ce6e2cfded10.gif)
+![](../../../assets/images/layout/2ddaf66b_9bd4_4069_9d7c_ce6e2cfded10_1783261333048.gif)
 
 > DEMO 連結：[Tabs Switch by CSS Anchor Positioning](https://codepen.io/im1010ioio/pen/EaPVGRG)
 
@@ -94,7 +94,7 @@ abbr {
 
 點擊段落中帶有底線的詞彙時，下方會出現對應的解釋 Tooltip。再次點擊或點擊頁面其他地方則會關閉。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759246634623/a5982aa1-67bd-4d67-93f2-d094f6230e21.gif)
+![](../../../assets/images/layout/a5982aa1_67bd_4d67_93f2_d094f6230e21_1783261333060.gif)
 
 > DEMO 連結：[Tooltip by CSS Anchor Positioning](https://codepen.io/im1010ioio/pen/wBMMJjo)
 

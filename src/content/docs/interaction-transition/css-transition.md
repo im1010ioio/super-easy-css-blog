@@ -9,7 +9,7 @@ tags: css3, css, css-animation, transition, transition-properties-in-css, css-tr
 sidebar:
   order: 1
 ---
-![CSS Transition 與一些小技巧：倒帶、影響相鄰的兄弟](https://cdn.hashnode.com/res/hashnode/image/upload/v1766489378902/0d99307c-9d63-4bfe-be7b-dc222837ffc4.png)
+![CSS Transition 與一些小技巧：倒帶、影響相鄰的兄弟](../../../assets/images/interaction-transition/0d99307c_9d63_4bfe_be7b_dc222837ffc4_1783261273618.png)
 
 CSS 的 `transition` 是是兩個狀態之間的動畫過渡效果。但在實際應用中，常常會遇到一些容易忽略的細節與技巧。今天我們就來聊聊那些你可能還不知道的 `transition` 進階用法。
 
@@ -43,7 +43,7 @@ CSS 的 `transition` 是是兩個狀態之間的動畫過渡效果。但在實�
 
 大家可使用下面的小工具模擬過渡動畫行進間的速率：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727796650281/211f5b68-9576-46d1-ac0e-dbf6d1acccdb.gif)
+![](../../../assets/images/interaction-transition/211f5b68_9576_46d1_ac0e_dbf6d1acccdb_1783261273631.gif)
 
 > 連結：[cubic-bezier()](https://cubic-bezier.com/)
 

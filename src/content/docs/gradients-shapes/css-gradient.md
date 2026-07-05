@@ -9,13 +9,13 @@ tags: background, css3, css, stripe, 2articles1week, gradients-in-css
 sidebar:
   order: 1
 ---
-![CSS 基本漸層：線性/放射/圓錐漸層 (CSS linear-gradient, radial-gradient, conic-gradient)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766407990142/d38b08c2-b1be-4975-b27c-8036f48b31c2.png)
+![CSS 基本漸層：線性/放射/圓錐漸層 (CSS linear-gradient, radial-gradient, conic-gradient)](../../../assets/images/gradients-shapes/d38b08c2_b1be_4975_b27c_8036f48b31c2_1783261102754.png)
 
 除了背景圖片，漸層色也是屬於 CSS 的背景一種，今天我們就來練習畫各種漂亮漸層吧！
 
 單純用漸層色就能夠表現出許多漂亮的視覺效果，例如模仿大自然中天空的顏色等等。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726479000392/cbe46573-61a8-4c79-8cd9-fc20309660a0.png)
+![](../../../assets/images/gradients-shapes/cbe46573_61a8_4c79_8cd9_fc20309660a0_1783261102767.png)
 
 > 來源：[27pt(クリスタ素材) / X](https://x.com/27pttt/status/1604363572426915840)
 
@@ -32,7 +32,7 @@ sidebar:
 
 而在 CSS 中，漸層分為三種，分別是：線性、放射與圓錐漸層：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719226685400/2c2ba710-9eb3-4511-b29f-1adaf57b9840.png)
+![](../../../assets/images/gradients-shapes/2c2ba710_9eb3_4511_b29f_1adaf57b9840_1783261102780.png)
 
 > 其實我們之前在特效文字的時候已經有偷偷用過了一些了，只不過沒有深入探討。
 > 
@@ -48,7 +48,7 @@ sidebar:
 
 以下是一個基本線性漸層的例子：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726493626229/e66d9a57-edf0-4408-b2b8-264ac9bc5052.png)
+![](../../../assets/images/gradients-shapes/e66d9a57_edf0_4408_b2b8_264ac9bc5052_1783261102790.png)
 
 ```css
 .linear-gradient{
@@ -126,11 +126,11 @@ sidebar:
 
 ### 漸層形狀 `ending-shape`
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718812333396/ad8ee0dc-4e3c-44c6-a781-bd54d0ca32ab.png)
+![](../../../assets/images/gradients-shapes/ad8ee0dc_4e3c_44c6_a781_bd54d0ca32ab_1783261102805.png)
 
 ### 漸層結束形狀的大小 `size`
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718812935927/709855c4-7da1-4204-80f8-92c87ae3994d.png)
+![](../../../assets/images/gradients-shapes/709855c4_7da1_4204_80f8_92c87ae3994d_1783261102818.png)
 
 > * ***closest-side***：最近邊
 >     
@@ -143,7 +143,7 @@ sidebar:
 
 ### 中心點位置 `position`
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718850733857/ad1539c7-260c-48de-93d7-437e26b80e04.png)
+![](../../../assets/images/gradients-shapes/ad1539c7_260c_48de_93d7_437e26b80e04_1783261102831.png)
 
 中心點位置的寫法是：
 
@@ -169,7 +169,7 @@ sidebar:
 
 ### 基本語法
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719226757571/9ae46427-7b07-4110-a44d-53360afc1c25.png)
+![](../../../assets/images/gradients-shapes/9ae46427_7b07_4110_a44d_53360afc1c25_1783261102844.png)
 
 以下是一個基本圓錐漸層的例子：
 
@@ -199,7 +199,7 @@ sidebar:
 
 ## 四、用色彩空間 LCH/OKLCH，修復漸層的灰色死亡地帶
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718813680440/0505a610-e07b-4578-8a27-ffcb65f76eeb.png)
+![](../../../assets/images/gradients-shapes/0505a610_e07b_4578_8a27_ffcb65f76eeb_1783261102856.png)
 
 如果是使用 RGB 色彩，而且顏色跨度太大，會有漸層的死亡灰色地帶，這時候我們可以試著改變色彩空間，換一種顏色的計算方式。
 
@@ -224,9 +224,9 @@ div {
 
 如果要製作網頁設計稿，但是目前 Figma 不支援 LCH/OKLCH 的顏色設定方式，這時候我們可以透過這個套件—— [Chromatic Figma](https://www.figma.com/community/plugin/759433498184507623) ，修正漸層顏色，它可以模擬 LCH 色彩空間運算，並且調整漸層的顏色。
 
-![Chromatic Figma Fix Gradient](https://cdn.hashnode.com/res/hashnode/image/upload/v1719281286573/5eb7d57c-4bc9-43b0-857b-ff43c221f4b2.png)
+![Chromatic Figma Fix Gradient](../../../assets/images/gradients-shapes/5eb7d57c_4bc9_43b0_857b_ff43c221f4b2_1783261102890.png)
 
-![Chromatic Figma Fix Gradient](https://cdn.hashnode.com/res/hashnode/image/upload/v1719281282143/7163c92d-4b91-47df-94c5-3d20018484c2.png)
+![Chromatic Figma Fix Gradient](../../../assets/images/gradients-shapes/7163c92d_4b91_47df_94c5_3d20018484c2_1783261102906.png)
 
 ---
 
@@ -238,7 +238,7 @@ div {
 
 > 連結：[CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718208060271/7dd5320c-63ea-48c2-a17e-b8d8a0e3c5d6.png)
+![](../../../assets/images/gradients-shapes/7dd5320c_63ea_48c2_a17e_b8d8a0e3c5d6_1783261102917.png)
 
 這是我很常使用的漸層工具之一，操作介面很直覺，而且還有所見即所得，就像在操作繪圖軟體的漸層調整一樣。
 
@@ -246,7 +246,7 @@ div {
 
 > 連結：[CSS HD Gradients](https://gradient.style/#type=linear&space=oklab&linear_named_angle=to+right&linear_angle=90&stops=%7B%22kind%22%3A%22stop%22%2C%22color%22%3A%22oklch%2870%25+0.5+340%29%22%2C%22auto%22%3A%220%22%2C%22position1%22%3A%220%22%2C%22position2%22%3A%220%22%7D&stops=%7B%22kind%22%3A%22hint%22%2C%22auto%22%3A%2250%22%2C%22percentage%22%3A%2250%22%7D&stops=%7B%22kind%22%3A%22stop%22%2C%22color%22%3A%22oklch%2890%25+0.5+200%29%22%2C%22auto%22%3A%22100%22%2C%22position1%22%3A%22100%22%2C%22position2%22%3A%22100%22%7D)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718208214157/2f377ba3-e151-4eb6-b241-a94ac6fb3b40.png)
+![](../../../assets/images/gradients-shapes/2f377ba3_e151_4eb6_b241_a94ac6fb3b40_1783261102927.png)
 
 這是另一個最近我發現的小工具，這個小工具還增加了色彩空間可以設定。
 

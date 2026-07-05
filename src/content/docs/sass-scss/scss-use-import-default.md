@@ -9,7 +9,7 @@ tags: css3, css, sass, scss
 sidebar:
   order: 3
 ---
-![SASS/SCSS (3) 使用檔案管理樣式 Partials / Modules (@use / @import / !default)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766721970631/33d3ea69-4882-483b-b122-9d0c94f9b253.png)
+![SASS/SCSS (3) 使用檔案管理樣式 Partials / Modules (@use / @import / !default)](../../../assets/images/sass-scss/33d3ea69_4882_483b_b122_9d0c94f9b253_1783261496588.png)
 
 當專案越來越大，Code 越來越多，你可能會開始覺得把所有程式碼都塞在同一個 `style.scss` 檔案裡，變得很混亂。今天，我們就要來學習如何使用 Partials 和 Modules 的概念，把我們樣式拆分到不同的檔案裡。
 

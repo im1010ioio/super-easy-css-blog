@@ -9,7 +9,7 @@ tags: css3, css, scroll-snap, carousel
 sidebar:
   order: 8
 ---
-![CSS scroll snap 做簡單的純 CSS 輪播](https://cdn.hashnode.com/res/hashnode/image/upload/v1766596153978/d99eb018-640b-4040-9197-1eeeb595df87.png)
+![CSS scroll snap 做簡單的純 CSS 輪播](../../../assets/images/interaction-scroll/d99eb018_640b_4040_9197_1eeeb595df87_1783261251334.png)
 
 以前，要做出輪播的「滾動吸附」的效果，十之八九都需要依賴 JS 套件（像是 [fullPage.js](https://alvarotrigo.com/fullPage/) 、[Swiper.js](https://swiperjs.com/) 或 [Slick.js](https://kenwheeler.github.io/slick/)）。這些工具雖然強大，但有時候只是想要一個簡單的橫向滑動，不需要複雜的自動播放或前後操作按鈕，引入一整個套件又有點太多。
 
@@ -156,7 +156,7 @@ sidebar:
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758281179921/9c31135a-35c5-43e7-abb1-b6197baa9b1f.gif)
+![](../../../assets/images/interaction-scroll/9c31135a_35c5_43e7_abb1_b6197baa9b1f_1783261251344.gif)
 
 > DEMO 連結：[Pure CSS Image Carousel by scroll-snap](https://codepen.io/im1010ioio/pen/KwVKZBY)
 

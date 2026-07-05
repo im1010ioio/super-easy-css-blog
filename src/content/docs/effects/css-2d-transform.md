@@ -9,7 +9,7 @@ tags: css3, css, transform, css-2d-transforms
 sidebar:
   order: 5
 ---
-![CSS 2D Transform：變大、變小、旋轉、傾斜，CSS 絕對定位置中方法、平行四邊形](https://cdn.hashnode.com/res/hashnode/image/upload/v1766488925667/4cdc72f7-85f2-44f6-8e5d-167627ed3128.png)
+![CSS 2D Transform：變大、變小、旋轉、傾斜，CSS 絕對定位置中方法、平行四邊形](../../../assets/images/effects/4cdc72f7_85f2_44f6_8e5d_167627ed3128_1783260966396.png)
 
 CSS 的 `transform` 屬性是一個功能強大的工具，它允許我們以簡單的方式對元素進行平移、縮放、旋轉和傾斜等 2D `transform` 效果，而不需要使用 JavaScript 或圖片編輯工具。`transform` 可以讓網站更具動態效果，提升視覺吸引力。
 
@@ -60,11 +60,11 @@ selector {
 
 如果你想要使用 CSS 絕對定位想要將東西置中，直接把 `top` 、 `left` 都設為 `50%` 的話，結果不是置中的，因為它對齊的東西的左上角：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728231694971/57cd4b62-3dea-4de6-b106-80e828547c33.png)
+![](../../../assets/images/effects/57cd4b62_3dea_4de6_b106_80e828547c33_1783260966421.png)
 
 這時候我們可以就使用 `transform: translate()` 解決這個問題，就是將這個東西，往上、往左移自身的 50%，這樣就能實質上的置中了：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728231702214/88e95ced-f13b-4899-93e6-1441fd2700a6.png)
+![](../../../assets/images/effects/88e95ced_f13b_4899_93e6_1441fd2700a6_1783260966433.png)
 
 ```css
 .box{
@@ -173,11 +173,11 @@ selector {
 
 如果我們直接將文字方塊傾斜，你會發現連文字也一起被傾斜了：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727622742304/2481d459-6be4-4d38-8df9-81eef46d7447.png)
+![](../../../assets/images/effects/2481d459_6be4_4d38_8df9_81eef46d7447_1783260966445.png)
 
 這時候我們可以善用偽元素 `::before` or `::after` 製作傾斜的背景，就能達到我們想要的效果了：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727622760141/263410ad-bbe6-499e-808a-fe73f7e9c4d0.png)
+![](../../../assets/images/effects/263410ad_bbe6_499e_808a_fe73f7e9c4d0_1783260966578.png)
 
 ```css
 .skew-bg::before{

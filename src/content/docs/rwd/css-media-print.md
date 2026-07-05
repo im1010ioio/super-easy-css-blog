@@ -9,7 +9,7 @@ tags: css3, css
 sidebar:
   order: 2
 ---
-![CSS 列印的小技巧：@media print、break-before/after/inside、@page](https://cdn.hashnode.com/res/hashnode/image/upload/v1766033052075/447f7703-eb3e-40e9-ac24-e634abde27e6.png)
+![CSS 列印的小技巧：@media print、break-before/after/inside、@page](../../../assets/images/rwd/447f7703_eb3e_40e9_ac24_e634abde27e6_1783261469942.png)
 
 網頁需要列印的情況，通常是一些表單頁面（收據、報告等）。上一篇我們講解了 CSS Media Queries，這篇我們要延伸來討論網頁列印時的情況。
 
@@ -39,7 +39,7 @@ sidebar:
 
 如果我們希望模擬列印時的樣式，可以使用開發者工具，以 Chrome 為例，按「點點點 &gt; More tools &gt; Emulate CSS media」，如下圖所示：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696848376698/eee0ee1d-b3f9-4c24-9e44-48e9ebcd7f09.png)
+![](../../../assets/images/rwd/eee0ee1d_b3f9_4c24_9e44_48e9ebcd7f09_1783261469953.png)
 
 > 中文版是：點點點 &gt; 更多工具 &gt; 算繪 &gt; 模擬 CSS 媒體類型
 
@@ -79,7 +79,7 @@ header {
 
 如果我們不希望換頁時 HTML 元素被截兩半，可以加上 `break-inside: avoid;` ，遇到在一頁內無法完全顯示時，就會換頁避免截半。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696961079834/80f53aad-d91f-46b2-8f91-f457f79fef5f.png)
+![](../../../assets/images/rwd/80f53aad_d91f_46b2_8f91_f457f79fef5f_1783261469964.png)
 
 ```css
 .content {

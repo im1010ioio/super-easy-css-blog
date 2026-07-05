@@ -9,7 +9,7 @@ tags: css3, css, css-animation, collapse, accordion-menu
 sidebar:
   order: 3
 ---
-![利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）](https://cdn.hashnode.com/res/hashnode/image/upload/v1766573492991/1e107051-bb6c-4753-85d3-a740bb4229aa.png)
+![利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）](../../../assets/images/interaction-click/1e107051_bb6c_4753_85d3_a740bb4229aa_1783261171194.png)
 
 前幾篇我們有提到 CSS `transition` 的特性：
 
@@ -35,7 +35,7 @@ sidebar:
 * 而 `checkbox` 是多選，所以可以一直開開關關都沒問題，是常見的「Collapse 折疊效果」。
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728633813531/3160b158-f245-45eb-aa7b-b638e6af3d68.gif)
+![](../../../assets/images/interaction-click/3160b158_f245_45eb_aa7b_b638e6af3d68_1783261171205.gif)
 
 > DEMO: [Pure CSS Collapse/ Accordion FAQ](https://codepen.io/im1010ioio/pen/Jjgbmdb)
 

@@ -9,7 +9,7 @@ tags: css3, css, transform, 3d-transform
 sidebar:
   order: 6
 ---
-![CSS 3D Transform](https://cdn.hashnode.com/res/hashnode/image/upload/v1766489078430/b97758f4-0bfe-4135-8445-d741fee3ecde.png)
+![CSS 3D Transform](../../../assets/images/effects/b97758f4_0bfe_4135_8445_d741fee3ecde_1783260959712.png)
 
 CSS 的 3D `transform` 讓我們可以在網頁上建立 3D 立體效果，讓元素看起來像是在一個 3D 空間中移動或旋轉。
 
@@ -275,6 +275,6 @@ CSS 的 3D `transform` 讓我們可以在網頁上建立 3D 立體效果，讓�
 
 #### DEMO
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727709879749/ae19c737-94cd-4189-aa27-fa3924b24164.png)
+![](../../../assets/images/effects/ae19c737_94cd_4189_aa27_fa3924b24164_1783260959725.png)
 
 > DEMO: [3D Cube Cartoon Menu](https://codepen.io/im1010ioio/pen/epaGOZ)

@@ -9,17 +9,17 @@ tags: css3, css, 2articles1week, gradients-in-css
 sidebar:
   order: 4
 ---
-![使用 CSS filter blur 製作簡易的任意形狀漸層 (流動/暈染背景)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766409039242/859e1069-ea1c-4c09-b163-3cce8a83df0b.png)
+![使用 CSS filter blur 製作簡易的任意形狀漸層 (流動/暈染背景)](../../../assets/images/gradients-shapes/859e1069_ea1c_4c09_b163_3cce8a83df0b_1783261057731.png)
 
 在平面設計中，還有一種很常見的漸層，既不是線性漸層，也不屬於圓形/圓錐漸層，是任意形狀漸層漸層，也有人稱之為流動 (Fluid gradient) 或暈染漸層，就像本系列文的封面圖。
 
 這個封面我是使用 Figma 的套件「[Noisy Gradients](https://www.figma.com/community/plugin/1174390287006360600)」產出的，另外這個套件還有在漸層上加上了噪點，讓平滑的顏色增添一點磨砂材質感覺。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694417958400/77ae1fab-6b90-47e7-92ea-12dd57311262.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+![](../../../assets/images/gradients-shapes/77ae1fab_6b90_47e7_92ea_12dd57311262_1783261057742.png)
 
 不過先不論噪點，其實要製作這種背景很簡單，我們其實只要將東西模糊，並且把數值調到很大後，就能得到這樣的漸層，就像以下這樣：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718163917580/f0d14388-6aeb-41c2-9d05-4ef3d529be1a.gif)
+![](../../../assets/images/gradients-shapes/f0d14388_6aeb_41c2_9d05_4ef3d529be1a_1783261057754.gif)
 
 > #### **↓ 今日學習重點 ↓**
 > 
@@ -71,7 +71,7 @@ div {
 >     現代瀏覽器高度優化了 CSS 的渲染性能，透過 CSS 製作裝飾性的元素通常比增加額外的 DOM 元素更有效率。
 >     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726816638968/1e8bec58-4d77-44cb-924a-e257bf6ca2c4.png)
+![](../../../assets/images/gradients-shapes/1e8bec58_4d77_44cb_924a_e257bf6ca2c4_1783261057764.png)
 
 ```css
 body{
@@ -100,7 +100,7 @@ body{
 
 接著在圓形上加上模糊效果，就完成囉！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726814296929/a4f845e5-4689-481c-8d1d-e6680f78ebea.png)
+![](../../../assets/images/gradients-shapes/a4f845e5_4689_481c_8d1d_e6680f78ebea_1783261057775.png)
 
 ```css
 body{
@@ -124,13 +124,13 @@ body{
 
 如果加上 CSS or JS 動畫，就會變得很炫！類似像這樣：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718162313917/1206f43c-8abc-4142-a7e4-e79ca6167850.gif)
+![](../../../assets/images/gradients-shapes/1206f43c_8abc_4142_a7e4_e79ca6167850_1783261057785.gif)
 
 還有以下也是份很好的教學：
 
 > 延伸閱讀：[網頁的流動背景怎麼做？讓你的網站背景不再死版 | ThisWeb](https://www.thisweb.dev/post/smooth-liquid-bg)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726817435215/dc795e68-6263-4610-9103-d2d9e694cccc.webp)
+![](../../../assets/images/gradients-shapes/dc795e68_6263_4610_9103_d2d9e694cccc_1783261057797.webp)
 
 ---
 

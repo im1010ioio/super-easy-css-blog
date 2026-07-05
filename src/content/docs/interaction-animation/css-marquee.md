@@ -9,7 +9,7 @@ tags: css3, css, css-animation, marquee, css-marquee
 sidebar:
   order: 4
 ---
-![純 Css 跑馬燈動畫，單趟跑、無限跑、要暫停都可以](https://cdn.hashnode.com/res/hashnode/image/upload/v1766490924289/8497c2dd-406f-41f3-8886-ce580fd6c3b8.png)
+![純 Css 跑馬燈動畫，單趟跑、無限跑、要暫停都可以](../../../assets/images/interaction-animation/8497c2dd_406f_41f3_8886_ce580fd6c3b8_1783261152390.png)
 
 在很久以前 HTML 中有跑馬燈元素 `<marquee>`，很輕易就能做出跑馬燈，所以在以前許多網頁中，常常可以看到它的身影，寫著「歡迎光臨 OOO 的小窩」之類的（暴露年紀了XD）。但是，後來 W3C 因為易用性問題，認為跑馬燈可能會分散注意力並且難以閱讀，於是棄用了它，雖然許多瀏覽器仍支援，但是**現已不建議使用這個 HTML 元素**。
 
@@ -24,7 +24,7 @@ sidebar:
 * 另一種是無限的跑馬燈，內容從頭到尾反覆出現，沒有停頓的時候。
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728225248678/26e3fec1-f44f-422d-9cff-89777a6f1e80.gif)
+![](../../../assets/images/interaction-animation/26e3fec1_f44f_422d_9cff_89777a6f1e80_1783261152403.gif)
 
 > DEMO: [Pure CSS marquee - One Way & Infinite](https://codepen.io/im1010ioio/pen/vYoKdQq)
 

@@ -9,7 +9,7 @@ tags: pseudo-elements, css3, css, lightbox, tab, target
 sidebar:
   order: 6
 ---
-![CSS :target 應用：純 CSS 光箱、純 CSS Tab 頁籤](https://cdn.hashnode.com/res/hashnode/image/upload/v1766595259017/6119753c-d744-41f4-9e96-874872dc8486.png)
+![CSS :target 應用：純 CSS 光箱、純 CSS Tab 頁籤](../../../assets/images/interaction-scroll/6119753c_d744_41f4_9e96_874872dc8486_1783261224508.png)
 
 上一篇我們提到 CSS 的 `:target` 的偽類，可以**針對 HTML 元素是否為目標狀態而去調整樣式**。所以，如果延伸想一想，有許多 UI 都是會有狀態的，其實是可以做許多應用的。
 
@@ -19,7 +19,7 @@ sidebar:
 
 ## 一、純 CSS 光箱
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758205060608/b9603127-1c0a-4737-9969-32cde0fe639b.gif)
+![](../../../assets/images/interaction-scroll/b9603127_1c0a_4737_9969_32cde0fe639b_1783261224521.gif)
 
 光箱（Lightbox）效果是網頁中非常常見的 UI，通常用於點擊圖片或按鈕後，跳出一個覆蓋整個畫面的視窗來顯示更多內容。以前這大多需要 JavaScript 來控制顯示與隱藏，但現在透過 `:target`，我們只要純 CSS 就能做到！
 
@@ -115,7 +115,7 @@ sidebar:
 
 ## 二、純 CSS Tab 頁籤
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758209786118/09c05040-5fb6-423d-89d9-6816e12444a2.gif)
+![](../../../assets/images/interaction-scroll/09c05040_5fb6_423d_89d9_6816e12444a2_1783261224553.gif)
 
 Tab 頁籤也是一個很常見的 UI 元件，使用者可以點擊不同的頁籤來切換內容。這個效果跟光箱非常類似，都是利用 `:target` 來控制不同內容區塊的顯示與隱藏。
 

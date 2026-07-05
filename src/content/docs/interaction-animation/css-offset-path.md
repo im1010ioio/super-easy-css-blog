@@ -9,7 +9,7 @@ tags: css3, css, css-animation, offset-path, css-offset-path
 sidebar:
   order: 6
 ---
-![CSS offset-path：沿著軌跡行進動畫](https://cdn.hashnode.com/res/hashnode/image/upload/v1766492239186/add6d5f6-6878-4908-b6ba-06db13e96ce6.png)
+![CSS offset-path：沿著軌跡行進動畫](../../../assets/images/interaction-animation/add6d5f6_6878_4908_b6ba_06db13e96ce6_1783261139580.png)
 
 這篇我們會介紹如何使用 CSS 的 `offset-path` 屬性來創建路徑動畫。這個屬性允許元素沿著指定的路徑跑，配合 `offset-distance` 可以控制元素在路徑上的哪個位置。我們將透過一些範例來了解 `offset-path` 的用法。
 
@@ -42,7 +42,7 @@ sidebar:
 
 還可以簡單做出一個沿著地球旋轉的月亮動畫：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728442009538/486257f0-0656-4cfa-b9e6-7dc6608e6cc6.gif)
+![](../../../assets/images/interaction-animation/486257f0_0656_4cfa_b9e6_7dc6608e6cc6_1783261139591.gif)
 
 > DEMO: [Earth & moon CSS offset-path animations](https://codepen.io/im1010ioio/pen/RwXGJGY)
 

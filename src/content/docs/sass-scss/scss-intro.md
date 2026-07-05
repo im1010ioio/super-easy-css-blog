@@ -9,7 +9,7 @@ tags: css3, css, sass, scss
 sidebar:
   order: 1
 ---
-![Sass/scss (1) 介紹與簡易環境設定](https://cdn.hashnode.com/res/hashnode/image/upload/v1766720623117/14838314-9b2f-43dd-a1f9-4cb4fcb36669.png)
+![Sass/scss (1) 介紹與簡易環境設定](../../../assets/images/sass-scss/14838314_9b2f_43dd_a1f9_4cb4fcb36669_1783261480272.png)
 
 我們基本 CSS 的教學與補充新語法差不多告一個段落了，接下來，我們來學一個也很常用的 CSS 進階用法：CSS 預處理器 SASS/SCSS！
 
@@ -40,7 +40,7 @@ CSS 預處理器就是為了解決這些問題而誕生的！ 它加入了許多
 
 ## 二、SASS/SCSS
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759506473720/d7070aa8-a171-413d-ac32-a663b1b9923a.png)
+![](../../../assets/images/sass-scss/d7070aa8_a171_413d_ac32_a663b1b9923a_1783261480282.png)
 
 市面上有許多主流的 CSS 預處理器，像是 Sass、LESS、Stylus 等。這次我們選擇介紹 SASS/SCSS，主要是因為它是目前最受歡迎、社群也最龐大的選項，也有更豐富的學習資源和社群支援。
 
@@ -117,7 +117,7 @@ Sass 其實有兩種語法格式：
 
 #### **1\. 步驟一：安裝 Live Sass Compiler 套件**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759505808578/533d593c-fca7-4388-88ea-81d3c6778434.png)
+![](../../../assets/images/sass-scss/533d593c_fca7_4388_88ea_81d3c6778434_1783261480293.png)
 
 1. 打開 VS Code。
     
@@ -146,7 +146,7 @@ Sass 其實有兩種語法格式：
     
 2. 你會發現 VS Code 視窗最下方的狀態列，多出了一個「**Watch Sass**」的按鈕。
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759505841214/44dbdb40-ea5c-4b9f-a06d-766db17df672.png)
+    ![](../../../assets/images/sass-scss/44dbdb40_ea5c_4b9f_a06d_766db17df672_1783261480304.png)
     
 3. 勇敢地按下去！當它變成「Watching...」時，就表示它正在監控你的檔案了。
     
@@ -162,7 +162,7 @@ Sass 其實有兩種語法格式：
     
 5. 存檔後，你會神奇地發現，`scss` 資料夾內自動生成了 `style.css` 和 `style.css.map` 兩個檔案！打開 `style.css` 看看，裡面的內容就是編譯好的標準 CSS。
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759505999236/af0e2e81-717f-48ca-b92b-b33ebee39512.png)
+    ![](../../../assets/images/sass-scss/af0e2e81_717f_48ca_b92b_b33ebee39512_1783261480317.png)
     
 
 #### **4\. 步驟四：設定編譯後的 CSS 路徑與 Autoprefixer**
@@ -173,7 +173,7 @@ Sass 其實有兩種語法格式：
     
 2. 會看到 `autoprefix` 的設定選項，點一下「在 settings.json 內編輯」。
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759505931650/0897c709-7e83-4ac4-9196-6dddebeb6745.png)
+    ![](../../../assets/images/sass-scss/0897c709_7e83_4ac4_9196_6dddebeb6745_1783261480327.png)
     
 3. 可以在 `settings.json` 檔案中，設定詳細的編譯設定：
     
@@ -205,7 +205,7 @@ Sass 其實有兩種語法格式：
     }
     ```
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759505707643/fe2c8ead-6621-46cb-8c1b-f40a407a6581.png)
+    ![](../../../assets/images/sass-scss/fe2c8ead_6621_46cb_8c1b_f40a407a6581_1783261480338.png)
     
 
 設定完成後，先把舊的 `style.css` 和 `style.css.map` 刪除，然後重新存檔，看看是不是在專案根目錄下自動建立了 `css` 資料夾，而且裡面同時產生了 `style.css` 和 `style.min.css` 兩個檔案呢？
@@ -228,7 +228,7 @@ Sass 其實有兩種語法格式：
 
 另外，如果只是想要單純練習語法，也可以使用 Sass 提供的線上編輯器，編譯結果所見及所得喔！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1760285616559/b6f73a52-5682-4dcb-97f0-062b76cd186f.png)
+![](../../../assets/images/sass-scss/b6f73a52_5682_4dcb_97f0_062b76cd186f_1783261480348.png)
 
 > 連結：[Sass: Playground](https://sass-lang.com/playground/)
 

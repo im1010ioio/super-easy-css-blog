@@ -9,12 +9,12 @@ tags: css3, css, scrollbar, css-scroll, default-scrollbar-css
 sidebar:
   order: 2
 ---
-![CSS 自訂捲軸顏色與樣式：scrollbar-color、scrollbar-width、scrollbar-gutter、::-webkit-scrollbar-*](https://cdn.hashnode.com/res/hashnode/image/upload/v1766575632994/8b3dc593-14ce-42f7-be50-4383d81e0aee.png)
+![CSS 自訂捲軸顏色與樣式：scrollbar-color、scrollbar-width、scrollbar-gutter、::-webkit-scrollbar-*](../../../assets/images/interaction-scroll/8b3dc593_14ce_42f7_be50_4383d81e0aee_1783261231677.png)
 
 今天我們要客製化瀏覽器捲軸的樣式，  
 捲軸通常會有「滑桿 thumb」、「軌道 track」與「按鈕」：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728742680083/a0d7b260-cc4e-4d17-be8b-f167ab31375b.png)
+![](../../../assets/images/interaction-scroll/a0d7b260_cc4e_4d17_be8b_f167ab31375b_1783261231690.png)
 
 不過實際上要依據作業系統而定，像是在 Mac 中的捲軸就沒有按鈕。
 
@@ -63,7 +63,7 @@ sidebar:
 
 `scrollbar-gutter` 能為滾動條保留空間，防止隨著內容的增長而發生一點點寬度改變，同時還可以避免在不需要滾動時出現不必要的視覺效果。他有三個數值可以設定：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728750611619/5c6b6765-bbba-4c47-b7e6-18e56c8502a8.png)
+![](../../../assets/images/interaction-scroll/5c6b6765_bbba_4c47_b7e6_18e56c8502a8_1783261231701.png)
 
 * `auto` 預設，當沒有捲軸時，不保留捲軸寬度。
     
@@ -155,7 +155,7 @@ sidebar:
 
 實際套用起來結果如下（MacOS）：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728748143681/9b01b5b5-7516-407c-a064-1e30916ac943.png)
+![](../../../assets/images/interaction-scroll/9b01b5b5_7516_407c_a064_1e30916ac943_1783261231712.png)
 
 > DEMO: [Custom scrollbar style](https://codepen.io/im1010ioio/pen/GRVrxjL)
 

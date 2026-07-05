@@ -9,7 +9,7 @@ tags: css3, css, css-animations, animation, css-animation, sidebar, sidecar-cont
 sidebar:
   order: 2
 ---
-![利用 checkbox，做到純 CSS 開關網頁選單、收合側邊欄](https://cdn.hashnode.com/res/hashnode/image/upload/v1766572871211/31883184-d4b3-461a-98b2-8b659a7b5b1a.png)
+![利用 checkbox，做到純 CSS 開關網頁選單、收合側邊欄](../../../assets/images/interaction-click/31883184_d4b3_461a_98b2_8b659a7b5b1a_1783261175954.png)
 
 上篇我們教了大家如何客製化 `checkbox` 與 `radio` 樣式，其實運用同樣的原理，我們也可以做到簡單的互相切換（toggle）行為，例如：「點了就開，再點就關」這種動作。
 
@@ -47,7 +47,7 @@ sidebar:
 
 用這些原理，我們可以來做一個簡單的選單：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728567736404/4f118809-ec34-4c5f-9c33-58c253668d9a.gif)
+![](../../../assets/images/interaction-click/4f118809_ec34_4c5f_9c33_58c253668d9a_1783261175965.gif)
 
 > DEMO: Pure [CSS toggle menu](https://codepen.io/im1010ioio/pen/ExqNELe)
 
@@ -99,7 +99,7 @@ sidebar:
 
 用一樣的原理，我們也可以來做一個可以往旁邊縮起側邊欄的版面，這常見在後台系統中：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728571947136/7a7f6d15-972a-4fc9-931c-d8de518de014.gif)
+![](../../../assets/images/interaction-click/7a7f6d15_972a_4fc9_931c_d8de518de014_1783261175978.gif)
 
 > DEMO: [Pure CSS toggle aside](https://codepen.io/im1010ioio/pen/mdNOKEL)
 

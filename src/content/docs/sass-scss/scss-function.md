@@ -9,7 +9,7 @@ tags: css3, css, sass, scss
 sidebar:
   order: 9
 ---
-![SASS/SCSS (9) 函式 (Function) - 打造你自己的工具箱](https://cdn.hashnode.com/res/hashnode/image/upload/v1766736584812/e8e8c676-ffe4-46b7-b0bf-dcabb164b021.png)
+![SASS/SCSS (9) 函式 (Function) - 打造你自己的工具箱](../../../assets/images/sass-scss/e8e8c676_ffe4_46b7_b0bf_dcabb164b021_1783261512508.png)
 
 我們已經一路學習了 SCSS 的變數、顏色、邏輯判斷與迴圈等等，你可能已經覺得 SCSS 非常強大了。但今天，我們要來認識 SCSS 中一個更厲害的用法：Function 函式。
 

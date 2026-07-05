@@ -10,7 +10,7 @@ tags: css3, css, cssmediaqueries
 sidebar:
   order: 1
 ---
-![RWD & CSS Media Queries &](https://cdn.hashnode.com/res/hashnode/image/upload/v1766032181935/ba3b9649-ff14-43e8-a97c-39ce3f257f5b.png)
+![RWD & CSS Media Queries &](../../../assets/images/rwd/ba3b9649_ff14_43e8_a97c_39ce3f257f5b_1783261479405.png)
 
 當我們在設計網站時，我們希望網站能夠適應不同的裝置和螢幕尺寸，以提供更好的使用體驗，這就是響應式網頁設計（RWD，Responsive Web Design）。
 
@@ -72,7 +72,7 @@ sidebar:
 
 不過模擬終究只是模擬，實際運作會如何還是需要在該裝置測試一遍才會知道喔！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696869317766/f8bf9889-6cb2-4ca1-ab53-d6de837f96bf.png)
+![](../../../assets/images/rwd/f8bf9889_6cb2_4ca1_ab53_d6de837f96bf_1783261479415.png)
 
 ---
 
@@ -265,11 +265,11 @@ iOS Safari 號稱 Apple 中的 IE，我這邊整理一下在開發上的經驗�
 
 > [DEMO 連結：input font-size test for ios safari](https://codepen.io/im1010ioio/pen/qBLLgEZ)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696847167288/fea322d4-78cf-4faf-acd4-42c0c3993306.gif)
+![](../../../assets/images/rwd/fea322d4_78cf_4faf_acd4_42c0c3993306_1783261479426.gif)
 
 這個小細節很容易沒有注意到，就連 Google 表單也沒有注意到 QQ：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696847649273/efa5ca9c-8c22-41a1-914d-a6c82032ccea.gif)
+![](../../../assets/images/rwd/efa5ca9c_8c22_41a1_914d_a6c82032ccea_1783261479437.gif)
 
 ### 2\. 滾動範圍盡量滾動 body，而不是 `overflow: scroll/auto;`
 
@@ -297,7 +297,7 @@ iOS Safari 號稱 Apple 中的 IE，我這邊整理一下在開發上的經驗�
 
 要使用 Mac Safari debug iOS Safari，首先 iPhone 的 Safari 必須要開啟「網頁檢閱器」的權限，開啟的位置是：「設定 APP &gt; Safari &gt; 進階」。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696872045703/cd74df6b-9f26-4458-9497-c6f629741362.png)
+![](../../../assets/images/rwd/cd74df6b_9f26_4458_9497_c6f629741362_1783261479447.png)
 
 接著使用一條線連結 Mac 與 iPhone，這時候 iPhone 可能會跳出通知詢問是否要信任這台電腦，請選信任；Mac 也可能會詢問要允許配件連接嗎，請選允許。
 
@@ -305,7 +305,7 @@ iOS Safari 號稱 Apple 中的 IE，我這邊整理一下在開發上的經驗�
 
 > 若你在選單列中沒有看到「開發」選單，請選擇 Safari &gt;「設定」，按一下「進階」，然後選取「在選單列中顯示『開發』選單」。（來源：[Apple Safari 使用手冊](https://support.apple.com/zh-tw/guide/safari/sfri20948/16.1/mac/13.6.2)）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696871759251/c2c1f9f2-97da-47f2-b6de-1a3b1dd14d14.png)
+![](../../../assets/images/rwd/c2c1f9f2_97da_47f2_b6de_1a3b1dd14d14_1783261479457.png)
 
 ---
 

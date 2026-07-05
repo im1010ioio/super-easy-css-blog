@@ -9,7 +9,7 @@ tags: css3, css, animation, css-animation, web-animation
 sidebar:
   order: 1
 ---
-![CSS Animation](https://cdn.hashnode.com/res/hashnode/image/upload/v1766490100467/4939b838-48ff-4ac8-91fc-45288b961ab0.png)
+![CSS Animation](../../../assets/images/interaction-animation/4939b838_48ff_4ac8_91fc_45288b961ab0_1783261145044.png)
 
 在網頁設計中，**CSS 動畫** 可以讓你的網站更具互動性和吸引力。過去，我們可能需要透過 JavaScript 才能實現動畫效果，但隨著 CSS3 的發展，現在只需要簡單的 CSS 就能輕鬆實現各種動畫效果！
 
@@ -139,7 +139,7 @@ CSS Animation 是讓你的網頁更具吸引力的重要工具。透過 `@keyfra
 
 0% 和 100% 可以用逗號寫在一起
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720589119637/3a0f7bfb-50ac-494c-883f-d53e086d5a90.png)
+![](../../../assets/images/interaction-animation/3a0f7bfb_50ac_494c_883f_d53e086d5a90_1783261145068.png)
 
 * 除了 infinity 也可以寫次數(數字)
     

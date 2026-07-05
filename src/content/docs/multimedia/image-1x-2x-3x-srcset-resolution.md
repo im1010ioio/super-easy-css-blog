@@ -9,7 +9,7 @@ tags: css3, css, html, images, html5, 2articles1week, resolution
 sidebar:
   order: 2
 ---
-![圖片的 1x, 2x, 3x 是什麼？關於網頁上圖片解析度的處理：HTML <img> srcset、CSS image-set() 與 @media resolution](https://cdn.hashnode.com/res/hashnode/image/upload/v1766407025782/fbe1d25e-71f5-4a36-bfc6-11e6886a056e.png)
+![圖片的 1x, 2x, 3x 是什麼？關於網頁上圖片解析度的處理：HTML <img> srcset、CSS image-set() 與 @media resolution](../../../assets/images/multimedia/fbe1d25e_71f5_4a36_bfc6_11e6886a056e_1783261419128.png)
 
 為什麼我的圖片明明大小沒錯，在較好的螢幕上（例如 apple retina 螢幕）卻顯得糊糊的？
 
@@ -36,7 +36,7 @@ sidebar:
 
 ## 一、向量圖 vs. 點陣圖
 
-![向量圖 vs. 點陣圖](https://cdn.hashnode.com/res/hashnode/image/upload/v1705507214898/0701bdf8-97ce-469b-a4c0-da988afa9707.png)
+![向量圖 vs. 點陣圖](../../../assets/images/multimedia/0701bdf8_97ce_469b_a4c0_da988afa9707_1783261419140.png)
 
 在開始優化圖片前，我們需要了解電腦中圖片檔案的基本知識。  
 圖片檔案分為 2 種，分別為向量圖與點陣圖。
@@ -46,7 +46,7 @@ sidebar:
 > 常見網頁檔案格式：`svg`  
 > 繪圖軟體檔案格式：`esp`、`ai`
 
-![向量圖](https://cdn.hashnode.com/res/hashnode/image/upload/v1705290036639/2902b638-bfb4-403b-89e3-f455d668e71a.png)
+![向量圖](../../../assets/images/multimedia/2902b638_bfb4_403b_89e3_f455d668e71a_1783261419152.png)
 
 向量圖片是由路徑組成，紀錄點與點之間的座標，如有曲線的話會使用貝茲曲線計算。在繪圖軟體中會有控制桿可以控制曲線的彎曲方式。
 
@@ -59,11 +59,11 @@ sidebar:
 > 常見網頁檔案格式：  
 > `jpg (等同 jpeg)`、`bmp`、`png` (可透明)、`gif` (可透明，可含動畫)、`webp` (可透明，可含動畫)、`avif`
 
-![點陣圖](https://cdn.hashnode.com/res/hashnode/image/upload/v1705507190130/7fd6bd1f-c8db-488a-8972-93021cbb7517.png)
+![點陣圖](../../../assets/images/multimedia/7fd6bd1f_c8db_488a_8972_93021cbb7517_1783261419165.png)
 
 螢幕的顯示是由很多格子組合起來的，在早期的螢幕上，眼睛湊很近看都能看到一格一格的格子，1 像素 (pixel) 就代表螢幕上的一個格子。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705504112985/159d8bfb-7d25-4edb-aa01-174609dec497.gif)
+![](../../../assets/images/multimedia/159d8bfb_7d25_4edb_aa01_174609dec497_1783261419178.gif)
 
 點陣圖片就是由像素組成，將圖片拉大就會看到許多由格子組成的色塊。照片或電腦繪圖因為有大量影像細節，難以用座標與數學運算紀錄，所以通常會儲存為點陣圖，使用許多像素色塊堆疊出整體樣貌。
 
@@ -82,7 +82,7 @@ sidebar:
 
 換言之，像素的密度變高了，所以呈現出來的畫面更細緻，舉個例子：
 
-![像素密度 (Pixel Density) ：1x、2x 與 3x](https://cdn.hashnode.com/res/hashnode/image/upload/v1700533171924/9ff8b800-5e7d-43fa-9e3d-b87654184103.png)
+![像素密度 (Pixel Density) ：1x、2x 與 3x](../../../assets/images/multimedia/9ff8b800_5e7d_43fa_9e3d_b87654184103_1783261419190.png)
 
 在 App 與網頁設計中，為了不同「像素密度」會準備不同的圖檔，讓高解析度裝置的使用者下載高解析度的圖片，而低解析度裝置的使用者下載低的就好，這樣可以讓下載速度快一點，達到最佳體驗。
 
@@ -99,13 +99,13 @@ sidebar:
 
 如果我在 2x 的螢幕上放了 1x 的圖，就會像下面這樣，顯得有點模糊，尤其是文字邊緣（不過這要使用 2x 以上的螢幕才看得出來）：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701839688544/366c1569-4687-4653-81a5-46bf11b7e13c.png)
+![](../../../assets/images/multimedia/366c1569_4687_4653_81a5_46bf11b7e13c_1783261419202.png)
 
 如果想要知道自己的螢幕解析度是多少，可以開開看下面網友做的 Code Pen DEMO 連結：
 
 > 連結：[DPI check](https://codepen.io/pixelthing/pen/apweQB)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701840347442/9c830c56-ff13-4569-8969-1d8f5635c8c3.png)
+![](../../../assets/images/multimedia/9c830c56_ff13_4569_8969_1d8f5635c8c3_1783261419214.png)
 
 關於螢幕像素密度的相關單位 `ppi` 、 `dpi` 、 `dppx` 的換算關係如下：
 
@@ -210,7 +210,7 @@ window.devicePixelRatio;
 
 最快的實測方式，就是打開瀏覽器的開發者模式，在 console 面板把這行打上去，以 Chrome 為例：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705508054760/f29ff35e-e647-4a2d-a9bc-792c772a4bca.png)
+![](../../../assets/images/multimedia/f29ff35e_e647_4a2d_a9bc_792c772a4bca_1783261419225.png)
 
 ---
 
@@ -218,9 +218,9 @@ window.devicePixelRatio;
 
 如果想要知道網頁實際下載的是哪一張圖片，可以打開瀏覽器的開發者模式，切到 Network 頁籤，然後清除紀錄，再重新整理頁面（在重整按鈕上按右鍵可清除快取），觀察總共載入了哪些東西。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705508887324/d650e317-c81f-4582-a71a-8b2b58b53cc5.png)
+![](../../../assets/images/multimedia/d650e317_c81f_4582_a71a_8b2b58b53cc5_1783261419236.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705508892298/6ab683e2-c331-4cf9-9ba1-8998b900a4e3.png)
+![](../../../assets/images/multimedia/6ab683e2_c331_4cf9_9ba1_8998b900a4e3_1783261419247.png)
 
 ---
 

@@ -9,13 +9,13 @@ tags: css3, css, css-flexbox
 sidebar:
   order: 6
 ---
-![CSS Flex 彈性盒子：網頁排版的超級寵兒](https://cdn.hashnode.com/res/hashnode/image/upload/v1765174348896/0c0448bf-3280-41f8-9a41-7a721d87abfa.png)
+![CSS Flex 彈性盒子：網頁排版的超級寵兒](../../../assets/images/layout/0c0448bf_3280_41f8_9a41_7a721d87abfa_1783261310781.png)
 
 Flex 又稱彈性盒子，是目前學習 CSS 必學的排版方式之一，有了它幾乎 80% 的版面都可以排出來。過去 `block`、`inline`、`inline-block` 都不是專為排版而生的 CSS 屬性，導致修改排版會變得不方便，於是後來有了 `flex` 與 `grid` 的出現，讓現在的大家可以很輕鬆地安排版面。
 
 `flex` 是單向的排版，而 `grid` 是雙向的排版，今天先讓我們來了解 `flex` 的用法吧！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696256417180/cd9e8c25-ebca-4bfb-b011-e0c6f103054e.png)
+![](../../../assets/images/layout/cd9e8c25_ebca_4bfb_b011_e0c6f103054e_1783261310792.png)
 
 > #### ↓ 今日學習重點 ↓
 > 
@@ -30,13 +30,13 @@ Flex 又稱彈性盒子，是目前學習 CSS 必學的排版方式之一，有�
 
 要使用 flex，首先要準備一個容器，將其設為 `display: flex;`，接著裡面的子層就是 flex 的 item。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696257726796/9f16a902-d7c5-4510-bee1-5a842961dcf7.png)
+![](../../../assets/images/layout/9f16a902_d7c5_4510_bee1_5a842961dcf7_1783261310802.png)
 
 ### 1\. flex-wrap：折行設定
 
 如果 flex 容器裡的 item 超出父層容器，我們可以設定要不要折行，預設是 `nowrap` 不折行。詳細設定如下圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696265613940/e18ff9d5-deab-49ab-8ab4-db5c964f9268.png)
+![](../../../assets/images/layout/e18ff9d5_deab_49ab_8ab4_db5c964f9268_1783261310814.png)
 
 ### 2\. flex-direction：主軸線 (main axis) 與副軸線 (cross axis)
 
@@ -55,7 +55,7 @@ flex 容器裡面會有 2 個方向可以設定，分別是主軸線（main axis
 
 4 個方向的軸線如下圖所示：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696259840411/1f0b6f1b-37a3-4ee7-8e85-cfde0dac4f34.png)
+![](../../../assets/images/layout/1f0b6f1b_37a3_4ee7_8e85_cfde0dac4f34_1783261310825.png)
 
 我們可以進一步設定主軸線、副軸線的排列方式：
 
@@ -71,7 +71,7 @@ flex 容器裡面會有 2 個方向可以設定，分別是主軸線（main axis
 
 實際舉例，如下圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696321449288/8e265efe-c922-4b15-a7dd-2eee2abdd8c0.png)
+![](../../../assets/images/layout/8e265efe_c922_4b15_a7dd_2eee2abdd8c0_1783261310836.png)
 
 依據 `flex-direction` 屬性的不同，軸線不同，排版結果會不同。
 
@@ -79,7 +79,7 @@ flex 容器裡面會有 2 個方向可以設定，分別是主軸線（main axis
 
 如果很難想像軸線會如何變化，可以試玩看看 Chrome 的開發者工具中的 flex 小工具（其實不只 Chrome，各個瀏覽器都有類似功能），可以有更深入的認識喔！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696312306770/44e22618-236f-4e6d-b582-53743973ce7c.png)
+![](../../../assets/images/layout/44e22618_236f_4e6d_b582_53743973ce7c_1783261310849.png)
 
 > 其他小工具：[flexbox playground](https://codepen.io/frank890417/pen/ayLvRp)
 
@@ -96,7 +96,7 @@ flex 容器裡面會有 2 個方向可以設定，分別是主軸線（main axis
 
 ### 4\. 間距：gap
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696444499800/5af802c5-0e86-4f1a-a630-257a36366ae7.png)
+![](../../../assets/images/layout/5af802c5_0e86_4f1a_a630_257a36366ae7_1783261310860.png)
 
 `gap` 是 `row-gap` 與 `column-gap` 的縮寫，可以設置 item 間的間距，可用在 `flex` 與 `grid` 排版上。
 
@@ -124,7 +124,7 @@ flex 容器裡面會有 2 個方向可以設定，分別是主軸線（main axis
 
 `align-self` 可以覆蓋其父容器的 `align-items` 設定。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696267828526/32cabc03-9e32-474a-a9c5-8e04ec3fc204.png)
+![](../../../assets/images/layout/32cabc03_9e32_474a_a9c5_8e04ec3fc204_1783261310872.png)
 
 ### 2\. flex (flex-grow、flex-shrink、flex-basis)
 
@@ -137,7 +137,7 @@ flex 屬性是縮寫，可以根據剩餘的空間自動調整大小，其實它
 * `flex-basis`：縮放的基準值，可以使用不同單位。
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696269219346/54e7615c-fb76-4068-b9bf-66a2e9fa51c0.png)
+![](../../../assets/images/layout/54e7615c_fb76_4068_b9bf_66a2e9fa51c0_1783261310886.png)
 
 `flex` 簡寫：
 
@@ -168,11 +168,11 @@ flex: 2 2 10%;
 
 flex 內的 item 還有一個特性，就是使用 `margin: auto` 時可針對某個方向推開兄弟，上下左右都可以，如下圖所示：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696339333092/037ee0ad-5490-441d-95e5-cdd61aba8e28.png)
+![](../../../assets/images/layout/037ee0ad_5490_441d_95e5_cdd61aba8e28_1783261310905.png)
 
 這個特性非常實用，最常使用在 navbar 上，左右兩區的連結排列。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696320433466/9331212f-78a9-4fa3-953d-1292c0ab14d3.png)
+![](../../../assets/images/layout/9331212f_78a9_4fa3_953d_1292c0ab14d3_1783261310944.png)
 
 ### 4\. order
 
@@ -194,13 +194,13 @@ flex 內的 item 還有一個特性，就是使用 `margin: auto` 時可針對�
 
 > 連結：[Flex Pirate - 擊倒海盜，獲得網頁排版寶藏](https://hexschool.github.io/flexbox-pirate/index.html#/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696338638373/f24ade17-e9ea-4baf-ad1e-e32a7f15ee60.png)
+![](../../../assets/images/layout/f24ade17_e9ea_4baf_ad1e_e32a7f15ee60_1783261310974.png)
 
 ### 2\. FLEXBOX FROGGY
 
 > 連結：[Flexbox Froggy - A game for learning CSS flexbox](https://flexboxfroggy.com/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696338657400/211c2990-168a-4c26-a90c-240974ea9b36.png)
+![](../../../assets/images/layout/211c2990_168a_4c26_a90c_240974ea9b36_1783261310989.png)
 
 ---
 

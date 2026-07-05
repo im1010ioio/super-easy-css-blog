@@ -9,11 +9,11 @@ tags: css3, css, gradient, grain, gradients-in-css
 sidebar:
   order: 4
 ---
-![CSS 噪點漸層 (Grainy Gradients) 的製作方法](https://cdn.hashnode.com/res/hashnode/image/upload/v1766471876671/b93edd5b-8d58-4720-b707-449291a7915b.png)
+![CSS 噪點漸層 (Grainy Gradients) 的製作方法](../../../assets/images/effects/b93edd5b_8d58_4720_b707_449291a7915b_1783260960633.png)
 
 所謂的噪點漸層 (Grainy Gradients)，在顏色漸變時不是使用平滑過渡色彩，而是使用顆粒由多至少漸變，這樣的方式能夠製造出磨砂的質感，例如 Arc 瀏覽器的背景特效：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727538225332/044e1b1e-9638-41b7-be75-6282f51a5503.png)
+![](../../../assets/images/effects/044e1b1e_9638_41b7_be75_6282f51a5503_1783260960644.png)
 
 ---
 
@@ -32,7 +32,7 @@ sidebar:
 
 後來作者還製作了小工具，大家可以先去玩玩看：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727538233881/9f3c5f52-2c0b-41e6-9262-5d505144425d.png)
+![](../../../assets/images/effects/9f3c5f52_2c0b_41e6_9262_5d505144425d_1783260960655.png)
 
 > [Grainy Gradients playground](https://grainy-gradients.vercel.app/)
 

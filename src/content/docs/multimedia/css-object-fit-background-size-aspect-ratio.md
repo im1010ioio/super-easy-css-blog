@@ -9,7 +9,7 @@ tags: background, css, images, 2articles1week, css-object-fit-property
 sidebar:
   order: 1
 ---
-![CSS 讓圖片填滿容器的各種方法，以圓形大頭貼為例：object-fit 與 background-size，搭配 aspect-ratio](https://cdn.hashnode.com/res/hashnode/image/upload/v1766405492622/c85f2229-8bfb-48d8-ab4f-a6c98dff50e8.png)
+![CSS 讓圖片填滿容器的各種方法，以圓形大頭貼為例：object-fit 與 background-size，搭配 aspect-ratio](../../../assets/images/multimedia/c85f2229_8bfb_48d8_ab4f_a6c98dff50e8_1783261402891.png)
 
 > #### **↓ 今日學習重點 ↓**
 > 
@@ -45,7 +45,7 @@ sidebar:
 
 但是直接設定他的寬高時，如果拿到的圖片比例，與我們設定的寬高比例不同時，圖片就會因此變形。以設定大頭貼照片為例，全部照片都壓扁了這怎麼行？
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703730370345/d83a5457-52c1-4da6-8ee0-62f8ed77690c.png)
+![](../../../assets/images/multimedia/d83a5457_52c1_4da6_8ee0_62f8ed77690c_1783261402904.png)
 
 <s>咦？變瘦了，好像可以？誒，不對...</s>
 
@@ -63,7 +63,7 @@ img {
 
 如果要在不修改原圖的情況下，讓照片比例不要失真，我們還可以使用 CSS 製作一個相框，假設照片的重點物在中間，不論橫向與直向照片皆擷取中間的畫面，就會像下面這樣：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704904069468/a0cab3a4-9e26-4d11-849b-9cf06d005904.png)
+![](../../../assets/images/multimedia/a0cab3a4_9e26_4d11_849b_9cf06d005904_1783261402917.png)
 
 要達到這個效果，有兩種做法：
 
@@ -140,7 +140,7 @@ img {
     
 * 如果內部有其他裝飾性元素要用絕對定位 `position: absolute` 超出相框時，`overflow: hidden` 會將其擋住，所以不適用。所謂超出相框的元素，比如說 FB 在大頭貼旁的這種圖示：
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704984049822/1ebe8679-8944-46d5-867a-476713ef49ec.png)
+    ![](../../../assets/images/multimedia/1ebe8679_8944_46d5_867a_476713ef49ec_1783261402931.png)
     
     當然如果一定要使用這種方式寫，也可以在最外面再多包一層，改讓圖示定位在祖父的那一層上，就解決這個問題了。
     
@@ -197,13 +197,13 @@ div{
 * `contain` 保留固定比例，圖片最長的那一邊與容器同高。
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704986635740/17d810eb-c64a-46f3-b6f2-9f4d483738c9.png)
+![](../../../assets/images/multimedia/17d810eb_c64a_46f3_b6f2_9f4d483738c9_1783261402942.png)
 
 #### (4) [background-position](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-position)
 
 這個屬性用來設定背景圖的位置，預設值會是左上 ( `background-position: top left;` )，我們希望照片擷取中間，所以這次會設定為 `background-position: center;` 。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705028057533/cb29fa6c-ef5a-4f8a-ad91-82ef81f948f4.png)
+![](../../../assets/images/multimedia/cb29fa6c_ef5a_4f8a_ad91_82ef81f948f4_1783261402954.png)
 
 #### (5) HTML 實作
 
@@ -258,7 +258,7 @@ div{
 
 兩者的 DEMO 實作請參考下面，大家可以比較看看：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704964875276/ef5e6b0e-892a-48e4-a845-2139b4593264.png)
+![](../../../assets/images/multimedia/ef5e6b0e_892a_48e4_a845_2139b4593264_1783261402965.png)
 
 > DEMO：[object-fit vs. background-size](https://codepen.io/im1010ioio/pen/bGZwpRL)
 
@@ -267,7 +267,7 @@ div{
 本篇雖然是以 1:1 的大頭貼為範例，這個方法當然也適用於其他的比例。  
 固定圖片比例，可以讓版面變得整齊，例如 [Dribbble](https://dribbble.com/)：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704906909542/ac437cc0-59fa-4b49-885e-f38fe6fc2159.png)
+![](../../../assets/images/multimedia/ac437cc0_59fa_4b49_885e_f38fe6fc2159_1783261402976.png)
 
 ---
 

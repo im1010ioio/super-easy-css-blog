@@ -9,13 +9,13 @@ tags: css3, css, 2articles1week, mask
 sidebar:
   order: 1
 ---
-![CSS 中的半透明遮罩 mask，實現各種模糊邊緣特效](https://cdn.hashnode.com/res/hashnode/image/upload/v1766467622070/0014c088-4898-4e1d-b145-cf4bae77a334.png)
+![CSS 中的半透明遮罩 mask，實現各種模糊邊緣特效](../../../assets/images/effects/0014c088_4898_4e1d_b145_cf4bae77a334_1783260974218.png)
 
 前幾篇寫到 CSS clip-path 時，可以剪裁任何 HTML 的元素，包含色塊、圖片、影片，但是他只限於精準的剪裁線條，萬一今天要有更複雜而且半透明的剪裁呢？
 
 例如，我今天想要 LOGO 上面有個手印被裁掉，同時又有點半透明效果：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727263648429/53078982-14c0-449e-b8eb-77f420ba868a.jpeg)
+![](../../../assets/images/effects/53078982_14c0_449e_b8eb_77f420ba868a_1783260974230.jpeg)
 
 > 圖片來源：[Steam - This War of Mine](https://store.steampowered.com/app/282070/This_War_of_Mine/)
 
@@ -66,7 +66,7 @@ div {
 
 CSS `mask` 可以使用 CSS 漸層、多重背景漸層來作為遮罩，做出許多更豐富的效果：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727319552460/4224ba48-ee48-46a7-9ccb-59188484a15a.png)
+![](../../../assets/images/effects/4224ba48_ee48_46a7_9ccb_59188484a15a_1783260974352.png)
 
 > DEMO: [CSS mask](https://codepen.io/im1010ioio/pen/gOVbGVd)
 
@@ -95,7 +95,7 @@ CSS `mask` 可以使用 CSS 漸層、多重背景漸層來作為遮罩，做出�
 以下範例將圖片作為遮罩，讓元素的一部分呈現透明效果，  
 左邊是使用的遮罩圖片，右邊是遮罩後的結果：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727320078837/ffab227f-17be-4a81-981d-324bde262d3f.png)
+![](../../../assets/images/effects/ffab227f_17be_4a81_981d_324bde262d3f_1783260974363.png)
 
 ```css
 .mask-img{
@@ -108,7 +108,7 @@ CSS `mask` 可以使用 CSS 漸層、多重背景漸層來作為遮罩，做出�
 
 你也可以使用多重背景，搭配 `background-size` 、`background-position` 等調整多個 mask 的大小及位置，像以下例子：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727326235691/f13c1290-dfaa-440a-88f0-e51a30110852.png)
+![](../../../assets/images/effects/f13c1290_dfaa_440a_88f0_e51a30110852_1783260974375.png)
 
 ```css
 
@@ -129,7 +129,7 @@ CSS `mask` 可以使用 CSS 漸層、多重背景漸層來作為遮罩，做出�
 
 如果今天這張遮罩不是由配合的設計師自己畫，而是想要找網上現有的資源，當你輸入「Photoshop clipping masks download」時，會發現這種遮罩資源上大多是黑白稿，而非含有不透明度的素材：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727326577295/ac080cb1-1862-4104-828e-076dbe41f646.png)
+![](../../../assets/images/effects/ac080cb1_1862_4104_828e_076dbe41f646_1783260974388.png)
 
 如果想使用這種素材，我們可以試著將 `mask-mode` 改為 `luminance` ，依據圖片的明度（亮度）進行遮罩，這時它的顯示方式會變成：
 
@@ -144,7 +144,7 @@ CSS `mask` 可以使用 CSS 漸層、多重背景漸層來作為遮罩，做出�
 
 > [Freepik: Ink paint black brush stroke splatter set design](https://www.freepik.com/free-vector/ink-paint-black-brush-stroke-splatter-set-design_207422852.htm#page=3&query=clipping%20mask&position=4&from_view=keyword&track=ais_hybrid&uuid=bc519e8e-58f5-4653-abf1-f2bfbca98f74)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727328217298/75fe8e76-7fea-4fb9-a95b-8a3f6bbbbaca.png)
+![](../../../assets/images/effects/75fe8e76_7fea_4fb9_a95b_8a3f6bbbbaca_1783260974399.png)
 
 ```css
 .mask {

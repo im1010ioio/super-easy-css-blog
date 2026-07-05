@@ -9,7 +9,7 @@ tags: font-awesome, fonts, css3, css
 sidebar:
   order: 1
 ---
-![網頁載入字體、Icon Font 與 CSS font-family、font-weight](https://cdn.hashnode.com/res/hashnode/image/upload/v1766038613747/cafe0f32-cfc0-4062-bcc0-313d004f22b1.png)
+![網頁載入字體、Icon Font 與 CSS font-family、font-weight](../../../assets/images/text/cafe0f32_cfc0_4062_bcc0_313d004f22b1_1783261517111.png)
 
 我們關於版面編排與 RWD 的部分終於告一個段落了，現在大觀念了解後，接下來我們要深入各個樣式的細節，例如文字、圖片、圖形、互動等等。首先，我們將從文字的部分開始。
 
@@ -51,7 +51,7 @@ sidebar:
 
 ## 字體的種類
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697206770103/9fc303a1-bae0-4b24-8508-42de6436c27b.png)
+![](../../../assets/images/text/9fc303a1_bae0_4b24_8508_42de6436c27b_1783261517123.png)
 
 在網頁中，我們最常使用的字體種類是「Serif 襯線體/明體」與「Sans-Serif 無襯線體/黑體」：
 
@@ -143,7 +143,7 @@ body{
 讓我們再試試載入一個特殊字體看看，換了個字體就文青了起來：  
 （Code Pen 中 HTML `<head>` 的設定在 Settings 中）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697133594875/0103cf9b-eec8-4e85-9430-b4eb5bf82067.png)
+![](../../../assets/images/text/0103cf9b_eec8_4e85_9430_b4eb5bf82067_1783261517135.png)
 
 > DEMO 連結：[Font ChenYuluoyan](https://codepen.io/im1010ioio/pen/JjwVdgK)
 
@@ -200,7 +200,7 @@ CSS 中常見的粗細，有 10 級可以設定：
 
 > 連結：[Browse Fonts - Google Fonts](https://fonts.google.com/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697210692049/5f966ffb-7a12-4af5-9ee1-04a30a10493d.png)
+![](../../../assets/images/text/5f966ffb_7a12_4af5_9ee1_04a30a10493d_1783261517146.png)
 
 我們在一開始的範例就是使用 Google Font，Google Font 非常齊全，有各種受歡迎的字體，而且是免費的。只是可惜的是，中文字體只有兩種，就是思源黑體（Noto Sans TC）與思源明體（Noto Serif TC）。
 
@@ -210,7 +210,7 @@ CSS 中常見的粗細，有 10 級可以設定：
 
 > 連結：[Adobe Fonts | 探索無限字體](https://fonts.adobe.com/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697210704381/b245ed3b-5ce2-42be-833e-a54105289f49.png)
+![](../../../assets/images/text/b245ed3b_5ce2_42be_833e_a54105289f49_1783261517157.png)
 
 Adobe Font 也是非常有名，也很齊全的字體庫，只不過要使用的話，需要有訂閱他們的方案才能使用。
 
@@ -218,7 +218,7 @@ Adobe Font 也是非常有名，也很齊全的字體庫，只不過要使用的
 
 > 連結：[字型列表 - jf store](https://store.justfont.com/fonts)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697210721105/42b18d67-a501-4a2c-9907-d9f88ee9853d.png)
+![](../../../assets/images/text/42b18d67_a501_4a2c_9907_d9f88ee9853d_1783261517168.png)
 
 justfont 是台灣很有名研究中文字體的公司，之前很火紅的金萱體、蘭陽明體就是他們設計的，他們字體都非常好看！大部分需要購買才能使用。不過，他們曾經有為了回饋大眾，而推出了[粉圓體](https://justfont.com/huninn/)，非常可愛實用。
 
@@ -233,7 +233,7 @@ justfont 是台灣很有名研究中文字體的公司，之前很火紅的金�
 > * [emfont - 純 CSS 載入字體](https://font.emtech.cc/docs/pure-css)
 >     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1760931395507/cc14ff33-be9d-431f-8bf8-3e97d461b42a.png)
+![](../../../assets/images/text/cc14ff33_be9d_431f_8bf8_3e97d461b42a_1783261517179.png)
 
 如果想使用免費的中文字型，emfont 這個網站整理了很多開源、免費的字體，也可以試試看喔！詳細使用方法請看他們的[文件](https://font.emtech.cc/docs/setup)。
 
@@ -247,7 +247,7 @@ justfont 是台灣很有名研究中文字體的公司，之前很火紅的金�
 
 > 連結：[Material Symbols and Icons - Google Fonts](https://fonts.google.com/icons)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697211709888/5d2d7c21-5300-47d4-9bbe-8b78489d9780.png)
+![](../../../assets/images/text/5d2d7c21_5300_47d4_9bbe_8b78489d9780_1783261517218.png)
 
 Google 推出的 Icon 也很齊全，共有兩種，第一種是舊版本的 Material Icon，第二種則是新版本的 Material Symbols，新版本可以調整 Icon 的粗細、預設大小。
 
@@ -259,7 +259,7 @@ Google 推出的 Icon 也很齊全，共有兩種，第一種是舊版本的 Mat
 
 > 連結：[Font Awesome](https://fontawesome.com/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697211717340/4364aa8b-9463-44bf-ad8e-f9fd33f7a727.png)
+![](../../../assets/images/text/4364aa8b_9463_44bf_ad8e_f9fd33f7a727_1783261517229.png)
 
 Font Awesome 是比起 Material Symbols / Icon 更齊全的網頁 icon，但是它需要註冊並且建立專案，有一些 icon 要額外收費。
 
@@ -269,7 +269,7 @@ Font Awesome 是比起 Material Symbols / Icon 更齊全的網頁 icon，但是�
 
 > 連結：[Taiwan Icon Font](https://www.twicon.page/index.html)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697217888219/28e35f95-7446-4254-b456-1715c1756269.png)
+![](../../../assets/images/text/28e35f95_7446_4254_b456_1715c1756269_1783261517240.png)
 
 台灣也有專屬於自己的 Icon Font，是由生活在台南的日本設計師 holoko 和居住在台灣的英國程式設計師 Rob 共同開發，是免費的。雖然我沒有用過，但這些 Icon 應該滿適合使用在國內旅遊的專案上。
 
@@ -279,7 +279,7 @@ Font Awesome 是比起 Material Symbols / Icon 更齊全的網頁 icon，但是�
 
 知道了 Icon Font 的運作原理後，我們也可以用和他們同樣的方式，使用 CSS 設定 Icon 顯示在不同地方，例如改變清單 `<ul>` 的圖示（不過我這裡是使用[舊版的 Font Awesome](https://fontawesome.com/v4/icons/) 作 DEMO）：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697217410528/2c5178bd-361f-49aa-b3da-ee2a28c2c87d.png)
+![](../../../assets/images/text/2c5178bd_361f_49aa_b3da_ee2a28c2c87d_1783261517255.png)
 
 > [DEMO 連結： List with font awesome icon](https://codepen.io/im1010ioio/pen/PKpObM)
 

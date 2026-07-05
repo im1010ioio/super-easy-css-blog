@@ -9,7 +9,7 @@ tags: css3, css, cssmediaqueries, prefers-color-scheme
 sidebar:
   order: 3
 ---
-![CSS 切換淺色/深色模式：Media Queries 的 prefers-color-scheme 搭配 CSS 變數](https://cdn.hashnode.com/res/hashnode/image/upload/v1766405008436/c15fbcc2-b2bd-49da-8f8a-33284815c891.png)
+![CSS 切換淺色/深色模式：Media Queries 的 prefers-color-scheme 搭配 CSS 變數](../../../assets/images/color/c15fbcc2_b2bd_49da_8f8a_33284815c891_1783260899576.png)
 
 關於顏色的設定方法、顏色的變數、混色的新方法，我們在前兩篇都說過了，關於顏色還有什麼需要了解的呢？那就是近幾年在軟體設計中常出現的：淺色與深色模式切換。
 
@@ -101,7 +101,7 @@ sidebar:
 
 這樣一來，只要需要切換顏色的地方都套用我們設定的黑白灰變數，就能夠依據使用者偏好色系，呈現對應的的淺色/深色模式囉！
 
-![@media prefers-color-scheme](https://cdn.hashnode.com/res/hashnode/image/upload/v1701236639457/af1ee584-2567-493e-9b08-03f00c8e4f4e.gif)
+![@media prefers-color-scheme](../../../assets/images/color/af1ee584_2567_493e_9b08_03f00c8e4f4e_1783260899588.gif)
 
 > DEMO 連結：[@media prefers-color-scheme](https://codepen.io/im1010ioio/pen/GRzXNvW)
 
@@ -190,7 +190,7 @@ html:has(#color-scheme-toggle:checked) {
 
 實際結果結果如下：
 
-![Pure CSS Color Scheme Toggle](https://cdn.hashnode.com/res/hashnode/image/upload/v1701249965929/a4800318-2c79-4998-bfe2-f752703b8d97.gif)
+![Pure CSS Color Scheme Toggle](../../../assets/images/color/a4800318_2c79_4998_bfe2_f752703b8d97_1783260899598.gif)
 
 > DEMO 連結：[Pure CSS Color Scheme Toggle](https://codepen.io/im1010ioio/pen/QWYVdJw)
 

@@ -9,7 +9,7 @@ tags: html, html5, video, youtube
 sidebar:
   order: 3
 ---
-![HTML <video> 用影片當背景，使用 iframe 嵌入 Youtube自動播放/ IG/ TikTok/ X (Twitter) 影片](https://cdn.hashnode.com/res/hashnode/image/upload/v1766407422606/29dc2791-247d-41c2-b42e-9edfe1a39adc.png)
+![HTML <video> 用影片當背景，使用 iframe 嵌入 Youtube自動播放/ IG/ TikTok/ X (Twitter) 影片](../../../assets/images/multimedia/29dc2791_247d_41c2_b42e_9edfe1a39adc_1783261439420.png)
 
 在設計行銷網頁時，放入漂亮的影片是最輕鬆達到吸睛效果的方法之一，例如：把影片放至滿版當成背景，上面再壓上標題與文字，畫面就會很豐富，這是很常見的網頁設計方式。
 
@@ -17,12 +17,12 @@ sidebar:
 像資生堂的銀座旗艦店官網，也是使用這種方式設計開頭的：  
 [SHISEIDO GLOBAL FLAGSHIP STORE | SHISEIDO](https://www.shiseido.co.jp/ginza/ct/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723648585622/b2e9d70f-0dbe-434d-a5ec-4959d80dc7c3.gif)
+![](../../../assets/images/multimedia/b2e9d70f_0dbe_434d_a5ec_4959d80dc7c3_1783261439431.gif)
 
 或是，在遊戲宣傳網頁，也很常使用這種手法，像是最近要推出的遊戲——無限暖暖：  
 [《無限暖暖》官網——無論何時都要盛裝登場！](https://infinitynikki.infoldgames.com/zh-TW/home)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724399048585/a409c804-a6cd-456a-aa3d-2245671e684a.gif)
+![](../../../assets/images/multimedia/a409c804_a6cd_456a_aa3d_2245671e684a_1783261439442.gif)
 
 這種將大圖或影片放在開頭的區塊，通常被稱作「主頁橫幅 (*Hero Image*)」。今天我們就透過製作這樣的網頁，來練習用 HTML 的 `<video>` Tag 放入影片，並且並操作影片的各種屬性吧！
 
@@ -132,7 +132,7 @@ sidebar:
 知道如何放入影片後，我們就可以來製作把影片當成背景的網頁了！  
 （使用這種方式建議注意影片大小，一來 load 不出來會影響使用者體驗，二來是過多的流量會對自己的網站造成 loading 負荷。）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725617850785/d914a814-67bc-45b2-a8b7-955b3a411f8a.gif)
+![](../../../assets/images/multimedia/d914a814_67bc_45b2_a8b7_955b3a411f8a_1783261439454.gif)
 
 這邊我們在主要內容區塊 `.container` ：用絕對定位填滿容器，再進行其他額外的排版。
 
@@ -218,11 +218,11 @@ header .container{
 
 在 YouTube 照著以下步驟操作：分享 &gt; 嵌入。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725723772119/9ed0223c-4ebc-4bce-b3b7-1911a3051e41.png)
+![](../../../assets/images/multimedia/9ed0223c_4ebc_4bce_b3b7_1911a3051e41_1783261439467.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725723779504/8569e87d-33ae-4e6e-8449-43669f4d0732.png)
+![](../../../assets/images/multimedia/8569e87d_33ae_4e6e_8449_43669f4d0732_1783261439478.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725723786709/1c33c283-39d4-4e47-90ca-ee71eb05c84c.png)
+![](../../../assets/images/multimedia/1c33c283_39d4_4e47_90ca_ee71eb05c84c_1783261439490.png)
 
 在嵌入的程式碼這個畫面往下拉，你會發現目前只有幾個選項可以設定：
 
@@ -283,7 +283,7 @@ IFrame Player API](https://developers.google.com/youtube/iframe_api_reference) �
 
 在網頁偵測模式中，我們可以發現：嵌入 YouTube 影片的是一個叫做 `<iframe>` 的標籤，而 `<iframe>` 中包含著另外一份 HTML 網頁（`<html>` ）。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725726424061/e38cc1c1-4a08-4645-b49f-0cb0a660137a.png)
+![](../../../assets/images/multimedia/e38cc1c1_4a08_4645_b49f_0cb0a660137a_1783261439515.png)
 
 沒錯，這個標籤就是讓你在網頁中放入其他網頁的標籤，通常都是用來嵌入外部內容，如影片、地圖、社群貼文分享等等。但因為可能放入「其他網站的網頁」，可能會有安全性的問題，所以 `<iframe>` 有一些限制與問題：
 
@@ -342,7 +342,7 @@ IFrame Player API](https://developers.google.com/youtube/iframe_api_reference) �
 
 ### 1\. Instagram
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725991414508/3852bd1f-bd8b-4586-a160-e9dbf327697b.png)
+![](../../../assets/images/multimedia/3852bd1f_bd8b_4586_a160_e9dbf327697b_1783261439533.png)
 
 從 Instagram 網頁版，必須要是「公開貼文」，接著在貼文右上角的「點點點」後，就會出現「內嵌」選項，可勾選內容是否要包含貼文文字（包括解說）。
 
@@ -355,7 +355,7 @@ IFrame Player API](https://developers.google.com/youtube/iframe_api_reference) �
 
 ### 2\. TikTok
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725991424980/2f06ccb8-6ab3-4547-b6b3-2e7c123c11f9.png)
+![](../../../assets/images/multimedia/2f06ccb8_6ab3_4547_b6b3_2e7c123c11f9_1783261439544.png)
 
 在 TikTok 網頁版中，會有一個「`</>`」圖示的按鈕，點了就會直接出現程式碼了。
 
@@ -363,11 +363,11 @@ IFrame Player API](https://developers.google.com/youtube/iframe_api_reference) �
 
 ### 3\. X (Twitter)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725992773420/dfd86753-d481-42f9-a797-e974e35e3d57.png)
+![](../../../assets/images/multimedia/dfd86753_d481_42f9_a797_e974e35e3d57_1783261439557.png)
 
 在 X (Twitter) 網頁版中，和 IG 類似，點了貼文右上角的「點點點」後，就會出現「嵌入貼文」選項，然後會跳新視窗，讓你選想要以哪種方式呈現：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725992405819/9f5b79e9-a5c1-498f-a141-798d54b243b9.png)
+![](../../../assets/images/multimedia/9f5b79e9_a5c1_498f_a141_798d54b243b9_1783261439567.png)
 
 選了後會預覽給你看，直接複製就行囉！
 

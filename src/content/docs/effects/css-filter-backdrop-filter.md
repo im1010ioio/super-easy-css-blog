@@ -9,7 +9,7 @@ tags: css3, css, filter
 sidebar:
   order: 2
 ---
-![CSS 濾鏡 filter/ backdrop-filter：模糊、透明圖片加陰影、調色濾鏡、毛玻璃、漸進式模糊效果](https://cdn.hashnode.com/res/hashnode/image/upload/v1766469228027/8f55826e-df05-4dc3-abb1-3ae188bb159c.png)
+![CSS 濾鏡 filter/ backdrop-filter：模糊、透明圖片加陰影、調色濾鏡、毛玻璃、漸進式模糊效果](../../../assets/images/effects/8f55826e_df05_4dc3_abb1_3ae188bb159c_1783260987868.png)
 
 除了用繪圖軟體在圖片上調整色調，CSS 內建的濾鏡效果也能讓我們做到這些特殊效果，例如：模糊、變亮、對比、色相、飽和度調整等等，甚至還可以做到毛玻璃效果！
 
@@ -42,7 +42,7 @@ div {
 
 而 `filter` 總共有以下幾種效果可以使用：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727352312516/afe5e033-3d58-40af-a63d-4f1ac08fe0da.png)
+![](../../../assets/images/effects/afe5e033_3d58_40af_a63d_4f1ac08fe0da_1783260987880.png)
 
 > DEMO: [CSS filter](https://codepen.io/im1010ioio/pen/YzmPbMr)
 
@@ -77,7 +77,7 @@ div {
     在圖片中非透明的周圍加上陰影，這針對透明圖片超好用！  
     例如，如果單單為透明圖片加上基本的陰影 `box-shadow` ，會像下方圖片一樣悲劇，陰影沒有加在實際圖案的周圍，但用了 `filter` 的 `drop-shadow` 就能為實際圖案的邊緣加上陰影：
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727367155549/d4d5f2ff-fecd-4914-8f08-f8645e85ca50.png)
+    ![](../../../assets/images/effects/d4d5f2ff_fecd_4914_8f08_f8645e85ca50_1783260987892.png)
     
     > DEMO: [CSS box-shadow v.s filter drop-shadow](https://codepen.io/im1010ioio/pen/XWvbbWG)
     
@@ -100,7 +100,7 @@ div {
 
 在 Dribbble 上搜尋的 Glassmorphism 的話，會出現以下像這樣酷炫的 UI，給大家參考：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727368294436/12e6cbee-ef91-44e2-b981-7bd975e3284a.png)
+![](../../../assets/images/effects/12e6cbee_ef91_44e2_b981_7bd975e3284a_1783260987903.png)
 
 ### 基本語法
 
@@ -118,7 +118,7 @@ div {
 
 只不過經我實測，`opacity` 和 `drop-shadow` 不起作用，所以以下的 DEMO 範例沒有它們：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727355631001/0656962c-04f7-4090-a588-dd11c678e9f0.png)
+![](../../../assets/images/effects/0656962c_04f7_4090_a588_dd11c678e9f0_1783260987916.png)
 
 > DEMO: [CSS backdrop-filter](https://codepen.io/im1010ioio/pen/RwXNzOd)
 
@@ -146,7 +146,7 @@ div {
 
 什麼是漸進式模糊呢？漸進式模糊（Progressive blur）就是 UI 中照片下半部會逐漸模糊，然後下方顯示其他文字資訊等。
 
-![漸進式模糊 Progressive blur of Apple Invites](https://cdn.hashnode.com/res/hashnode/image/upload/v1739157604187/205dc809-1f0b-4422-b53e-bd82eac2a631.png)
+![漸進式模糊 Progressive blur of Apple Invites](../../../assets/images/effects/205dc809_1f0b_4422_b53e_bd82eac2a631_1783260987927.png)
 
 這種背景模糊的 UI，在 Apple 的 iOS UI 中很常出現這種效果（例如：[Apple Invites](https://www.apple.com/tw/newsroom/2025/02/introducing-apple-invites-a-new-app-that-brings-people-together/)），過去在網頁上很難做到，但是現在只要靈活運用這兩個語法就能做到囉！
 
@@ -154,7 +154,7 @@ div {
 
 這邊我們在有背景圖的 `div` 上，新增一個滿版的偽元素 `::before` 並且設定背景濾鏡 `backdrop-filter` ，然後再透過 CSS `mask` 線性漸層調整模糊的範圍，就可以做到啦！
 
-![CSS Progressive Blur 漸進式模糊](https://cdn.hashnode.com/res/hashnode/image/upload/v1739169025582/2dce82ed-50e7-416b-a1d1-021c51bc554c.png)
+![CSS Progressive Blur 漸進式模糊](../../../assets/images/effects/2dce82ed_50e7_416b_a1d1_021c51bc554c_1783260987938.png)
 
 ```css
 .photo{

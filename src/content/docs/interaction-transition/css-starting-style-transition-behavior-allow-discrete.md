@@ -9,7 +9,7 @@ tags: css3, css, transition, transition-properties-in-css, starting-style, allow
 sidebar:
   order: 3
 ---
-![ Display: none 也可以做 CSS Transition 動畫了？@starting-style 與 transition-behavior: allow-discrete](https://cdn.hashnode.com/res/hashnode/image/upload/v1766673363172/91d30860-c4e3-4a03-b6d3-cf0b7e8e5040.png)
+![ Display: none 也可以做 CSS Transition 動畫了？@starting-style 與 transition-behavior: allow-discrete](../../../assets/images/interaction-transition/91d30860_c4e3_4a03_b6d3_cf0b7e8e5040_1783261266357.png)
 
 想要 UI 出現時，不只是生硬地「出現」嗎？今天我們要來研究兩個 CSS 的新語法：`@starting-style` 和 `transition-behavior: allow-discrete`。他們是專門解決那些從 `display: none` 這類狀態做成動畫的困境。
 
@@ -67,7 +67,7 @@ sidebar:
 
 這樣的結果是：在這個 `.my-element` 載入時，會有一個淡出兼放大的動畫：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759335769210/754d7991-4198-49af-94b9-15a36ea16651.gif)
+![](../../../assets/images/interaction-transition/754d7991_4198_49af_94b9_15a36ea16651_1783261266368.gif)
 
 > DEMO 連結：[CSS @starting-style](https://codepen.io/im1010ioio/pen/qEbadXg)
 
@@ -94,7 +94,7 @@ sidebar:
 
 讓我們來看一個實際的例子，我們來改寫之前寫過 `:target` 光箱的例子，不過改成用 JS 控制 Class 做狀態的調整。而 `transition-behavior: allow-discrete` 應用在 `display: none` 與 `display: flex` 的切換：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759337564289/17df1435-d735-402a-8573-fae4941ccdbb.gif)
+![](../../../assets/images/interaction-transition/17df1435_d735_402a_8573_fae4941ccdbb_1783261266380.gif)
 
 > DEMO 連結：[Pure CSS Lightbox by transition-behavior: allow-discrete](https://codepen.io/im1010ioio/pen/ogbzXyr)
 

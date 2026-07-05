@@ -9,7 +9,7 @@ tags: css3, css, sass, scss, color
 sidebar:
   order: 7
 ---
-![SASS/SCSS (7) sass:color 顏色模組——color.adjust 與 color.scale 取代舊的 lighten() 和 darken()](https://cdn.hashnode.com/res/hashnode/image/upload/v1766724257489/c47edef3-3830-4c98-94f7-88e670fc664f.png)
+![SASS/SCSS (7) sass:color 顏色模組——color.adjust 與 color.scale 取代舊的 lighten() 和 darken()](../../../assets/images/sass-scss/c47edef3_3830_4c98_94f7_88e670fc664f_1783261503391.png)
 
 今天我們就來學習 SASS/SCSS 中關於顏色處理的語法：`sass:color` **模組**，他即將取代過去 SCSS 中的 `lighten()` 和 `darken()` 語法。
 

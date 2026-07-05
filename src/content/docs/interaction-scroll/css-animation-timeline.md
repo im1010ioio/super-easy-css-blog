@@ -9,7 +9,7 @@ tags: css3, css, css-animation, scroll-animation, animation-timeline
 sidebar:
   order: 9
 ---
-![純 CSS 也能做滾動動畫了！animation-timeline 讓東西邊滾邊動](https://cdn.hashnode.com/res/hashnode/image/upload/v1766596447749/79def804-427a-4cc8-8e15-6b2afffd2d1c.png)
+![純 CSS 也能做滾動動畫了！animation-timeline 讓東西邊滾邊動](../../../assets/images/interaction-scroll/79def804_427a_4cc8_8e15_6b2afffd2d1c_1783261190316.png)
 
 你一定看過那種很酷的網頁：當你向下滾動時，背景圖片移動得比前景文字慢，或者某個元素會隨著滾動淡入、旋轉、放大，創造出引人入勝的深度和故事感。
 
@@ -19,7 +19,7 @@ sidebar:
 > 
 > 這個網站 [Scroll-driven Animations](https://scroll-driven-animations.style/) 收集了許多由滾動驅動的動畫， 甚至還有程式碼，CSS 與 JS 版本都有：
 > 
-> ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758461571838/718510e2-4808-4a32-926b-c279bace4b0a.gif)
+> ![](../../../assets/images/interaction-scroll/718510e2_4808_4a32_926b_c279bace4b0a_1783261190327.gif)
 
 過去，要實現這種效果，幾乎是 JS 的專屬任務。我們需要監聽 `scroll` 事件，不斷計算元素的位置，然後用 JS 去更新它的 CSS 樣式。這樣做不僅麻煩，而且在效能不好的裝置上，還可能因為頻繁的計算導致畫面卡頓。
 
@@ -150,7 +150,7 @@ div {
 
 > **推薦小工具**：[View Timeline Ranges Visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/)
 > 
-> ![View Timeline Ranges Visualizer](https://cdn.hashnode.com/res/hashnode/image/upload/v1758460992807/e42f7b07-fa27-4748-a2b5-b7cdff501b7c.png)
+> ![View Timeline Ranges Visualizer](../../../assets/images/interaction-scroll/e42f7b07_fa27_4748_a2b5_b7cdff501b7c_1783261190339.png)
 > 
 > 這些範圍名稱的對應位置可能有點抽象，推薦使用 [View Timeline Ranges Visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/) 這個工具來幫助你理解它們，它幫助你視覺化這些進度，這個和開頭的分享是同個作者做的。
 
@@ -175,7 +175,7 @@ div {
 
 讓我們來製作了一個簡單的頂部進度條，它的寬度會隨著整個頁面的滾動而變化。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758463620418/7c859152-ab9d-40d8-87f2-4072ca8a34f5.gif)
+![](../../../assets/images/interaction-scroll/7c859152_ab9d_40d8_87f2_4072ca8a34f5_1783261190352.gif)
 
 ```css
 #progressbar{
@@ -207,7 +207,7 @@ div {
 
 #### **(2)** `view()` 的應用：文字段落由左淡入出現
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758463736715/a3fab549-9c6a-4d2a-a32e-14bea7477b14.gif)
+![](../../../assets/images/interaction-scroll/a3fab549_9c6a_4d2a_a32e_14bea7477b14_1783261190363.gif)
 
 另外一個範例則是讓每一個 `<p>` 段落在進入畫面時，  
 才觸發自己的淡入兼移入動畫（不過這個動畫效果更常出現在照片上）。

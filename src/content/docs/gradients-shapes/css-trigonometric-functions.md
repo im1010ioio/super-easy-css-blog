@@ -9,7 +9,7 @@ tags: css3, css, trigonometry, trigonometric-functions
 sidebar:
   order: 9
 ---
-![CSS 可以寫三角函數？sin()、cos()、tan() 專門處理圓弧、波浪或是特殊角度](https://cdn.hashnode.com/res/hashnode/image/upload/v1766687684276/d8b1c3ba-65be-4e46-a360-d75908bb77eb.png)
+![CSS 可以寫三角函數？sin()、cos()、tan() 專門處理圓弧、波浪或是特殊角度](../../../assets/images/gradients-shapes/d8b1c3ba_65be_4e46_a360_d75908bb77eb_1783261119852.png)
 
 今天我們要來研究一個 CSS 中相對較新、但功能強大的工具：三角函數。
 
@@ -59,7 +59,7 @@ CSS 中的三角函數家族，共有：`sin()`、`cos()`、`tan()` 以及他們
 
 這是三角函數最經典的應用之一，像是時鐘的刻度或環狀菜單，都可以輕鬆實現。 概念是利用 `sin()` 和 `cos()` 來計算出在圓周上每個元素的 x 和 y 座標。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759414202399/ffcffea9-7996-4352-9be2-0fcb16cb3201.gif)
+![](../../../assets/images/gradients-shapes/ffcffea9_7996_4352_9be2_0fcb16cb3201_1783261119865.gif)
 
 > DEMO 連結：[Rrond Animation by CSS trigonometric functions](https://codepen.io/im1010ioio/pen/EaPgwNL)
 
@@ -134,7 +134,7 @@ CSS 中的三角函數家族，共有：`sin()`、`cos()`、`tan()` 以及他們
 
 `sin()` 函數的波形特性，非常適合用來製作自然的波浪動態。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759414247999/582ee726-ad4e-46b0-88c3-180790465eff.gif)
+![](../../../assets/images/gradients-shapes/582ee726_ad4e_46b0_88c3_180790465eff_1783261119876.gif)
 
 > DEMO 連結：[Wave Animation by CSS trigonometric functions](https://codepen.io/im1010ioio/pen/ogbzapV)
 
@@ -256,7 +256,7 @@ CSS 中的三角函數家族，共有：`sin()`、`cos()`、`tan()` 以及他們
 
 > 「只有 9.1% 的受訪者真正討厭三角學，但這足以讓**三角函數**在受到喜愛方面墊底:(」
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759416032761/86f5bea0-cc5f-44f0-907f-38c8bbb370ed.png)
+![](../../../assets/images/gradients-shapes/86f5bea0_cc5f_44f0_907f_38c8bbb370ed_1783261119889.png)
 
 看到的時候噗嗤笑了一下，心想：原來大家跟我一樣不喜歡數學呀…
 

@@ -9,7 +9,7 @@ tags: css3, css, css-animation, houdini, property, css-houdini
 sidebar:
   order: 5
 ---
-![CSS @property：變數的再進化！輕易製作純 CSS 漸層動畫、圓餅圖動畫](https://cdn.hashnode.com/res/hashnode/image/upload/v1766491860511/9a663172-9433-4965-954a-b0cfd3ddccd5.png)
+![CSS @property：變數的再進化！輕易製作純 CSS 漸層動畫、圓餅圖動畫](../../../assets/images/interaction-animation/9a663172_9433_4965_954a_b0cfd3ddccd5_1783261156963.png)
 
 CSS 除了變數外，還可以額外新增自訂屬性—— `@property`，現已全面支援了！
 
@@ -71,7 +71,7 @@ p {
 
 過去的 CSS 無法做到的事，現在已經可以了。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728315422340/f1896ecf-d038-4edd-8bde-60e64a754217.png)
+![](../../../assets/images/interaction-animation/f1896ecf_d038_4edd_8bde_60e64a754217_1783261156974.png)
 
 > [Can I Use](https://caniuse.com/?search=%40property)
 
@@ -97,7 +97,7 @@ body{
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728313690836/acf0613a-55f2-4e9c-ba6a-b0b8e1f14d60.gif)
+![](../../../assets/images/interaction-animation/acf0613a_55f2_4e9c_ba6a_b0b8e1f14d60_1783261157005.gif)
 
 > DEMO: [CSS Gradient Transition with @property](https://codepen.io/im1010ioio/pen/NWQRWQM)
 
@@ -161,7 +161,7 @@ div{
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728313677425/249d3ece-85df-4492-bd35-fee39792d29b.gif)
+![](../../../assets/images/interaction-animation/249d3ece_85df_4492_bd35_fee39792d29b_1783261157018.gif)
 
 > DEMO: [CSS Pie Charts Animation with @property](https://codepen.io/im1010ioio/pen/zYgByOO)
 

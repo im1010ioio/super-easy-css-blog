@@ -9,7 +9,7 @@ tags: css3, css, 2articles1week, clipping-path
 sidebar:
   order: 7
 ---
-![用 CSS clip-path 剪裁各種形狀的色塊/圖片/影片](https://cdn.hashnode.com/res/hashnode/image/upload/v1766463116355/68a6acb1-bf24-4d17-b911-e6e4c1007d03.png)
+![用 CSS clip-path 剪裁各種形狀的色塊/圖片/影片](../../../assets/images/gradients-shapes/68a6acb1_bf24_4d17_b911_e6e4c1007d03_1783261042124.png)
 
 在 CSS 中除了使用 border 來繪製形狀，還有一個語法 `clip-path` 也可以繪製圖形，它可以將東西指定在某個形狀內，例如圓形、多邊形，甚至是使用 SVG 路徑等特殊形狀。
 
@@ -40,7 +40,7 @@ sidebar:
 
 `circle()` 的用法是：指定半徑和中心點來控制圓的位置和大小。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727106561350/7b61dad2-7f53-4537-b278-f12b2e23a953.png)
+![](../../../assets/images/gradients-shapes/7b61dad2_7f53_4537_b278_f12b2e23a953_1783261042136.png)
 
 ```css
 .element {
@@ -52,7 +52,7 @@ sidebar:
 
 另外，也可以通過傳入具體的長度值來控制圓的大小和位置：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727106566595/7a4fad73-abd2-4617-9096-08d46f74dacf.png)
+![](../../../assets/images/gradients-shapes/7a4fad73_abd2_4617_9096_08d46f74dacf_1783261042149.png)
 
 ```css
 .element {
@@ -68,7 +68,7 @@ sidebar:
 
 `ellipse()` 的用法是：指定橢圓的 x 軸和 y 軸半徑來控制形狀：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727106766998/4f62a33e-c80e-4c77-bd0f-778c4b25a3b8.png)
+![](../../../assets/images/gradients-shapes/4f62a33e_c80e_4c77_bd0f_778c4b25a3b8_1783261042162.png)
 
 ```css
 .element {
@@ -85,7 +85,7 @@ sidebar:
 如果需要剪裁出任意形狀，那麼多邊形 `polygon()` 最適合了。  
 使用方式是：透過多個坐標來描繪出所需的形狀。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727107233140/1f9f3af5-9d0f-4cd3-9e84-95b5eaacaa97.png)
+![](../../../assets/images/gradients-shapes/1f9f3af5_9d0f_4cd3_9e84_95b5eaacaa97_1783261042173.png)
 
 ```css
 .element {
@@ -111,7 +111,7 @@ sidebar:
 
 比方說，我們可以剪裁一部影片的外緣，符合背景圖的中電視的框框，就會像以下 DEMO：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727110276403/9e7bcd82-8663-4567-b6ab-883eca33f923.png)
+![](../../../assets/images/gradients-shapes/9e7bcd82_8663_4567_b6ab_883eca33f923_1783261042184.png)
 
 > DEMO: [CSS clip-path SVG path](https://codepen.io/im1010ioio/pen/JjgjJZa)
 
@@ -151,7 +151,7 @@ sidebar:
 
 如果想要像使用繪圖軟體一樣，直覺地操作 CSS clip-path，有人做了個小工具 —— Clippy，讓你可以直接在網頁上拉動每一個點，然後產出 Code，大家可以去玩玩看喔！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726474314675/43bdeae8-3ac2-4c0f-9298-4ef7c06f3419.png)
+![](../../../assets/images/gradients-shapes/43bdeae8_3ac2_4c0f_9298_4ef7c06f3419_1783261042196.png)
 
 > 連結：[Clippy — CSS clip-path maker](https://bennettfeely.com/clippy/)
 

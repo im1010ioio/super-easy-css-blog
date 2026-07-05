@@ -9,7 +9,7 @@ tags: css3, css, overflow, overflow-property, css-scroll, scrollable
 sidebar:
   order: 1
 ---
-![使用 CSS overflow 自訂捲動範圍](https://cdn.hashnode.com/res/hashnode/image/upload/v1766575139449/6b0bda74-8cb8-4e18-b131-e942fddd3720.png)
+![使用 CSS overflow 自訂捲動範圍](../../../assets/images/interaction-scroll/6b0bda74_8cb8_4e18_b131_e942fddd3720_1783261257205.png)
 
 當我們在進行網頁設計時，常常要處理當內容超出容器範圍時的情況，這就是使用到 `overflow` 屬性的時候了！`overflow` 最常用在自訂捲動範圍，尤其是系統後台網頁常見的雙欄設計上。
 
@@ -52,7 +52,7 @@ overflow-y: scroll;
 
 以下的 DEMO，使用了 `overflow: auto;` ，能讓放了許多文字的區塊滾動：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728662787409/3a4599f6-18d8-45d0-b13a-260bd749e955.gif)
+![](../../../assets/images/interaction-scroll/3a4599f6_18d8_45d0_b13a_260bd749e955_1783261257215.gif)
 
 > DEMO: [CSS overflow auto](https://codepen.io/im1010ioio/pen/gOVgMgV)
 
@@ -62,7 +62,7 @@ overflow-y: scroll;
 
 修改前幾天的 DEMO，加上 `overflow: auto` ，這樣當內容超出畫面時，就可以滾動了！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728663635322/33dae899-c9d8-44b8-9a19-d8d0192c6309.gif)
+![](../../../assets/images/interaction-scroll/33dae899_c9d8_44b8_9a19_d8d0192c6309_1783261257225.gif)
 
 > DEMO: [Pure CSS toggle aside + overflow auto](https://codepen.io/im1010ioio/pen/RwXKRyX)
 

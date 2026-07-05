@@ -9,7 +9,7 @@ tags: css3, css, css-position
 sidebar:
   order: 9
 ---
-![CSS Position：relative、absolute、fixed、sticky 找到適合的定位](https://cdn.hashnode.com/res/hashnode/image/upload/v1765897799340/41ae494f-ba78-4877-949f-4c3b5f386ff5.png)
+![CSS Position：relative、absolute、fixed、sticky 找到適合的定位](../../../assets/images/layout/41ae494f_ba78_4877_949f_4c3b5f386ff5_1783261295713.png)
 
 CSS Position 屬性可以用來設定元素在網頁中的位置，也是必學的屬性之一。  
 它主要有 5 個定位方式：`static`、`relative`、`absolute`、`fixed` 和 `sticky`。
@@ -37,7 +37,7 @@ CSS Position 屬性可以用來設定元素在網頁中的位置，也是必學�
 
 ## 2\. 相對定位（`relative`）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696609022655/ecc911aa-a923-4d2d-9439-00cb3c7d5e8b.png)
+![](../../../assets/images/layout/ecc911aa_a923_4d2d_9439_00cb3c7d5e8b_1783261295726.png)
 
 元素設定為相對定位後，基本上還是依照正常的 flow 排列，不過你可以使用上下左右（`top`、`bottom`、`left` 和 `right`）屬性來微調它的位置，它會依據自己本來所在的位置「相對地」改變位置。
 
@@ -55,7 +55,7 @@ CSS Position 屬性可以用來設定元素在網頁中的位置，也是必學�
 
 ## 3\. 絕對定位（`absolute`）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696784663813/e2503880-56ca-4b0d-b985-a2a4af7a5384.png)
+![](../../../assets/images/layout/e2503880_56ca_4b0d_b985_a2a4af7a5384_1783261295737.png)
 
 設為絕對定位的元素，會依據「父層中距離自己最近有定位的元素」定位，也就是除了 `static` 以外的定位屬性都可以作為定位的對象。要注意，它是找離自己最近的，當網頁規模很多層時容易出錯，所以要規劃好 HTML 中元素之間的關係。
 
@@ -77,7 +77,7 @@ CSS Position 屬性可以用來設定元素在網頁中的位置，也是必學�
 
 ## 4\. 固定定位（`fixed`）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696612845672/991b06f7-1f93-43df-8124-40a9923b8c92.png)
+![](../../../assets/images/layout/991b06f7_1f93_43df_8124_40a9923b8c92_1783261295748.png)
 
 設為固定定位的元素，將依據「瀏覽器的視窗大小（`viewport`）」進行定位，即使頁面滾動，也會保持固定的位置。
 
@@ -91,7 +91,7 @@ CSS Position 屬性可以用來設定元素在網頁中的位置，也是必學�
 
 最常見的應用，就是運用在回到頂端的按鈕或廣告上：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696608379479/4430f81b-e020-43fb-b3e9-f41a24d34080.png)
+![](../../../assets/images/layout/4430f81b_e020_43fb_b3e9_f41a24d34080_1783261295760.png)
 
 ### 固定定位（`fixed`）+ `filter`/`backdrop-filter` 的陷阱
 
@@ -113,7 +113,7 @@ CSS Position 屬性可以用來設定元素在網頁中的位置，也是必學�
 
 ## 5\. 黏貼定位（`sticky`）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696613151095/75058ba8-4465-4b54-a60d-0c2bf15951f1.png)
+![](../../../assets/images/layout/75058ba8_4465_4b54_a60d_0c2bf15951f1_1783261295771.png)
 
 當元素被設為黏貼定位的元素時：
 
@@ -146,7 +146,7 @@ CSS Position 屬性可以用來設定元素在網頁中的位置，也是必學�
 
 這個屬性非常好用，適合應用在標題，或是表格中的表頭：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696611389076/6ec0d9d1-488d-4779-b8fd-1e67ba2b9bb0.png)
+![](../../../assets/images/layout/6ec0d9d1_488d_4779_b8fd_1e67ba2b9bb0_1783261295781.png)
 
 或是一些特殊的設計：
 
@@ -194,7 +194,7 @@ CSS Position 屬性可以用來設定元素在網頁中的位置，也是必學�
 
 Edge 的開發者偵錯工具，有酷炫的 3D View 可以參考網頁中的前後關係：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696614484749/aadd1e46-781b-41fd-9212-8b56f82eb8bc.png)
+![](../../../assets/images/layout/aadd1e46_781b_41fd_9212_8b56f82eb8bc_1783261295792.png)
 
 > 延伸閱讀：[z-index - CSS：层叠样式表 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/z-index)
 

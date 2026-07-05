@@ -9,7 +9,7 @@ tags: css3, css, text-box, text-box-trim, text-box-edge
 sidebar:
   order: 5
 ---
-![用 CSS 解決文字上下多出來的神秘空間：text-box-trim / text-box-edge](https://cdn.hashnode.com/res/hashnode/image/upload/v1766658079218/93b8ffa2-949d-433b-a96d-218260e4b5e4.png)
+![用 CSS 解決文字上下多出來的神秘空間：text-box-trim / text-box-edge](../../../assets/images/text/93b8ffa2_949d_433b_a96d_218260e4b5e4_1783261556773.png)
 
 你是不是也常常爲了文字上下多出來的神秘空白間距感到困擾，導致按鈕裡的文字、或是標題跟內文之間的距離怎麼調都感覺不太對勁？
 
@@ -99,7 +99,7 @@ h1, button {
 
 以下的例子全部 `text-box-edge` 的值都試試看，主要改變上緣的部分（`cap`、`ex`、`text`），下緣統一都是依據文字的基線（`alphabetic`）為裁切：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758974900139/2fe63d00-e38a-4eb7-8f6f-53f4c862b371.png)
+![](../../../assets/images/text/2fe63d00_e38a_4eb7_8f6f_53f4c862b371_1783261556784.png)
 
 > DEMO 連結：[CSS text-box](https://codepen.io/im1010ioio/pen/azddqxd)
 
@@ -124,11 +124,11 @@ h1, button {
 
 在使用[思源黑體（Noto Sans TC）](https://fonts.google.com/noto/specimen/Noto+Sans+TC)製作按鈕時，常常會覺得預設按鈕文字的位置有點偏移（如第一顆按鈕）：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758987562306/12091251-7622-4911-89ee-4ce51247edcc.png)
+![](../../../assets/images/text/12091251_7622_4911_89ee_4ce51247edcc_1783261556794.png)
 
 如果你看不出來，試著把 `padding` 改為 0 就會明顯發現，他真的沒對齊：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758987576005/f9ca4545-0b72-4514-aa9e-37c4a5a7b443.png)
+![](../../../assets/images/text/f9ca4545_0b72_4514_aa9e_37c4a5a7b443_1783261556807.png)
 
 那麼我們在第二顆按鈕上，使用了：
 
@@ -151,7 +151,7 @@ h1, button {
 想查看`text-box-trim` 與 `text-box-edge` 實際到底指的是文字的哪個部分，  
 可以看看 Google 團隊（Chrome for Developers）做的小工具：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758943609274/82d2fece-9632-4d20-801f-edd396f55246.gif)
+![](../../../assets/images/text/82d2fece_9632_4d20_801f_edd396f55246_1783261556818.gif)
 
 > 連結：[Interactive CSS text-box](https://codepen.io/web-dot-dev/pen/RNbyooE)
 

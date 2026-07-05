@@ -9,7 +9,7 @@ tags: css3, css
 sidebar:
   order: 11
 ---
-![CSS 邏輯屬性 Logical properties 與 Writing modes](https://cdn.hashnode.com/res/hashnode/image/upload/v1766031882935/89f53e75-a52e-4959-9f07-04986da713c8.png)
+![CSS 邏輯屬性 Logical properties 與 Writing modes](../../../assets/images/layout/89f53e75_a52e_4959_9f07_04986da713c8_1783261296860.png)
 
 CSS 新推出了另外一種排版邏輯，叫作邏輯屬性（Logical properties），特別是針對需要處理多語系和不同書寫方向的內容。
 
@@ -28,11 +28,11 @@ CSS 新推出了另外一種排版邏輯，叫作邏輯屬性（Logical properti
 
 CSS 邏輯屬性是基於內容的語言和書寫方向來設定樣式。舉個例子，FB 就針對阿拉伯語由右至左書寫，做了整體版面的調整：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696753361064/4e89bde1-e0c8-4ccc-9e2b-efa387fc4793.png)
+![](../../../assets/images/layout/4e89bde1_e0c8_4ccc_9e2b_efa387fc4793_1783261296871.png)
 
 以前，我們通常使用傳統的盒子模型（Box Model）來設定樣式，但這在處理多語言網頁時可能會造成一些麻煩。例如，如果我們只用「`left` 或 `right`」調整左右方向的排版時，可能會遇到這個情況：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696784611560/d2076dae-04c8-4f9b-a413-84fe5ac82e3f.png)
+![](../../../assets/images/layout/d2076dae_04c8_4f9b_a413_84fe5ac82e3f_1783261296881.png)
 
 所以，CSS 發展出了邏輯屬性（Logical properties），讓版面能夠針對語言的方向自動調整。
 
@@ -40,7 +40,7 @@ CSS 邏輯屬性是基於內容的語言和書寫方向來設定樣式。舉個�
 
 ## 邏輯屬性的語法
 
-![SS 邏輯屬性 Logical properties ](https://cdn.hashnode.com/res/hashnode/image/upload/v1696767553626/c1e213fd-2a60-4f14-a8c0-34543036686b.png)
+![SS 邏輯屬性 Logical properties ](../../../assets/images/layout/c1e213fd_2a60_4f14_a8c0_34543036686b_1783261296892.png)
 
 凡是有「方向」概念的 CSS 屬性都可以轉換為邏輯屬性，命名的大方向是將原有的 `left` 或 `right` 改為 `block`、 `inline`、`start` 與 `end`：
 
@@ -124,7 +124,7 @@ Flex 與 Grid 不需要改變語法，就能適應邏輯屬性的變化。
 
 ### 1\. writing-mode
 
-![css writing-mode](https://cdn.hashnode.com/res/hashnode/image/upload/v1696765033088/5c0a52dc-f229-4e70-ab28-6ad38b375db7.png)
+![css writing-mode](../../../assets/images/layout/5c0a52dc_f229_4e70_ab28_6ad38b375db7_1783261296903.png)
 
 > [writing-mode - CSS：层叠样式表 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/writing-mode)
 
@@ -176,7 +176,7 @@ p[dir="rtl"] { ... }
 
 這邊將各種排列組合結果整理給大家參考：
 
-![CSS 邏輯屬性 Logical properties](https://cdn.hashnode.com/res/hashnode/image/upload/v1696783567969/1c34e003-79ec-4442-893f-9fdb06f92d3d.png)
+![CSS 邏輯屬性 Logical properties](../../../assets/images/layout/1c34e003_79ec_4442_893f_9fdb06f92d3d_1783261296913.png)
 
 ---
 
@@ -194,7 +194,7 @@ CSS 邏輯屬性雖然還沒有被廣泛使用，但目前支援度已經還不�
 
 > 連結：[縦書きWeb普及委員会](https://tategaki.github.io/)（[2017 比賽](https://tategaki.github.io/awards/) / [2016 比賽](https://tategaki.github.io/awards2016/) / [2015 比賽](https://tategaki.github.io/awards2015/)）
 
-![縦書きWeb普及委員会](https://cdn.hashnode.com/res/hashnode/image/upload/v1696762391269/670d04a5-d6ff-4852-8dfc-35917fa5ffc0.png)
+![縦書きWeb普及委員会](../../../assets/images/layout/670d04a5_d6ff_4852_8dfc_35917fa5ffc0_1783261296925.png)
 
 說到直式網頁設計，目前還是以日本設計的網頁居多，這邊和大家分享以前看到日本的直式網頁設計推廣組織「縦書きWeb普及委員会」。
 
@@ -206,7 +206,7 @@ CSS 邏輯屬性雖然還沒有被廣泛使用，但目前支援度已經還不�
 > [從注音字體談資訊設計. 為什麼在資訊結構上，我們得做得更多？ | by Bobby Tung | Medium](https://bobtung.medium.com/%E5%BE%9E%E6%B3%A8%E9%9F%B3%E5%AD%97%E9%AB%94%E8%AB%87%E8%B3%87%E8%A8%8A%E8%A8%AD%E8%A8%88-14cb09ff9d52)  
 > [DEMO 連結：中文注音符號標示 Chinese Bopomofo with HTML RUBY](https://codepen.io/im1010ioio/pen/MWVYzXE)
 
-![注音符號調號之數位排版 Chinese Bopomofo](https://cdn.hashnode.com/res/hashnode/image/upload/v1696760905495/105a36bb-b13d-4834-b61d-c672ee2fe6a4.png)
+![注音符號調號之數位排版 Chinese Bopomofo](../../../assets/images/layout/105a36bb_b13d_4834_b61d_c672ee2fe6a4_1783261296938.png)
 
 雖然與這篇沒有正相關，順便與大家介紹之前發現關於注音符號音標於網頁上的研究計畫。
 

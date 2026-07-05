@@ -9,7 +9,7 @@ tags: css3, css, css-text-effects
 sidebar:
   order: 3
 ---
-![CSS 立體字、霓虹字、外框字、漸層字：text-shadow、-webkit-text-stroke、-webkit-background-clip](https://cdn.hashnode.com/res/hashnode/image/upload/v1766115024674/7bff7505-457a-4e2b-bc1c-221272e5f3c3.png)
+![CSS 立體字、霓虹字、外框字、漸層字：text-shadow、-webkit-text-stroke、-webkit-background-clip](../../../assets/images/text/7bff7505_457a_4e2b_bc1c_221272e5f3c3_1783261514653.png)
 
 之前我們都是著重在網頁排版上，今天我們要來做點吸睛的文字視覺效果！我們將會使用 CSS 的 `text-shadow`、`-webkit-text-stroke`、`-webkit-background-clip`，製作出許多特效文字：如霓虹字、立體字、外框字、漸層字等等，可以應用在網頁主視覺上。
 
@@ -43,7 +43,7 @@ h1 {
 
 這樣一來，我們就能輕鬆做出文字的陰影：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697366120771/69eadba3-e164-4917-8938-f07ebc64be99.png)
+![](../../../assets/images/text/69eadba3_e164_4917_8938_f07ebc64be99_1783261514663.png)
 
 > DEMO 連結：[Text shadow](https://codepen.io/im1010ioio/pen/zYyQwQV)
 
@@ -65,7 +65,7 @@ h1 {
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697366763314/1d82d453-547d-40c1-8a35-c41f5c671d46.png)
+![](../../../assets/images/text/1d82d453_547d_40c1_8a35_c41f5c671d46_1783261514673.png)
 
 > DEMO 連結：[Mutiple text shadow](https://codepen.io/im1010ioio/pen/BaveZaJ)
 
@@ -73,11 +73,11 @@ h1 {
 
 能夠加疊陰影，我們就能夠來製作立體的文字了，透過多重陰影製造出立體感：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697372123857/725bf226-6fa1-405e-a77c-3ee768b75c97.png)
+![](../../../assets/images/text/725bf226_6fa1_405e_a77c_3ee768b75c97_1783261514684.png)
 
 像這樣扁平風的陰影，如果文字的顏色與背景顏色相同，就會有很酷的極簡現代風格：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697372395383/37f726f1-34d1-44e5-b5ef-d4191c0f3020.png)
+![](../../../assets/images/text/37f726f1_34d1_44e5_b5ef_d4191c0f3020_1783261514697.png)
 
 > DEMO 連結：[Flat Shadow](https://codepen.io/im1010ioio/pen/eVdLqQ)
 
@@ -85,11 +85,11 @@ h1 {
 
 雖然字體不一樣，但是用了類似的，詳細請看 DEMO：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697359932345/9dbbdcc5-e457-4100-a6d6-2ed0a495f726.png)
+![](../../../assets/images/text/9dbbdcc5_e457_4100_a6d6_2ed0a495f726_1783261514707.png)
 
 > DEMO 連結：[ASTEROID CITY Logo](https://codepen.io/im1010ioio/pen/GRPaWvL)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697357840787/97c0d24f-6f3d-4fc2-969f-9bf4f522b91a.jpeg)
+![](../../../assets/images/text/97c0d24f_6f3d_4fc2_969f_9bf4f522b91a_1783261514718.jpeg)
 
 （圖片來源：[Asteroid City Facebook](https://www.facebook.com/AsteroidCityFilm/)）
 
@@ -105,13 +105,13 @@ h1 {
 
 詳細請看 DEMO：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697353753129/a271b11b-c305-4fff-8efd-084c31d27ae6.png)
+![](../../../assets/images/text/a271b11b_c305_4fff_8efd_084c31d27ae6_1783261514729.png)
 
 > DEMO 連結：[CSS Neon Text](https://codepen.io/im1010ioio/pen/VwqOmVe)
 
 可是，如果你換了個較粗字體，會發覺有地方怪怪的，因為一般來說，霓虹燈是細的，所以建議選擇較細的字體，或者是使用下一個我們要介紹的方法 `-webkit-text-stroke`。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697373752880/55e219b0-99a5-44b8-b6e0-e4b43c018144.jpeg)
+![](../../../assets/images/text/55e219b0_99a5_44b8_b6e0_e4b43c018144_1783261514741.jpeg)
 
 ---
 
@@ -119,7 +119,7 @@ h1 {
 
 如果你觀察霓虹燈招牌，會發現除了單純的細字外，有許多霓虹燈是使用文字外框製作的：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697354827951/2c48dc85-5f8f-4dd3-98ba-2a17b9a8e159.jpeg)
+![](../../../assets/images/text/2c48dc85_5f8f_4dd3_98ba_2a17b9a8e159_1783261514752.jpeg)
 
 （圖片來源：[Lalaland Twitter/X](https://twitter.com/LaLaLand/status/857420433657692160)）
 
@@ -138,21 +138,21 @@ h1 {
 
 讓我們改造一下上一個 DEMO，雖然字體不一樣，但是盡量用了類似的：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697355532854/3dbdf6c0-5b16-49b8-9412-1610e355fdce.png)
+![](../../../assets/images/text/3dbdf6c0_5b16_49b8_9412_1610e355fdce_1783261514769.png)
 
 > DEMO 連結：[CSS Neon Text (stroke text)](https://codepen.io/im1010ioio/pen/jOXoyQj)
 
 不過實際測試這個屬性後，我發現框線的粗細似乎會受到字體設計的影響，因為若放大來看，這個字體套用後的外框 1px 原來是有這麼多線條組成，所以才會那麼粗：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697375132085/38a14e2d-c465-493a-a1cc-3c5d98f250a9.png)
+![](../../../assets/images/text/38a14e2d_c465_493a_a1cc_3c5d98f250a9_1783261514779.png)
 
 然後在開頭 DEMO，小行星城 LOGO 的字體則會變成這樣：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697375233373/71ce2c7f-924f-41c1-8c5f-d357c876d6fa.png)
+![](../../../assets/images/text/71ce2c7f_924f_41c1_8c5f_d357c876d6fa_1783261514791.png)
 
 而我試了其他字體，有的則是單純 1px 的外框：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697375383904/df1cb958-cf7e-4481-9392-da13dd343ab6.png)
+![](../../../assets/images/text/df1cb958_cf7e_4481_9392_da13dd343ab6_1783261514802.png)
 
 總之，搭配字體後這個屬性還滿微妙的。如果真的效果不符合預期，可以考慮使用 `text-shadow` 疊加出外框來：
 
@@ -203,17 +203,17 @@ CSS 的背景 `background` 屬性可以製作漸層色，也可以套用背景�
 
 ### 1\. 漸層文字
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697361938443/281823c5-a2d9-40d9-a1f0-ed21e1c417a1.png)
+![](../../../assets/images/text/281823c5_a2d9_40d9_a1f0_ed21e1c417a1_1783261514813.png)
 
 > DEMO 連結：[Gradient Text](https://codepen.io/im1010ioio/pen/MWZdpNO)
 
 這個範例是參考 iOS App Store 裡面的廣告頁面，背景與字體都找了類似的：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697362102934/21745d63-a57c-40a9-a535-82e2bf936de4.png)
+![](../../../assets/images/text/21745d63_a57c_40a9_a535_82e2bf936de4_1783261514825.png)
 
 ### 2\. 背景圖片文字
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697365321950/04d0745c-2117-4ed2-8e7f-c5311dc11f2f.png)
+![](../../../assets/images/text/04d0745c_2117_4ed2_8e7f_c5311dc11f2f_1783261514838.png)
 
 > DEMO 連結：[Text with background image](https://codepen.io/im1010ioio/pen/QWzRvvq)
 

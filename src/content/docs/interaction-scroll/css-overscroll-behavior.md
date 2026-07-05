@@ -9,7 +9,7 @@ tags: css3, css, css-scroll, overscroll-behavior
 sidebar:
   order: 7
 ---
-![CSS overscroll-behavior：解決滾動穿透問題 & 阻止手機瀏覽器下拉重整](https://cdn.hashnode.com/res/hashnode/image/upload/v1766595743865/4f8dc351-8f9a-474d-9d66-76c55a4430de.png)
+![CSS overscroll-behavior：解決滾動穿透問題 & 阻止手機瀏覽器下拉重整](../../../assets/images/interaction-scroll/4f8dc351_8f9a_474d_9d66_76c55a4430de_1783261238456.png)
 
 你有沒有遇過這種情況？網頁跳出一個對話框，你想滑動看看裡面的內容，結果才滑到底，整個後面的網頁竟然也跟著動了起來！
 
@@ -29,7 +29,7 @@ sidebar:
 
 當你在內層的 `<div>` 裡滾動，滑鼠滾輪滾到底部（或頂部）後，如果繼續朝同一個方向滾動，這個「滾動事件」就會像接力棒一樣，傳遞給外層的 `<html>`，導致整個頁面也開始滾動。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758265000746/7be3da4b-acb6-4c75-bb9b-3dd013fe237e.gif)
+![](../../../assets/images/interaction-scroll/7be3da4b_acb6_4c75_bb9b_3dd013fe237e_1783261238474.gif)
 
 *(這就是惱人的滾動穿透)*
 
@@ -72,7 +72,7 @@ sidebar:
 
 就可以了！現在當你在對話框裡的 `.scrollable` 裡面滾動時，就算滾到最頂部或最底部，背景的 `<html>` 也不會再跟著亂動了，他們兩者的滾動從此互不相關。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758265608655/4e0f2c2b-6f7f-4e3a-b567-a385005bc137.gif)
+![](../../../assets/images/interaction-scroll/4e0f2c2b_6f7f_4e3a_b567_a385005bc137_1783261238489.gif)
 
 > DEMO 連結：[Prevent Scroll Chaining With Overscroll Behavior](https://codepen.io/im1010ioio/pen/xbZxrVQ)
 
@@ -90,13 +90,13 @@ html {
 
 把 `overscroll-behavior-y` 設定為 `none`，就可以有效地阻止手機瀏覽器預設的下拉重整手勢。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758267657831/dd76d01a-f243-4bd9-a3e9-1cd7c5ad5aa2.gif)
+![](../../../assets/images/interaction-scroll/dd76d01a_f243_4bd9_a3e9_1cd7c5ad5aa2_1783261238502.gif)
 
 > DEMO 連結：[Prevent Pull-to-Refresh on Mobile with Overscroll Behavior](https://codepen.io/im1010ioio/pen/YPwzrwL)
 
 （請用手機打開 CodePen DEMO 的 Debug Mode 試試看）
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758268445908/2484c0a4-acf3-4f89-ab8c-44eabd2fc770.png)
+![](../../../assets/images/interaction-scroll/2484c0a4_acf3_4f89_ab8c_44eabd2fc770_1783261238513.png)
 
 ---
 

@@ -9,7 +9,7 @@ tags: css3, css, sass, scss
 sidebar:
   order: 12
 ---
-![SASS/SCSS (12) 防呆與偵錯 @debug / @warn / @error](https://cdn.hashnode.com/res/hashnode/image/upload/v1766737938363/4080ff1e-ef88-46e9-882b-7d44d2377857.png)
+![SASS/SCSS (12) 防呆與偵錯 @debug / @warn / @error](../../../assets/images/sass-scss/4080ff1e_ef88_46e9_882b_7d44d2377857_1783261505618.png)
 
 我們已經了解了 SASS/SCSS 的所有主要功能了，不過「我要如何確保別人（或未來的自己）不會用錯我寫的工具？」這是當 Mixin 和 Function 變得越來越複雜時，需要好好考慮的問題。
 

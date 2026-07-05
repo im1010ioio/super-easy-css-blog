@@ -9,7 +9,7 @@ tags: css3, css, text-wrap
 sidebar:
   order: 4
 ---
-![用 CSS 解決網頁的「標題不平衡」與「孤字不成行」： text-wrap: balance / pretty](https://cdn.hashnode.com/res/hashnode/image/upload/v1766653897467/c951c2b7-9d3c-45aa-a5f2-9d3910577d56.png)
+![用 CSS 解決網頁的「標題不平衡」與「孤字不成行」： text-wrap: balance / pretty](../../../assets/images/text/c951c2b7_9d3c_45aa_a5f2_9d3910577d56_1783261549856.png)
 
 在中文中有所謂「孤字不成行，單行不成頁」的寫作排版概念，意思是說「一個字（不含標點號）不能成為一行，一句話不能成為一頁」，因為這樣除了很醜外，也容易讓人看不懂這個詞或句子在寫什麼，不易閱讀。當然，在英文中也有類似的概念。
 
@@ -34,7 +34,7 @@ sidebar:
 
 ### 實際應用 DEMO
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758901839405/8f9022b8-5fe4-4fe3-8ff2-7db3dd638d83.png)
+![](../../../assets/images/text/8f9022b8_5fe4_4fe3_8ff2_7db3dd638d83_1783261549869.png)
 
 > DEMO 連結：[CSS text-wrap: balance](https://codepen.io/im1010ioio/pen/EaPPmaJ)
 
@@ -58,7 +58,7 @@ h2 {
 
 看看下面這段內文的差異：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758901898730/67a1c860-e47a-4632-964d-ba0cffd9c6d6.png)
+![](../../../assets/images/text/67a1c860_e47a_4632_964d_ba0cffd9c6d6_1783261549880.png)
 
 > DEMO 連結：[CSS text-wrap: pretty](https://codepen.io/im1010ioio/pen/ZYQQKzM)
 

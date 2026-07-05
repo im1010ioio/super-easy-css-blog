@@ -9,7 +9,7 @@ tags: css3, css, css-animation, checkbox, radio-button, switch-button
 sidebar:
   order: 1
 ---
-![客製化 radio、checkbox 樣式，製作開關按鈕 (Switch Button)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766567626809/813220fd-ef25-4f37-8821-8a38ad1ddeaa.png)
+![客製化 radio、checkbox 樣式，製作開關按鈕 (Switch Button)](../../../assets/images/interaction-click/813220fd_ef25_4f37_8821_8a38ad1ddeaa_1783261166440.png)
 
 在日常前端開發中，`radio` 和 `checkbox` 是非常常用的表單元素，但瀏覽器預設的樣式往往不符合設計需求。因此，學會如何客製化這些元素樣式是每個前端設計師的必備技能之一。在這篇教學文中，我們將介紹如何使用 CSS 來客製化 `radio` 和 `checkbox`，而且進一步用 `checkbox` 做出一個開關按鈕 (Switch Button)。
 
@@ -23,7 +23,7 @@ sidebar:
 > 
 > 我們雖然無法改變瀏覽器中預設 input 勾選框的樣子，但是我們可以使用 CSS 中的 `accent-color` 改變它們勾起來時的顏色，例如下面例子，我們將 radio 和 checkbox 改為紫色：
 > 
-> ![CSS accent-color](https://cdn.hashnode.com/res/hashnode/image/upload/v1699540567686/6c51fabd-8849-4298-9f75-38c48c546fc1.png)
+> ![CSS accent-color](../../../assets/images/interaction-click/6c51fabd_8849_4298_9f75_38c48c546fc1_1783261166451.png)
 
 這是調整 `radio` 和 `checkbox` 最基本的方法，但是勾選框的樣子我們還是無法變更，會受到作業系統與瀏覽器的影響。
 
@@ -57,7 +57,7 @@ sidebar:
 
 ### DEMO
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728548325867/99bc0e7d-6b6f-48ce-801e-0a6a32c45dad.png)
+![](../../../assets/images/interaction-click/99bc0e7d_6b6f_48ce_801e_0a6a32c45dad_1783261166462.png)
 
 > DEMO: [Custom radio/ checkbox](https://codepen.io/im1010ioio/pen/jOgVwQG)
 
@@ -159,7 +159,7 @@ sidebar:
 
 ### DEMO
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728551986020/4f642d91-37c4-41ce-ad5e-d28fa80bcd1c.png)
+![](../../../assets/images/interaction-click/4f642d91_37c4_41ce_ad5e_d28fa80bcd1c_1783261166472.png)
 
 > DEMO: [Checkbox Switch Buttons](https://codepen.io/im1010ioio/pen/XWvNzYB)
 

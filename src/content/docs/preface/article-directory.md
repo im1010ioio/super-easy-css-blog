@@ -9,7 +9,7 @@ tags: css3, css, html, html5
 sidebar:
   order: 1
 ---
-![文章目錄 | Super Easy CSS，極度簡單](https://cdn.hashnode.com/res/hashnode/image/upload/v1764752687330/d9993fd8-3b1f-4f8c-9474-8e0bf44cb246.png)
+![文章目錄 | Super Easy CSS，極度簡單](../../../assets/images/preface/d9993fd8_3b1f_4f8c_9474_8e0bf44cb246_1783261469588.png)
 
 **Super Easy CSS，極度簡單** 是一系列 CSS 與網頁前端相關知識的教學文章，主要寫於 2023 - 2025 年的 iThome 鐵人賽。
 
@@ -43,7 +43,7 @@ sidebar:
 
 ---
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683705560504/15822e35-b6be-4cbc-b2e7-b7b5f55a8555.png)
+![](../../../assets/images/preface/15822e35_b6be_4cbc_b2e7_b7b5f55a8555_1783261469604.png)
 
 ## 文章目錄
 
@@ -345,7 +345,7 @@ sidebar:
 
 ---
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683705571380/284e9ba0-04c8-43bd-a093-784c330bd862.png)
+![](../../../assets/images/preface/284e9ba0_04c8_43bd_a093_784c330bd862_1783261469615.png)
 
 ## 2023 年當初寫的參賽前言
 

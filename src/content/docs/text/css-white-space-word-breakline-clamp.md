@@ -9,7 +9,7 @@ tags: css3, css, text-overflow
 sidebar:
   order: 2
 ---
-![CSS 文字過長、行數過多顯示點點點、文字自動折行、強制換行：white-space、word-break、-webkit-line-clamp 的妙用](https://cdn.hashnode.com/res/hashnode/image/upload/v1766058142903/d5abc605-6da9-416f-ad28-25b9c9f29212.png)
+![CSS 文字過長、行數過多顯示點點點、文字自動折行、強制換行：white-space、word-break、-webkit-line-clamp 的妙用](../../../assets/images/text/d5abc605_6da9_416f_ad28_25b9c9f29212_1783261538438.png)
 
 在網頁中，許多資料是動態產生的，也就是說我們沒有辦法控制內容的長短，版面可能被文字擠到破版，也可能會該換行的沒有換行。
 
@@ -32,7 +32,7 @@ sidebar:
 
 讓我們用前幾天 Container Queries 的 DEMO，然後把它弄爆：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697288181262/0ac19953-7d45-4739-b6a6-fd8c5dc6e239.png)
+![](../../../assets/images/text/0ac19953_7d45_4739_b6a6_fd8c5dc6e239_1783261538449.png)
 
 > DEMO 連結：[Broken webpage layout because of long text](https://codepen.io/im1010ioio/pen/VwqNNyq)
 
@@ -47,7 +47,7 @@ sidebar:
 
 ### 1\. 文字過長顯示點點點：`text-overflow`
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697254883948/3abd8960-2deb-47dd-b4a8-6061de07569c.png)
+![](../../../assets/images/text/3abd8960_2deb_47dd_b4a8_6061de07569c_1783261538462.png)
 
 > DEMO 連結：[text-overflow: ellipsis](https://codepen.io/im1010ioio/pen/xxmeewP)
 
@@ -55,7 +55,7 @@ sidebar:
 
 這種方式建議**只使用在單行的時候**：如果使用在多行的情況，它會在每一行的尾巴都添加「…」，但這並不是我們期望的效果，如果多行，我們只需要最後一行有添加「…」就好了 。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697292455766/17323000-837e-48b5-87cf-998b4d6c02d1.png)
+![](../../../assets/images/text/17323000_837e_48b5_87cf_998b4d6c02d1_1783261538473.png)
 
 而 `text-overflow` 有一些使用條件：
 
@@ -87,7 +87,7 @@ h1, small{
 
 ### 2\. 行數過多顯示點點點：`-webkit-line-clamp`
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697255745177/b63944f8-e152-4662-a8b7-167a276ea176.png)
+![](../../../assets/images/text/b63944f8_e152_4662_a8b7_167a276ea176_1783261538485.png)
 
 > DEMO 連結：[line-clamp](https://codepen.io/im1010ioio/pen/xxmeezJ)
 
@@ -119,7 +119,7 @@ p{
 
 ### 3\. 單字過長強制換行：`word-break`
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697255191484/6697b502-6ee5-4b7f-8f80-1e5f50cd3d41.png)
+![](../../../assets/images/text/6697b502_6ee5_4b7f_8f80_1e5f50cd3d41_1783261538497.png)
 
 > DEMO 連結：[word-break: beak-all](https://codepen.io/im1010ioio/pen/RwEOOym)
 
@@ -188,7 +188,7 @@ p{
 
 #### 實際使用 `white-space: pre-line;` 的效果
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697289168173/a843bf88-71a2-4e93-bb8a-cf7fab8dfa82.png)
+![](../../../assets/images/text/a843bf88_71a2_4e93_bb8a_cf7fab8dfa82_1783261538510.png)
 
 > DEMO 連結：[white-space: pre-line](https://codepen.io/im1010ioio/pen/wvRZZYM)
 

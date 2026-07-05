@@ -9,7 +9,7 @@ tags: pseudo-elements, css3, css, hashing, links, target, target-text
 sidebar:
   order: 5
 ---
-![CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標](https://cdn.hashnode.com/res/hashnode/image/upload/v1766594162009/d133ddb0-ac00-4443-bdcf-9b9eaa6daf2f.png)
+![CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標](../../../assets/images/interaction-scroll/d133ddb0_ac00_4443_bdcf_9b9eaa6daf2f_1783261183241.png)
 
 昨天我們讓很長內容的滾動範圍可以用 hash 連結滑順地滾動，今天我們要進一步優化它。
 
@@ -48,7 +48,7 @@ sidebar:
 
 呈現結果如下圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758117939106/169015ab-b154-45a4-8014-1a2ae3b1acd9.gif)
+![](../../../assets/images/interaction-scroll/169015ab_b154_45a4_8014_1a2ae3b1acd9_1783261183256.gif)
 
 > DEMO 連結：[CSS Text Highlight by :target](https://codepen.io/im1010ioio/pen/GgpOyrv)
 
@@ -83,7 +83,7 @@ HTML hash 連結**最基本的**指定方式如下：
 
 結果就會如下：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758119412191/e72efac2-c417-4915-8680-3506dc8838bb.gif)
+![](../../../assets/images/interaction-scroll/e72efac2_c417_4915_8680_3506dc8838bb_1783261183267.gif)
 
 > DEMO 連結：[CSS Text Highlight by :target-text](https://codepen.io/im1010ioio/pen/MYKgbpp)
 

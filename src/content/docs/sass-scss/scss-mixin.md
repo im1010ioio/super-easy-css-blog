@@ -9,7 +9,7 @@ tags: css3, css, sass, scss, mixin, mixins
 sidebar:
   order: 4
 ---
-![SASS/SCSS (4) Mixins @mixin & @include](https://cdn.hashnode.com/res/hashnode/image/upload/v1766722530282/c1c3ef52-9431-400b-a23f-782364b83a8f.png)
+![SASS/SCSS (4) Mixins @mixin & @include](../../../assets/images/sass-scss/c1c3ef52_9431_400b_a23f_782364b83a8f_1783261510471.png)
 
 好的，我們已經學會了如何用變數來管理重複的數值，以及如何用 Partials 來組織我們的檔案結構。現在，我們要來學習一個更強大的功能，解決「重複撰寫一大段樣式碼」的問題，它就是 Mixin！
 

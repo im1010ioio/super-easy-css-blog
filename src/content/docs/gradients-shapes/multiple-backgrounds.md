@@ -9,7 +9,7 @@ tags: background, css3, css, background-image, 2articles1week
 sidebar:
   order: 2
 ---
-![CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766408304889/bda3810b-e154-4aa3-a0f4-4ea84bfd78cd.png)
+![CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)](../../../assets/images/gradients-shapes/bda3810b_e154_4aa3_a0f4_4ea84bfd78cd_1783261073047.png)
 
 我們了解如何設定背景圖，了解了如何畫漸層，接下來就可以靠著多重背景、 `background size` 、 `background position` 與 `background origin` 等等屬性，打出一連串的組合技。
 
@@ -48,7 +48,7 @@ div {
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726673422651/8e275f9f-04b3-4abe-9d13-868ee9368644.png)
+![](../../../assets/images/gradients-shapes/8e275f9f_04b3_4abe_9d13_868ee9368644_1783261073058.png)
 
 另外也可以重疊透明背景圖，搭配 `background-size` 設定每個背景的尺寸：
 
@@ -64,7 +64,7 @@ div {
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726676728923/c781e77a-157c-4679-9ade-369d4af52879.png)
+![](../../../assets/images/gradients-shapes/c781e77a_157c_4679_9ade_369d4af52879_1783261073070.png)
 
 > 延伸閱讀：  
 > [Background-image 之二- 金魚都能懂的CSS必學屬性](https://ithelp.ithome.com.tw/articles/10248148)  
@@ -83,19 +83,19 @@ div {
 * `background-origin: padding-box;` (預設)  
     背景圖片從 padding 的範圍開始出現，但不在 border 內。
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726675968969/d14c33c1-f5c8-42a3-b4ea-73f91022f306.png)
+    ![](../../../assets/images/gradients-shapes/d14c33c1_f5c8_42a3_b4ea_73f91022f306_1783261073080.png)
     
 * `background-origin: border-box;`
     
     背景圖片從 border 的範圍開始出現。
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726671893820/2d5b0bbc-61bc-4c80-afbc-976c2d82fb34.png)
+    ![](../../../assets/images/gradients-shapes/2d5b0bbc_61bc_4c80_afbc_976c2d82fb34_1783261073091.png)
     
 * `background-origin: content-box;`
     
     背景圖片從 content （內容）的範圍開始出現，不包含 padding，也不包含 border。
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726671923686/e86cc8e3-b554-4327-adfa-2683bb29b383.png)
+    ![](../../../assets/images/gradients-shapes/e86cc8e3_b554_4327_adfa_2683bb29b383_1783261073102.png)
     
 
 有了這個，我們就可以利用 `background-origin: content-box` ，做出一張有簽名圖片或是 LOGO 的卡片，讓簽名圖案與文字保持一樣的 padding：
@@ -108,7 +108,7 @@ div {
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726670496910/3aeb968d-eae7-4502-be43-9e55efe3238a.png)
+![](../../../assets/images/gradients-shapes/3aeb968d_eae7_4502_be43_9e55efe3238a_1783261073113.png)
 
 > DEMO: [Signature Background (background-origin)](https://codepen.io/im1010ioio/pen/JjQQQxj)
 
@@ -122,7 +122,7 @@ div {
 > （而且 Apple 認為這是 feature，為了使用者的效能，所以估計永遠不會 work 了🥲）  
 > 所以使用時要斟酌喔！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719283447195/c4f94b31-2e31-4e0d-b0ae-3ea8cfc3bfbe.gif)
+![](../../../assets/images/gradients-shapes/c4f94b31_2e31_4e0d_b0ae_3ea8cfc3bfbe_1783261073123.gif)
 
 > DEMO：[Pure CSS Parallax Scrolling Background](https://codepen.io/im1010ioio/pen/XWQKXGK)
 > 
@@ -132,7 +132,7 @@ div {
 
 雖然可能有些不同，這樣不算是視差捲動，但是有點像，大家可以參考用 `sticky` 疊上背景，也很酷！
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719283735121/ed73daaf-c77d-443f-9b4e-38d89ee27be6.gif)
+![](../../../assets/images/gradients-shapes/ed73daaf_c77d_443f_9b4e_38d89ee27be6_1783261073135.gif)
 
 > DEMO: [Sitcky Page](https://codepen.io/im1010ioio/pen/dyEKRYg)
 > 

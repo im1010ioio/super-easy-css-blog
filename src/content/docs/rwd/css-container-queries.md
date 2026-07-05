@@ -9,7 +9,7 @@ tags: css3, css, container-queries
 sidebar:
   order: 3
 ---
-![CSS Container Queries 容器查詢：讓 CSS 的計算以容器自身為依據](https://cdn.hashnode.com/res/hashnode/image/upload/v1766035916247/17b94ac6-c8e9-4a91-ab5a-7adb9d4ee1dc.png)
+![CSS Container Queries 容器查詢：讓 CSS 的計算以容器自身為依據](../../../assets/images/rwd/17b94ac6_c8e9_4a91_ab5a_7adb9d4ee1dc_1783261470361.png)
 
 
 前幾篇我們學習了 Media Queries，是針對裝置的屬性、大小變化；現在，CSS 新推出了 Container Queries（容器查詢）讓我們可以針對 HTML 元素大小變化，進而改變元素自己的樣式。
@@ -26,7 +26,7 @@ sidebar:
 
 改變元素自己是什麼意思呢？讓我們來看看網路上國外大神 [Jhey Tompkins](https://twitter.com/jh3yy) 的可愛 DEMO 就能快速了解了，他用了 CSS 的 Container Queries 加上 Resize 達到了有趣的互動效果：
 
-![CSS Container Queries demo by Jhey Tompkins](https://cdn.hashnode.com/res/hashnode/image/upload/v1697035915314/5f373203-50de-44f5-a927-ab6e21e44261.gif)
+![CSS Container Queries demo by Jhey Tompkins](../../../assets/images/rwd/5f373203_50de_44f5_a927_ab6e21e44261_1783261470372.gif)
 
 > 詳細請看：[Can We Create a "Resize Hack" With Container Queries? | CSS-Tricks](https://css-tricks.com/can-we-create-a-resize-hack-with-container-queries/)
 
@@ -79,7 +79,7 @@ sidebar:
 * `size`：上下左右方向，我猜想是因為設定後它已被預期會改變高度，所以不會被內容撐高，會失去其高度，要再設定其高度。
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697043304830/ad1db53a-7957-48c3-978e-7bbe8f327eeb.png)
+![](../../../assets/images/rwd/ad1db53a_7957_48c3_978e_7bbe8f327eeb_1783261470384.png)
 
 ### 2\. `container-name`
 
@@ -144,7 +144,7 @@ Container Queries 是針對「自己」容器大小變化，讓我們想想可�
 
 比如說，用戶的資訊可能出現在很多地方，並且要適應不同尺寸，太小時隱藏詳細資訊：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697123664592/05bc18eb-4e7d-4aa2-a541-ce0cbbbd9219.png)
+![](../../../assets/images/rwd/05bc18eb_4e7d_4aa2_a541_ce0cbbbd9219_1783261470394.png)
 
 > [DOMO 連結：User Info Card with Container Queries](https://codepen.io/im1010ioio/pen/RwEdLXx)
 
@@ -154,7 +154,7 @@ Container Queries 是針對「自己」容器大小變化，讓我們想想可�
 
 或者是也很適合用在工具列上，也許同個網站中會有很多地方都要使用工具列樣式，而且要因應不同大小調整，太小時不顯示文字：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697125844072/5d802bde-b568-40ce-aeaa-d3193e40e1d4.png)
+![](../../../assets/images/rwd/5d802bde_b568_40ce_aeaa_d3193e40e1d4_1783261470405.png)
 
 > [DOMO 連結：Toolbar with Container Queries](https://codepen.io/im1010ioio/pen/PoXgwpo)
 

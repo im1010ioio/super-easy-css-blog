@@ -9,11 +9,11 @@ tags: css3, css, triangle, border
 sidebar:
   order: 6
 ---
-![用 CSS border 繪製三角形箭頭 (等腰/直角三角形)](https://cdn.hashnode.com/res/hashnode/image/upload/v1766410148701/b7e131e4-5777-4d50-96de-b969f4a3fda2.png)
+![用 CSS border 繪製三角形箭頭 (等腰/直角三角形)](../../../assets/images/gradients-shapes/b7e131e4_5777_4d50_96de_b969f4a3fda2_1783261093627.png)
 
 在 CSS 中，可以使用邊框 `border` 來繪製三角形，通常會被當成箭頭使用，用在提示框的邊緣或操作步驟按鈕上。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727017390056/3371caf9-c834-4c8d-b47f-b1e145e8fa79.png)
+![](../../../assets/images/gradients-shapes/3371caf9_c834_4c8d_b47f_b1e145e8fa79_1783261093637.png)
 
 > #### **↓ 今日學習重點 ↓**
 > 
@@ -26,13 +26,13 @@ sidebar:
 
 首先我們先來觀察 CSS `border`，讓我們把一個正方形的邊框加粗，而且把四邊的顏色換成不一樣的：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727013676560/ecde6883-ad99-4a7d-8044-b1e2dd8b41d0.png)
+![](../../../assets/images/gradients-shapes/ecde6883_ad99_4a7d_8044_b1e2dd8b41d0_1783261093650.png)
 
 我們會發現邊框與邊框之間會變成斜線的形狀，區隔出兩種顏色。
 
 這時候如果我們再把這個方形的寬高設為零看看：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727013669807/91ac9be0-5bdd-401f-8872-fbc72d9c2879.png)
+![](../../../assets/images/gradients-shapes/91ac9be0_5bdd_401f_8872_fbc72d9c2879_1783261093664.png)
 
 ```css
 .tri {
@@ -55,7 +55,7 @@ sidebar:
 
 要繪製「向上」的等腰三角形，我以下方的邊框為主，設定想要的顏色與寬度大小；接著左右兩邊的邊框設定一樣的寬度並且為透明（不一樣寬就會是歪斜的三角形）；我們不需要上方的邊框，所以不去設定它；這樣就完成了，而反之亦然，可以參考下圖。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727016131737/dc2713d4-720a-4af0-b5d3-662159b7d842.png)
+![](../../../assets/images/gradients-shapes/dc2713d4_720a_4af0_b5d3_662159b7d842_1783261093677.png)
 
 ```css
 .tri {
@@ -73,7 +73,7 @@ sidebar:
 
 要繪製「直角位於左上」的直角三角形，我們需要上方與左方的邊框，設定想要的寬度與顏色後，其他的邊框都不需要，所以不用設定，這樣就完成囉！其他的直角設定方式都一樣，可以參考下圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727015924258/516ae452-4f18-4e44-8738-14c6869f3d51.png)
+![](../../../assets/images/gradients-shapes/516ae452_4f18_4e44_8738_14c6869f3d51_1783261093689.png)
 
 ```css
  .tri {

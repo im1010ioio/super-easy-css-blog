@@ -9,7 +9,7 @@ tags: css3, css, 2articles1week, border
 sidebar:
   order: 8
 ---
-![CSS 邊框 border 與各種花式邊框的小技巧：borde-image、outline、box-shadow](https://cdn.hashnode.com/res/hashnode/image/upload/v1766463596574/826ce3aa-489a-4daa-8e6b-f0e1991f076d.png)
+![CSS 邊框 border 與各種花式邊框的小技巧：borde-image、outline、box-shadow](../../../assets/images/gradients-shapes/826ce3aa_489a_4daa_8e6b_f0e1991f076d_1783261043027.png)
 
 前幾篇我們使用CSS 邊框 `border` 畫了很多圖形，但是好像還沒有正式來好好畫邊框。XD  
 今天，讓我們來研究邊框與各種花式邊框。
@@ -42,7 +42,7 @@ div {
     
 * **樣式**：常見的樣式有：
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727164006400/e9403843-b322-4f0b-a7a5-1b9e27283227.png)
+    ![](../../../assets/images/gradients-shapes/e9403843_b322_4f0b_a7a5_1b9e27283227_1783261043038.png)
     
     * `solid` 實線
         
@@ -116,7 +116,7 @@ border-image: url("/images/border.png") 27 23 / 50px 30px / 1rem round space;
 
 #### 九宮格縮放示意圖
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727171413934/5c750c5c-5c91-494e-98d4-9d9d94648cf3.png)
+![](../../../assets/images/gradients-shapes/5c750c5c_5c91_494e_98d4_9d9d94648cf3_1783261043051.png)
 
 * **四個角區域**：區域 **1、3、7、9** 是圖像的四個角，通常保持原樣。
     
@@ -129,11 +129,11 @@ border-image: url("/images/border.png") 27 23 / 50px 30px / 1rem round space;
 
 例如，這樣就能做出像餅乾般的邊框，我準備了一張這樣的圖：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727255456319/7fdecc32-639d-4485-bc48-34fb52b40746.png)
+![](../../../assets/images/gradients-shapes/7fdecc32_639d_4485_bc48_34fb52b40746_1783261043071.png)
 
 結果如以下 DEMO（順便給大家看看不同種 `repeat` 的效果）：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727190867929/14b94d75-13f2-4dc1-aff1-44ce526b2e80.png)
+![](../../../assets/images/gradients-shapes/14b94d75_13f2_4dc1_aff1_44ce526b2e80_1783261043084.png)
 
 ```css
 div{
@@ -147,7 +147,7 @@ div{
 
 另外，也可以直接在 `border-image` 上設定漸層喔！只不過這種方式需要設定 border 寬度，還有 `border-image` 內的 `slice`。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727191896043/bea1ed58-63af-40ae-8d03-edb142fa6d5b.png)
+![](../../../assets/images/gradients-shapes/bea1ed58_63af_40ae_8d03_edb142fa6d5b_1783261043096.png)
 
 ```css
 div {
@@ -169,7 +169,7 @@ div {
 我們也可以應用到 `border-image` 上，做出一張美式信封。  
 跟剛剛一樣的漸層邊框一樣，需要設定 border 寬度，還有 `border-image` 內的 `slice` (剛好和 border 寬度一樣，條紋才會順暢)。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727254135479/a740e6de-ca18-478e-b694-fc9334e6e260.png)
+![](../../../assets/images/gradients-shapes/a740e6de_ca18_478e_b694_fc9334e6e260_1783261043109.png)
 
 ```css
 div {
@@ -213,7 +213,7 @@ div {
 
 例如，當 input focus 時，會有一個 0.25em 寬的藍色虛線外框。：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727235653598/40fc2c9c-ac7a-4d05-a605-71ca8cf890ad.png)
+![](../../../assets/images/gradients-shapes/40fc2c9c_ac7a_4d05_a605_71ca8cf890ad_1783261043120.png)
 
 ```css
 input[type="text"]:focus {
@@ -228,7 +228,7 @@ input[type="text"]:focus {
 
 `outline` 還可以使用 `outline-offset` 屬性內縮，在使用虛線，就會像縫補的補丁一樣：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727192800489/4e88b601-391a-449d-8c22-09730b7e3953.png)
+![](../../../assets/images/gradients-shapes/4e88b601_391a_449d_8c22_09730b7e3953_1783261043130.png)
 
 > DEMO: [Patch](https://codepen.io/im1010ioio/pen/wpweqq)
 
@@ -251,7 +251,7 @@ input[type="text"]:focus {
 
 我們可以利用這些性質繪製出位於圓形內部的彩虹邊框：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727192858815/feedc0e5-f3c8-4d1d-b040-83734188a7ee.png)
+![](../../../assets/images/gradients-shapes/feedc0e5_f3c8_4d1d_b040_83734188a7ee_1783261043141.png)
 
 ```css
 div {
