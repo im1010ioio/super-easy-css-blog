@@ -2,7 +2,6 @@
 title: "網頁渲染動畫的建議 & will-change 的使用時機"
 datePublished: Wed Aug 13 2025 10:11:32 GMT+0000 (Coordinated Universal Time)
 cuid: cme9t94fy000902jo0way0ucx
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766490372496/80715d83-8022-485a-b447-2aee2b9d1553.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766490377939/6e4c8998-91bb-45b6-92b8-eec9b169c64a.png
 tags: css3, css, web-development, css-animation, rendering, will-change, web-rendering
 

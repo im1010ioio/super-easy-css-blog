@@ -2,7 +2,6 @@
 title: "純 CSS 也能做滾動動畫了！animation-timeline 讓東西邊滾邊動"
 datePublished: Sun Sep 21 2025 15:15:04 GMT+0000 (Coordinated Universal Time)
 cuid: cmftu9oxj000102ld6jx0fl3j
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766596447749/79def804-427a-4cc8-8e15-6b2afffd2d1c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766596453428/7dbbd95b-bf87-426a-93d7-7639b3bc93c8.png
 tags: css3, css, css-animation, scroll-animation, animation-timeline
 

@@ -2,7 +2,6 @@
 title: "客製化 radio、checkbox 樣式，製作開關按鈕 (Switch Button)"
 datePublished: Wed Aug 13 2025 11:14:14 GMT+0000 (Coordinated Universal Time)
 cuid: cme9vhr6q000i02ju5jahg4mq
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766567626809/813220fd-ef25-4f37-8821-8a38ad1ddeaa.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766567631327/67c4a47f-3dcc-4af4-9a80-19fb3d7e3ca9.png
 tags: css3, css, css-animation, checkbox, radio-button, switch-button
 

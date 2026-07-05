@@ -2,7 +2,6 @@
 title: "CSS 濾鏡 filter/ backdrop-filter：模糊、透明圖片加陰影、調色濾鏡、毛玻璃、漸進式模糊效果"
 datePublished: Thu Sep 26 2024 17:26:48 GMT+0000 (Coordinated Universal Time)
 cuid: cm1jkgfn1001v09l06wvzb7ss
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766469228027/8f55826e-df05-4dc3-abb1-3ae188bb159c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766469217833/fd3064fb-1106-4a9f-8e16-394bdcecfd43.png
 tags: css3, css, filter
 

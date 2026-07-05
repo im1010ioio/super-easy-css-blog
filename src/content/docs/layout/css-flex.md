@@ -2,7 +2,6 @@
 title: "CSS Flex 彈性盒子：網頁排版的超級寵兒"
 datePublished: Wed Oct 04 2023 05:11:16 GMT+0000 (Coordinated Universal Time)
 cuid: clnbajkik000009jz8q19hpfn
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765174348896/0c0448bf-3280-41f8-9a41-7a721d87abfa.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1765174357856/8fbb8ca5-d85b-4b1b-85bb-6cc3cead20ec.png
 tags: css3, css, css-flexbox
 

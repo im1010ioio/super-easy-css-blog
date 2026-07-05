@@ -2,7 +2,6 @@
 title: "SASS/SCSS (10) 資料結構 List (列表)"
 datePublished: Sun Oct 12 2025 15:16:49 GMT+0000 (Coordinated Universal Time)
 cuid: cmgnuktis000202ji4mx38fol
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766737021494/4b07c761-2822-4c3e-ba00-13963ce82b64.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766737029272/df64772e-4444-43c4-936b-51566b26ffbb.png
 tags: css3, css, sass, scss
 

@@ -2,7 +2,6 @@
 title: "CSS 簡易的滑順捲軸滾動動畫 scroll-behavior"
 datePublished: Tue Sep 16 2025 15:09:05 GMT+0000 (Coordinated Universal Time)
 cuid: cmfmoupyj000302kv32ibe4vb
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766593768541/b798386c-3a45-4adb-bdf2-8870f7842917.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766593783505/db45d21b-aaf2-4bd1-ab4f-11f6b3821b34.png
 tags: css3, css, css-animation, scroll, scroll-animation, scroll-behavior
 

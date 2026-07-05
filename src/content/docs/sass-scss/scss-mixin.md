@@ -2,7 +2,6 @@
 title: "SASS/SCSS (4) Mixins @mixin & @include"
 datePublished: Mon Oct 06 2025 16:04:32 GMT+0000 (Coordinated Universal Time)
 cuid: cmgfbn2ld000002ji8pvyehrv
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766722530282/c1c3ef52-9431-400b-a23f-782364b83a8f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766722541326/8d502917-cef3-4caf-8fa1-5bba74e2e40e.png
 tags: css3, css, sass, scss, mixin, mixins
 

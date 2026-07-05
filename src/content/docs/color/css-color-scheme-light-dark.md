@@ -2,7 +2,6 @@
 title: "實作網頁深色模式及淺色模式必備的 CSS 語法：color-scheme 與 light-dark()"
 datePublished: Sat Sep 27 2025 18:33:28 GMT+0000 (Coordinated Universal Time)
 cuid: cmg2lzxkc000002jv6gd8g9xe
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766666804254/3b6148f1-d3f4-46bc-a713-b28c369387c5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766666809228/2c0584b3-516e-4995-8130-71cffdbe54ef.png
 tags: css3, css, colorscheme, light-dark-mode, color-scheme, light-dark
 

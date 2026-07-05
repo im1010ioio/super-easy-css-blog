@@ -2,7 +2,6 @@
 title: "CSS @property：變數的再進化！輕易製作純 CSS 漸層動畫、圓餅圖動畫"
 datePublished: Wed Aug 13 2025 11:01:04 GMT+0000 (Coordinated Universal Time)
 cuid: cme9v0tgt001v02l44ec62gze
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766491860511/9a663172-9433-4965-954a-b0cfd3ddccd5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766491849285/37991b0c-6eb3-4442-96d8-a57ea5d7e9e2.png
 tags: css3, css, css-animation, houdini, property, css-houdini
 

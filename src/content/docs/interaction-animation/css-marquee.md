@@ -2,7 +2,6 @@
 title: "純 Css 跑馬燈動畫，單趟跑、無限跑、要暫停都可以"
 datePublished: Wed Aug 13 2025 10:58:58 GMT+0000 (Coordinated Universal Time)
 cuid: cme9uy3t6001g02l4f6yeazqz
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766490924289/8497c2dd-406f-41f3-8886-ce580fd6c3b8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766490929110/bc8c69c5-72d6-4d3f-8bf2-0c35c6eb7ffb.png
 tags: css3, css, css-animation, marquee, css-marquee
 

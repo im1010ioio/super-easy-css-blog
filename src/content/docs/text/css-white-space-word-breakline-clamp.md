@@ -2,7 +2,6 @@
 title: "CSS 文字過長、行數過多顯示點點點、文字自動折行、強制換行：white-space、word-break、-webkit-line-clamp 的妙用"
 datePublished: Sat Oct 14 2023 15:32:33 GMT+0000 (Coordinated Universal Time)
 cuid: clnq751sh000409mig4ilgpji
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766058142903/d5abc605-6da9-416f-ad28-25b9c9f29212.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766058151029/a27713b1-91fa-4554-8c24-cb3287c5bf56.png
 tags: css3, css, text-overflow
 

@@ -3,7 +3,6 @@ title: "RWD & CSS Media Queries &
 iOS Safari 上的經驗談"
 datePublished: Mon Oct 09 2023 17:51:20 GMT+0000 (Coordinated Universal Time)
 cuid: clnj6wa5l00040al3fezj2ejj
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766032181935/ba3b9649-ff14-43e8-a97c-39ce3f257f5b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766032194831/d8af83fa-9159-4e36-bfdf-8ba248feac8d.png
 tags: css3, css, cssmediaqueries
 

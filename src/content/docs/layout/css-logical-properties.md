@@ -2,7 +2,6 @@
 title: "CSS 邏輯屬性 Logical properties 與 Writing modes"
 datePublished: Sun Oct 08 2023 18:29:09 GMT+0000 (Coordinated Universal Time)
 cuid: clnhst27b000109my4n2l65jy
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766031882935/89f53e75-a52e-4959-9f07-04986da713c8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766031894264/f3850e7c-6a94-4094-b626-90d40d1487fb.png
 tags: css3, css
 

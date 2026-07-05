@@ -2,7 +2,6 @@
 title: "CSS + SVG 仿 Apple iOS26 液態玻璃（Liquid Glass）效果  (Safari 不支援)"
 datePublished: Mon Sep 29 2025 16:16:17 GMT+0000 (Coordinated Universal Time)
 cuid: cmg5bz8ef000402jp4hafayco
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766667429387/a6ed6d77-115a-48c7-90b9-fe28c0aaa8ca.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766667433753/c0aa2554-038e-46f7-8826-1a32d439a408.png
 tags: css3, css, svg, liquid-glass, ios26, liquid-glass-design
 

@@ -2,7 +2,6 @@
 title: "CSS 立體字、霓虹字、外框字、漸層字：text-shadow、-webkit-text-stroke、-webkit-background-clip"
 datePublished: Sun Oct 15 2023 13:52:22 GMT+0000 (Coordinated Universal Time)
 cuid: clnrj02aq000509mpap8a9gnd
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766115024674/7bff7505-457a-4e2b-bc1c-221272e5f3c3.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766115035297/359208c5-6e83-47b7-8987-48e8994b456f.png
 tags: css3, css, css-text-effects
 

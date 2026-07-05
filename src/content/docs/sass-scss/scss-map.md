@@ -2,7 +2,6 @@
 title: "SASS/SCSS (11) 資料結構 Map"
 datePublished: Mon Oct 13 2025 14:58:25 GMT+0000 (Coordinated Universal Time)
 cuid: cmgp9d0e3000202lfdx745ajn
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766737371006/dee474f7-79f4-4ebd-94ec-f660b6b117f7.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766737380022/09a92817-0dca-4c3a-af2e-6bb0459bd89e.png
 tags: css3, css, sass, scss
 

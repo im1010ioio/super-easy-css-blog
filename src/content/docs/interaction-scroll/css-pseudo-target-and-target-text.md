@@ -2,7 +2,6 @@
 title: "CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標"
 datePublished: Wed Sep 17 2025 15:06:26 GMT+0000 (Coordinated Universal Time)
 cuid: cmfo476lc000002jrc7a2ha01
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766594162009/d133ddb0-ac00-4443-bdcf-9b9eaa6daf2f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766594170322/f4369b36-5571-46b1-aee8-8346ffe5dcd5.png
 tags: pseudo-elements, css3, css, hashing, links, target, target-text
 

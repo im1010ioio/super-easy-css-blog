@@ -2,7 +2,6 @@
 title: "CSS 偽元素的妙用：「::before」 與「::after」的常見用法"
 datePublished: Mon Sep 22 2025 15:49:38 GMT+0000 (Coordinated Universal Time)
 cuid: cmfvaxzb3000b02jual0ne5r5
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766644501505/982a62a7-db56-4093-9d0b-c72607031423.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766644520052/4fcefaf9-516d-45d4-b61e-6c2a03b106ec.png
 tags: pseudo-elements, css3, css, pseudo-classes, pseudo, pseudo-classes-in-css
 

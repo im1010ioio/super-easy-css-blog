@@ -2,7 +2,6 @@
 title: "CSS offset-path：沿著軌跡行進動畫"
 datePublished: Wed Aug 13 2025 11:03:03 GMT+0000 (Coordinated Universal Time)
 cuid: cme9v3dhu000802kz91s3hl2a
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766492239186/add6d5f6-6878-4908-b6ba-06db13e96ce6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766492244746/e6f2ee8a-664b-4b78-abd0-c4936af90871.png
 tags: css3, css, css-animation, offset-path, css-offset-path
 

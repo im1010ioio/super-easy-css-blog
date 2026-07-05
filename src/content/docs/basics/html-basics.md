@@ -2,7 +2,6 @@
 title: "HTML 基礎語法"
 datePublished: Wed Sep 20 2023 17:08:52 GMT+0000 (Coordinated Universal Time)
 cuid: clms00h9k000008jxbqed27r7
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764752083957/2209b0c1-396b-4c5b-9ad6-74f255d0313d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764752094083/85055448-6444-4faa-985f-aafe525ff67c.png
 tags: html, html5
 

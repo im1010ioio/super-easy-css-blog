@@ -2,7 +2,6 @@
 title: "HTML <video> 用影片當背景，使用 iframe 嵌入 Youtube自動播放/ IG/ TikTok/ X (Twitter) 影片"
 datePublished: Sun Sep 15 2024 23:38:54 GMT+0000 (Coordinated Universal Time)
 cuid: cm147wkxx002609l60ci20cjk
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766407422606/29dc2791-247d-41c2-b42e-9edfe1a39adc.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766407431729/ffd80526-fb10-43ff-a5a6-0a786f8273f5.png
 tags: html, html5, video, youtube
 

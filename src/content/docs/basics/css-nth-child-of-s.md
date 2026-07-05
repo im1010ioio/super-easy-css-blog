@@ -2,7 +2,6 @@
 title: "CSS :nth-child 的新寫法：:nth-child of S (N of Selector)"
 datePublished: Wed Sep 24 2025 15:39:03 GMT+0000 (Coordinated Universal Time)
 cuid: cmfy5g37l000002ldhrt7c54s
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766645222550/d00f7162-75d4-4d4d-a9e1-9ba83e647892.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766645229124/61ec7b42-7d39-48f0-85ea-c8328d0091ab.png
 tags: css3, css, css-nth-child-selectors
 

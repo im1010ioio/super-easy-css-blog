@@ -2,7 +2,6 @@
 title: "4 個常見的 Css 設計方法與命名建議：oocss、smacss、bem、rscss"
 datePublished: Thu Sep 28 2023 05:02:25 GMT+0000 (Coordinated Universal Time)
 cuid: cln2pl2v3000u09mh8lgve1nl
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764825953417/f3fdec25-906a-485b-9786-d59b9515eeec.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764825947596/fcec4c61-3b80-4926-83f7-76325f3798fa.png
 tags: css3, css
 

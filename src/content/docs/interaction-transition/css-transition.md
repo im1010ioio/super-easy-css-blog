@@ -2,7 +2,6 @@
 title: "CSS Transition 與一些小技巧：倒帶、影響相鄰的兄弟"
 datePublished: Wed Aug 13 2025 10:04:07 GMT+0000 (Coordinated Universal Time)
 cuid: cme9szkli000402l7co0actjs
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766489378902/0d99307c-9d63-4bfe-be7b-dc222837ffc4.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766489390222/795885ca-323a-4f07-a266-a76ef5b50a97.png
 tags: css3, css, css-animation, transition, transition-properties-in-css, css-transitions
 

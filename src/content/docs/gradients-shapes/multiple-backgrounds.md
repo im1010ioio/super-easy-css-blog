@@ -2,7 +2,6 @@
 title: "CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)"
 datePublished: Wed Sep 18 2024 16:12:15 GMT+0000 (Coordinated Universal Time)
 cuid: cm1829qzw000609js5auz3kbz
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766408304889/bda3810b-e154-4aa3-a0f4-4ea84bfd78cd.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766408314208/d457bedd-9b75-45e5-80e3-00a4ba72dd5b.png
 tags: background, css3, css, background-image, 2articles1week
 

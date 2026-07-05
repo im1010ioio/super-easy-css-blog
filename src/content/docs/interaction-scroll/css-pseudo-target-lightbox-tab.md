@@ -2,7 +2,6 @@
 title: "CSS :target 應用：純 CSS 光箱、純 CSS Tab 頁籤"
 datePublished: Thu Sep 18 2025 15:40:56 GMT+0000 (Coordinated Universal Time)
 cuid: cmfpkve07000002l4c8rl8qwf
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766595259017/6119753c-d744-41f4-9e96-874872dc8486.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766595265864/7bdaaf6c-622e-4c36-bf76-67bfe96f554f.png
 tags: pseudo-elements, css3, css, lightbox, tab, target
 

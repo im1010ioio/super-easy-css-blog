@@ -2,7 +2,6 @@
 title: "利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）"
 datePublished: Wed Aug 13 2025 11:35:28 GMT+0000 (Coordinated Universal Time)
 cuid: cme9w91we000202ju3saa9w7v
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766573492991/1e107051-bb6c-4753-85d3-a740bb4229aa.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766573480464/824a92cc-1924-4e40-8d84-6d022152c1ab.png
 tags: css3, css, css-animation, collapse, accordion-menu
 

@@ -2,7 +2,6 @@
 title: "CSS 也能控制作用域了！@scope 語法"
 datePublished: Thu Sep 25 2025 15:54:32 GMT+0000 (Coordinated Universal Time)
 cuid: cmfzlfu7b000102l8fjon2i9z
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766648339902/ab73f3c8-e265-45d6-b21c-97cc7b3cec28.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766648345092/f189e859-47cd-494e-8024-322e0eb4f45b.png
 tags: css3, css, scope, css-scoping, css-scope
 

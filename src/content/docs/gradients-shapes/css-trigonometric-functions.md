@@ -2,7 +2,6 @@
 title: "CSS 可以寫三角函數？sin()、cos()、tan() 專門處理圓弧、波浪或是特殊角度"
 datePublished: Thu Oct 02 2025 14:48:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmg9j592y000502jv74y29i1k
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766687684276/d8b1c3ba-65be-4e46-a360-d75908bb77eb.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766687688994/21943fe9-26dd-4afd-95ef-baf254bdb67b.png
 tags: css3, css, trigonometry, trigonometric-functions
 

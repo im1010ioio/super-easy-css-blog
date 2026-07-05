@@ -2,7 +2,6 @@
 title: "SASS/SCSS (9) 函式 (Function) - 打造你自己的工具箱"
 datePublished: Fri Oct 10 2025 17:06:57 GMT+0000 (Coordinated Universal Time)
 cuid: cmgl3mqtg000802k48q861ayt
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766736584812/e8e8c676-ffe4-46b7-b0bf-dcabb164b021.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766736592190/f7fb270a-6e28-4b3f-abbb-db29f8b170ea.png
 tags: css3, css, sass, scss
 

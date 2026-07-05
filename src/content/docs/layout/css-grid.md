@@ -2,7 +2,6 @@
 title: "CSS Grid、Subgrid：網頁排版的神奇格子，來排個照片牆與雞腿便當吧！"
 datePublished: Thu Oct 05 2023 13:54:29 GMT+0000 (Coordinated Universal Time)
 cuid: clnd8o9q1000409mn1r0rf6kq
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765252837447/ec9067ee-9d32-4b51-8c46-87d11991b306.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1765252845972/bbfa73ca-0464-43f7-a644-bce1d45f33aa.png
 tags: css3, css, css-grid
 

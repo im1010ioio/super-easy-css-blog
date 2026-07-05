@@ -2,7 +2,6 @@
 title: "Css 基本語法 & 權重介紹"
 datePublished: Sat Sep 23 2023 04:57:36 GMT+0000 (Coordinated Universal Time)
 cuid: clmvk7mf9000409jsfonj7kvl
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764760942424/c465a72b-63b0-4698-9de0-89eb737f66de.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764760931754/d49482cd-2e50-45a0-a3c7-a919c387bce3.png
 tags: css3, css
 

@@ -2,7 +2,6 @@
 title: "CSS 噪點漸層 (Grainy Gradients) 的製作方法"
 datePublished: Wed Aug 13 2025 09:54:34 GMT+0000 (Coordinated Universal Time)
 cuid: cme9snay9003i02l55rv1fszv
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766471876671/b93edd5b-8d58-4720-b707-449291a7915b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766471881730/98ad5e62-8aa0-4ecc-aff5-963034e561ca.png
 tags: css3, css, gradient, grain, gradients-in-css
 

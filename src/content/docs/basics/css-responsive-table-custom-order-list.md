@@ -2,7 +2,6 @@
 title: "CSS 偽元素的進階用法：用 ::before 與 ::after 做 RWD 表格 & 客製化樣式的序號清單 (ol, oder list)"
 datePublished: Tue Sep 23 2025 15:53:13 GMT+0000 (Coordinated Universal Time)
 cuid: cmfwqig1k000302jla0xcf4om
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766644806559/0cba1437-ae33-41a8-8fac-457f1834c652.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766644814574/aac3b5b3-730c-4b53-9655-29bb901dec3c.png
 tags: pseudo-elements, css3, css, responsive-designs, responsive-web-design, pseudo, pseudo-classes-in-css
 

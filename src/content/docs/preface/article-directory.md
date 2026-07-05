@@ -2,7 +2,6 @@
 title: "文章目錄 | Super Easy CSS，極度簡單"
 datePublished: Sat Sep 16 2023 04:27:31 GMT+0000 (Coordinated Universal Time)
 cuid: clmlj1yj7000509mhg1y0hv4j
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764752687330/d9993fd8-3b1f-4f8c-9474-8e0bf44cb246.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764752669667/b2755aff-2f8b-43a2-8f8a-fe2e20bc847d.png
 tags: css3, css, html, html5
 

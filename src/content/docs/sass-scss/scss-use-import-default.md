@@ -2,7 +2,6 @@
 title: "SASS/SCSS (3) 使用檔案管理樣式 Partials / Modules (@use / @import / !default)"
 datePublished: Sun Oct 05 2025 08:02:50 GMT+0000 (Coordinated Universal Time)
 cuid: cmgdezqxz000002la9n3c8aio
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766721970631/33d3ea69-4882-483b-b122-9d0c94f9b253.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766721975403/b1982f0d-bd4c-4f68-a89c-b0966b8941e0.png
 tags: css3, css, sass, scss
 

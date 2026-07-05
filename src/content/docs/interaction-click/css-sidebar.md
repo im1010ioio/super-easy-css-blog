@@ -2,7 +2,6 @@
 title: "利用 checkbox，做到純 CSS 開關網頁選單、收合側邊欄"
 datePublished: Wed Aug 13 2025 11:32:06 GMT+0000 (Coordinated Universal Time)
 cuid: cme9w4qcm000y02l56a0e4by1
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766572871211/31883184-d4b3-461a-98b2-8b659a7b5b1a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766572876797/4c824b26-da84-440a-99ba-7b9cec7b6aa9.png
 tags: css3, css, css-animations, animation, css-animation, sidebar, sidecar-container
 

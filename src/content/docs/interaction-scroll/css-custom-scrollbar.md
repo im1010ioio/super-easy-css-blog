@@ -2,7 +2,6 @@
 title: "CSS 自訂捲軸顏色與樣式：scrollbar-color、scrollbar-width、scrollbar-gutter、::-webkit-scrollbar-*"
 datePublished: Wed Aug 13 2025 11:42:55 GMT+0000 (Coordinated Universal Time)
 cuid: cme9wimm8000b02js60r5awp5
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766575632994/8b3dc593-14ce-42f7-be50-4383d81e0aee.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766575639652/3ae0de86-ee08-4080-bcdb-b96de5a7a61c.png
 tags: css3, css, scrollbar, css-scroll, default-scrollbar-css
 

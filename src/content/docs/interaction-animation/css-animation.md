@@ -2,7 +2,6 @@
 title: "CSS Animation"
 datePublished: Wed Aug 13 2025 10:08:39 GMT+0000 (Coordinated Universal Time)
 cuid: cme9t5edn001h02l7f1ds8s9b
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766490100467/4939b838-48ff-4ac8-91fc-45288b961ab0.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766490105519/e13025a6-1e5b-4905-8779-11344d90a519.png
 tags: css3, css, animation, css-animation, web-animation
 

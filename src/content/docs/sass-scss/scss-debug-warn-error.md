@@ -2,7 +2,6 @@
 title: "SASS/SCSS (12) 防呆與偵錯 @debug / @warn / @error"
 datePublished: Mon Oct 13 2025 17:41:20 GMT+0000 (Coordinated Universal Time)
 cuid: cmgpf6ij6000502l86a6r357y
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766737938363/4080ff1e-ef88-46e9-882b-7d44d2377857.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766737945283/8c337616-0fed-4738-af1e-cfcde5261654.png
 tags: css3, css, sass, scss
 

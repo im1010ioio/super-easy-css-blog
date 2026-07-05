@@ -2,7 +2,6 @@
 title: "2023 iT 鐵人賽心路歷程 & 我的寫作方法"
 datePublished: Mon Oct 16 2023 16:26:33 GMT+0000 (Coordinated Universal Time)
 cuid: clnt3y7gg000i09l6absyhcw4
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766115097879/37d8f746-edcb-4fda-9570-63e278086282.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766115105239/a91596ec-b3ef-4ed1-a1e4-f67ea46c73cd.png
 tags: diary
 

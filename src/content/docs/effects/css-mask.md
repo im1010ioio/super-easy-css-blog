@@ -2,7 +2,6 @@
 title: "CSS 中的半透明遮罩 mask，實現各種模糊邊緣特效"
 datePublished: Thu Sep 26 2024 06:11:09 GMT+0000 (Coordinated Universal Time)
 cuid: cm1iwbjk5000h09l7cotgag2q
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766467622070/0014c088-4898-4e1d-b145-cf4bae77a334.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766467610239/e489ca39-d566-4be4-89bc-ed2100641f77.png
 tags: css3, css, 2articles1week, mask
 

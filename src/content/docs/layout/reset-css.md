@@ -2,7 +2,6 @@
 title: "Reset CSS！用 Reset.css 或 Normalize.css 變回你該有的樣子"
 datePublished: Sat Sep 30 2023 05:34:01 GMT+0000 (Coordinated Universal Time)
 cuid: cln5llepz000b09jr4gtp69ww
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764831462030/690494ef-b064-4ecb-a3f1-7bd9f0654fe6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764831472797/5af4f1c1-6f61-4f71-b6f9-45b0f6b1fa98.png
 tags: css3, css
 

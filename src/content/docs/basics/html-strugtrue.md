@@ -2,7 +2,6 @@
 title: "寫一份簡單的 HTML，常用 HTML Tag 總整理"
 datePublished: Fri Sep 22 2023 04:57:49 GMT+0000 (Coordinated Universal Time)
 cuid: clmu4s1j5000a09l589tdb8jf
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764756220506/0d7d8b66-4b21-4061-8977-1993d6910eb3.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764756232492/86aea363-eb73-4ff2-be1e-49ace96d79d0.png
 tags: html, html5
 

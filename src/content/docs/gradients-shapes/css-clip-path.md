@@ -2,7 +2,6 @@
 title: "用 CSS clip-path 剪裁各種形狀的色塊/圖片/影片"
 datePublished: Mon Sep 23 2024 17:12:52 GMT+0000 (Coordinated Universal Time)
 cuid: cm1f9mydi000b0al83t0i0z7i
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766463116355/68a6acb1-bf24-4d17-b911-e6e4c1007d03.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766463126265/fa27c301-9bd9-4983-918a-171320e88cb6.png
 tags: css3, css, 2articles1week, clipping-path
 
