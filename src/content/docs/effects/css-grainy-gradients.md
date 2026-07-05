@@ -2,13 +2,13 @@
 title: "CSS 噪點漸層 (Grainy Gradients) 的製作方法"
 datePublished: Wed Aug 13 2025 09:54:34 GMT+0000 (Coordinated Universal Time)
 cuid: cme9snay9003i02l55rv1fszv
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766471881730/98ad5e62-8aa0-4ecc-aff5-963034e561ca.png
+ogImage: https://css.im1010ioio.dev/og-images/css-grainy-gradients.png
 tags: css3, css, gradient, grain, gradients-in-css
 
 sidebar:
   order: 4
 ---
-![CSS 噪點漸層 (Grainy Gradients) 的製作方法](../../../assets/images/effects/b93edd5b_8d58_4720_b707_449291a7915b_1783260960633.png)
+![CSS 噪點漸層 (Grainy Gradients) 的製作方法](/og-images/css-grainy-gradients.png)
 
 所謂的噪點漸層 (Grainy Gradients)，在顏色漸變時不是使用平滑過渡色彩，而是使用顆粒由多至少漸變，這樣的方式能夠製造出磨砂的質感，例如 Arc 瀏覽器的背景特效：
 

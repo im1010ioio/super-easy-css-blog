@@ -2,13 +2,13 @@
 title: "CSS 偽元素的妙用：「::before」 與「::after」的常見用法"
 datePublished: Mon Sep 22 2025 15:49:38 GMT+0000 (Coordinated Universal Time)
 cuid: cmfvaxzb3000b02jual0ne5r5
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766644520052/4fcefaf9-516d-45d4-b61e-6c2a03b106ec.png
+ogImage: https://css.im1010ioio.dev/og-images/css-pseudo-before-after.png
 tags: pseudo-elements, css3, css, pseudo-classes, pseudo, pseudo-classes-in-css
 
 sidebar:
   order: 14
 ---
-![CSS 偽元素的妙用：「::before」 與「::after」的常見用法](../../../assets/images/basics/982a62a7_db56_4093_9d0b_c72607031423_1783252538190.png)
+![CSS 偽元素的妙用：「::before」 與「::after」的常見用法](/og-images/css-pseudo-before-after.png)
 
 之前寫的文章，雖然有提到過，但是居然沒有好好地解釋過 CSS 的偽元素（Pseudo），也就是 `::before` 與 `::after`。這超級實用的，怎麼能沒有呢？所以今天就來好好地認識一下它們吧！
 

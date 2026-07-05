@@ -2,13 +2,13 @@
 title: "用 CSS 解決文字上下多出來的神秘空間：text-box-trim / text-box-edge"
 datePublished: Sat Sep 27 2025 12:33:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmg294df4000702l2ap001h1q
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766658111255/cfe57160-c6d3-4f70-9d9f-c27a4cb5a02d.png
+ogImage: https://css.im1010ioio.dev/og-images/css-text-box-trim-edge.png
 tags: css3, css, text-box, text-box-trim, text-box-edge
 
 sidebar:
   order: 5
 ---
-![用 CSS 解決文字上下多出來的神秘空間：text-box-trim / text-box-edge](../../../assets/images/text/93b8ffa2_949d_433b_a96d_218260e4b5e4_1783261556773.png)
+![用 CSS 解決文字上下多出來的神秘空間：text-box-trim / text-box-edge](/og-images/css-text-box-trim-edge.png)
 
 你是不是也常常爲了文字上下多出來的神秘空白間距感到困擾，導致按鈕裡的文字、或是標題跟內文之間的距離怎麼調都感覺不太對勁？
 

@@ -2,13 +2,13 @@
 title: "使用 CSS overflow 自訂捲動範圍"
 datePublished: Wed Aug 13 2025 11:39:22 GMT+0000 (Coordinated Universal Time)
 cuid: cme9we2ql000q02l54kxb9orz
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766575144179/cf770c0f-d68a-4f12-a86a-258815d3ecac.png
+ogImage: https://css.im1010ioio.dev/og-images/css-overflow.png
 tags: css3, css, overflow, overflow-property, css-scroll, scrollable
 
 sidebar:
   order: 1
 ---
-![使用 CSS overflow 自訂捲動範圍](../../../assets/images/interaction-scroll/6b0bda74_8cb8_4e18_b131_e942fddd3720_1783261257205.png)
+![使用 CSS overflow 自訂捲動範圍](/og-images/css-overflow.png)
 
 當我們在進行網頁設計時，常常要處理當內容超出容器範圍時的情況，這就是使用到 `overflow` 屬性的時候了！`overflow` 最常用在自訂捲動範圍，尤其是系統後台網頁常見的雙欄設計上。
 

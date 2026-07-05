@@ -2,13 +2,13 @@
 title: "一次搞懂 CSS 各種混合模式：mix-blend-mode/ background-blend-mode"
 datePublished: Thu Oct 03 2024 09:45:23 GMT+0000 (Coordinated Universal Time)
 cuid: cm1t41zte000c0ajh2amfeghi
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766470188584/60409bce-adc4-4a24-9002-acfb41e1d1c5.png
+ogImage: https://css.im1010ioio.dev/og-images/css-mix-blend-mode.png
 tags: css3, css, 2articles1week, mix-blend-mode, background-blend-mode
 
 sidebar:
   order: 3
 ---
-![一次搞懂 CSS 各種混合模式：mix-blend-mode/ background-blend-mode](../../../assets/images/effects/efdfe19d_834c_4b73_91a0_3de78a42b6f6_1783260961272.png)
+![一次搞懂 CSS 各種混合模式：mix-blend-mode/ background-blend-mode](/og-images/css-mix-blend-mode.png)
 
 `mix-blend-mode` 和 `background-blend-mode` 能讓元素或背景顏色和它們背後的元素或背景進行混合，從而產生不同的視覺效果。這些效果類似於 Photoshop 等圖像編輯軟件中的「混合模式」。
 

@@ -2,13 +2,13 @@
 title: "SASS/SCSS (11) 資料結構 Map"
 datePublished: Mon Oct 13 2025 14:58:25 GMT+0000 (Coordinated Universal Time)
 cuid: cmgp9d0e3000202lfdx745ajn
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766737380022/09a92817-0dca-4c3a-af2e-6bb0459bd89e.png
+ogImage: https://css.im1010ioio.dev/og-images/scss-map.png
 tags: css3, css, sass, scss
 
 sidebar:
   order: 11
 ---
-![SASS/SCSS (11) 資料結構 Map](../../../assets/images/sass-scss/dee474f7_79f4_4ebd_94ec_f660b6b117f7_1783261494173.png)
+![SASS/SCSS (11) 資料結構 Map](/og-images/scss-map.png)
 
 昨天學到的 List 是個簡單的列表，今天我們要來看看 SCSS 中的 Map，它有點像 json 資料。
 

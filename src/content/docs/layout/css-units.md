@@ -2,13 +2,13 @@
 title: "網頁使用的單位大解析：px、rem、em、%、vw、vh (dvh, lvh, svh)、vmin、vmax"
 datePublished: Sun Oct 01 2023 14:17:06 GMT+0000 (Coordinated Universal Time)
 cuid: cln7jpy06000d09md30da5rwo
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764832573558/d798df29-a079-4e76-950e-80b215ab0ffc.png
+ogImage: https://css.im1010ioio.dev/og-images/css-units.png
 tags: css3, css
 
 sidebar:
   order: 3
 ---
-![網頁使用的單位大解析：px、rem、em、%、vw、vh (dvh, lvh, svh)、vmin、vmax](../../../assets/images/layout/2134fe80_3df2_4d25_9e33_076f8f3887b6_1783261277883.png)
+![網頁使用的單位大解析：px、rem、em、%、vw、vh (dvh, lvh, svh)、vmin、vmax](/og-images/css-units.png)
 
 在網頁設計中，我們會使用到各種單位來調整尺寸和排版，而單位分成絕對單位和相對單位。
 

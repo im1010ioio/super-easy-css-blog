@@ -3,13 +3,13 @@ title: " 網頁的基本名詞：UI/UX？切版&切圖？前端&後端？靜態&
 seoTitle: "網頁的基本概念：切版&切圖？前端&後端？靜態&動態？RWD or Mobile First？"
 datePublished: Sun Sep 17 2023 14:47:32 GMT+0000 (Coordinated Universal Time)
 cuid: clmnkn63e000j08mkd8vx6hg8
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764751238430/41b91ec5-4745-4d64-a5a2-ed3d2d4f1e6e.png
+ogImage: https://css.im1010ioio.dev/og-images/glossary-of-web-development.png
 tags: ux, web-development, ui, responsive-web-design, mobile-first
 
 sidebar:
   order: 1
 ---
-![ 網頁的基本名詞：UI/UX？切版&切圖？前端&後端？靜態&動態？RWD or Mobile First？ | Super Easy CSS](../../../assets/images/basics/e4d05c3e_8d4c_41c9_ae0f_8405f0a3e914_1783252552198.png)
+![ 網頁的基本名詞：UI/UX？切版&切圖？前端&後端？靜態&動態？RWD or Mobile First？ | Super Easy CSS](/og-images/glossary-of-web-development.png)
 
 > #### ↓ 今日學習重點 ↓
 > 

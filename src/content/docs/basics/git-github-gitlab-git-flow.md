@@ -2,13 +2,13 @@
 title: "人在江湖，版控要有：了解 GIT / GitHub / GitLab / Git Flow"
 datePublished: Mon Sep 18 2023 16:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clms02utw000009md632san7a
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764754371575/e15693a0-0139-4772-a4e4-b595b07d0969.png
+ogImage: https://css.im1010ioio.dev/og-images/git-github-gitlab-git-flow.png
 tags: github, git, gitflow
 
 sidebar:
   order: 3
 ---
-![人在江湖，版控要有：了解 GIT / GitHub / GitLab / Git Flow](../../../assets/images/basics/1880f471_5ad1_4713_9e1d_c4790677519b_1783252464643.png)
+![人在江湖，版控要有：了解 GIT / GitHub / GitLab / Git Flow](/og-images/git-github-gitlab-git-flow.png)
 
 我把我所知的 Git 知識都放在這了，自己去拿吧！（航海王口吻）  
 不過也許有誤，或者是更延伸的知識，歡迎大家留言給我。XD

@@ -2,13 +2,13 @@
 title: "告別 JS 計算位置！CSS Anchor Positioning 定位的新寫法"
 datePublished: Tue Sep 30 2025 15:53:51 GMT+0000 (Coordinated Universal Time)
 cuid: cmg6qm7q6000502l7gijlac70
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766671318216/ad014432-1182-407b-b2a2-416fafb04842.png
+ogImage: https://css.im1010ioio.dev/og-images/css-anchor-positioning.png
 tags: css3, css, anchor-positioning
 
 sidebar:
   order: 12
 ---
-![告別 JS 計算位置！CSS Anchor Positioning 定位的新寫法](../../../assets/images/layout/54c1389e_68d9_4f9c_91b8_b67898409216_1783261333037.png)
+![告別 JS 計算位置！CSS Anchor Positioning 定位的新寫法](/og-images/css-anchor-positioning.png)
 
 從前要用 CSS 精準地將一個元素（例如：Tooltip、下拉式選單）對齊另一個元素，總是要大費周章，甚至需要動用 JS 來計算位置。現在，CSS 推出了一個眾所期待的新功能：**Anchor Positioning**。它讓我們能以更單純的 CSS，將元素彼此「錨定」，輕鬆解決各種的定位難題。
 

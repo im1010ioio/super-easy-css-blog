@@ -2,13 +2,13 @@
 title: "CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)"
 datePublished: Wed Sep 18 2024 16:12:15 GMT+0000 (Coordinated Universal Time)
 cuid: cm1829qzw000609js5auz3kbz
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766408314208/d457bedd-9b75-45e5-80e3-00a4ba72dd5b.png
+ogImage: https://css.im1010ioio.dev/og-images/multiple-backgrounds.png
 tags: background, css3, css, background-image, 2articles1week
 
 sidebar:
   order: 2
 ---
-![CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)](../../../assets/images/gradients-shapes/bda3810b_e154_4aa3_a0f4_4ea84bfd78cd_1783261073047.png)
+![CSS background 組合技：多重背景、背景位置、簡易視差滾動 (iOS 不支援)](/og-images/multiple-backgrounds.png)
 
 我們了解如何設定背景圖，了解了如何畫漸層，接下來就可以靠著多重背景、 `background size` 、 `background position` 與 `background origin` 等等屬性，打出一連串的組合技。
 

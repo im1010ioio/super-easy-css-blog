@@ -2,13 +2,13 @@
 title: "原生的 Css 變數，基本與進階應用"
 datePublished: Sun Sep 24 2023 16:59:58 GMT+0000 (Coordinated Universal Time)
 cuid: clmxpgfzx000209mq1mbr81e8
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764817652004/f40b455e-6013-42d2-a250-dd9ca5af29d4.png
+ogImage: https://css.im1010ioio.dev/og-images/css-variables.png
 tags: css3, css, css-variables
 
 sidebar:
   order: 10
 ---
-![原生的 Css 變數，基本與進階應用](../../../assets/images/basics/79049953_3c6d_4a3c_936b_91401d83b118_1783252549308.png)
+![原生的 Css 變數，基本與進階應用](/og-images/css-variables.png)
 
 CSS 變數（CSS Variables）可以讓人在整個網站的樣式中輕鬆重複使用相同的值，更輕鬆地調整網站的外觀，同時保持一致性。以往 CSS 要使用變數必須透過 Sass (SCSS) 或 Less 等預處理器才能實現，但現在有了原生的 CSS 變數，已開始廣泛運用在網頁上了。
 

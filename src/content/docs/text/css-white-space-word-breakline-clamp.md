@@ -2,13 +2,13 @@
 title: "CSS 文字過長、行數過多顯示點點點、文字自動折行、強制換行：white-space、word-break、-webkit-line-clamp 的妙用"
 datePublished: Sat Oct 14 2023 15:32:33 GMT+0000 (Coordinated Universal Time)
 cuid: clnq751sh000409mig4ilgpji
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766058151029/a27713b1-91fa-4554-8c24-cb3287c5bf56.png
+ogImage: https://css.im1010ioio.dev/og-images/css-white-space-word-breakline-clamp.png
 tags: css3, css, text-overflow
 
 sidebar:
   order: 2
 ---
-![CSS 文字過長、行數過多顯示點點點、文字自動折行、強制換行：white-space、word-break、-webkit-line-clamp 的妙用](../../../assets/images/text/d5abc605_6da9_416f_ad28_25b9c9f29212_1783261538438.png)
+![CSS 文字過長、行數過多顯示點點點、文字自動折行、強制換行：white-space、word-break、-webkit-line-clamp 的妙用](/og-images/css-white-space-word-breakline-clamp.png)
 
 在網頁中，許多資料是動態產生的，也就是說我們沒有辦法控制內容的長短，版面可能被文字擠到破版，也可能會該換行的沒有換行。
 

@@ -2,13 +2,13 @@
 title: "CSS Grid、Subgrid：網頁排版的神奇格子，來排個照片牆與雞腿便當吧！"
 datePublished: Thu Oct 05 2023 13:54:29 GMT+0000 (Coordinated Universal Time)
 cuid: clnd8o9q1000409mn1r0rf6kq
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1765252845972/bbfa73ca-0464-43f7-a644-bce1d45f33aa.png
+ogImage: https://css.im1010ioio.dev/og-images/css-grid.png
 tags: css3, css, css-grid
 
 sidebar:
   order: 7
 ---
-![CSS Grid、Subgrid：網頁排版的神奇格子，來排個照片牆與雞腿便當吧！](../../../assets/images/layout/ec9067ee_9d32_4b51_8c46_87d11991b306_1783261356372.png)
+![CSS Grid、Subgrid：網頁排版的神奇格子，來排個照片牆與雞腿便當吧！](/og-images/css-grid.png)
 
 昨天我們介紹的 `flex` 是單向的排版，而今天我們要探討 `grid` ，它是雙向的排版，可以創造很多行與列。`grid` 也是十分好用的 CSS，大家一起學起來吧！
 

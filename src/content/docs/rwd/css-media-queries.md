@@ -3,13 +3,13 @@ title: "RWD & CSS Media Queries &
 iOS Safari 上的經驗談"
 datePublished: Mon Oct 09 2023 17:51:20 GMT+0000 (Coordinated Universal Time)
 cuid: clnj6wa5l00040al3fezj2ejj
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766032194831/d8af83fa-9159-4e36-bfdf-8ba248feac8d.png
+ogImage: https://css.im1010ioio.dev/og-images/css-media-queries.png
 tags: css3, css, cssmediaqueries
 
 sidebar:
   order: 1
 ---
-![RWD & CSS Media Queries &](../../../assets/images/rwd/ba3b9649_ff14_43e8_a97c_39ce3f257f5b_1783261479405.png)
+![RWD & CSS Media Queries &](/og-images/css-media-queries.png)
 
 當我們在設計網站時，我們希望網站能夠適應不同的裝置和螢幕尺寸，以提供更好的使用體驗，這就是響應式網頁設計（RWD，Responsive Web Design）。
 

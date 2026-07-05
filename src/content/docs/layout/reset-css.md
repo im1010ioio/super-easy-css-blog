@@ -2,13 +2,13 @@
 title: "Reset CSS！用 Reset.css 或 Normalize.css 變回你該有的樣子"
 datePublished: Sat Sep 30 2023 05:34:01 GMT+0000 (Coordinated Universal Time)
 cuid: cln5llepz000b09jr4gtp69ww
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764831472797/5af4f1c1-6f61-4f71-b6f9-45b0f6b1fa98.png
+ogImage: https://css.im1010ioio.dev/og-images/reset-css.png
 tags: css3, css
 
 sidebar:
   order: 2
 ---
-![Reset CSS！用 Reset.css 或 Normalize.css 變回你該有的樣子](../../../assets/images/layout/690494ef_b064_4ecb_a3f1_7bd9f0654fe6_1783261350397.png)
+![Reset CSS！用 Reset.css 或 Normalize.css 變回你該有的樣子](/og-images/reset-css.png)
 
 ## CSS 為什麼需要 Reset？
 

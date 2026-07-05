@@ -2,13 +2,13 @@
 title: "Sass/scss (1) 介紹與簡易環境設定"
 datePublished: Fri Oct 03 2025 15:48:59 GMT+0000 (Coordinated Universal Time)
 cuid: cmgb0rj4q000102l5ap0c2ajm
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766720807413/8af29b47-92d8-4ed6-8705-5a4574b2ad14.png
+ogImage: https://css.im1010ioio.dev/og-images/scss-intro.png
 tags: css3, css, sass, scss
 
 sidebar:
   order: 1
 ---
-![Sass/scss (1) 介紹與簡易環境設定](../../../assets/images/sass-scss/14838314_9b2f_43dd_a1f9_4cb4fcb36669_1783261480272.png)
+![Sass/scss (1) 介紹與簡易環境設定](/og-images/scss-intro.png)
 
 我們基本 CSS 的教學與補充新語法差不多告一個段落了，接下來，我們來學一個也很常用的 CSS 進階用法：CSS 預處理器 SASS/SCSS！
 

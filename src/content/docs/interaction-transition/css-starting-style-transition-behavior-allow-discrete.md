@@ -2,13 +2,13 @@
 title: " Display: none 也可以做 CSS Transition 動畫了？@starting-style 與 transition-behavior: allow-discrete"
 datePublished: Wed Oct 01 2025 16:54:55 GMT+0000 (Coordinated Universal Time)
 cuid: cmg888m6x000002ju0c59ak8k
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766673351962/3659e9e5-648c-42cc-b876-d2946d34a04f.png
+ogImage: https://css.im1010ioio.dev/og-images/css-starting-style-transition-behavior-allow-discrete.png
 tags: css3, css, transition, transition-properties-in-css, starting-style, allow-discrete
 
 sidebar:
   order: 3
 ---
-![ Display: none 也可以做 CSS Transition 動畫了？@starting-style 與 transition-behavior: allow-discrete](../../../assets/images/interaction-transition/91d30860_c4e3_4a03_b6d3_cf0b7e8e5040_1783261266357.png)
+![ Display: none 也可以做 CSS Transition 動畫了？@starting-style 與 transition-behavior: allow-discrete](/og-images/css-starting-style-transition-behavior-allow-discrete.png)
 
 想要 UI 出現時，不只是生硬地「出現」嗎？今天我們要來研究兩個 CSS 的新語法：`@starting-style` 和 `transition-behavior: allow-discrete`。他們是專門解決那些從 `display: none` 這類狀態做成動畫的困境。
 

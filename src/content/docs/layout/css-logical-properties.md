@@ -2,13 +2,13 @@
 title: "CSS 邏輯屬性 Logical properties 與 Writing modes"
 datePublished: Sun Oct 08 2023 18:29:09 GMT+0000 (Coordinated Universal Time)
 cuid: clnhst27b000109my4n2l65jy
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766031894264/f3850e7c-6a94-4094-b626-90d40d1487fb.png
+ogImage: https://css.im1010ioio.dev/og-images/css-logical-properties.png
 tags: css3, css
 
 sidebar:
   order: 11
 ---
-![CSS 邏輯屬性 Logical properties 與 Writing modes](../../../assets/images/layout/89f53e75_a52e_4959_9f07_04986da713c8_1783261296860.png)
+![CSS 邏輯屬性 Logical properties 與 Writing modes](/og-images/css-logical-properties.png)
 
 CSS 新推出了另外一種排版邏輯，叫作邏輯屬性（Logical properties），特別是針對需要處理多語系和不同書寫方向的內容。
 

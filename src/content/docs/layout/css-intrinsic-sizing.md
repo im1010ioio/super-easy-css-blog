@@ -2,13 +2,13 @@
 title: " CSS 內部尺寸 (Intrinsic Sizing)：min-content、max-content、fit-content"
 datePublished: Fri Oct 06 2023 04:04:58 GMT+0000 (Coordinated Universal Time)
 cuid: clne31zys000409lh06ji3y9b
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1765252911558/98fb6227-dd8b-4771-9139-b05d5c858177.png
+ogImage: https://css.im1010ioio.dev/og-images/css-intrinsic-sizing.png
 tags: css3, css
 
 sidebar:
   order: 8
 ---
-![ CSS 內部尺寸 (Intrinsic Sizing)：min-content、max-content、fit-content](../../../assets/images/layout/d950f360_27de_44d0_b688_92b602751f63_1783261340638.png)
+![ CSS 內部尺寸 (Intrinsic Sizing)：min-content、max-content、fit-content](/og-images/css-intrinsic-sizing.png)
 
 今天來點簡單的主題！
 

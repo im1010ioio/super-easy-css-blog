@@ -2,13 +2,13 @@
 title: "純 Css 照片淡入淡出輪播動畫"
 datePublished: Wed Aug 13 2025 10:51:52 GMT+0000 (Coordinated Universal Time)
 cuid: cme9uoz5m001002l4eyt69tzx
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766491353026/cb614670-d6d0-4e19-aa89-3447839f3db0.png
+ogImage: https://css.im1010ioio.dev/og-images/css-images-slider-fade-effects.png
 tags: css3, css, css-animation, image-slider
 
 sidebar:
   order: 3
 ---
-![純 Css 照片淡入淡出輪播動畫](../../../assets/images/interaction-animation/86078bd1_ec82_494e_a318_d3f32af58e67_1783261128749.png)
+![純 Css 照片淡入淡出輪播動畫](/og-images/css-images-slider-fade-effects.png)
 
 今天要來教大家如何使用 CSS Animation 製作簡單的純 CSS 照片淡入淡出輪播動畫。
 

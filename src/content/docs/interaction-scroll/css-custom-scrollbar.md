@@ -2,13 +2,13 @@
 title: "CSS 自訂捲軸顏色與樣式：scrollbar-color、scrollbar-width、scrollbar-gutter、::-webkit-scrollbar-*"
 datePublished: Wed Aug 13 2025 11:42:55 GMT+0000 (Coordinated Universal Time)
 cuid: cme9wimm8000b02js60r5awp5
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766575639652/3ae0de86-ee08-4080-bcdb-b96de5a7a61c.png
+ogImage: https://css.im1010ioio.dev/og-images/css-custom-scrollbar.png
 tags: css3, css, scrollbar, css-scroll, default-scrollbar-css
 
 sidebar:
   order: 2
 ---
-![CSS 自訂捲軸顏色與樣式：scrollbar-color、scrollbar-width、scrollbar-gutter、::-webkit-scrollbar-*](../../../assets/images/interaction-scroll/8b3dc593_14ce_42f7_be50_4383d81e0aee_1783261231677.png)
+![CSS 自訂捲軸顏色與樣式：scrollbar-color、scrollbar-width、scrollbar-gutter、::-webkit-scrollbar-*](/og-images/css-custom-scrollbar.png)
 
 今天我們要客製化瀏覽器捲軸的樣式，  
 捲軸通常會有「滑桿 thumb」、「軌道 track」與「按鈕」：

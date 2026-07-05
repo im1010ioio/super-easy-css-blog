@@ -2,13 +2,13 @@
 title: "HTML 基礎語法"
 datePublished: Wed Sep 20 2023 17:08:52 GMT+0000 (Coordinated Universal Time)
 cuid: clms00h9k000008jxbqed27r7
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764752094083/85055448-6444-4faa-985f-aafe525ff67c.png
+ogImage: https://css.im1010ioio.dev/og-images/html-basics.png
 tags: html, html5
 
 sidebar:
   order: 5
 ---
-![HTML 基礎語法](../../../assets/images/basics/2209b0c1_396b_4c5b_9ad6_74f255d0313d_1783252521252.png)
+![HTML 基礎語法](/og-images/html-basics.png)
 
 上一篇文章，我們有建立了一份 HTML 檔案，  
 那麼這些語法到底是什麼意思呢？讓我們往下看。

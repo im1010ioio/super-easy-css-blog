@@ -2,13 +2,13 @@
 title: "CSS :nth-child 的新寫法：:nth-child of S (N of Selector)"
 datePublished: Wed Sep 24 2025 15:39:03 GMT+0000 (Coordinated Universal Time)
 cuid: cmfy5g37l000002ldhrt7c54s
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766645229124/61ec7b42-7d39-48f0-85ea-c8328d0091ab.png
+ogImage: https://css.im1010ioio.dev/og-images/css-nth-child-of-s.png
 tags: css3, css, css-nth-child-selectors
 
 sidebar:
   order: 16
 ---
-![CSS :nth-child 的新寫法：:nth-child of S (N of Selector)](../../../assets/images/basics/d00f7162_75d4_4d4d_a9e1_9ba83e647892_1783252568973.png)
+![CSS :nth-child 的新寫法：:nth-child of S (N of Selector)](/og-images/css-nth-child-of-s.png)
 
 在寫 CSS 時，你是否也曾對 `:nth-child` 又愛又恨呢？它雖然強大，但有時在較複雜的 HTML 結構中，要選到對的東西，有時就只差那麼一點點…
 

@@ -2,13 +2,13 @@
 title: "利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）"
 datePublished: Wed Aug 13 2025 11:35:28 GMT+0000 (Coordinated Universal Time)
 cuid: cme9w91we000202ju3saa9w7v
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766573480464/824a92cc-1924-4e40-8d84-6d022152c1ab.png
+ogImage: https://css.im1010ioio.dev/og-images/css-collapse-accordion-animation.png
 tags: css3, css, css-animation, collapse, accordion-menu
 
 sidebar:
   order: 3
 ---
-![利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）](../../../assets/images/interaction-click/1e107051_bb6c_4753_85d3_a740bb4229aa_1783261171194.png)
+![利用 checkbox/ radio 與 CSS grid，做到純 CSS FAQ 開合選單（Collapse 折疊 / Accordion 手風琴效果）](/og-images/css-collapse-accordion-animation.png)
 
 前幾篇我們有提到 CSS `transition` 的特性：
 

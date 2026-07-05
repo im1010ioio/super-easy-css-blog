@@ -2,13 +2,13 @@
 title: "CSS offset-path：沿著軌跡行進動畫"
 datePublished: Wed Aug 13 2025 11:03:03 GMT+0000 (Coordinated Universal Time)
 cuid: cme9v3dhu000802kz91s3hl2a
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766492244746/e6f2ee8a-664b-4b78-abd0-c4936af90871.png
+ogImage: https://css.im1010ioio.dev/og-images/css-offset-path.png
 tags: css3, css, css-animation, offset-path, css-offset-path
 
 sidebar:
   order: 6
 ---
-![CSS offset-path：沿著軌跡行進動畫](../../../assets/images/interaction-animation/add6d5f6_6878_4908_b6ba_06db13e96ce6_1783261139580.png)
+![CSS offset-path：沿著軌跡行進動畫](/og-images/css-offset-path.png)
 
 這篇我們會介紹如何使用 CSS 的 `offset-path` 屬性來創建路徑動畫。這個屬性允許元素沿著指定的路徑跑，配合 `offset-distance` 可以控制元素在路徑上的哪個位置。我們將透過一些範例來了解 `offset-path` 的用法。
 

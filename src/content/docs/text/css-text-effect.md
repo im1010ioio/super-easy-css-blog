@@ -2,13 +2,13 @@
 title: "CSS 立體字、霓虹字、外框字、漸層字：text-shadow、-webkit-text-stroke、-webkit-background-clip"
 datePublished: Sun Oct 15 2023 13:52:22 GMT+0000 (Coordinated Universal Time)
 cuid: clnrj02aq000509mpap8a9gnd
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766115035297/359208c5-6e83-47b7-8987-48e8994b456f.png
+ogImage: https://css.im1010ioio.dev/og-images/css-text-effect.png
 tags: css3, css, css-text-effects
 
 sidebar:
   order: 3
 ---
-![CSS 立體字、霓虹字、外框字、漸層字：text-shadow、-webkit-text-stroke、-webkit-background-clip](../../../assets/images/text/7bff7505_457a_4e2b_bc1c_221272e5f3c3_1783261514653.png)
+![CSS 立體字、霓虹字、外框字、漸層字：text-shadow、-webkit-text-stroke、-webkit-background-clip](/og-images/css-text-effect.png)
 
 之前我們都是著重在網頁排版上，今天我們要來做點吸睛的文字視覺效果！我們將會使用 CSS 的 `text-shadow`、`-webkit-text-stroke`、`-webkit-background-clip`，製作出許多特效文字：如霓虹字、立體字、外框字、漸層字等等，可以應用在網頁主視覺上。
 

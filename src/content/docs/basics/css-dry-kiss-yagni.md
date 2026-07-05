@@ -2,13 +2,13 @@
 title: "開始寫 Css 或程式必須知道的 3 個原則：Dry & Kiss & Yagni"
 datePublished: Wed Sep 27 2023 05:00:32 GMT+0000 (Coordinated Universal Time)
 cuid: cln1a2sqv000009l7dqrna37b
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764820361224/23ef3490-5a3a-456d-a2f8-7ffaba424e3b.png
+ogImage: https://css.im1010ioio.dev/og-images/css-dry-kiss-yagni.png
 tags: css3, css
 
 sidebar:
   order: 12
 ---
-![開始寫 Css 或程式必須知道的 3 個原則：Dry & Kiss & Yagni](../../../assets/images/basics/46c2ca08_6de0_4cd6_9dc0_5a83d4343055_1783252458092.png)
+![開始寫 Css 或程式必須知道的 3 個原則：Dry & Kiss & Yagni](/og-images/css-dry-kiss-yagni.png)
 
 在進入寫 CSS（或其他程式碼）的世界之前，有幾個重要的原則值得我們了解和牢記。這些能夠提高 code 的品質，讓他們未來容易維護和擴增。以下將介紹三個重要的原則：
 

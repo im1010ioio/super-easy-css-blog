@@ -2,13 +2,13 @@
 title: "SASS/SCSS (7) sass:color 顏色模組——color.adjust 與 color.scale 取代舊的 lighten() 和 darken()"
 datePublished: Wed Oct 08 2025 16:15:33 GMT+0000 (Coordinated Universal Time)
 cuid: cmgi6wy7a000702ld8zbme3lv
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766724265584/b3ea9ee2-da72-4942-933d-9b81290aaa87.png
+ogImage: https://css.im1010ioio.dev/og-images/scss-color-adjust-color-scale.png
 tags: css3, css, sass, scss, color
 
 sidebar:
   order: 7
 ---
-![SASS/SCSS (7) sass:color 顏色模組——color.adjust 與 color.scale 取代舊的 lighten() 和 darken()](../../../assets/images/sass-scss/c47edef3_3830_4c98_94f7_88e670fc664f_1783261503391.png)
+![SASS/SCSS (7) sass:color 顏色模組——color.adjust 與 color.scale 取代舊的 lighten() 和 darken()](/og-images/scss-color-adjust-color-scale.png)
 
 今天我們就來學習 SASS/SCSS 中關於顏色處理的語法：`sass:color` **模組**，他即將取代過去 SCSS 中的 `lighten()` 和 `darken()` 語法。
 

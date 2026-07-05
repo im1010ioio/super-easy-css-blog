@@ -2,13 +2,13 @@
 title: "CSS Position：relative、absolute、fixed、sticky 找到適合的定位"
 datePublished: Fri Oct 06 2023 17:52:21 GMT+0000 (Coordinated Universal Time)
 cuid: clnewm11p000708jv6mh336es
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696614691577/b27aac34-1eb6-4149-91c9-82d1dd269fe3.png
+ogImage: https://css.im1010ioio.dev/og-images/css-position.png
 tags: css3, css, css-position
 
 sidebar:
   order: 9
 ---
-![CSS Position：relative、absolute、fixed、sticky 找到適合的定位](../../../assets/images/layout/41ae494f_ba78_4877_949f_4c3b5f386ff5_1783261295713.png)
+![CSS Position：relative、absolute、fixed、sticky 找到適合的定位](/og-images/css-position.png)
 
 CSS Position 屬性可以用來設定元素在網頁中的位置，也是必學的屬性之一。  
 它主要有 5 個定位方式：`static`、`relative`、`absolute`、`fixed` 和 `sticky`。

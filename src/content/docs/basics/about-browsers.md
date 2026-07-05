@@ -2,13 +2,13 @@
 title: " 關於各家瀏覽器，前端必備的小知識：支援度、市佔率、CSS 實驗語法 -webkit-, -moz-... PostCSS  Autoprefixer | Super Easy CSS"
 datePublished: Mon Sep 18 2023 12:43:53 GMT+0000 (Coordinated Universal Time)
 cuid: clmovnzz600090aig3i8tge4o
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764754306458/51413286-0c72-4fa7-a114-d0baa2fde7a1.png
+ogImage: https://css.im1010ioio.dev/og-images/about-browsers.png
 tags: browser, browsers, web-development, chrome-cj73auo4o0012c3wted1yb7a1
 
 sidebar:
   order: 2
 ---
-![ 關於各家瀏覽器，前端必備的小知識：支援度、市佔率、CSS 實驗語法 -webkit-, -moz-... PostCSS  Autoprefixer | Super Easy CSS](../../../assets/images/basics/85da1e0a_7d6c_45b2_83a8_99267b4c4c37_1783252509696.png)
+![ 關於各家瀏覽器，前端必備的小知識：支援度、市佔率、CSS 實驗語法 -webkit-, -moz-... PostCSS  Autoprefixer | Super Easy CSS](/og-images/about-browsers.png)
 
 > #### ↓ 今日學習重點 ↓
 > 

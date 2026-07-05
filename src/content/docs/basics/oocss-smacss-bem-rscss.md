@@ -2,13 +2,13 @@
 title: "4 個常見的 Css 設計方法與命名建議：oocss、smacss、bem、rscss"
 datePublished: Thu Sep 28 2023 05:02:25 GMT+0000 (Coordinated Universal Time)
 cuid: cln2pl2v3000u09mh8lgve1nl
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764825947596/fcec4c61-3b80-4926-83f7-76325f3798fa.png
+ogImage: https://css.im1010ioio.dev/og-images/oocss-smacss-bem-rscss.png
 tags: css3, css
 
 sidebar:
   order: 13
 ---
-![4 個常見的 Css 設計方法與命名建議：oocss、smacss、bem、rscss](../../../assets/images/basics/f3fdec25_906a_485b_9786_d59b9515eeec_1783252529691.png)
+![4 個常見的 Css 設計方法與命名建議：oocss、smacss、bem、rscss](/og-images/oocss-smacss-bem-rscss.png)
 
 上篇我們了解了寫 Code 的三大方向，主要都是為了更簡單、更好維護。
 

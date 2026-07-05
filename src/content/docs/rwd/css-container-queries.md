@@ -2,13 +2,13 @@
 title: "CSS Container Queries 容器查詢：讓 CSS 的計算以容器自身為依據"
 datePublished: Thu Oct 12 2023 16:01:58 GMT+0000 (Coordinated Universal Time)
 cuid: clnndb6hj000b09lfficwhmku
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766035923644/449489f3-ac6f-467f-8370-517ffcca9ecd.png
+ogImage: https://css.im1010ioio.dev/og-images/css-container-queries.png
 tags: css3, css, container-queries
 
 sidebar:
   order: 3
 ---
-![CSS Container Queries 容器查詢：讓 CSS 的計算以容器自身為依據](../../../assets/images/rwd/17b94ac6_c8e9_4a91_ab5a_7adb9d4ee1dc_1783261470361.png)
+![CSS Container Queries 容器查詢：讓 CSS 的計算以容器自身為依據](/og-images/css-container-queries.png)
 
 
 前幾篇我們學習了 Media Queries，是針對裝置的屬性、大小變化；現在，CSS 新推出了 Container Queries（容器查詢）讓我們可以針對 HTML 元素大小變化，進而改變元素自己的樣式。

@@ -2,13 +2,13 @@
 title: "網頁渲染動畫的建議 & will-change 的使用時機"
 datePublished: Wed Aug 13 2025 10:11:32 GMT+0000 (Coordinated Universal Time)
 cuid: cme9t94fy000902jo0way0ucx
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766490377939/6e4c8998-91bb-45b6-92b8-eec9b169c64a.png
+ogImage: https://css.im1010ioio.dev/og-images/css-web-rendering-will-change.png
 tags: css3, css, web-development, css-animation, rendering, will-change, web-rendering
 
 sidebar:
   order: 2
 ---
-![網頁渲染動畫的建議 & will-change 的使用時機](../../../assets/images/interaction-animation/80715d83_8022_485a_b447_2aee2b9d1553_1783261150023.png)
+![網頁渲染動畫的建議 & will-change 的使用時機](/og-images/css-web-rendering-will-change.png)
 
 在現代網頁設計中，動畫是提升使用者體驗的一大關鍵。然而，過度或不恰當的動畫設計不但會影響效能，還可能帶來不理想的使用體驗。因此，在設計網頁動畫時，我們必須謹慎考量各種因素。以下是幾個實用建議，幫助你打造順暢且高效能的網頁動畫。
 

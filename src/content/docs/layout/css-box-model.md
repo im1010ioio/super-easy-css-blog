@@ -2,13 +2,13 @@
 title: "CSS 盒子模型 (Box Model)：border-box & content-box"
 datePublished: Thu Sep 28 2023 16:38:46 GMT+0000 (Coordinated Universal Time)
 cuid: cln3egkrc000308ig0iqlf8fu
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764830392622/5b2ffe46-fc8b-4621-8fc0-e28432a88bb7.png
+ogImage: https://css.im1010ioio.dev/og-images/css-box-model.png
 tags: css3, css
 
 sidebar:
   order: 1
 ---
-![CSS 盒子模型 (Box Model)：border-box & content-box](../../../assets/images/layout/74bb1cde_f0e0_4337_b79d_86ad4d7449a8_1783261372255.png)
+![CSS 盒子模型 (Box Model)：border-box & content-box](/og-images/css-box-model.png)
 
 在網頁中，每個 HTML 元素都是一個方塊，我們又稱之為「盒子 Box」。
 

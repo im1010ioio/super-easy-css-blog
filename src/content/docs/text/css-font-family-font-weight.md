@@ -2,13 +2,13 @@
 title: "網頁載入字體、Icon Font 與 CSS font-family、font-weight"
 datePublished: Fri Oct 13 2023 15:55:11 GMT+0000 (Coordinated Universal Time)
 cuid: clnosib6e000009jsbggz8hb9
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766038622000/8468480f-344a-437d-ac6b-8037310e37ff.png
+ogImage: https://css.im1010ioio.dev/og-images/css-font-family-font-weight.png
 tags: font-awesome, fonts, css3, css
 
 sidebar:
   order: 1
 ---
-![網頁載入字體、Icon Font 與 CSS font-family、font-weight](../../../assets/images/text/cafe0f32_cfc0_4062_bcc0_313d004f22b1_1783261517111.png)
+![網頁載入字體、Icon Font 與 CSS font-family、font-weight](/og-images/css-font-family-font-weight.png)
 
 我們關於版面編排與 RWD 的部分終於告一個段落了，現在大觀念了解後，接下來我們要深入各個樣式的細節，例如文字、圖片、圖形、互動等等。首先，我們將從文字的部分開始。
 

@@ -2,13 +2,13 @@
 title: "寫一份簡單的 HTML，常用 HTML Tag 總整理"
 datePublished: Fri Sep 22 2023 04:57:49 GMT+0000 (Coordinated Universal Time)
 cuid: clmu4s1j5000a09l589tdb8jf
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764756232492/86aea363-eb73-4ff2-be1e-49ace96d79d0.png
+ogImage: https://css.im1010ioio.dev/og-images/html-strugtrue.png
 tags: html, html5
 
 sidebar:
   order: 6
 ---
-![寫一份簡單的 HTML，常用 HTML Tag 總整理](../../../assets/images/basics/0d7d8b66_4b21_4061_8977_1993d6910eb3_1783252439002.png)
+![寫一份簡單的 HTML，常用 HTML Tag 總整理](/og-images/html-strugtrue.png)
 
 今天，讓我們來了解一份簡單的 HTML 會長什麼樣？  
 然後，修改一下[第 #04 篇建立的 HTML 檔案](https://im1010ioio.hashnode.dev/git-github-gitpage-practice)，練習看看吧！

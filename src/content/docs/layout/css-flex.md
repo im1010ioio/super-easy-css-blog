@@ -2,13 +2,13 @@
 title: "CSS Flex 彈性盒子：網頁排版的超級寵兒"
 datePublished: Wed Oct 04 2023 05:11:16 GMT+0000 (Coordinated Universal Time)
 cuid: clnbajkik000009jz8q19hpfn
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1765174357856/8fbb8ca5-d85b-4b1b-85bb-6cc3cead20ec.png
+ogImage: https://css.im1010ioio.dev/og-images/css-flex.png
 tags: css3, css, css-flexbox
 
 sidebar:
   order: 6
 ---
-![CSS Flex 彈性盒子：網頁排版的超級寵兒](../../../assets/images/layout/0c0448bf_3280_41f8_9a41_7a721d87abfa_1783261310781.png)
+![CSS Flex 彈性盒子：網頁排版的超級寵兒](/og-images/css-flex.png)
 
 Flex 又稱彈性盒子，是目前學習 CSS 必學的排版方式之一，有了它幾乎 80% 的版面都可以排出來。過去 `block`、`inline`、`inline-block` 都不是專為排版而生的 CSS 屬性，導致修改排版會變得不方便，於是後來有了 `flex` 與 `grid` 的出現，讓現在的大家可以很輕鬆地安排版面。
 

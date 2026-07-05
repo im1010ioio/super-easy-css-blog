@@ -2,13 +2,13 @@
 title: "CSS 3D Transform"
 datePublished: Wed Aug 13 2025 10:02:16 GMT+0000 (Coordinated Universal Time)
 cuid: cme9sx6s7000h02l7au6wabtu
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766489066580/729ed3ce-2e91-4586-9739-afa264791c71.png
+ogImage: https://css.im1010ioio.dev/og-images/css-3d-transform.png
 tags: css3, css, transform, 3d-transform
 
 sidebar:
   order: 6
 ---
-![CSS 3D Transform](../../../assets/images/effects/b97758f4_0bfe_4135_8445_d741fee3ecde_1783260959712.png)
+![CSS 3D Transform](/og-images/css-3d-transform.png)
 
 CSS 的 3D `transform` 讓我們可以在網頁上建立 3D 立體效果，讓元素看起來像是在一個 3D 空間中移動或旋轉。
 

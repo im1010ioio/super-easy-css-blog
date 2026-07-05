@@ -2,13 +2,13 @@
 title: "CSS 邊框 border 與各種花式邊框的小技巧：borde-image、outline、box-shadow"
 datePublished: Wed Sep 25 2024 09:17:38 GMT+0000 (Coordinated Universal Time)
 cuid: cm1hnjhxp001y09jthv696xkk
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766463605041/fb9e77f7-c91f-4d55-939f-a15e2c7484c2.png
+ogImage: https://css.im1010ioio.dev/og-images/css-border-style.png
 tags: css3, css, 2articles1week, border
 
 sidebar:
   order: 8
 ---
-![CSS 邊框 border 與各種花式邊框的小技巧：borde-image、outline、box-shadow](../../../assets/images/gradients-shapes/826ce3aa_489a_4daa_8e6b_f0e1991f076d_1783261043027.png)
+![CSS 邊框 border 與各種花式邊框的小技巧：borde-image、outline、box-shadow](/og-images/css-border-style.png)
 
 前幾篇我們使用CSS 邊框 `border` 畫了很多圖形，但是好像還沒有正式來好好畫邊框。XD  
 今天，讓我們來研究邊框與各種花式邊框。

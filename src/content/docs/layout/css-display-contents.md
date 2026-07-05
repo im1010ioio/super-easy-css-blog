@@ -2,13 +2,13 @@
 title: "CSS display: contents：讓你變成小透明，製作 JS Components 時的好東西！"
 datePublished: Sun Oct 08 2023 04:25:28 GMT+0000 (Coordinated Universal Time)
 cuid: clngyo2jw000009miduh2guqm
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766031247110/ca7e5034-bfe0-4db6-8e3f-486d0a774153.png
+ogImage: https://css.im1010ioio.dev/og-images/css-display-contents.png
 tags: css3, css
 
 sidebar:
   order: 10
 ---
-![CSS display: contents：讓你變成小透明，製作 JS Components 時的好東西！](../../../assets/images/layout/4cee9986_4e17_470a_be5f_a58636904cd8_1783261286138.png)
+![CSS display: contents：讓你變成小透明，製作 JS Components 時的好東西！](/og-images/css-display-contents.png)
 
 前幾篇在研究 Grid 與 Subgrid 時，發現有人說過去是使用 `display: contents;` 來代替 `subgrid` 的效果，我才知道原來還有這種 display。於是這篇就打算來研究這個屬性。
 

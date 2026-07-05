@@ -2,13 +2,13 @@
 title: "CSS 捲動提示陰影：使用 CSS 漸層 radial-gradient 與 isolation 製作"
 datePublished: Wed Aug 13 2025 11:46:20 GMT+0000 (Coordinated Universal Time)
 cuid: cme9wn0xd000302l76w8g24ec
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766593452252/f839aa4b-64c7-4e35-a1e6-770e8959ddaf.png
+ogImage: https://css.im1010ioio.dev/og-images/css-scrolling-shadows.png
 tags: css3, css, isolation, scroll-shadows, css-isolation
 
 sidebar:
   order: 3
 ---
-![CSS 捲動提示陰影：使用 CSS 漸層 radial-gradient 與 isolation 製作](../../../assets/images/interaction-scroll/b6ef4fab_47a2_4c45_a92b_8dd973d21b84_1783261204914.png)
+![CSS 捲動提示陰影：使用 CSS 漸層 radial-gradient 與 isolation 製作](/og-images/css-scrolling-shadows.png)
 
 今天我們要來製作一個捲動提示陰影效果：在捲動框的最頂端、最尾端沒有陰影，但是在捲動時有淡淡的陰影出現，提示使用者上面、下面還有內容。
 

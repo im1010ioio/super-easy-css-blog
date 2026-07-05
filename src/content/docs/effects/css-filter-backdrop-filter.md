@@ -2,13 +2,13 @@
 title: "CSS 濾鏡 filter/ backdrop-filter：模糊、透明圖片加陰影、調色濾鏡、毛玻璃、漸進式模糊效果"
 datePublished: Thu Sep 26 2024 17:26:48 GMT+0000 (Coordinated Universal Time)
 cuid: cm1jkgfn1001v09l06wvzb7ss
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766469217833/fd3064fb-1106-4a9f-8e16-394bdcecfd43.png
+ogImage: https://css.im1010ioio.dev/og-images/css-filter-backdrop-filter.png
 tags: css3, css, filter
 
 sidebar:
   order: 2
 ---
-![CSS 濾鏡 filter/ backdrop-filter：模糊、透明圖片加陰影、調色濾鏡、毛玻璃、漸進式模糊效果](../../../assets/images/effects/8f55826e_df05_4dc3_abb1_3ae188bb159c_1783260987868.png)
+![CSS 濾鏡 filter/ backdrop-filter：模糊、透明圖片加陰影、調色濾鏡、毛玻璃、漸進式模糊效果](/og-images/css-filter-backdrop-filter.png)
 
 除了用繪圖軟體在圖片上調整色調，CSS 內建的濾鏡效果也能讓我們做到這些特殊效果，例如：模糊、變亮、對比、色相、飽和度調整等等，甚至還可以做到毛玻璃效果！
 

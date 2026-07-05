@@ -2,13 +2,13 @@
 title: "CSS 讓圖片填滿容器的各種方法，以圓形大頭貼為例：object-fit 與 background-size，搭配 aspect-ratio"
 datePublished: Thu Jan 11 2024 15:49:15 GMT+0000 (Coordinated Universal Time)
 cuid: clr9dxcg500020ajt7t196cy3
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766405503332/0b7c25a6-9aaa-4712-955c-9240b54b410c.png
+ogImage: https://css.im1010ioio.dev/og-images/css-object-fit-background-size-aspect-ratio.png
 tags: background, css, images, 2articles1week, css-object-fit-property
 
 sidebar:
   order: 1
 ---
-![CSS 讓圖片填滿容器的各種方法，以圓形大頭貼為例：object-fit 與 background-size，搭配 aspect-ratio](../../../assets/images/multimedia/c85f2229_8bfb_48d8_ab4f_a6c98dff50e8_1783261402891.png)
+![CSS 讓圖片填滿容器的各種方法，以圓形大頭貼為例：object-fit 與 background-size，搭配 aspect-ratio](/og-images/css-object-fit-background-size-aspect-ratio.png)
 
 > #### **↓ 今日學習重點 ↓**
 > 

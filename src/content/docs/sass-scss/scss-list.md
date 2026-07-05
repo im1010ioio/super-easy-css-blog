@@ -2,13 +2,13 @@
 title: "SASS/SCSS (10) 資料結構 List (列表)"
 datePublished: Sun Oct 12 2025 15:16:49 GMT+0000 (Coordinated Universal Time)
 cuid: cmgnuktis000202ji4mx38fol
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766737029272/df64772e-4444-43c4-936b-51566b26ffbb.png
+ogImage: https://css.im1010ioio.dev/og-images/scss-list.png
 tags: css3, css, sass, scss
 
 sidebar:
   order: 10
 ---
-![SASS/SCSS (10) 資料結構 List (列表)](../../../assets/images/sass-scss/4b07c761_2822_4c3e_ba00_13963ce82b64_1783261498676.png)
+![SASS/SCSS (10) 資料結構 List (列表)](/og-images/scss-list.png)
 
 在 SASS/SCSS 中，我們已經使用變數、Mixin 和 Function 等語法來幫我們管理 CSS Code 了，但是它還是可能會亂，例如散亂的單一變數，除了寫註解外，還有什麼辦法能夠讓 Code 更有結構呢？
 

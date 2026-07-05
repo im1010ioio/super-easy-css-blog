@@ -2,13 +2,13 @@
 title: "純 Css 跑馬燈動畫，單趟跑、無限跑、要暫停都可以"
 datePublished: Wed Aug 13 2025 10:58:58 GMT+0000 (Coordinated Universal Time)
 cuid: cme9uy3t6001g02l4f6yeazqz
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766490929110/bc8c69c5-72d6-4d3f-8bf2-0c35c6eb7ffb.png
+ogImage: https://css.im1010ioio.dev/og-images/css-marquee.png
 tags: css3, css, css-animation, marquee, css-marquee
 
 sidebar:
   order: 4
 ---
-![純 Css 跑馬燈動畫，單趟跑、無限跑、要暫停都可以](../../../assets/images/interaction-animation/8497c2dd_406f_41f3_8886_ce580fd6c3b8_1783261152390.png)
+![純 Css 跑馬燈動畫，單趟跑、無限跑、要暫停都可以](/og-images/css-marquee.png)
 
 在很久以前 HTML 中有跑馬燈元素 `<marquee>`，很輕易就能做出跑馬燈，所以在以前許多網頁中，常常可以看到它的身影，寫著「歡迎光臨 OOO 的小窩」之類的（暴露年紀了XD）。但是，後來 W3C 因為易用性問題，認為跑馬燈可能會分散注意力並且難以閱讀，於是棄用了它，雖然許多瀏覽器仍支援，但是**現已不建議使用這個 HTML 元素**。
 

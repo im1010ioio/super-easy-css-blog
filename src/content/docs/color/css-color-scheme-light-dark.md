@@ -2,13 +2,13 @@
 title: "實作網頁深色模式及淺色模式必備的 CSS 語法：color-scheme 與 light-dark()"
 datePublished: Sat Sep 27 2025 18:33:28 GMT+0000 (Coordinated Universal Time)
 cuid: cmg2lzxkc000002jv6gd8g9xe
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766666809228/2c0584b3-516e-4995-8130-71cffdbe54ef.png
+ogImage: https://css.im1010ioio.dev/og-images/css-color-scheme-light-dark.png
 tags: css3, css, colorscheme, light-dark-mode, color-scheme, light-dark
 
 sidebar:
   order: 4
 ---
-![實作網頁深色模式及淺色模式必備的 CSS 語法：color-scheme 與 light-dark()](../../../assets/images/color/3b6148f1_d3f4_46bc_a713_b28c369387c5_1783260939393.png)
+![實作網頁深色模式及淺色模式必備的 CSS 語法：color-scheme 與 light-dark()](/og-images/css-color-scheme-light-dark.png)
 
 以前我們介紹過用 [CSS Media Queries 的 `prefers-color-scheme`](https://ithelp.ithome.com.tw/articles/10340843) 讓網頁打開時預設切換淺色/深色模式，但是居然沒有講到最基礎的設定，就是「告訴瀏覽器我的網頁有支援哪種顏色主題：`color-scheme`」。
 

@@ -2,13 +2,13 @@
 title: "CSS 列印的小技巧：@media print、break-before/after/inside、@page"
 datePublished: Tue Oct 10 2023 18:13:13 GMT+0000 (Coordinated Universal Time)
 cuid: clnkn49dw000909jickb1e272
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766033063900/0cf3fa03-e692-43ed-af1c-1b4630896e02.png
+ogImage: https://css.im1010ioio.dev/og-images/css-media-print.png
 tags: css3, css
 
 sidebar:
   order: 2
 ---
-![CSS 列印的小技巧：@media print、break-before/after/inside、@page](../../../assets/images/rwd/447f7703_eb3e_40e9_ac24_e634abde27e6_1783261469942.png)
+![CSS 列印的小技巧：@media print、break-before/after/inside、@page](/og-images/css-media-print.png)
 
 網頁需要列印的情況，通常是一些表單頁面（收據、報告等）。上一篇我們講解了 CSS Media Queries，這篇我們要延伸來討論網頁列印時的情況。
 

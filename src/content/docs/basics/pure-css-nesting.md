@@ -2,13 +2,13 @@
 title: "原生的 CSS 巢狀 (CSS Nesting) 終於支援啦！"
 datePublished: Mon Sep 25 2023 16:10:27 GMT+0000 (Coordinated Universal Time)
 cuid: clmz34lnv000c08labtwwe7pi
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764818507004/c505ba67-e973-4da5-b397-1e623675103a.png
+ogImage: https://css.im1010ioio.dev/og-images/pure-css-nesting.png
 tags: css3, css, css-nesting
 
 sidebar:
   order: 11
 ---
-![原生的 CSS 巢狀 (CSS Nesting) 終於支援啦！](../../../assets/images/basics/5803e793_1dbf_40d2_8706_35589c13a8a8_1783252546991.png)
+![原生的 CSS 巢狀 (CSS Nesting) 終於支援啦！](/og-images/pure-css-nesting.png)
 
 以往 CSS 要使用巢狀管理要透過 Sass (SCSS) 或 Less 等預處理器才能實現，現在原生的 CSS 巢狀也可以使用了。前陣子在 Firefox 117 終於支援後，全部最新的瀏覽器都已支援了，可以逐漸開始使用它囉！不過如果 TA 有使用較舊的瀏覽器的話，要斟酌使用。
 

@@ -2,13 +2,13 @@
 title: "Css 選擇器總整理！"
 datePublished: Sat Sep 23 2023 18:16:16 GMT+0000 (Coordinated Universal Time)
 cuid: clmwcqp60000009l25ya54qhq
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764762607161/895ada6b-742d-4a25-8c26-3c47e3846606.png
+ogImage: https://css.im1010ioio.dev/og-images/css-selectors.png
 tags: css3, css
 
 sidebar:
   order: 9
 ---
-![Css 選擇器總整理！](../../../assets/images/basics/2a5ec0e7_5f49_4322_bf68_1ae60773551b_1783252517485.png)
+![Css 選擇器總整理！](/og-images/css-selectors.png)
 
 本篇會用實例與註解說明各種實用的 CSS 選取器，由於很多所以可以先存起來，之後要用到時再查詢。
 

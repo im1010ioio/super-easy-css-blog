@@ -2,13 +2,13 @@
 title: "HTML <video> 用影片當背景，使用 iframe 嵌入 Youtube自動播放/ IG/ TikTok/ X (Twitter) 影片"
 datePublished: Sun Sep 15 2024 23:38:54 GMT+0000 (Coordinated Universal Time)
 cuid: cm147wkxx002609l60ci20cjk
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766407431729/ffd80526-fb10-43ff-a5a6-0a786f8273f5.png
+ogImage: https://css.im1010ioio.dev/og-images/html-video-youtube-iframe.png
 tags: html, html5, video, youtube
 
 sidebar:
   order: 3
 ---
-![HTML <video> 用影片當背景，使用 iframe 嵌入 Youtube自動播放/ IG/ TikTok/ X (Twitter) 影片](../../../assets/images/multimedia/29dc2791_247d_41c2_b42e_9edfe1a39adc_1783261439420.png)
+![HTML <video> 用影片當背景，使用 iframe 嵌入 Youtube自動播放/ IG/ TikTok/ X (Twitter) 影片](/og-images/html-video-youtube-iframe.png)
 
 在設計行銷網頁時，放入漂亮的影片是最輕鬆達到吸睛效果的方法之一，例如：把影片放至滿版當成背景，上面再壓上標題與文字，畫面就會很豐富，這是很常見的網頁設計方式。
 

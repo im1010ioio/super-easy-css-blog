@@ -2,13 +2,13 @@
 title: "純 CSS 也能做滾動動畫了！animation-timeline 讓東西邊滾邊動"
 datePublished: Sun Sep 21 2025 15:15:04 GMT+0000 (Coordinated Universal Time)
 cuid: cmftu9oxj000102ld6jx0fl3j
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766596453428/7dbbd95b-bf87-426a-93d7-7639b3bc93c8.png
+ogImage: https://css.im1010ioio.dev/og-images/css-animation-timeline.png
 tags: css3, css, css-animation, scroll-animation, animation-timeline
 
 sidebar:
   order: 9
 ---
-![純 CSS 也能做滾動動畫了！animation-timeline 讓東西邊滾邊動](../../../assets/images/interaction-scroll/79def804_427a_4cc8_8e15_6b2afffd2d1c_1783261190316.png)
+![純 CSS 也能做滾動動畫了！animation-timeline 讓東西邊滾邊動](/og-images/css-animation-timeline.png)
 
 你一定看過那種很酷的網頁：當你向下滾動時，背景圖片移動得比前景文字慢，或者某個元素會隨著滾動淡入、旋轉、放大，創造出引人入勝的深度和故事感。
 

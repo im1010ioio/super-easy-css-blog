@@ -2,13 +2,13 @@
 title: "CSS overscroll-behavior：解決滾動穿透問題 & 阻止手機瀏覽器下拉重整"
 datePublished: Fri Sep 19 2025 08:01:44 GMT+0000 (Coordinated Universal Time)
 cuid: cmfqjwpnc000702jr2n1i768s
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766595749934/3f789c76-c641-4bc1-a3ec-f560b19d6f05.png
+ogImage: https://css.im1010ioio.dev/og-images/css-overscroll-behavior.png
 tags: css3, css, css-scroll, overscroll-behavior
 
 sidebar:
   order: 7
 ---
-![CSS overscroll-behavior：解決滾動穿透問題 & 阻止手機瀏覽器下拉重整](../../../assets/images/interaction-scroll/4f8dc351_8f9a_474d_9d66_76c55a4430de_1783261238456.png)
+![CSS overscroll-behavior：解決滾動穿透問題 & 阻止手機瀏覽器下拉重整](/og-images/css-overscroll-behavior.png)
 
 你有沒有遇過這種情況？網頁跳出一個對話框，你想滑動看看裡面的內容，結果才滑到底，整個後面的網頁竟然也跟著動了起來！
 

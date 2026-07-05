@@ -2,13 +2,13 @@
 title: "CSS Animation"
 datePublished: Wed Aug 13 2025 10:08:39 GMT+0000 (Coordinated Universal Time)
 cuid: cme9t5edn001h02l7f1ds8s9b
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766490105519/e13025a6-1e5b-4905-8779-11344d90a519.png
+ogImage: https://css.im1010ioio.dev/og-images/css-animation.png
 tags: css3, css, animation, css-animation, web-animation
 
 sidebar:
   order: 1
 ---
-![CSS Animation](../../../assets/images/interaction-animation/4939b838_48ff_4ac8_91fc_45288b961ab0_1783261145044.png)
+![CSS Animation](/og-images/css-animation.png)
 
 在網頁設計中，**CSS 動畫** 可以讓你的網站更具互動性和吸引力。過去，我們可能需要透過 JavaScript 才能實現動畫效果，但隨著 CSS3 的發展，現在只需要簡單的 CSS 就能輕鬆實現各種動畫效果！
 

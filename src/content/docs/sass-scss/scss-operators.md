@@ -2,13 +2,13 @@
 title: "Sass/scss (6) 運算符號（加減乘除）"
 datePublished: Tue Oct 07 2025 17:27:54 GMT+0000 (Coordinated Universal Time)
 cuid: cmggu24pw000702lbfvq92mhy
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766723671163/5ce98c56-6da3-4a40-a254-9f7d9e7d94cf.png
+ogImage: https://css.im1010ioio.dev/og-images/scss-operators.png
 tags: css3, css, sass, scss, operators
 
 sidebar:
   order: 6
 ---
-![Sass/scss (6) 運算符號（加減乘除）](../../../assets/images/sass-scss/792adaac_a6b3_4847_9ca9_dc8a9aed614b_1783261501204.png)
+![Sass/scss (6) 運算符號（加減乘除）](/og-images/scss-operators.png)
 
 今天，我們要來探索 SCSS 中一個非常實用的功能：**運算符號 (Operators)**，也就是加減乘除與取餘數，讓你可以在 CSS 裡面算數。
 

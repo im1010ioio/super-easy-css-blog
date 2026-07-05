@@ -2,13 +2,13 @@
 title: "多種 CSS 顏色設定：變數 currentcolor、checkbox/radio 顏色、input placeholder、閃動的光標顏色、文字反白的顏色，用混色的 color-mix() 製作色彩系統"
 datePublished: Thu Nov 09 2023 16:04:07 GMT+0000 (Coordinated Universal Time)
 cuid: clordpsz2000309jo2ngc5rcv
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766404545664/4bfaebc0-8911-4dc1-9658-8db991f2d98c.png
+ogImage: https://css.im1010ioio.dev/og-images/css-currentcolor-accent-color-color-mix.png
 tags: css3, css, color
 
 sidebar:
   order: 2
 ---
-![多種 CSS 顏色設定：變數 currentcolor、checkbox/radio 顏色、input placeholder、閃動的光標顏色、文字反白的顏色，用混色的 color-mix() 製作色彩系統](../../../assets/images/color/44dc46a8_c7ec_4524_ba4a_88b70187d12c_1783260946797.png)
+![多種 CSS 顏色設定：變數 currentcolor、checkbox/radio 顏色、input placeholder、閃動的光標顏色、文字反白的顏色，用混色的 color-mix() 製作色彩系統](/og-images/css-currentcolor-accent-color-color-mix.png)
 
 上一篇我們了解了如何各種設定顏色的方式，這一篇我們要來了解關於其他顏色的小事，都很好用，像是顏色的變數 `currentcolor`、input 的顏色 `accent-color`、input 閃動的光標顏色、文字反白的顏色，甚至進階一點的混色 `color-mix()`。
 

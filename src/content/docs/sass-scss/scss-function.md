@@ -2,13 +2,13 @@
 title: "SASS/SCSS (9) 函式 (Function) - 打造你自己的工具箱"
 datePublished: Fri Oct 10 2025 17:06:57 GMT+0000 (Coordinated Universal Time)
 cuid: cmgl3mqtg000802k48q861ayt
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766736592190/f7fb270a-6e28-4b3f-abbb-db29f8b170ea.png
+ogImage: https://css.im1010ioio.dev/og-images/scss-function.png
 tags: css3, css, sass, scss
 
 sidebar:
   order: 9
 ---
-![SASS/SCSS (9) 函式 (Function) - 打造你自己的工具箱](../../../assets/images/sass-scss/e8e8c676_ffe4_46b7_b0bf_dcabb164b021_1783261512508.png)
+![SASS/SCSS (9) 函式 (Function) - 打造你自己的工具箱](/og-images/scss-function.png)
 
 我們已經一路學習了 SCSS 的變數、顏色、邏輯判斷與迴圈等等，你可能已經覺得 SCSS 非常強大了。但今天，我們要來認識 SCSS 中一個更厲害的用法：Function 函式。
 

@@ -2,13 +2,13 @@
 title: "文章目錄 | Super Easy CSS，極度簡單"
 datePublished: Sat Sep 16 2023 04:27:31 GMT+0000 (Coordinated Universal Time)
 cuid: clmlj1yj7000509mhg1y0hv4j
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764752669667/b2755aff-2f8b-43a2-8f8a-fe2e20bc847d.png
+ogImage: https://css.im1010ioio.dev/og-images/article-directory.png
 tags: css3, css, html, html5
 
 sidebar:
   order: 1
 ---
-![文章目錄 | Super Easy CSS，極度簡單](../../../assets/images/preface/d9993fd8_3b1f_4f8c_9474_8e0bf44cb246_1783261469588.png)
+![文章目錄 | Super Easy CSS，極度簡單](/og-images/article-directory.png)
 
 **Super Easy CSS，極度簡單** 是一系列 CSS 與網頁前端相關知識的教學文章，主要寫於 2023 - 2025 年的 iThome 鐵人賽。
 

@@ -2,13 +2,13 @@
 title: "詳細了解 CSS 各種偽類：hover、focus、active、focus-within、focus-visible、target"
 datePublished: Wed Aug 13 2025 10:06:17 GMT+0000 (Coordinated Universal Time)
 cuid: cme9t2cof001a02l7181d46ms
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766489852976/2d07da22-0590-44be-a49b-17a57dd47624.png
+ogImage: https://css.im1010ioio.dev/og-images/css-pseudo-classes.png
 tags: css3, css, focus, active, pseudo-classes, hover, pseudo-classes-in-css
 
 sidebar:
   order: 2
 ---
-![詳細了解 CSS 各種偽類：hover、focus、active、focus-within、focus-visible、target](../../../assets/images/interaction-transition/60d04b68_8b82_446f_96fc_1986e6fc98fe_1783261271047.png)
+![詳細了解 CSS 各種偽類：hover、focus、active、focus-within、focus-visible、target](/og-images/css-pseudo-classes.png)
 
 CSS 偽類提供了一種方法，讓我們可以根據元素的不同狀態來變更其樣式。例如，當使用者將滑鼠移到元素上或點擊元素時，偽類會根據這些狀態套用特定的樣式（突然覺得這應該在剛開始先交給大家 XD）。
 

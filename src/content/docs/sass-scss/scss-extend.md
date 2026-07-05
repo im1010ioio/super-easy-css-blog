@@ -2,13 +2,13 @@
 title: "SASS/SCSS (5) Extend"
 datePublished: Tue Oct 07 2025 15:51:59 GMT+0000 (Coordinated Universal Time)
 cuid: cmggqms42000002jvdrbt79ej
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766722788438/0903772c-f4fb-4fd9-ae11-df78241c6f8e.png
+ogImage: https://css.im1010ioio.dev/og-images/scss-extend.png
 tags: css3, css, sass, scss, extend
 
 sidebar:
   order: 5
 ---
-![SASS/SCSS (5) Extend](../../../assets/images/sass-scss/1d53ade5_0ec2_4c16_a722_9118be8b8878_1783261505787.png)
+![SASS/SCSS (5) Extend](/og-images/scss-extend.png)
 
 今天，我們要來學一個和昨天說的 `@mixin` 很像，但運作原理和使用情境卻截然不同的 SCSS 功能：`@extend`。
 

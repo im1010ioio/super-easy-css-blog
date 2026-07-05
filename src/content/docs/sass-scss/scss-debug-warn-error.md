@@ -2,13 +2,13 @@
 title: "SASS/SCSS (12) 防呆與偵錯 @debug / @warn / @error"
 datePublished: Mon Oct 13 2025 17:41:20 GMT+0000 (Coordinated Universal Time)
 cuid: cmgpf6ij6000502l86a6r357y
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766737945283/8c337616-0fed-4738-af1e-cfcde5261654.png
+ogImage: https://css.im1010ioio.dev/og-images/scss-debug-warn-error.png
 tags: css3, css, sass, scss
 
 sidebar:
   order: 12
 ---
-![SASS/SCSS (12) 防呆與偵錯 @debug / @warn / @error](../../../assets/images/sass-scss/4080ff1e_ef88_46e9_882b_7d44d2377857_1783261505618.png)
+![SASS/SCSS (12) 防呆與偵錯 @debug / @warn / @error](/og-images/scss-debug-warn-error.png)
 
 我們已經了解了 SASS/SCSS 的所有主要功能了，不過「我要如何確保別人（或未來的自己）不會用錯我寫的工具？」這是當 Mixin 和 Function 變得越來越複雜時，需要好好考慮的問題。
 

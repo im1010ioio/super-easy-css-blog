@@ -2,13 +2,13 @@
 title: "SASS/SCSS (8) 邏輯 @if, @each, @for 與 @while"
 datePublished: Thu Oct 09 2025 16:07:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmgjm1sr9000102l180luej0o
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766736113464/a3fb7325-adb4-4b15-9ec0-f1fcfeacc465.png
+ogImage: https://css.im1010ioio.dev/og-images/scss-if-each-for-while.png
 tags: css3, css, sass, scss
 
 sidebar:
   order: 8
 ---
-![SASS/SCSS (8) 邏輯 @if, @each, @for 與 @while](../../../assets/images/sass-scss/6dbad666_4681_4c3f_a48e_2c76a2dd54e8_1783261508200.png)
+![SASS/SCSS (8) 邏輯 @if, @each, @for 與 @while](/og-images/scss-if-each-for-while.png)
 
 今天，我們來介紹 SCSS 中最像「程式語言」的部分——SCSS 的控制指令 (Control Directives)，它們能讓你的樣式擁有真正的「邏輯」，根據條件、迴圈來自動生成樣式，也就是所謂的：
 

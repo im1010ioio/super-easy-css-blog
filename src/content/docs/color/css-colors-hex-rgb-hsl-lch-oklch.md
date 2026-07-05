@@ -2,13 +2,13 @@
 title: "CSS 顏色設定：基本的 hex、rgb()、cmyk()、hsl()、hsb() 、hwb() 與明日之星的 lch()、oklch()"
 datePublished: Wed Oct 25 2023 06:55:26 GMT+0000 (Coordinated Universal Time)
 cuid: clo5eiewi000s09le0xhz3hjb
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766403462913/5d24586a-b821-4990-8c75-f7fb89b56fff.png
+ogImage: https://css.im1010ioio.dev/og-images/css-colors-hex-rgb-hsl-lch-oklch.png
 tags: css3, css, color, lch, oklch
 
 sidebar:
   order: 1
 ---
-![CSS 顏色設定：基本的 hex、rgb()、cmyk()、hsl()、hsb() 、hwb() 與明日之星的 lch()、oklch()](../../../assets/images/color/341f4a88_cd7c_49c2_93e1_78a76ea5be49_1783260907453.png)
+![CSS 顏色設定：基本的 hex、rgb()、cmyk()、hsl()、hsb() 、hwb() 與明日之星的 lch()、oklch()](/og-images/css-colors-hex-rgb-hsl-lch-oklch.png)
 
 顏色在之前的範例中雖然有用到，但是一直沒有深入講解。
 

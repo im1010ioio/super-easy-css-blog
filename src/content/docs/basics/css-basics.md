@@ -2,13 +2,13 @@
 title: "Css 基本語法 & 權重介紹"
 datePublished: Sat Sep 23 2023 04:57:36 GMT+0000 (Coordinated Universal Time)
 cuid: clmvk7mf9000409jsfonj7kvl
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764760931754/d49482cd-2e50-45a0-a3c7-a919c387bce3.png
+ogImage: https://css.im1010ioio.dev/og-images/css-basics.png
 tags: css3, css
 
 sidebar:
   order: 8
 ---
-![Css 基本語法 & 權重介紹](../../../assets/images/basics/c465a72b_63b0_4698_9de0_89eb737f66de_1783252452954.png)
+![Css 基本語法 & 權重介紹](/og-images/css-basics.png)
 
 我們終於進入我們的重點 CSS 啦！今天要來講解 CSS 權重與選擇器。
 

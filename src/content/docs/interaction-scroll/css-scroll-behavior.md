@@ -2,13 +2,13 @@
 title: "CSS 簡易的滑順捲軸滾動動畫 scroll-behavior"
 datePublished: Tue Sep 16 2025 15:09:05 GMT+0000 (Coordinated Universal Time)
 cuid: cmfmoupyj000302kv32ibe4vb
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766593783505/db45d21b-aaf2-4bd1-ab4f-11f6b3821b34.png
+ogImage: https://css.im1010ioio.dev/og-images/css-scroll-behavior.png
 tags: css3, css, css-animation, scroll, scroll-animation, scroll-behavior
 
 sidebar:
   order: 4
 ---
-![CSS 簡易的滑順捲軸滾動動畫 scroll-behavior](../../../assets/images/interaction-scroll/b798386c_3a45_4adb_bdf2_8870f7842917_1783261216182.png)
+![CSS 簡易的滑順捲軸滾動動畫 scroll-behavior](/og-images/css-scroll-behavior.png)
 
 前幾篇我們已經學會怎麼設定 CSS 的滾動範圍，現在我們要再對滾動的操作行為做一些很簡單的設定，就是：滾動時的行為 `scroll-behavior` 。
 

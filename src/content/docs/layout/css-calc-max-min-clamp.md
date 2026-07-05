@@ -2,13 +2,13 @@
 title: "CSS 數學函式 calc()、max()、min()、clamp()"
 datePublished: Mon Oct 02 2023 03:16:22 GMT+0000 (Coordinated Universal Time)
 cuid: cln8bk3pt000309l72pfidx4y
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764906067503/d445f0fb-a4ae-4676-bf2b-ce47eb8b586e.png
+ogImage: https://css.im1010ioio.dev/og-images/css-calc-max-min-clamp.png
 tags: css3, css
 
 sidebar:
   order: 4
 ---
-![CSS 數學函式 calc()、max()、min()、clamp()](../../../assets/images/layout/357c0621_da92_4a22_8424_71a853e2a836_1783261293255.png)
+![CSS 數學函式 calc()、max()、min()、clamp()](/og-images/css-calc-max-min-clamp.png)
 
 CSS 的數值可以做簡單的運算，今天我們要介紹 CSS 的數學函式，數學函式可以讓你在設計網頁時更靈活操控元素的尺寸和位置。
 

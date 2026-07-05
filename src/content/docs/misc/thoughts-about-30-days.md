@@ -2,13 +2,13 @@
 title: "2023 iT 鐵人賽心路歷程 & 我的寫作方法"
 datePublished: Mon Oct 16 2023 16:26:33 GMT+0000 (Coordinated Universal Time)
 cuid: clnt3y7gg000i09l6absyhcw4
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766115105239/a91596ec-b3ef-4ed1-a1e4-f67ea46c73cd.png
+ogImage: https://css.im1010ioio.dev/og-images/thoughts-about-30-days.png
 tags: diary
 
 sidebar:
   order: 2
 ---
-![2023 iT 鐵人賽心路歷程 & 我的寫作方法](../../../assets/images/misc/37d8f746_edcb_4fda_9570_63e278086282_1783261386700.png)
+![2023 iT 鐵人賽心路歷程 & 我的寫作方法](/og-images/thoughts-about-30-days.png)
 
 這 30 天真的是很經歷了好多，這中間經歷了去日本玩、首次確診、兩個連假，同時要整理過去熟悉的知識，還要研究其他我不會的，一度還逼近棄賽，能完賽很感動。
 

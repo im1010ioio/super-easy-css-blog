@@ -2,13 +2,13 @@
 title: "GIT 實戰練習：GitHub Desktop、GitHub Page 基礎教學"
 datePublished: Tue Sep 19 2023 16:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clmrzqktf000408ld2aii3m4z
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764751458995/1a74d0aa-425e-4436-b9f5-4faa4807db58.png
+ogImage: https://css.im1010ioio.dev/og-images/git-github-gitpage-practice.png
 tags: github, git
 
 sidebar:
   order: 4
 ---
-![GIT 實戰練習：GitHub Desktop、GitHub Page 基礎教學](../../../assets/images/basics/0cd87c71_332b_4b6c_9add_5208e0f2e744_1783252572781.png)
+![GIT 實戰練習：GitHub Desktop、GitHub Page 基礎教學](/og-images/git-github-gitpage-practice.png)
 
 上一篇我們了解了 Git 與實際應用的概念，  
 接下來我們要實際練習使用 GIT 和 GitHub。

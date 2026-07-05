@@ -2,13 +2,13 @@
 title: "網頁的根、絕對路徑、相對路徑，那些關於路徑的小知識"
 datePublished: Fri Sep 22 2023 05:21:25 GMT+0000 (Coordinated Universal Time)
 cuid: clmu5me18000b08me3mya23lf
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1764758634293/d735a2ec-cbb9-4bad-892a-80de66c57e18.png
+ogImage: https://css.im1010ioio.dev/og-images/html-file-paths.png
 tags: html, html5, html-file-paths
 
 sidebar:
   order: 7
 ---
-![網頁的根、絕對路徑、相對路徑，那些關於路徑的小知識](../../../assets/images/basics/272caa81_7842_485e_81dc_c59450a81497_1783252472896.png)
+![網頁的根、絕對路徑、相對路徑，那些關於路徑的小知識](/og-images/html-file-paths.png)
 
 HTML 的屬性 `href`、`src` 都需要指定檔案路徑才能載入進來，  
 所以這邊補充個關於路徑的小知識。

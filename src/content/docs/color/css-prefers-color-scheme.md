@@ -2,13 +2,13 @@
 title: "CSS 切換淺色/深色模式：Media Queries 的 prefers-color-scheme 搭配 CSS 變數"
 datePublished: Fri Dec 01 2023 03:14:27 GMT+0000 (Coordinated Universal Time)
 cuid: clpm1wqdw000h09k0awxf37db
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766404982394/b3bdfe0a-d280-4f0b-9794-da47b90c8d56.png
+ogImage: https://css.im1010ioio.dev/og-images/css-prefers-color-scheme.png
 tags: css3, css, cssmediaqueries, prefers-color-scheme
 
 sidebar:
   order: 3
 ---
-![CSS 切換淺色/深色模式：Media Queries 的 prefers-color-scheme 搭配 CSS 變數](../../../assets/images/color/c15fbcc2_b2bd_49da_8f8a_33284815c891_1783260899576.png)
+![CSS 切換淺色/深色模式：Media Queries 的 prefers-color-scheme 搭配 CSS 變數](/og-images/css-prefers-color-scheme.png)
 
 關於顏色的設定方法、顏色的變數、混色的新方法，我們在前兩篇都說過了，關於顏色還有什麼需要了解的呢？那就是近幾年在軟體設計中常出現的：淺色與深色模式切換。
 

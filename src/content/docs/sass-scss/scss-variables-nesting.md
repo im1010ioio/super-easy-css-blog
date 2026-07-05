@@ -2,13 +2,13 @@
 title: "SASS/SCSS (2) 變數 Variables / 巢狀寫法 Nesting"
 datePublished: Sat Oct 04 2025 04:36:43 GMT+0000 (Coordinated Universal Time)
 cuid: cmgbs6tx7000102ld4i53eje8
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766721325595/eeb23b5c-e330-42e6-b721-ac612ba6bdf0.png
+ogImage: https://css.im1010ioio.dev/og-images/scss-variables-nesting.png
 tags: css3, css, sass, scss
 
 sidebar:
   order: 2
 ---
-![SASS/SCSS (2) 變數 Variables / 巢狀寫法 Nesting](../../../assets/images/sass-scss/b5b937f9_e3f6_4781_a347_6f2564422b74_1783261508342.png)
+![SASS/SCSS (2) 變數 Variables / 巢狀寫法 Nesting](/og-images/scss-variables-nesting.png)
 
 上一篇我們已經順利設定好 SASS/SCSS 的開發環境了，這次，就讓我們正式來學習 SCSS 兩個最基本也最實用的語法：變數 (Variables) 和巢狀 (Nesting)。
 

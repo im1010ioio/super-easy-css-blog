@@ -2,13 +2,13 @@
 title: "CSS 偽元素的進階用法：用 ::before 與 ::after 做 RWD 表格 & 客製化樣式的序號清單 (ol, oder list)"
 datePublished: Tue Sep 23 2025 15:53:13 GMT+0000 (Coordinated Universal Time)
 cuid: cmfwqig1k000302jla0xcf4om
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766644814574/aac3b5b3-730c-4b53-9655-29bb901dec3c.png
+ogImage: https://css.im1010ioio.dev/og-images/css-responsive-table-custom-order-list.png
 tags: pseudo-elements, css3, css, responsive-designs, responsive-web-design, pseudo, pseudo-classes-in-css
 
 sidebar:
   order: 15
 ---
-![CSS 偽元素的進階用法：用 ::before 與 ::after 做 RWD 表格 & 客製化樣式的序號清單 (ol, oder list)](../../../assets/images/basics/0cba1437_ae33_41a8_8fac_457f1834c652_1783252465643.png)
+![CSS 偽元素的進階用法：用 ::before 與 ::after 做 RWD 表格 & 客製化樣式的序號清單 (ol, oder list)](/og-images/css-responsive-table-custom-order-list.png)
 
 上一篇我們學到了 `::before` 與 `::after` 的基本用法，像是輕鬆添加引號、點綴裝飾性內容、清除浮動，甚至是製作小圖示。
 

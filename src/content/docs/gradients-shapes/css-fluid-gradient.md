@@ -2,13 +2,13 @@
 title: "使用 CSS filter blur 製作簡易的任意形狀漸層 (流動/暈染背景)"
 datePublished: Fri Sep 20 2024 08:10:56 GMT+0000 (Coordinated Universal Time)
 cuid: cm1afyh59003209l6h9bmfaxz
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766409048560/063ccaed-9c61-4213-bc6d-5c837e7c1167.png
+ogImage: https://css.im1010ioio.dev/og-images/css-fluid-gradient.png
 tags: css3, css, 2articles1week, gradients-in-css
 
 sidebar:
   order: 4
 ---
-![使用 CSS filter blur 製作簡易的任意形狀漸層 (流動/暈染背景)](../../../assets/images/gradients-shapes/859e1069_ea1c_4c09_b163_3cce8a83df0b_1783261057731.png)
+![使用 CSS filter blur 製作簡易的任意形狀漸層 (流動/暈染背景)](/og-images/css-fluid-gradient.png)
 
 在平面設計中，還有一種很常見的漸層，既不是線性漸層，也不屬於圓形/圓錐漸層，是任意形狀漸層漸層，也有人稱之為流動 (Fluid gradient) 或暈染漸層，就像本系列文的封面圖。
 

@@ -2,13 +2,13 @@
 title: "客製化 radio、checkbox 樣式，製作開關按鈕 (Switch Button)"
 datePublished: Wed Aug 13 2025 11:14:14 GMT+0000 (Coordinated Universal Time)
 cuid: cme9vhr6q000i02ju5jahg4mq
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766567631327/67c4a47f-3dcc-4af4-9a80-19fb3d7e3ca9.png
+ogImage: https://css.im1010ioio.dev/og-images/css-switch-button.png
 tags: css3, css, css-animation, checkbox, radio-button, switch-button
 
 sidebar:
   order: 1
 ---
-![客製化 radio、checkbox 樣式，製作開關按鈕 (Switch Button)](../../../assets/images/interaction-click/813220fd_ef25_4f37_8821_8a38ad1ddeaa_1783261166440.png)
+![客製化 radio、checkbox 樣式，製作開關按鈕 (Switch Button)](/og-images/css-switch-button.png)
 
 在日常前端開發中，`radio` 和 `checkbox` 是非常常用的表單元素，但瀏覽器預設的樣式往往不符合設計需求。因此，學會如何客製化這些元素樣式是每個前端設計師的必備技能之一。在這篇教學文中，我們將介紹如何使用 CSS 來客製化 `radio` 和 `checkbox`，而且進一步用 `checkbox` 做出一個開關按鈕 (Switch Button)。
 

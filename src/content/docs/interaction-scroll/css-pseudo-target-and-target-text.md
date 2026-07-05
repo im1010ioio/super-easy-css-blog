@@ -2,13 +2,13 @@
 title: "CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標"
 datePublished: Wed Sep 17 2025 15:06:26 GMT+0000 (Coordinated Universal Time)
 cuid: cmfo476lc000002jrc7a2ha01
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1766594170322/f4369b36-5571-46b1-aee8-8346ffe5dcd5.png
+ogImage: https://css.im1010ioio.dev/og-images/css-pseudo-target-and-target-text.png
 tags: pseudo-elements, css3, css, hashing, links, target, target-text
 
 sidebar:
   order: 5
 ---
-![CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標](../../../assets/images/interaction-scroll/d133ddb0_ac00_4443_bdcf_9b9eaa6daf2f_1783261183241.png)
+![CSS :target / ::target-text —— 在滾動時，強調 hash 連結的目標](/og-images/css-pseudo-target-and-target-text.png)
 
 昨天我們讓很長內容的滾動範圍可以用 hash 連結滑順地滾動，今天我們要進一步優化它。
 
